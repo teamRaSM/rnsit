@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>RNSIT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#021B38">
+    <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
+    <link rel="apple-touch-icon" href="imgages/logo.png"/>
+
+    <meta name="mobile-web-app-capable" content="yes">
+<meta name="RNSIT" content="RNSIT">
+<link rel="icon" sizes="192x192" href="images/logo.png">
+ <!-- <splash src="images/prin.jpg"></splash> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/dept.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link href="images/logo.png" rel="icon" type="image/png">
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+   </head>
+   <body>
+
+   <div>
+     <nav class="nav-extended">
+    <div class="nav-wrapper">
+      <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+      <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <!-- <li><a id="home" href="index.html">Home</a></li> -->
+        <li><a id="aboutus" href="aboutus.html">About US</a></li>
+        <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+
+        <!-- Dropdown Trigger -->
+  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+  <li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+
+
+
+
+        <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a>BASIC SCIENCE DEPARTMENTS</a></li>
+    <li class="divider"></li>
+    <li><a id="physics" href="physics.html">Physics</a></li>
+    <li><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+    <li><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+    <li class="divider"></li>
+    <li><a id="engineeringdept">ENGINEERING DEPARTMENTS</a></li>
+    <li class="divider"></li>
+    <li><a id="cse" href="cse.html">CSE</a></li>
+    <li><a id="ece" href="ece.html">ECE</a></li>
+    <li><a id="eee" href="eee.html">EEE</a></li>
+    <li><a id="ise" href="ise.html">ISE</a></li>
+    <li><a id="eie" href="eie.html">EIE</a></li>
+    <li><a id="mech" href="mech.html">MECH</a></li>
+    <li><a id="civil" href="civil.html">CIVIL</a></li>
+    <li class="divider"></li>
+    <li><a id="pg">POST GRADUATION</a></li>
+    <li class="divider"></li>
+    <li><a id="mba" href="mba.html">MBA</a></li>
+    <li><a id="mca"  href="mca.html">MCA</a></li>
+    </ul>
+  </ul>
+
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a id="cse" href="alumni.html">ALUMNI</a></li>
+    <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
+    <li><a id="eee" href="hr.html">HR</a></li>
+    <li><a id="ise" href="library.html">LIBRARY</a></li>
+    <li><a id="eie" href="hostel.html">HOSTEL</a></li>
+    <li><a id="mech" href="transport.html">TRANSPORT</a></li>
+    <li><a id="mba" href="sportsculture.html">SPORTS &amp; CULTURE</a></li>
+    <li><a id="mca" href="facilities.html">FACILITIES</a></li>
+  </ul>
+
+     <!--mobile!-->
+      <ul class="side-nav" id="mobile-demo">
+        <li><a id="home" href="home.html">Home</a></li>
+        <li><a id="aboutus" href="aboutus.html">About US</a></li>
+        <li><a id="contact" href="contact.html">Contact</a></li>
+        <li><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+         <li class="innerli">      <div class="innerNav">
+        <a class="nava">BASIC SCIENCE DEPARTMENTS</a>
+        <ul><li class=" nava divider"></li></ul>
+        <a id="physics" class="nava awes" href="physics.html">Physics</a>
+        <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+        <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+        <a id="engineeringdept" class="nava ">ENGINEERING DEPARTMENTS</a>
+        <ul><li class=" nava divider"></li></ul>
+
+        <a id="cse" class="nava" href="cse.html">CSE</a>
+        <a id="ece" class="nava" href="ece.html">ECE</a>
+        <a id="eee" class="nava"  href="eee.html">EEE</a>
+        <a id="ise" class="nava" href="ise.html">ISE</a>
+        <a id="eie" class="nava" href="eie.html">EIE</a>
+        <a id="mech" class="nava" href="mech.html">MECH</a>
+        <a id="civil" class="nava" href="civil.html">CIVIL</a>
+        <a id="pg" class="nava">POST GRADUATION</a>
+        <ul><li  id=""class=" nava divider"></li></ul>
+        <a id="mba" class="nava awes" href="mba.html">MBA</a>
+        <a id="mca" class="nava awes" href="mca.html">MCA</a>
+
+      </div></li>
+      <li><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
+         <li class="innerli">      <div class="innerNav1">
+          <a id="cse" class="nava" href="alumni.html">Alumini</a>
+          <a id="cse" class="nava" href="admissions.html">Admissions</a>
+          <a id="cse" class="nava" href="hr.hrml">HR</a>
+          <a id="cse" class="nava" href="library.html">Library</a>
+          <a id="cse" class="nava" href="hostel.html">Hostel</a>
+          <a id="cse" class="nava" href="transport.html">Transport</a>
+          <a id="cse" class="nava"  href="sportsculture.html">Sports &amp; Culture</a>
+          <a id="cse" class="nava" href="facilities.html">Facilities</a>
+          </div>
+          </li>
+
+    </ul>
+    </div>
+  </nav>
+  </div>
+<div class="container">
+  <h4 align="center">PHYSICS DEPARTMENT</h4>
+ <div class="row">
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/card1.jpeg" alt="mech hod">
+              <span class="card-title">Dr. C. Pandurangappa</span>
+            </div>
+            <div class="card-content">
+              <p> Professor &amp; Head</p>
+            </div>
+          </div>
+        </div>
+<p id="para">Physics is both significant and influential, in part because advances in its understanding have often translated into new technologies, but also because new ideas in physics often resonate with the other sciences, mathematics and philosophy. The department of Engineering Physics, with its vision <span><b>‘To integrate Physics with cutting edge technology’</b></span> aims at providing a strong basement in scientific methods and first hand knowledge of applied physics.</p>
+<p id="para">The department of Physics has highly qualified and dedicated staff, involved actively in research also. It is headed by Dr. C. Pandurangappa, who has more than eleven years of teaching experience. He obtained his Doctorate degree in Physics by the Bangalore University for his research work on <span><b>“Color centers and Thermoluminescence studies in Magnesium, Strontium and Lanthanides doped Calcium fluoride”</b></span> in April 2010 and published two papers in international journals and presented two papers in national conferences in the academic year 2009-2010. </p>
+<p id="para">Other faculties of the department include Mrs. Daly paul, Dr. Deepa Urs M.V and and Ms. Smitha M.G. The faculty have the following credentials for the academic year 2009-2010. Mrs. Daly paul obtained M.Phil degree recently and attended a workshop. Dr. Deepa Urs M.V. published 4 papers in international journals. Ms. Smitha M.G. is pursuing her Ph.D. and has published one paper in international journal. She has attended a national conference and a workshop.</p>
+<h4 class="black-text"><b><p>Laboratory</p></b></h4>
+        
+      <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+<p id="para">
+    The department has well equipped laboratory with sophisticated instruments. The practical classes are assisted by the well experienced lab instructor Mrs. Bhagyalakshmi. With all these strengths, the department has achieved 100% results in the past years. The department also encourages students updating their knowledge by involving them in seminars, invited talks and such activities
+</p>
+<p id="para">
+    The Department of Physics conducted a National Conference on Phosphors and their Applications (NCPA 2010) during November 15-16, 2010. The conference had 111 participants from various parts of the country and 65 papers were presented in the conference. In the year 2011 the department conducted two events-
+</p>
+<ol>
+    <li>1.Intercollegiate Physics Fest PHOTON 2011 on May 5th 2011</li> <li>2. National Seminar on Nuclear Technology for the Growth of the Nation on August 22, 2011.</li>
+</ol>
+</div>
+</div>
+
+  <div class="container">
+  <div class="row">
+ <h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
+    <ul class="listul">
+      <li><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Dr.C.Pandurangappa</p>
+      <p>Associate Prof / HOD</p></a>
+      </li>
+    
+
+      <li><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Mrs.Asha Parvathi K V</p>
+      <p>Asst.Prof.</p></a>
+      </li>
+
+      <li><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Ms.Daly Paul</p>
+      <p>Asst.Prof.</p></a>
+      </li>
+            <li><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Mr.Rajendra H J</p>
+      <p>Asst.Prof.</p></a>
+      </li>
+    </ul>
+</div>
+</div>
+
+  <div class="container">
+  <div class="row">
+    <ul class="listul">
+      <li><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Mr.Sandeep Kumar H L</p>
+      <p>Asst.Prof.</p></a>
+      </li>
+      <li><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Ms.Smitha M.G</p>
+      <p>Asst.Prof.</p></a>
+      </li>
+    </ul>
+</div>
+</div>
+
+<div class="container">
+  <div class="row">
+ <h4 class="black-text"><b><p>Non-Teaching Staff</p></b></h4>
+    <ul class="listul">
+      <li><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Mrs. Bhagyalakshmi</p>
+      <p>Instructor</p></a>
+      </li>
+    
+
+      <li><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Mr. Kumar K</p>
+      <p>Peon</p></a>
+      </li>
+    </ul>
+</div>
+</div>
+
+
+  <div id="fot">
+        <footer id="footer" class="page-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col l4 m4 s12">
+            <h5 class="orange-text">RNSIT</h5>
+            <p class="white-text text-lighten-4">R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman, Dr. R.N. Shetty.The Murudeshwar Group of Companies headed by Sri. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power &amp; IT services and education. The group has contributed significantly to the field of education.</p>
+
+            
+<button name="action" class="btn waves-effect waves-light black lighten-3" type="submit" alt="Compliment">COMPLIMENT</button>
+
+
+
+
+
+          </div>
+          <div class="col l4 m4 s12 push-m1 push-l1">
+            <h5 class="orange-text">HELP</h5>
+            <p class="grey-text text-lighten-4"></p>
+            <ul>
+                  <li><a class="white-text text-lighten-3" href="#!">HOME</a></li>
+                  <li><a class="white-text text-lighten-3" href="#!">ABOUT</a></li>
+                  <li><a class="white-text text-lighten-3" href="#!">DEPT</a></li>
+                  <li><a class="white-text text-lighten-3" href="#!">COURSE</a></li>
+            </ul>
+            <a class="btn waves-effect waves-light black lighten-3" href="#!">Email</a>
+          </div>
+          <div class="col l4 m4 s12" style="overflow: hidden;">
+            <h5 class="orange-text">Connect</h5>
+            <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon" src="images/facebook.svg" alt="fb"></image></a>
+            <a href="instagram/rnsit"><image class="icon" src="images/instagram.svg" alt="insta"></image></a>
+            <a href="twitter/rnsit"><image class="icon" src="images/twitter.svg" alt="twitter"></image></a>
+            <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <p style="text-align:center"><b>Handcrafted by Dept of CSE</b></p>
+        </div>
+      </div>
+    </footer>
+    </div>
+    <script type="text/javascript" src="js/dept.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
+
+  
+</body>
+</html>
