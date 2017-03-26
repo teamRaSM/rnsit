@@ -2,7 +2,7 @@
   <html>
     <head>
       <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <link rel="stylesheet" type="text/css" href="css/default.css">
@@ -198,6 +198,22 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript" src="js/navbar.js"></script>
+      <script type="text/javascript">
+        (function(){
+  if(!'serviceWorker' in navigator)
+  {
+  alert('Service Worker not supported. Use a different browser');
+  return;
+  }
+  navigator.serviceWorker.register('serviceWorker.js')
+  .then(function(registration){
+  console.log('Registered Service Worker. Scope -'+registration.scope);
+  })
+  .catch(function(error){
+  console.log('Registration Failed. Error - '+error);
+  });
+  })();
+      </script>
     </body>
   </html>
   </div>

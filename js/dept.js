@@ -1,9 +1,8 @@
-<script type="text/javascript"> -->
-       $(document).ready(function(){
+$(document).ready(function(){
       $('.slider').slider();
     });
         
-</script>
+
 
 $(document).ready(function(){
 
