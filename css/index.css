@@ -22,3 +22,40 @@
 	height: 100%;
 	width: 100%;
 }
+
+.nightback{
+  background-image: url('../images/night.jpg');
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+  z-index:-1;
+  filter: brightness(.7);
+}
+.maincont{
+	text-align: center;
+	color:white;
+	height:100vh;
+}
+.cont{
+
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width:100vw;
+}
+.news{
+}
+.video{
+}
+.pc{
+}
+.tc{
+}
+.con-flex{
+	box-shadow: 0 0 20px 2px rgba(0,0,0,0.22);
+	height:20vh;
+	width:44%;
+	margin-bottom: 40px;
+}
