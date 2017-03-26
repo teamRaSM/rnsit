@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>RNSIT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#021B38">
+    <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
+    <link rel="apple-touch-icon" href="imgages/logo.png"/>
+
+    <meta name="mobile-web-app-capable" content="yes">
+<meta name="RNSIT" content="RNSIT">
+<link rel="icon" sizes="192x192" href="images/logo.png">
+ <!-- <splash src="images/prin.jpg"></splash> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/dept.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link href="images/logo.png" rel="icon" type="image/png">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+   </head>
+   <body>
+
+   <div>
+     <nav class="nav">
+    <div class="nav-wrapper">
+      <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+      <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <!-- <li><a id="home" href="index.html">Home</a></li> -->
+        <li><a id="aboutus" href="aboutus.html">About US</a></li>
+        <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+
+        <!-- Dropdown Trigger -->
+  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+  <li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+
+
+
+
+        <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a>BASIC SCIENCE DEPARTMENTS</a></li>
+    <li class="divider"></li>
+    <li><a id="physics" href="physics.html">Physics</a></li>
+    <li><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+    <li><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+    <li class="divider"></li>
+    <li><a id="engineeringdept">ENGINEERING DEPARTMENTS</a></li>
+    <li class="divider"></li>
+    <li><a id="cse" href="cse.html">CSE</a></li>
+    <li><a id="ece" href="ece.html">ECE</a></li>
+    <li><a id="eee" href="eee.html">EEE</a></li>
+    <li><a id="ise" href="ise.html">ISE</a></li>
+    <li><a id="eie" href="eie.html">EIE</a></li>
+    <li><a id="mech" href="mech.html">MECH</a></li>
+    <li><a id="civil" href="civil.html">CIVIL</a></li>
+    <li class="divider"></li>
+    <li><a id="pg">POST GRADUATION</a></li>
+    <li class="divider"></li>
+    <li><a id="mba" href="mba.html">MBA</a></li>
+    <li><a id="mca"  href="mca.html">MCA</a></li>
+    </ul>
+  </ul>
+
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a id="cse" href="alumni.html">ALUMNI</a></li>
+    <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
+    <li><a id="eee" href="hr.html">HR</a></li>
+    <li><a id="ise" href="library.html">LIBRARY</a></li>
+    <li><a id="eie" href="hostel.html">HOSTEL</a></li>
+    <li><a id="mech" href="transport.html">TRANSPORT</a></li>
+    <li><a id="mba" href="sportsculture.html">SPORTS &amp; CULTURE</a></li>
+    <li><a id="mca" href="facilities.html">FACILITIES</a></li>
+  </ul>
+
+     <!--mobile!-->
+      <ul class="side-nav" id="mobile-demo">
+        <li><a id="home" href="home.html">Home</a></li>
+        <li><a id="aboutus" href="aboutus.html">About US</a></li>
+        <li><a id="contact" href="contact.html">Contact</a></li>
+        <li><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+         <li class="innerli">      <div class="innerNav">
+        <a class="nava">BASIC SCIENCE DEPARTMENTS</a>
+        <ul><li class=" nava divider"></li></ul>
+        <a id="physics" class="nava awes" href="physics.html">Physics</a>
+        <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+        <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+        <a id="engineeringdept" class="nava ">ENGINEERING DEPARTMENTS</a>
+        <ul><li class=" nava divider"></li></ul>
+
+        <a id="cse" class="nava" href="cse.html">CSE</a>
+        <a id="ece" class="nava" href="ece.html">ECE</a>
+        <a id="eee" class="nava"  href="eee.html">EEE</a>
+        <a id="ise" class="nava" href="ise.html">ISE</a>
+        <a id="eie" class="nava" href="eie.html">EIE</a>
+        <a id="mech" class="nava" href="mech.html">MECH</a>
+        <a id="civil" class="nava" href="civil.html">CIVIL</a>
+        <a id="pg" class="nava">POST GRADUATION</a>
+        <ul><li  id=""class=" nava divider"></li></ul>
+        <a id="mba" class="nava awes" href="mba.html">MBA</a>
+        <a id="mca" class="nava awes" href="mca.html">MCA</a>
+
+      </div></li>
+      <li><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
+         <li class="innerli">      <div class="innerNav1">
+          <a id="cse" class="nava" href="alumni.html">Alumini</a>
+          <a id="cse" class="nava" href="admissions.html">Admissions</a>
+          <a id="cse" class="nava" href="hr.hrml">HR</a>
+          <a id="cse" class="nava" href="library.html">Library</a>
+          <a id="cse" class="nava" href="hostel.html">Hostel</a>
+          <a id="cse" class="nava" href="transport.html">Transport</a>
+          <a id="cse" class="nava"  href="sportsculture.html">Sports &amp; Culture</a>
+          <a id="cse" class="nava" href="facilities.html">Facilities</a>
+          </div>
+          </li>
+
+    </ul>
+    </div>
+  </nav>
+  </div>
+<div class="container">
+  <h4 align="center">COMPUTER SCIENCE AND ENGINEERING</h4>
+ <div class="row">
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/card1.jpeg" alt="mech hod">
+              <span class="card-title">Dr. C. Pandurangappa</span>
+            </div>
+            <div class="card-content">
+              <p> Professor &amp; Head</p>
+            </div>
+          </div>
+        </div>
+<p>The   department   of   Computer    Science and Engineering was established in the year 2001 right from the inception of the Institution with an objective of imparting quality technical education in IT field.  The department is currently headed by Dr. G T Raju who has more than 22 years of experience in the field. The department offers BE and M.Tech degrees in Computer Science and Engineering (CSE) with an intake 120 UG students and 24 PG students respectively. The department has a VTU recognized R&D centre and currently 18 research scholars are pursuing their research work leading to PhD/MSc (Engg) degrees. The department has state-of-the-art laboratories, library facility for staff & students and boasts of well trained, committed and experienced teaching faculty with an average teaching experience of 10.04 years, who emphasize the theoretical and practical applications of computation and computer systems to the needs of society.</p>
+              <p>The department is striving hard to make the unique spirit of RNSIT, an Institution with a difference by promoting excellence in Teaching, Research and Services covering the fundamentals as well as applied aspects of Computer Science and IT.</p>
+              <p>The fast changing scenario in Computer Science and Engineering necessitates the department to actively extend its focus and activities in</p>
+              <ol>
+                  <li>Research and Development</li>
+                  <li>Consultancy in IT related areas and Sponsored projects apart from its excellent conventional UG and PG teaching.</li>
+              </ol>
+              <p>Being a forerunner in the field of technology, the department envisages evolving as a center of excellence to adapt itself to the rapid advancements in various specialized fields. Computer Science and Engineering continues to be the driving force of the nation's economy in the fields of science and technology. We in the CSE department, at RNSIT, are very excited to be part of this information revolution.</p>
+<h4 class="black-text"><b><p>Laboratory</p></b></h4>
+        
+      <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+        <div class="caption center-align">
+          <h2>This is our big Tagline!</h2>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+        <div class="caption left-align">
+          <h2>Left Aligned Caption</h2>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+        <div class="caption right-align">
+          <h2>Right Aligned Caption</h2>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+        <div class="caption center-align">
+          <h2>This is our big Tagline!</h2>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <p id="para">
+    The department has well equipped laboratory with sophisticated instruments. The practical classes are assisted by the well experienced lab instructor Mrs. Bhagyalakshmi. With all these strengths, the department has achieved 100% results in the past years. The department also encourages students updating their knowledge by involving them in seminars, invited talks and such activities
+</p>
+<p id="para">
+    The Department of Physics conducted a National Conference on Phosphors and their Applications (NCPA 2010) during November 15-16, 2010. The conference had 111 participants from various parts of the country and 65 papers were presented in the conference. In the year 2011 the department conducted two events-
+</p>
+<ol>
+    <li>Intercollegiate Physics Fest PHOTON 2011 on May 5th 2011</li> <li> National Seminar on Nuclear Technology for the Growth of the Nation on August 22, 2011.</li>
+</ol>
+
+
+              </div>
+                  <div class="row">
+                 <h4 class="black-text"><b><p>Strengths/Highlights</p></b></h4>
+                  <ol>
+                      <li>Adequate Infrastructure: state-of-the-art laboratories – 168 latest computers, departmental library,  Seminar Hall, Well furnished class rooms</li>
+                      <li>Boasts of well qualified, committed and experienced teaching faculty - 3 Professors, 7 Asst. Professors, 4 Senior Lecturers and 11 Lecturers</li>
+                      <li>Faculty to Student ratio is very good,  1:15, with an average teaching experience 10.94 years</li>
+                      <li> Faculty members in diversified areas with Research motivation</li>
+                      <li> Faculty involvement in conducting Conferences, Seminars, and Workshops.</li>
+                      <li>Participation in University activities/ Other Institutions – Curriculum update, BOE members, BOS members at University and Autonomous Institutions</li>
+                      <li>Very good consistent pass percentage in University exams  >  85</li>
+                      <li>More than 90% Placement for UG and PG students,  Internships at reputed Industries for Project works</li>
+                  </ol>
+                    </div>
+                    <div class="row">
+                  <h4 class="black-text"><b><p>Significant developments and Achievements</p></b></h4>
+                  <ol>
+                      <li>Average consistent pass percentage of more than 85% in university exams,  resulted in better quality of input</li>
+                      <li>Ms. Anjana Sudhi  bagged Sri P V Kumaraswamy Memorial Gold Medal for securing the highest marks from 1st – 8th Semester in Computer Science Engineering during 2010</li>
+                      <li>Pallavi Karanth has bagged 2nd  University Rank during 2006</li>
+                      <li> Mr. Rudramurthy has secured 35th Rank  and  Mr. Kushal Bafna has secured 303rd Rank in GATE 2011</li>
+                  </ol>
+                  </div>
+                <div class="row">
+                  <h4 class="black-text"><b><p>Our Students</p></b></h4>
+                  <ol>
+                      <li>are much sought after by leading computer firms in placement: Infosys, TCS etc.,</li>
+                      <li>have represented universities and state in Sports, Technical and Cultural events, won awards</li>
+                      <li>Have got admission to higher studies ( MS / PhD) in International renowned Institutions</li>
+                      <li>BALAJI , UNIVERSITY OF WISCOSIN, MILWAUKI , P h.D COMPUTER SCIENCE</li>
+                      <li>Vittal P , NUS, P h.D COMPUTER SCIENCE</li>
+                      <li>ABHIJIT SRINIVAS ,SUNNY-BUFFALO , COMPUTER SCIENCE</li>
+                      <li>PREETHI LAKSHMI , UNIVERSITY OF TEXAS ,DALLAS ,COMPUTER SCIENCE</li>
+                      <li>Paper presentation by Students/Faculty at CSI conventions and other National/International conferences and won awards/prizes.</li>
+                      <li> Faculty members have bagged Best Teacher awards – Kiran P and Hemanth S</li>
+                      <li> 11  faculty members have registered for PhD at various reputed universities</li>
+                      <li> Seminars and Workshops are regularly held in the department for the benefit of the teaching</li>
+                  </ol>
+              </div>
+              <div class="row">
+                 <h4 class="black-text"><b><p>Vision</p></b></h4>
+                  Better Computer Professsionals for a Real World.
+              </div>
+              <div class="row">
+                  <h4 class="black-text"><b><p>Mission</p></b></h4>
+                  <ol>
+                      <li>To promote an intellectual and ethical environment in which the strengths and skills will flourish</li>
+                      <li>To impart solid foundations and applied aspects in both Computer Science theory and Programming practices</li>
+                      <li>To educate and prepare the graduates, highly sought after and  productive, and well-respected for their work culture</li>
+                      <li>To Provide training and encouraging R&D and Consultancy Services in frontier areas of Computer Science with Global   outlook</li>
+                   </ol>
+              </div>
+              <div class="row">
+                  <h4 class="black-text"><b><p>Computing Facilities</p></b></h4>
+                  <ol>
+                      <li>09 Computer  Labs housing more than 168 Branded Computers (HP, Dell and Compaq), Each Lab is on LAN, Additional 60 Computers proposed,</li>
+                      <li>Student – terminal ratio :  <  3:1</li>
+                      <li> All Computers with Internet, 5 mbps dedicated  line with  Wi-Max connectivity</li>
+                      <li> Licensed Softwares:   OS, Compilers, Simulators, Oracle, Rational Rose, Kaspersky Antivirus</li>
+                      <li>100 KVA UPS , 125 KVA Generator</li>
+                      <li> 04 LCD Projectors, 01 OHP</li>
+                      <li>06 Printers, 01 Scanner</li>
+                   </ol>
+                </div>
+                </div>
+              
+
+  <div class="container">
+  <div class="row">
+ <h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
+    <ul class="listul cardul">
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Dr.C.Pandurangappa</p>
+      <p>Associate Prof / HOD</p></a>
+      </li>
+    
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Mrs.Asha Parvathi K V</p>
+      <p>Asst.Prof.</p></a>
+      </li>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Ms.Daly Paul</p>
+      <p>Asst.Prof.</p></a>
+      </li>
+            <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Mr.Rajendra H J</p>
+      <p>Asst.Prof.</p></a>
+      </li>
+    </ul>
+</div>
+</div>
+
+  <div class="container">
+  <div class="row">
+    <ul class="listul cardul">
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Mr.Sandeep Kumar H L</p>
+      <p>Asst.Prof.</p></a>
+      </li>
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Ms.Smitha M.G</p>
+      <p>Asst.Prof.</p></a>
+      </li>
+    </ul>
+</div>
+</div>
+
+<div class="container">
+  <div class="row">
+ <h4 class="black-text"><b><p>Non-Teaching Staff</p></b></h4>
+    <ul class="listul cardul">
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Mrs. Bhagyalakshmi</p>
+      <p>Instructor</p></a>
+      </li>
+    
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
+      <p>Mr. Kumar K</p>
+      <p>Peon</p></a>
+      </li>
+    </ul>
+</div>
+</div>
+
+
+  <div id="fot">
+        <footer id="footer" class="page-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col l4 m4 s12">
+            <h5 class="orange-text">RNSIT</h5>
+            <p class="white-text text-lighten-4">R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman, Dr. R.N. Shetty.The Murudeshwar Group of Companies headed by Sri. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power &amp; IT services and education. The group has contributed significantly to the field of education.</p>
+
+            
+<button name="action" class="btn waves-effect waves-light black lighten-3" type="submit" alt="Compliment">COMPLIMENT</button>
+
+
+
+
+
+          </div>
+          <div class="col l4 m4 s12 push-m1 push-l1">
+            <h5 class="orange-text">HELP</h5>
+            <p class="grey-text text-lighten-4"></p>
+            <ul>
+                  <li><a class="white-text text-lighten-3" href="#!">HOME</a></li>
+                  <li><a class="white-text text-lighten-3" href="#!">ABOUT</a></li>
+                  <li><a class="white-text text-lighten-3" href="#!">DEPT</a></li>
+                  <li><a class="white-text text-lighten-3" href="#!">COURSE</a></li>
+            </ul>
+            <a class="btn waves-effect waves-light black lighten-3" href="#!">Email</a>
+          </div>
+          <div class="col l4 m4 s12" style="overflow: hidden;">
+            <h5 class="orange-text">Connect</h5>
+            <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon" src="images/facebook.svg" alt="fb"></image></a>
+            <a href="instagram/rnsit"><image class="icon" src="images/instagram.svg" alt="insta"></image></a>
+            <a href="twitter/rnsit"><image class="icon" src="images/twitter.svg" alt="twitter"></image></a>
+            <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <p style="text-align:center"><b>Handcrafted by Dept of CSE</b></p>
+        </div>
+      </div>
+    </footer>
+    </div>
+    <!-- Modal part -->
+
+
+      <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="images/cardpics/card1.jpeg">
+      </div>
+      
+      <div class="modal-details">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
+
+    <!-- Modal end -->
+    <script type="text/javascript" src="js/dept.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
+    <script type="text/javascript" src="js/modal.js"></script>
+    
+
+  
+</body>
+</html>
