@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
    <head>
@@ -21,19 +20,24 @@
    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/nav.css">
-    <link rel="stylesheet" type="text/css" href="css/dept.css">
     <link href="images/logo.png" rel="icon" type="image/png">
     <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
-
+           <link rel="stylesheet" type="text/css" href="css/nav.css">
+           <link rel="stylesheet" type="text/css" href="css/footer.css">
           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-          <script src="js/index.js"></script>
-      <link rel="stylesheet" type="text/css" href="css/index.css">
 
+      <link rel="stylesheet" type="text/css" href="css/index.css">
+<style type="text/css">.card-hover:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+   -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}</style>
       <style type="text/css">
         .nava{
           display: block;
@@ -46,10 +50,11 @@
           transition: all 2s;
         }
       </style>
-   </head>
-   <body>
+	<link rel="stylesheet" type="text/css" href="css/alumni.css">
 
-   <div>
+      <link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+</head>
+<body>
      <nav class="nav-extended">
     <div class="nav-wrapper">
       <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
@@ -95,7 +100,7 @@
   <ul id="dropdown2" class="dropdown-content">
     <li><a id="cse" href="alumni.html">ALUMNI</a></li>
     <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
-    <li><a id="eee" href="hr.html">HR</a></li>
+    <li><a id="eee" href="placements.html">PLACEMENTS</a></li>
     <li><a id="ise" href="library.html">LIBRARY</a></li>
     <li><a id="eie" href="hostel.html">HOSTEL</a></li>
     <li><a id="mech" href="transport.html">TRANSPORT</a></li>
@@ -105,7 +110,7 @@
 
      <!--mobile!-->
       <ul class="side-nav" id="mobile-demo">
-        <li><a id="home" href="home.html">Home</a></li>
+        <li><a id="home" href="index.html">Home</a></li>
         <li><a id="aboutus" href="aboutus.html">About US</a></li>
         <li><a id="contact" href="contact.html">Contact</a></li>
         <li><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -135,7 +140,7 @@
          <li class="innerli">      <div class="innerNav1">
           <a id="cse" class="nava" href="alumni.html">Alumini</a>
           <a id="cse" class="nava" href="admissions.html">Admissions</a>
-          <a id="cse" class="nava" href="hr.hrml">HR</a>
+          <a id="cse" class="nava" href="placements.hrml">Placement</a>
           <a id="cse" class="nava" href="library.html">Library</a>
           <a id="cse" class="nava" href="hostel.html">Hostel</a>
           <a id="cse" class="nava" href="transport.html">Transport</a>
@@ -148,90 +153,131 @@
     </div>
   </nav>
   </div>
+<h1 class="center-align">SPORTS & CULTURAL</h1>
 
 
-<div class="container">
+
+<h5><div id="sub" class="container">Sports Activities</h5></div>
+	<div class="container">
  <div class="row">
- <h4 align="center">CONTACT US</h4>
- <p style="text-align:center;"><b>Drop a Note Here!!</b></p>
-    <form class="col s12" name="contactform" method="post" action="send_my_email.php">
-      <div class="row">
-      <div class="input-field col s2">
-      </div>
-        <div class="input-field col s8">
-          <i class="material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix first_name">Name</label>
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img class="materialboxed" width="450" src="images/sample-1.jpg" alt="scimg1">
+              <span class="card-title">pic</span>
+            </div>
+            <div class="card-content">
+              <p>sports pic</p>
+            </div>
+          </div>
         </div>
-        </div>
-        <div class="row">
-        <div class="input-field col s2">
-      </div>
-        <div class="input-field col s8">
-           <i class="material-icons prefix">phone</i>
-          <input id="icon_telephone" type="text" class="validate">
-          <label for="icon_telephone last_name">Telephone</label>
-         </div>
-      </div>
-      <div class="row">
-      <div class="input-field col s2">
-      </div>
-        <div class="input-field col s8">
-         <i class="material-icons prefix">email </i>
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-       </div>
-       </div>
 
-       <div class="row">
-       <div class="input-field col s2">
-      </div>
-          <div class="input-field col s8">
-          <i class="material-icons prefix">mode_edit</i>
-          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-          <label for="icon_prefix2">Message</label>
+    <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img class="materialboxed" width="450" src="images/sample-1.jpg" alt="scimg2">
+              <span class="card-title">pic</span>
+            </div>
+            <div class="card-content">
+              <p>sports pic</p>
+            </div>
+          </div>
         </div>
-      </div>
-      
-      <input  type="submit" class="right btn waves-effect waves-light" value="Submit">
-    </form>
 
-  <div class="row">
-  <p style="text-align:center;"><b>Reach Us at :</b></p>
-      <div class="col s12 m4">
-        <div class="card-panel card-hover">
-          <span class="black-text">
-          <ul><li>College Campus</li>
-      <li>R N S Institute of Technology,</li>
-      <li>Rajarajeshwarinagar post,</li>
-      Channasandra,
-      <li>Bangalore - 560098</li>
-Tel : +91 80 28611880/1
-Fax : +91 80 28611882</ul></span>
+    <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img class="materialboxed" width="450" src="images/sample-1.jpg" alt="scimg3">
+              <span class="card-title">pic</span>
+            </div>
+            <div class="card-content">
+              <p>sports pic</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col s12 m4">
-        <div class="card-panel card-hover">
-          <span class="black-text">
-          <ul><li>Dr. M K Venkatesha - Principal RNSIT</li>
-      <li>Mob : 9880867337</li>
-      <li>Email  : principal@rnsit.ac.in or mkvenkatesha@gmail.com</li>
-      </ul></span>
-        </div>
-      </div>
-      <div class="col s12 m4">
-        <div class="card-panel card-hover">
-          <span class="black-text">
-          <ul><li>Mr. Ganapathi M  Yaji - Registrar</li>
-      <li>Mob : 09449060402,  09902155339 </li>
-      <li>Email : yaji.shirali@gmail.com</li></ul></span>
-        </div>
-      </div>
-      </div>
     </div>
+    </div>
+    </div>
+<div class="container"><p id="para">The Department of Physical education is headed by Mr.K.Purnachandra having 9 years experience. The sports facility is one of the best of its kind in the state having good infrastructure for various games and other sport activities. Various facilities available in the campus are
+<ul>
+<li>Basket Ball Court</li>
+<li> Football Ground </li>
+<li>Volley Ball Court </li>
+<li> Cricket Ground </li>
+<li>Throw Ball Court </li>
+</ul>
+</span><div></p>
 
-  </div>
-    <div id="fot">
+<h5 id="sub">Indoor Games</h5>
+
+ <div class="row">
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img class="materialboxed" width="450" src="images/sample-1.jpg" alt="scimg4">
+              <span class="card-title">pic</span>
+            </div>
+            <div class="card-content">
+              <p>sports pic</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img class="materialboxed" width="450" src="images/sample-1.jpg" alt="scimg5">
+              <span class="card-title">pic</span>
+            </div>
+            <div class="card-content">
+              <p>sports pic</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img class="materialboxed" width="450" src="images/.jpg" alt="scimg6">
+              <span class="card-title">pic</span>
+            </div>
+            <div class="card-content">
+              <p>sports pic</p>
+            </div>
+          </div>
+        </div>
+    </div>
+<div><p id="para">
+A State of the Art, international level cricket ground with an area of 17,000 sq. mtrs. is under construction. The College is organizing a Basket Ball Rolling Trophy tournament annually. Regular training Programs for games like Basket ball, Cricket, Football etc., are conducted for the students.
+
+The Institute is planning to have an Indoor Sports Complex, consisting of two badminton courts, Basket ball courts in addition to Table Tennis, Carom and Chess.
+<ul>
+ <li><i class="material-icons">grade</i> Table Tennis</li>
+ <li><i class="material-icons">grade</i> Chess</li>
+ <li><i class="material-icons">grade</i> Carrom </li>
+</ul>
+ </p>
+</div>
+
+<h5 id="sub">RNSIT Fitness Department</h5>
+
+ <div class="row">
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img class="materialboxed" width="450" src="images/" alt="scimg7">
+              <span class="card-title">pic</span>
+            </div>
+            <div class="card-content">
+              <p>sports pic</p>
+            </div>
+          </div>
+        </div>
+    </div>
+<div><p id="para">
+The college has an excellent indoor Gym with 12-STATION MULTI GYM , SMITH MACHINE , SMITH BENCH , ROMAN CHAIR , PREACHER CURL STAND , MULTIPURPOSE BENCH , ROD RACK , BARBELL WEIGHTS , MOTORISED TREADMILL, AIR BIKES (CYCLE) MAGNETIC BIKES (CYCLE), CYCLE (ATLAS) installed at a cost of Rs. 7.0 Lakhs.</p>
+</div>
+</div>
+</div>
+  <div id="fot">
         <footer id="footer" class="page-footer">
       <div class="container-fluid">
         <div class="row">
@@ -268,10 +314,11 @@ Fax : +91 80 28611882</ul></span>
       </div>
     </footer>
     </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/navbar.js"></script>
+      <script src="js/sportsculture.js"></script>
 
-  </div>
-  </body>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/navbar.js"></script>
-  </html>
+ </body>
+ </html>
+
