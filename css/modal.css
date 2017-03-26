@@ -25,17 +25,18 @@ li img{
    box-shadow: 0 0 30px 5px rgba(0,0,0,.2);
 }
 .modal-img{
-	width: 70%;
+	width: 282px;
+	transition: all .3;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	top: -75px;
+	top: 90px;
 	border-radius: 30%;
 }
 
 @media only screen and (min-width: 480px){
 	.modal-img{
-		width: 40%;
+		/*width: 40%;*/
 			margin-left: auto;
 	margin-right: auto;
 	}
@@ -48,38 +49,14 @@ li img{
 
 .modal-back{
 	height: 30vh;
-	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	background: linear-gradient(141deg, #2af598, #009efd);
+	margin-bottom: 100px;
+}
+.modal-details{
+	position: relative;
+	/*top: -70px;*/
 }
 .modal-content{
 	text-align: center;
-	height: 80vh !important;
+	/*height: 80vh !important;*/
 }
-@media only screen and (min-width: 480px){
-	.modal-img{
-		width: 40%;
-			margin-left: auto;
-	margin-right: auto;
-	}
-		.listul li{
-		width: 43%;
-	}
-
-}
-
-@media only screen and (min-width: 550px){
-	.listul li{
-		width: 43%;
-	}
-		}
-
-@media only screen and (min-width: 768px){
-	.listul li{
-		width: 30%;
-	}
-		}
-		
-@media only screen and (min-width: 992px){
-	.listul li{
-		width: 25%;
-	}
-		}

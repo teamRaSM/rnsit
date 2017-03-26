@@ -2,16 +2,13 @@
   height: 0px;
 }
 .nav{
- /*background-color: rgba(0,0,0,0);*/
+ // background-color: rgba(0,0,0,0);
   box-shadow: none;
-
 }
 .logo{ 
   width: 300px;
 }
 nav{
-  position: fixed;
-  top:0;
     transition: all .3s;
   background-color: #021B38;
 }
@@ -91,13 +88,16 @@ nav{
 .nava :hover{
             background:rgba(0,0,0,.2);
 }
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
   nav{
     position: fixed;
     top: 0px;
     z-index: 999 !important;
   }
+  footer{
+    display: hidden;
 }
+
 .icon{
   width:50px;
 }
@@ -114,8 +114,3 @@ nav{
   .svg-logo{
     float: right;
   }
-}
-
-nav{
-  z-index: 9999;
-}

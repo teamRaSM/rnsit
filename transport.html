@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
    <head>
@@ -22,8 +21,12 @@
     <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="css/transport.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/dept.css">
+    <script src="js/navbar.css"></script>
     <link href="images/logo.png" rel="icon" type="image/png">
     <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -32,6 +35,7 @@
 
           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
           <script src="js/index.js"></script>
+          <script src="js/navbar.js"></script>
       <link rel="stylesheet" type="text/css" href="css/index.css">
 
       <style type="text/css">
@@ -50,7 +54,7 @@
    <body>
 
    <div>
-     <nav class="nav-extended">
+   	 <nav class="nav-extended">
     <div class="nav-wrapper">
       <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
       <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
@@ -61,8 +65,8 @@
         <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
 
         <!-- Dropdown Trigger -->
-  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-  <li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+ 	<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+ 	<li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
 
 
 
@@ -95,7 +99,7 @@
   <ul id="dropdown2" class="dropdown-content">
     <li><a id="cse" href="alumni.html">ALUMNI</a></li>
     <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
-    <li><a id="eee" href="hr.html">HR</a></li>
+    <li><a id="eee" href="placements.html">PLACEMENTS</a></li>
     <li><a id="ise" href="library.html">LIBRARY</a></li>
     <li><a id="eie" href="hostel.html">HOSTEL</a></li>
     <li><a id="mech" href="transport.html">TRANSPORT</a></li>
@@ -135,7 +139,7 @@
          <li class="innerli">      <div class="innerNav1">
           <a id="cse" class="nava" href="alumni.html">Alumini</a>
           <a id="cse" class="nava" href="admissions.html">Admissions</a>
-          <a id="cse" class="nava" href="hr.hrml">HR</a>
+          <a id="cse" class="nava" href="placements.hrml">Placement</a>
           <a id="cse" class="nava" href="library.html">Library</a>
           <a id="cse" class="nava" href="hostel.html">Hostel</a>
           <a id="cse" class="nava" href="transport.html">Transport</a>
@@ -150,95 +154,113 @@
   </div>
 
 
-<div class="container">
- <div class="row">
- <h4 align="center">CONTACT US</h4>
- <p style="text-align:center;"><b>Drop a Note Here!!</b></p>
-    <form class="col s12" name="contactform" method="post" action="send_my_email.php">
-      <div class="row">
-      <div class="input-field col s2">
-      </div>
-        <div class="input-field col s8">
-          <i class="material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix first_name">Name</label>
-        </div>
-        </div>
-        <div class="row">
-        <div class="input-field col s2">
-      </div>
-        <div class="input-field col s8">
-           <i class="material-icons prefix">phone</i>
-          <input id="icon_telephone" type="text" class="validate">
-          <label for="icon_telephone last_name">Telephone</label>
-         </div>
-      </div>
-      <div class="row">
-      <div class="input-field col s2">
-      </div>
-        <div class="input-field col s8">
-         <i class="material-icons prefix">email </i>
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-       </div>
-       </div>
 
-       <div class="row">
-       <div class="input-field col s2">
-      </div>
-          <div class="input-field col s8">
-          <i class="material-icons prefix">mode_edit</i>
-          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-          <label for="icon_prefix2">Message</label>
+  <div class="container">
+  <h4 align="center">TRANSPORT</h4>
+    <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
-      </div>
-      
-      <input  type="submit" class="right btn waves-effect waves-light" value="Submit">
-    </form>
-
-  <div class="row">
-  <p style="text-align:center;"><b>Reach Us at :</b></p>
-      <div class="col s12 m4">
-        <div class="card-panel card-hover">
-          <span class="black-text">
-          <ul><li>College Campus</li>
-      <li>R N S Institute of Technology,</li>
-      <li>Rajarajeshwarinagar post,</li>
-      Channasandra,
-      <li>Bangalore - 560098</li>
-Tel : +91 80 28611880/1
-Fax : +91 80 28611882</ul></span>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
-      </div>
-      <div class="col s12 m4">
-        <div class="card-panel card-hover">
-          <span class="black-text">
-          <ul><li>Dr. M K Venkatesha - Principal RNSIT</li>
-      <li>Mob : 9880867337</li>
-      <li>Email  : principal@rnsit.ac.in or mkvenkatesha@gmail.com</li>
-      </ul></span>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
-      </div>
-      <div class="col s12 m4">
-        <div class="card-panel card-hover">
-          <span class="black-text">
-          <ul><li>Mr. Ganapathi M  Yaji - Registrar</li>
-      <li>Mob : 09449060402,  09902155339 </li>
-      <li>Email : yaji.shirali@gmail.com</li></ul></span>
+      </li>
+      <li>
+        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
-      </div>
-      </div>
-    </div>
-
+      </li>
+    </ul>
   </div>
-    <div id="fot">
+  </div>
+    <!-- transport details -->
+    <table class="striped">
+        <thead>
+          <tr>
+              <th data-field="id">ROUTE</th>
+              <th data-field="name">STARTING POINT</th>
+              <th data-field="price">STARTING TIME</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>R.N.S. Motors via Basaveshwara nagara<br>
+RNS Motors, MDL Circle, ISKCON Temple, Mahalakshmi Layout Entrance, Chord Raod, Modi Hospital, Shankar Mutt, Basaveswaranagar water tank, Pavithra Paradise, Magadi Road, Raheja Apaartments, Vijaynagar Bus Stand, BTS Garage, Attiguppe (Petrol Bunk), Chandra layout, Rajarajeshwari arch,RNSIT.</td>
+            <td>7:15 A.M.</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>R.N.S. Motors via Malleshwaram<br>
+RNS Motors,Tata Institute, Mekri Circle, Kaveri Theatre, Sadashivanagar, Malleswaram 18th Cross Malleswaram 8th Cross, K.C.General Hospital, Devaiah Park, Harishchandra Ghat, Mariyappana Palya, Navrang Theatre, ESI Hospital, Prasanna Theatre, Bunt's Sangha, Rajarajeshwari Arch, RNSIT.</td>
+             <td>7:00 A.M.</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>Starting Point: RNS Motors via Nagarabhavi<br>
+RNS Motors, Mahalakshmi Layout Bus stand, Srinivasa Temple, Panchamukhi Ganesha Temple,, Geleyara Balaga, Shankar mutt signal, Housing Board, Saraswathipurum (Shobha Hospital), Moodanpalya, Nagharbhavi circle, Nammora thindi hotel, Dr.Ambedkar college signal, University quatress, Rajarajeshwari Arch, RNSIT.</td>
+            <td>7:20 A.M.</td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>Naveen Complex, M.G. Road via Hanumanth nagara<br>
+Naveen Complex, Corporation circle, Pallavi Theatre, Subbalaha Circle, Lalbagh West Gate,Taxi stand, Gandhi Bazar/Ramakrishna Ashram, Hanumanth nagara 50ft road, Nirmala store, Srinivasa Nagara, Bank colony, Seetha circle, Hosakerehalli ring road, PESIT college, Rajarajeshwari Arch, RNSIT.</td>
+            <td>7:20 A.M.</td>
+          </tr>
+
+           <tr>
+            <td>5</td>
+            <td>Naveen Complex, M.G. Road via Jayanagara<br>
+Naveen Complex, Shoolay Circle, Richmond circle, Double road, Lalbagh circle, Ashoka pillar, Jayanagara 4th block(Cool point), Jayanagara T block(Coffee day),Marahalli petrol bunk, Ragavendra temple, 5th Block Sai travels, JSS Circle, Indira nursing home, DG bunk, Padmanabhanagara, Prarthana School, Brigade Apartments, Uttrahalli, RNSIT.</td>
+            <td>7:15 A.M.</td>
+          </tr>
+
+           <tr>
+            <td>6</td>
+            <td>Naveen Complex, M.G. Road via J P nagara<br>
+Naveen complex, Commando Hospital, Domlur flyover, Koramangala, Silk board, BTM Layout water tank, Bannerghatta road, G D Mara(J P Nagara 3rd phase), J P Nagara 6th phase 15th cross, Royal school, Brigade Millenium, Capital School, Gaurav nagar, Konankunte cross, Uttrahalli, RNSIT
+</td>
+            <td>7:20 A.M.</td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <div id="fot">
         <footer id="footer" class="page-footer">
       <div class="container-fluid">
         <div class="row">
           <div class="col l4 m4 s12">
             <h5 class="orange-text">RNSIT</h5>
             <p class="white-text text-lighten-4">R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman, Dr. R.N. Shetty.The Murudeshwar Group of Companies headed by Sri. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power & IT services and education. The group has contributed significantly to the field of education.</p>
-<button name="action" class="btn waves-effect waves-light black lighten-3" type="submit" alt="PayPal - The safer, easier way to pay online!">COMPLIMENT</button>
+
+
+<button name="action" class="btn waves-effect waves-light black lighten-3" type="submit" alt="Compliment">COMPLIMENT</button>
+
+
+
+
 
           </div>
           <div class="col l4 m4 s12 push-m1 push-l1">
@@ -269,9 +291,18 @@ Fax : +91 80 28611882</ul></span>
     </footer>
     </div>
 
-  </div>
+
+
+
+    <script src="js/mainpage.js">
+
+    <script type="text/javascript">
+       $(document).ready(function(){
+      $('.slider').slider();
+    });
+
+    </script>
+
+    </script>
   </body>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script type="text/javascript" src="js/navbar.js"></script>
-  </html>
+</html>
