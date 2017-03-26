@@ -1,144 +1,125 @@
- <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheet" type="text/css" href="css/default.css">
-      <link type="text/css" rel="stylesheet" href="css/index.css"  />
-      <link type="text/css" rel="stylesheet" href="css/nav.css"/>
-      <link rel="stylesheet" type="text/css" href="css/footer.css">
-
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-
-    <body>
-
-   <div>
-     <nav class="nav">
-    <div class="nav-wrapper">
-      <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
-      <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <!-- <li><a id="home" href="index.html">Home</a></li> -->
-        <li><a id="aboutus" href="aboutus.html">About US</a></li>
-        <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
-
-        <!-- Dropdown Trigger -->
-  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-  <li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
-
-
-
-
-        <!-- Dropdown Structure -->
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a>BASIC SCIENCE DEPARTMENTS</a></li>
-    <li class="divider"></li>
-    <li><a id="physics" href="physics.html">Physics</a></li>
-    <li><a id="chemistry" href="chemistry.html">Chemistry</a></li>
-    <li><a id="mathematics" href="mathematics.html">Mathematics</a></li>
-    <li class="divider"></li>
-    <li><a id="engineeringdept">ENGINEERING DEPARTMENTS</a></li>
-    <li class="divider"></li>
-    <li><a id="cse" href="cse.html">CSE</a></li>
-    <li><a id="ece" href="ece.html">ECE</a></li>
-    <li><a id="eee" href="eee.html">EEE</a></li>
-    <li><a id="ise" href="ise.html">ISE</a></li>
-    <li><a id="eie" href="eie.html">EIE</a></li>
-    <li><a id="mech" href="mech.html">MECH</a></li>
-    <li><a id="civil" href="civil.html">CIVIL</a></li>
-    <li class="divider"></li>
-    <li><a id="pg">POST GRADUATION</a></li>
-    <li class="divider"></li>
-    <li><a id="mba" href="mba.html">MBA</a></li>
-    <li><a id="mca"  href="mca.html">MCA</a></li>
-    </ul>
-  </ul>
-
-  <ul id="dropdown2" class="dropdown-content">
-    <li><a id="cse" href="alumni.html">ALUMNI</a></li>
-    <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
-    <li><a id="eee" href="hr.html">HR</a></li>
-    <li><a id="ise" href="library.html">LIBRARY</a></li>
-    <li><a id="eie" href="hostel.html">HOSTEL</a></li>
-    <li><a id="mech" href="transport.html">TRANSPORT</a></li>
-    <li><a id="mba" href="sportsculture.html">SPORTS &amp; CULTURE</a></li>
-    <li><a id="mca" href="facilities.html">FACILITIES</a></li>
-  </ul>
-
-     <!--mobile!-->
-      <ul class="side-nav" id="mobile-demo">
-        <li><a id="home" href="home.html">Home</a></li>
-        <li><a id="aboutus" href="aboutus.html">About US</a></li>
-        <li><a id="contact" href="contact.html">Contact</a></li>
-        <li><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-         <li class="innerli">      <div class="innerNav">
-        <a class="nava">BASIC SCIENCE DEPARTMENTS</a>
-        <ul><li class=" nava divider"></li></ul>
-        <a id="physics" class="nava awes" href="physics.html">Physics</a>
-        <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
-        <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
-        <a id="engineeringdept" class="nava ">ENGINEERING DEPARTMENTS</a>
-        <ul><li class=" nava divider"></li></ul>
-
-        <a id="cse" class="nava" href="cse.html">CSE</a>
-        <a id="ece" class="nava" href="ece.html">ECE</a>
-        <a id="eee" class="nava"  href="eee.html">EEE</a>
-        <a id="ise" class="nava" href="ise.html">ISE</a>
-        <a id="eie" class="nava" href="eie.html">EIE</a>
-        <a id="mech" class="nava" href="mech.html">MECH</a>
-        <a id="civil" class="nava" href="civil.html">CIVIL</a>
-        <a id="pg" class="nava">POST GRADUATION</a>
-        <ul><li  id=""class=" nava divider"></li></ul>
-        <a id="mba" class="nava awes" href="mba.html">MBA</a>
-        <a id="mca" class="nava awes" href="mca.html">MCA</a>
-
-      </div></li>
-      <li><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
-         <li class="innerli">      <div class="innerNav1">
-          <a id="cse" class="nava" href="alumni.html">Alumini</a>
-          <a id="cse" class="nava" href="admissions.html">Admissions</a>
-          <a id="cse" class="nava" href="hr.hrml">HR</a>
-          <a id="cse" class="nava" href="library.html">Library</a>
-          <a id="cse" class="nava" href="hostel.html">Hostel</a>
-          <a id="cse" class="nava" href="transport.html">Transport</a>
-          <a id="cse" class="nava"  href="sportsculture.html">Sports &amp; Culture</a>
-          <a id="cse" class="nava" href="facilities.html">Facilities</a>
-          </div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link type="text/css" rel="stylesheet" href="css/index.css"  />
+    <link type="text/css" rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <div>
+      <nav class="nav">
+        <div class="nav-wrapper">
+          <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+          <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <!-- <li><a id="home" href="index.html">Home</a></li> -->
+            <li><a id="aboutus" href="aboutus.html">About US</a></li>
+            <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+            <!-- Dropdown Structure -->
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a>BASIC SCIENCE DEPARTMENTS</a></li>
+              <li class="divider"></li>
+              <li><a id="physics" href="physics.html">Physics</a></li>
+              <li><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+              <li><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+              <li class="divider"></li>
+              <li><a id="engineeringdept">ENGINEERING DEPARTMENTS</a></li>
+              <li class="divider"></li>
+              <li><a id="cse" href="cse.html">CSE</a></li>
+              <li><a id="ece" href="ece.html">ECE</a></li>
+              <li><a id="eee" href="eee.html">EEE</a></li>
+              <li><a id="ise" href="ise.html">ISE</a></li>
+              <li><a id="eie" href="eie.html">EIE</a></li>
+              <li><a id="mech" href="mech.html">MECH</a></li>
+              <li><a id="civil" href="civil.html">CIVIL</a></li>
+              <li class="divider"></li>
+              <li><a id="pg">POST GRADUATION</a></li>
+              <li class="divider"></li>
+              <li><a id="mba" href="mba.html">MBA</a></li>
+              <li><a id="mca"  href="mca.html">MCA</a></li>
+            </ul>
+          </ul>
+          <ul id="dropdown2" class="dropdown-content">
+            <li><a id="cse" href="alumni.html">ALUMNI</a></li>
+            <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
+            <li><a id="eee" href="hr.html">HR</a></li>
+            <li><a id="ise" href="library.html">LIBRARY</a></li>
+            <li><a id="eie" href="hostel.html">HOSTEL</a></li>
+            <li><a id="mech" href="transport.html">TRANSPORT</a></li>
+            <li><a id="mba" href="sportsculture.html">SPORTS &amp; CULTURE</a></li>
+            <li><a id="mca" href="facilities.html">FACILITIES</a></li>
+          </ul>
+          <!--mobile!-->
+          <ul class="side-nav" id="mobile-demo">
+            <li><a id="home" href="home.html">Home</a></li>
+            <li><a id="aboutus" href="aboutus.html">About US</a></li>
+            <li><a id="contact" href="contact.html">Contact</a></li>
+            <li><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li class="innerli">      <div class="innerNav">
+              <a class="nava">BASIC SCIENCE DEPARTMENTS</a>
+              <ul><li class=" nava divider"></li></ul>
+              <a id="physics" class="nava awes" href="physics.html">Physics</a>
+              <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+              <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+              <a id="engineeringdept" class="nava ">ENGINEERING DEPARTMENTS</a>
+              <ul><li class=" nava divider"></li></ul>
+              <a id="cse" class="nava" href="cse.html">CSE</a>
+              <a id="ece" class="nava" href="ece.html">ECE</a>
+              <a id="eee" class="nava"  href="eee.html">EEE</a>
+              <a id="ise" class="nava" href="ise.html">ISE</a>
+              <a id="eie" class="nava" href="eie.html">EIE</a>
+              <a id="mech" class="nava" href="mech.html">MECH</a>
+              <a id="civil" class="nava" href="civil.html">CIVIL</a>
+              <a id="pg" class="nava">POST GRADUATION</a>
+              <ul><li  id=""class=" nava divider"></li></ul>
+              <a id="mba" class="nava awes" href="mba.html">MBA</a>
+              <a id="mca" class="nava awes" href="mca.html">MCA</a>
+            </div></li>
+            <li><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li class="innerli">      <div class="innerNav1">
+              <a id="cse" class="nava" href="alumni.html">Alumini</a>
+              <a id="cse" class="nava" href="admissions.html">Admissions</a>
+              <a id="cse" class="nava" href="hr.hrml">HR</a>
+              <a id="cse" class="nava" href="library.html">Library</a>
+              <a id="cse" class="nava" href="hostel.html">Hostel</a>
+              <a id="cse" class="nava" href="transport.html">Transport</a>
+              <a id="cse" class="nava"  href="sportsculture.html">Sports &amp; Culture</a>
+              <a id="cse" class="nava" href="facilities.html">Facilities</a>
+            </div>
           </li>
-
-    </ul>
-    </div>
-  </nav>
+        </ul>
+      </div>
+    </nav>
   </div>
-    <div class="mainimage">
-        <img class="hero" src="images/RNSIT.png">
-    </div>
-
-
-<<<<<<< HEAD
+  <div class="mainimage">
+    <img class="hero" src="images/RNSIT.png">
+  </div>
+  <div class="maincont">
+    <div class="nightback"></div>
+    <span>
+      <img class="logo" style="" src="images/RNSIT.png">
+    </span>
+    <span class="header"><h1 style="" class="heading">RNSIT</h1>
+    </span>
+    <div class="text-center tags" style="">AICTE Approved,NBA Accredited and VTU Affiliated</div>
     
-=======
-    <div class="maincont">
-      <div class="nightback"></div>
-      <span>
-        <img class="logo" style="" src="images/RNSIT.png">
-      </span>
-      <span class="header"><h1 style="" class="heading">RNSIT</h1>
-      </span>
-      <div class="text-center tags" style="">AICTE Approved,NBA Accredited and VTU Affiliated</div>
-
-  
-     </div>
-   <div id="about" class="container">
-      <h3 align="center" style="color: black;">RNS INSTITUTE OF TECHNOLOGY</h3>
-      <h6 align="center"><em>(AICTE Approved,NBA Accredited and VTU Affiliated)</em></h6>
-      <p align="justify">R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman, Dr. R.N. Shetty.The Murudeshwar Group of Companies headed by Sri. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power &amp; IT services and education. The group has contributed significantly to the field of education. A number of educational institutions are run by the R.N.Shetty Trust, with RNSIT one amongst them. With a continuous desire to provide quality education to the society, the group has established RNSIT, an institution to nourish and produce the best of engineering talents in the country. RNSIT is one of the best accredited engineering colleges in bengaluru and top accredited engineering colleges in bengaluru.</p>
-      <br>
+  </div>
+  <div id="about" class="container">
+    <h3 align="center" style="color: black;">RNS INSTITUTE OF TECHNOLOGY</h3>
+    <h6 align="center"><em>(AICTE Approved,NBA Accredited and VTU Affiliated)</em></h6>
+    <p align="justify">R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman, Dr. R.N. Shetty.The Murudeshwar Group of Companies headed by Sri. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power &amp; IT services and education. The group has contributed significantly to the field of education. A number of educational institutions are run by the R.N.Shetty Trust, with RNSIT one amongst them. With a continuous desire to provide quality education to the society, the group has established RNSIT, an institution to nourish and produce the best of engineering talents in the country. RNSIT is one of the best accredited engineering colleges in bengaluru and top accredited engineering colleges in bengaluru.</p>
+    <br>
     
   </div>
   <div class="cont">
@@ -155,17 +136,16 @@
           <div class="col l4 m4 s12">
             <h5 class="orange-text">RNSIT</h5>
             <p class="white-text text-lighten-4">R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman, Dr. R.N. Shetty.The Murudeshwar Group of Companies headed by Sri. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power &amp; IT services and education. The group has contributed significantly to the field of education.</p>
-
             <button name="action" class="btn waves-effect waves-light black lighten-3" type="submit" alt="Compliment">COMPLIMENT</button>
           </div>
           <div class="col l4 m4 s12 push-m1 push-l1">
             <h5 class="orange-text">HELP</h5>
             <p class="grey-text text-lighten-4"></p>
             <ul>
-                  <li><a class="white-text text-lighten-3" href="#!">HOME</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">ABOUT</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">DEPT</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">COURSE</a></li>
+              <li><a class="white-text text-lighten-3" href="#!">HOME</a></li>
+              <li><a class="white-text text-lighten-3" href="#!">ABOUT</a></li>
+              <li><a class="white-text text-lighten-3" href="#!">DEPT</a></li>
+              <li><a class="white-text text-lighten-3" href="#!">COURSE</a></li>
               <li><a class="white-text text-lighten-3" href="#!">HOME</a></li>
               <li><a class="white-text text-lighten-3" href="#!">ABOUT</a></li>
               <li><a class="white-text text-lighten-3" href="#!">DEPT</a></li>
@@ -188,14 +168,11 @@
         </div>
       </div>
     </footer>
-    </div>
   </div>
->>>>>>> 7570a73072932bde651caa6753bfaa5a23e4f082
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script type="text/javascript" src="js/navbar.js"></script>
-    </body>
-  </html>
-  </div>
-        
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/navbar.js"></script>
+</body>
+</html>
+</div>

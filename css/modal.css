@@ -8,8 +8,6 @@
 
 }
 li{
-  display: inline-block;
-  text-align: center;
   transition: all .3s;
 }
 li img{
