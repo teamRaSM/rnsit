@@ -2,6 +2,26 @@
 body,html{
   height:   100%;
 }
+.buul {
+	position: relative;
+	left: 15px;
+}
+.buli {
+	list-style-type: circle;
+}
+.cardli *{
+	width: 100%;
+	text-align: center;
+}
+.cardul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.cardli{
+
+}
 h3
 {
 	color:#009688;
@@ -25,6 +45,12 @@ h4{
 	font-family: 'Bree Serif', serif;
 	margin-bottom: 5px;
 }
+h5{
+	padding-top:  60px;
+	color: #009688 !important;
+	font-family: 'Bree Serif', serif;
+	margin-bottom: 5px;
+}
 .card-content {
 	background-color: #D7E3D2;
 }
@@ -39,20 +65,18 @@ h4{
 
 }
 li{
-  display: inline-block;
-  text-align: center;
   transition: all .3s;
 }
 li img{
   width: 100%;
 }
-.listul li{
+.cardli{
 	width: 43%;
 	margin-right: 20px;
 	margin-bottom: 20px;
  box-shadow: 0 0 10px 5px rgba(0,0,0,.2);
 }
-.listul li:hover{
+.cardli:hover{
    box-shadow: 0 0 30px 5px rgba(0,0,0,.2);
 }
 .modal-img{
@@ -90,29 +114,26 @@ li img{
 			margin-left: auto;
 	margin-right: auto;
 	}
-		.listul li{
+		.cardli{
 		width: 43%;
 	}
 
 }
 
 @media only screen and (min-width: 550px){
-	.listul li{
+	.cardli{
 		width: 43%;
 	}
 		}
 
 @media only screen and (min-width: 768px){
-	.listul li{
+	.cardli{
 		width: 30%;
 	}
 		}
 		
 @media only screen and (min-width: 993px){
-	h4{
-		padding-top: initial;
-	}
-	.listul li{
+	.cardli{
 		width: 25%;
 	}
 		}

@@ -4,11 +4,14 @@
 .nav{
  /*background-color: rgba(0,0,0,0);*/
   box-shadow: none;
+
 }
 .logo{ 
   width: 300px;
 }
 nav{
+  position: fixed;
+  top:0;
     transition: all .3s;
   background-color: #021B38;
 }
@@ -95,10 +98,6 @@ nav{
     z-index: 999 !important;
   }
 }
-<<<<<<< HEAD
-}
-=======
->>>>>>> f6992bbb8f6df43bf414fe8731394e8952e8a4da
 .icon{
   width:50px;
 }
@@ -115,4 +114,8 @@ nav{
   .svg-logo{
     float: right;
   }
+}
+
+nav{
+  z-index: 9999;
 }
