@@ -1,7 +1,4 @@
-body{
-  min-height: 100vh;
-  font-family: 'open-sans', sans-serif;
-}
+
 body,html{
   height:   100%;
 }
@@ -23,8 +20,10 @@ h3
 	color:#222222;
 }
 h4{
+	padding-top:  60px;
 	color: #009688 !important;
 	font-family: 'Bree Serif', serif;
+	margin-bottom: 5px;
 }
 .card-content {
 	background-color: #D7E3D2;
@@ -77,7 +76,6 @@ li img{
 
 }
 
-
 .modal-back{
 	height: 30vh;
 	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
@@ -110,7 +108,10 @@ li img{
 	}
 		}
 		
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 993px){
+	h4{
+		padding-top: initial;
+	}
 	.listul li{
 		width: 25%;
 	}
