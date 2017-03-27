@@ -25,6 +25,7 @@ body,html{
 }
 h3
 {
+	padding-top:  60px;
 	color:#009688;
 	font-family: 'bree serif',serif;
 	max-width: 100vw;
@@ -41,7 +42,6 @@ h3
 	color:#222222;
 }
 h4{
-	padding-top:  60px;
 	color: #009688 !important;
 	font-family: 'Bree Serif', serif;
 	margin-bottom: 5px;
