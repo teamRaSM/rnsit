@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="css/dept.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link href="images/logo.png" rel="icon" type="image/png">
     <script
@@ -133,7 +134,7 @@
   </nav>
   </div>
 <div class="container">
-  <h4 align="center">CHEMISTRY DEPARTMENT</h4>
+  <h3 align="center">CHEMISTRY DEPARTMENT</h3>
  <div class="row">
         <div class="col s12 m3">
           <div class="card">
@@ -173,28 +174,28 @@
       <li>
         <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
         <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
+          <h2>This is our big Tagline!</h2>
           <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
       </li>
       <li>
         <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
         <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
+          <h2>Left Aligned Caption</h2>
           <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
       </li>
       <li>
         <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
         <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
+          <h2>Right Aligned Caption</h2>
           <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
       </li>
       <li>
         <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
         <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
+          <h2>This is our big Tagline!</h2>
           <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
       </li>
@@ -258,20 +259,38 @@
 <div class="container">
   <div class="row">
  <h4 class="black-text"><b><p>Non-Teaching Staff</p></b></h4>
-    <ul class="listul">
-      <li><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
-      <p>Mrs. Bhagyalakshmi</p>
-      <p>Instructor</p></a>
-      </li>
-    
-
-      <li><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
-      <p>Mr. Kumar K</p>
-      <p>Peon</p></a>
-      </li>
-    </ul>
-</div>
-</div>
+ <div class=" col l3 m6 s12">
+<div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="images/cardpics/card4.jpeg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mrs. Bhagyalakshmi</p>
+      <p style="font-size: 14.5px;">Instructor</p></b><i class="material-icons right">more_vert</i></span>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+  </div>
+  <div class=" col l3 m6 s12">
+  <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="images/cardpics/card4.jpeg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr. Kumar K</p>
+      <p style="font-size: 14.5px;">Peon</p></b><i class="material-icons right">more_vert</i></span>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
 
 
   <div id="fot">
@@ -317,8 +336,35 @@
       </div>
     </footer>
     </div>
+   <!-- Modal part -->
+
+
+      <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="images/cardpics/card1.jpeg">
+      </div>
+      
+      <div class="modal-details">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
+
+    <!-- Modal end -->
     <script type="text/javascript" src="js/dept.js"></script>
     <script type="text/javascript" src="js/navbar.js"></script>
+    <script type="text/javascript" src="js/modal.js"></script>
+    
 
   
 </body>
