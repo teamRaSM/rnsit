@@ -44,6 +44,9 @@ nav{
     display: none;
 }
 
+li a{
+  padding: 0 16px !important;
+}
 
 .logo {
     transition: all .4s;
@@ -67,6 +70,7 @@ nav{
 
 
 .side-nav li{
+  width: 100%;
   padding:0px !important;
 }
 ::-webkit-scrollbar  {

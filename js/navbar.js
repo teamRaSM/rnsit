@@ -11,7 +11,8 @@ stopPropagation: false // Stops event propagation
 }
 );
 
-
+sessionStorage.setItem('slide',1);
+sessionStorage.setItem('slide1',1);
   $(".innerNav1").slideUp(300);
             $(".innerNav").slideUp(300);
       $(".dropNav").click(function(){
