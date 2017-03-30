@@ -67,7 +67,6 @@ nav{
 	.maincont{
 		height:50vh;
 	}
-<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 1050px){
@@ -81,6 +80,4 @@ nav{
 	.nightback{
 		background-position:-350px 0px;
 	}
-=======
->>>>>>> cb526eb7e14c2ede711eff7aec3af7c41ee25889
 }
