@@ -44,7 +44,7 @@ nav{
     display: none;
 }
 
-li a{
+#mobile-demo li a{
   padding: 0 16px !important;
 }
 

@@ -44,17 +44,23 @@
 	flex-wrap: wrap;
 	width:100vw;
 }
-.news{
-}
-.video{
-}
-.pc{
-}
-.tc{
-}
 .con-flex{
 	box-shadow: 0 0 20px 2px rgba(0,0,0,0.22);
 	height:20vh;
 	width:44%;
 	margin-bottom: 40px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }

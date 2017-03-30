@@ -14,7 +14,6 @@ li img{
   width: 100%;
 }
 .listul li{
-	width: 43%;
 	margin-right: 20px;
 	margin-bottom: 20px;
  box-shadow: 0 0 10px 5px rgba(0,0,0,.2);
@@ -23,13 +22,22 @@ li img{
    box-shadow: 0 0 30px 5px rgba(0,0,0,.2);
 }
 .modal-img{
-	width: 282px;
-	transition: all .3;
+	width: 60%;
+	max-width: 278px;
+		transition: all .3;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
 	top: 90px;
 	border-radius: 30%;
+}
+
+
+
+.modal-back{
+	height: 30vh;
+	background: linear-gradient(141deg, #2af598, #009efd);
+	margin-bottom: 100px;
 }
 
 @media only screen and (min-width: 480px){
@@ -38,18 +46,9 @@ li img{
 			margin-left: auto;
 	margin-right: auto;
 	}
-		.listul{
-		flex-wrap: nowrap;
-	}
 
 }
 
-
-.modal-back{
-	height: 30vh;
-	background: linear-gradient(141deg, #2af598, #009efd);
-	margin-bottom: 100px;
-}
 .modal-details{
 	position: relative;
 	/*top: -70px;*/
@@ -57,4 +56,21 @@ li img{
 .modal-content{
 	text-align: center;
 	/*height: 80vh !important;*/
+}
+@media only screen and (max-width: 480px)
+{
+	.listul li{
+		margin-right: 5px;
+
+
+	}
+	.modal-img{
+		width: 90%;
+		border-radius: 2000px;
+		top: 20px;
+	}
+		.modal-back{
+		height: 20vh;
+	}
+	
 }
