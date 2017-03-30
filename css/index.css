@@ -47,14 +47,6 @@
 	flex-wrap: wrap;
 	width:100vw;
 }
-.news{
-}
-.video{
-}
-.pc{
-}
-.tc{
-}
 .con-flex{
 	box-shadow: 0 0 20px 2px rgba(0,0,0,0.22);
 	height:20vh;
@@ -65,6 +57,7 @@ nav{
 	background:transparent !important;
 }
 
+
 @media only screen and (max-width: 480px){
 
 	.nightback{
@@ -74,6 +67,7 @@ nav{
 	.maincont{
 		height:50vh;
 	}
+<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 1050px){
@@ -87,4 +81,6 @@ nav{
 	.nightback{
 		background-position:-350px 0px;
 	}
+=======
+>>>>>>> cb526eb7e14c2ede711eff7aec3af7c41ee25889
 }
