@@ -58,3 +58,21 @@
 	width:44%;
 	margin-bottom: 40px;
 }
+
+@media only screen and (max-width: 480px){
+
+	.nightback{
+		top:50px;
+		height:50vh;
+	}
+	.maincont{
+		height:60vh;
+	}
+
+
+
+
+
+
+
+}
