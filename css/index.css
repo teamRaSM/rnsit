@@ -28,7 +28,13 @@
 	height: 100%;
 	width: 100%;
 }
-
+.footer-copyright{
+	padding: 0;
+	margin: 0;
+}
+.lool{
+	margin-bottom: 0;
+}
 .nightback{
   background-image: url('../images/night1.jpg');
   transition: background-position .5s;
@@ -60,8 +66,8 @@
 	width:44%;
 	margin-bottom: 40px;
 }
-nav{
-	background:transparent !important;
+.navin{
+	background:rgba(2, 27, 56, 0 ) !important;
 }
 
 .video{
