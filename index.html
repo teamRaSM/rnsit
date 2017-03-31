@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
-    <nav class="nav">
+    <nav class="nav navin">
       <div class="nav-wrapper">
         <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
         <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
@@ -200,12 +200,17 @@ console.log('Registration Failed. Error - '+error);
 })();
 </script>
 <script type="text/javascript">
-  $(window).scroll(function() {
-   if($(window).scrollTop() > 500) {
-       alert($(window).scrollTop());
-       // getData();
-         $("nav").css("background-color"," #021B38");;
+  $(window).scroll(function () {
+    var x=500;
+    var w=$(window).width();
+    if(w<430)
+        x=200;
 
+    if ($(window).scrollTop() > x) {
+    $('nav').removeClass('navin');
+   }
+   else{
+    $('nav').addClass('navin');
 
    }
 });
