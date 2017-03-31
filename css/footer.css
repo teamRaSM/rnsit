@@ -9,7 +9,7 @@
 }
 
 .icon {
-    width: 75px;
+    width: 75px !important;
     padding-left: 25px;
 }
 @media screen and (max-width: 768px){

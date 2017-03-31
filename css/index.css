@@ -25,6 +25,9 @@
 	padding: 0;
 	margin: 0;
 }
+.lool{
+	margin-bottom: 0;
+}
 .nightback{
   background-image: url('../images/night1.jpg');
   transition: background-position .5s;
