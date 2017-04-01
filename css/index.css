@@ -15,13 +15,26 @@
 .mainimage{
 	position: relative;
 }
-
+.videos{
+	box-shadow: none !important;
+}
+.iframes{
+	width: 100%;
+	box-shadow: 0 0 20px 2px rgba(0,0,0,0.22);
+	height: 100%;
+}
 .hero{
 	position: absolute;
 	height: 100%;
 	width: 100%;
 }
-
+.footer-copyright{
+	padding: 0;
+	margin: 0;
+}
+.lool{
+	margin-bottom: 0;
+}
 .nightback{
   background-image: url('../images/night1.jpg');
   transition: background-position .5s;
@@ -49,12 +62,12 @@
 }
 .con-flex{
 	box-shadow: 0 0 20px 2px rgba(0,0,0,0.22);
-	height:20vh;
+	height:40vh;
 	width:44%;
 	margin-bottom: 40px;
 }
-nav{
-	background:transparent !important;
+.navin{
+	background:rgba(2, 27, 56, 0 ) !important;
 }
 
 .video{
@@ -82,18 +95,4 @@ nav{
 	.nightback{
 		background-position:-350px 0px;
 	}
-}
-
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
