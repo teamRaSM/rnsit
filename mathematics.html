@@ -1,338 +1,541 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>RNSIT</title>
+  <head>
+    <title>MATHEMATICS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#021B38">
     <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
     <link rel="apple-touch-icon" href="imgages/logo.png"/>
-
     <meta name="mobile-web-app-capable" content="yes">
-<meta name="RNSIT" content="RNSIT">
-<link rel="icon" sizes="192x192" href="images/logo.png">
- <!-- <splash src="images/prin.jpg"></splash> -->
+    <meta name="RNSIT" content="RNSIT">
+    <link rel="icon" sizes="192x192" href="images/logo.png">
+    <!-- <splash src="images/prin.jpg"></splash> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/dept.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/modal.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
     <link href="images/logo.png" rel="icon" type="image/png">
-    <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
-
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-   </head>
-   <body>
-
-   <div>
-     <nav class="nav-extended">
-    <div class="nav-wrapper">
-      <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
-      <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <!-- <li><a id="home" href="index.html">Home</a></li> -->
-        <li><a id="aboutus" href="aboutus.html">About US</a></li>
-        <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
-
-        <!-- Dropdown Trigger -->
-  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-  <li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
-
-
-
-
-        <!-- Dropdown Structure -->
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a>BASIC SCIENCE DEPARTMENTS</a></li>
-    <li class="divider"></li>
-    <li><a id="physics" href="physics.html">Physics</a></li>
-    <li><a id="chemistry" href="chemistry.html">Chemistry</a></li>
-    <li><a id="mathematics" href="mathematics.html">Mathematics</a></li>
-    <li class="divider"></li>
-    <li><a id="engineeringdept">ENGINEERING DEPARTMENTS</a></li>
-    <li class="divider"></li>
-    <li><a id="cse" href="cse.html">CSE</a></li>
-    <li><a id="ece" href="ece.html">ECE</a></li>
-    <li><a id="eee" href="eee.html">EEE</a></li>
-    <li><a id="ise" href="ise.html">ISE</a></li>
-    <li><a id="eie" href="eie.html">EIE</a></li>
-    <li><a id="mech" href="mech.html">MECH</a></li>
-    <li><a id="civil" href="civil.html">CIVIL</a></li>
-    <li class="divider"></li>
-    <li><a id="pg">POST GRADUATION</a></li>
-    <li class="divider"></li>
-    <li><a id="mba" href="mba.html">MBA</a></li>
-    <li><a id="mca"  href="mca.html">MCA</a></li>
-    </ul>
-  </ul>
-
-  <ul id="dropdown2" class="dropdown-content">
-    <li><a id="cse" href="alumni.html">ALUMNI</a></li>
-    <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
-    <li><a id="eee" href="hr.html">HR</a></li>
-    <li><a id="ise" href="library.html">LIBRARY</a></li>
-    <li><a id="eie" href="hostel.html">HOSTEL</a></li>
-    <li><a id="mech" href="transport.html">TRANSPORT</a></li>
-    <li><a id="mba" href="sportsculture.html">SPORTS &amp; CULTURE</a></li>
-    <li><a id="mca" href="facilities.html">FACILITIES</a></li>
-  </ul>
-
-     <!--mobile!-->
-      <ul class="side-nav" id="mobile-demo">
-        <li><a id="home" href="home.html">Home</a></li>
-        <li><a id="aboutus" href="aboutus.html">About US</a></li>
-        <li><a id="contact" href="contact.html">Contact</a></li>
-        <li><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-         <li class="innerli">      <div class="innerNav">
-        <a class="nava">BASIC SCIENCE DEPARTMENTS</a>
-        <ul><li class=" nava divider"></li></ul>
-        <a id="physics" class="nava awes" href="physics.html">Physics</a>
-        <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
-        <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
-        <a id="engineeringdept" class="nava ">ENGINEERING DEPARTMENTS</a>
-        <ul><li class=" nava divider"></li></ul>
-
-        <a id="cse" class="nava" href="cse.html">CSE</a>
-        <a id="ece" class="nava" href="ece.html">ECE</a>
-        <a id="eee" class="nava"  href="eee.html">EEE</a>
-        <a id="ise" class="nava" href="ise.html">ISE</a>
-        <a id="eie" class="nava" href="eie.html">EIE</a>
-        <a id="mech" class="nava" href="mech.html">MECH</a>
-        <a id="civil" class="nava" href="civil.html">CIVIL</a>
-        <a id="pg" class="nava">POST GRADUATION</a>
-        <ul><li  id=""class=" nava divider"></li></ul>
-        <a id="mba" class="nava awes" href="mba.html">MBA</a>
-        <a id="mca" class="nava awes" href="mca.html">MCA</a>
-
-      </div></li>
-      <li><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
-         <li class="innerli">      <div class="innerNav1">
-          <a id="cse" class="nava" href="alumni.html">Alumini</a>
-          <a id="cse" class="nava" href="admissions.html">Admissions</a>
-          <a id="cse" class="nava" href="hr.hrml">HR</a>
-          <a id="cse" class="nava" href="library.html">Library</a>
-          <a id="cse" class="nava" href="hostel.html">Hostel</a>
-          <a id="cse" class="nava" href="transport.html">Transport</a>
-          <a id="cse" class="nava"  href="sportsculture.html">Sports &amp; Culture</a>
-          <a id="cse" class="nava" href="facilities.html">Facilities</a>
-          </div>
-          </li>
-
-    </ul>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <nav class="nav">
+        <div class="nav-wrapper">
+          <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+          <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <!-- <li><a id="home" href="index.html">Home</a></li> -->
+            <li><a id="aboutus" href="aboutus.html">About US</a></li>
+            <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+            <!-- Dropdown Structure -->
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a>BASIC SCIENCE DEPARTMENTS</a></li>
+              <li class="divider"></li>
+              <li class="waves-effect waves-light"><a id="physics" href="physics.html">Physics</a></li>
+              <li class="waves-effect waves-light"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+              <li class="waves-effect waves-light"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+              <li class="divider"></li>
+              <li class="waves-effect waves-light"><a id="engineeringdept">ENGINEERING DEPARTMENTS</a></li>
+              <li class="divider"></li>
+              <li class="waves-effect waves-light"><a id="cse" href="cse.html">CSE</a></li>
+              <li class="waves-effect waves-light"><a id="ece" href="ece.html">ECE</a></li>
+              <li class="waves-effect waves-light"><a id="eee" href="eee.html">EEE</a></li>
+              <li class="waves-effect waves-light"><a id="ise" href="ise.html">ISE</a></li>
+              <li class="waves-effect waves-light"><a id="eie" href="eie.html">EIE</a></li>
+              <li class="waves-effect waves-light"><a id="mech" href="mech.html">MECH</a></li>
+              <li class="waves-effect waves-light"><a id="civil" href="civil.html">CIVIL</a></li>
+              <li class="divider"></li>
+              <li class="waves-effect waves-light"><a id="pg">POST GRADUATION</a></li>
+              <li class="divider"></li>
+              <li class="waves-effect waves-light"><a id="mba" href="mba.html">MBA</a></li>
+              <li class="waves-effect waves-light"><a id="mca"  href="mca.html">MCA</a></li>
+            </ul>
+          </ul>
+          <ul id="dropdown2" class="dropdown-content">
+            <li><a id="cse" href="alumni.html">ALUMNI</a></li>
+            <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
+            <li><a id="eee" href="hr.html">HR</a></li>
+            <li><a id="ise" href="library.html">LIBRARY</a></li>
+            <li><a id="eie" href="hostel.html">HOSTEL</a></li>
+            <li><a id="mech" href="transport.html">TRANSPORT</a></li>
+            <li><a id="mba" href="sportsculture.html">SPORTS &amp; CULTURE</a></li>
+            <li><a id="mca" href="facilities.html">FACILITIES</a></li>
+          </ul>
+          <!--mobile!-->
+          <ul class="side-nav" id="mobile-demo">
+            <li class="waves waves-light waves-effect"><a id="home" href="home.html">Home</a></li>
+            <li class="waves waves-light waves-effect"><a id="aboutus" href="aboutus.html">About US</a></li>
+            <li class="waves waves-light waves-effect"><a id="contact" href="contact.html">Contact</a></li>
+            <li class=""><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li class="innerli">      <div class="innerNav">
+              <a class="nava">BASIC SCIENCE DEPARTMENTS</a>
+              <ul><li class=" nava divider"></li></ul>
+              <a id="physics" class="nava waves waves-effect waves-light awes" href="physics.html">Physics</a>
+              <a id="chemistry" class="nava waves waves-effect waves-light awes" href="chemistry.html">Chemistry</a>
+              <a id="mathematics" class="nava waves waves-effect waves-light awes" href="mathematics.html">Mathematics</a>
+              <a id="engineeringdept" class="nava waves waves-effect waves-light ">ENGINEERING DEPARTMENTS</a>
+              <ul><li class=" nava divider"></li></ul>
+              <a id="cse" class="nava waves waves-light waves-effect" href="cse.html">CSE</a>
+              <a id="ece" class="nava waves waves-light waves-effect" href="ece.html">ECE</a>
+              <a id="eee" class="nava waves waves-light waves-effect"  href="eee.html">EEE</a>
+              <a id="ise" class="nava waves waves-light waves-effect" href="ise.html">ISE</a>
+              <a id="eie" class="nava waves waves-light waves-effect" href="eie.html">EIE</a>
+              <a id="mech" class="nava waves waves-light waves-effect" href="mech.html">MECH</a>
+              <a id="civil" class="nava waves waves-light waves-effect" href="civil.html">CIVIL</a>
+              <a id="pg" class="nava">POST GRADUATION</a>
+              <ul><li  id=""class=" nava divider"></li></ul>
+              <a id="mba" class="nava awes" href="mba.html">MBA</a>
+              <a id="mca" class="nava awes" href="mca.html">MCA</a>
+            </div></li>
+            <li><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li class="innerli">
+              <div class="innerNav1">
+                <a id="cse" class="nava" href="alumni.html">Alumini</a>
+                <a id="cse" class="nava" href="admissions.html">Admissions</a>
+                <a id="cse" class="nava" href="hr.hrml">HR</a>
+                <a id="cse" class="nava" href="library.html">Library</a>
+                <a id="cse" class="nava" href="hostel.html">Hostel</a>
+                <a id="cse" class="nava" href="transport.html">Transport</a>
+                <a id="cse" class="nava"  href="sportsculture.html">Sports &amp; Culture</a>
+                <a id="cse" class="nava" href="facilities.html">Facilities</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  </nav>
+          </nav>
   </div>
-<div class="container">
-  <h3 align="center">MATHEMATICS DEPARTMENT</h3>
- <div class="row">
-        <div class="col s12 m3">
+    <div class="container">
+      <h3 align="center">MATHEMATICS DEPARTMENT</h3>
+      <div class="row">
+        <div class="col s12 m4 l3">
           <div class="card">
             <div class="card-image">
-              <img src="images/card1.jpeg" alt="mech hod">
-              <span class="card-title">Dr. C. Pandurangappa</span>
+              <img src="https://vtsewg.bn1304.livefilestore.com/y4ms8z5aQJ2bUN0yOHFhj0pon1-xDxbHrsaTFGJjV4GXirMAspYTKGveF5HE6C_3RruV1-uuRkfj3XDNZ8Fuvztd2If_Y7FB_nhdBDr0dgXoMAOYgzinNH9lQ__7AKZ_vSBSsuUnyESoHdW7DyHD0xcSIF1yM8uiNQKqVOZmM2XNvW9zMg5YquK4bq0jk4d6aYmb1XSXQzjqhCMwJIJ5QAT3A?width=660&height=440&cropmode=none" width="660"  />
             </div>
             <div class="card-content">
+              <p>Dr. C M Suresha</p>
               <p> Professor &amp; Head</p>
             </div>
           </div>
         </div>
-<p>The department of Mathematics is headed by Dr. C M Suresha, who has 20 years of teaching experience. The department staff are well qualified to suit the requirements. All the faculty members have registered for Ph.D. & are currently engaged in research activities.
-                    Regular seminars & workshops are arranged for the benefit of staff & students. Mathematics being the backbone of engineering, the department provides excellent support to all the engineering departments.</p><br><br><br><br><br>
-</div>
-</div>
-
-
-   <div class="container">
-      <div class="row">
-        <h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
-        <ul class="listul cardul">
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
-            <p>Dr.C.Pandurangappa</p>
-            <p>Associate Prof / HOD</p></a>
-          </li>
-          
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal2"><img src="images/cardpics/card4.jpeg">
-            <p>Mrs.Asha Parvathi K V</p>
-            <p>Asst.Prof.</p></a>
-          </li>
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal3"><img src="images/cardpics/card4.jpeg">
-            <p>Ms.Daly Paul</p>
-            <p>Asst.Prof.</p></a>
-          </li>
-        </ul>
+        <p>The department of Mathematics is headed by Dr. C M Suresha, who has 20 years of teaching experience. The department staff are well qualified to suit the requirements. All the faculty members have registered for Ph.D. & are currently engaged in research activities.
+                    Regular seminars & workshops are arranged for the benefit of staff & students. Mathematics being the backbone of engineering, the department provides excellent support to all the engineering departments.</p><br><br><br><br><br><br>
+        <h4 class="black-text"><b><p>Laboratory</p></b></h4>
+        
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+              <div class="caption center-align">
+                <h3></h3>
+                <h5 class="light grey-text text-lighten-3"></h5>
+              </div>
+            </li>
+            <li>
+              <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+              <div class="caption left-align">
+                <h3></h3>
+                <h5 class="light grey-text text-lighten-3"></h5>
+              </div>
+            </li>
+            <li>
+              <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+              <div class="caption right-align">
+                <h3></h3>
+                <h5 class="light grey-text text-lighten-3"></h5>
+              </div>
+            </li>
+            <li>
+              <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+              <div class="caption center-align">
+                <h3></h3>
+                <h5 class="light grey-text text-lighten-3"></h5>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <p id="para">
+          The department has well equipped laboratory with sophisticated instruments. The practical classes are assisted by the well experienced lab instructor Mrs. Bhagyalakshmi. With all these strengths, the department has achieved 100% results in the past years. The department also encourages students updating their knowledge by involving them in seminars, invited talks and such activities
+        </p>
+        <p id="para">
+          The Department of Physics conducted a National Conference on Phosphors and their Applications (NCPA 2010) during November 15-16, 2010. The conference had 111 participants from various parts of the country and 65 papers were presented in the conference. In the year 2011 the department conducted two events-
+        </p>
+        <ol>
+          <li>1.Intercollegiate Physics Fest PHOTON 2011 on May 5th 2011</li> <li>2. National Seminar on Nuclear Technology for the Growth of the Nation on August 22, 2011.</li>
+        </ol>
       </div>
     </div>
     <div class="container">
       <div class="row">
+        <h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
         <ul class="listul cardul">
-        <li class="cardli"><a class="waves-effect waves-light" href="#modal4"><img src="images/cardpics/card4.jpeg">
-            <p>Mr.Rajendra H J</p>
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="https://vtsewg.bn1304.livefilestore.com/y4ms8z5aQJ2bUN0yOHFhj0pon1-xDxbHrsaTFGJjV4GXirMAspYTKGveF5HE6C_3RruV1-uuRkfj3XDNZ8Fuvztd2If_Y7FB_nhdBDr0dgXoMAOYgzinNH9lQ__7AKZ_vSBSsuUnyESoHdW7DyHD0xcSIF1yM8uiNQKqVOZmM2XNvW9zMg5YquK4bq0jk4d6aYmb1XSXQzjqhCMwJIJ5QAT3A?width=660&height=440&cropmode=none" width="660"  />
+            <p>Dr. C M Suresha</p>
+            <p>Associate Prof / HOD</p></a>
+          </li>
+          
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal2"><img src="images/cardpics/card4.jpeg">
+            <p>Mr.Sampath Kumar R</p>
+            <p>Asst.Prof.</p></a>
+          </li>
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal3"><img src="https://ujsewg.bn1304.livefilestore.com/y4mi5ZiXoRpOmse7peoOrSUN60YwsDL_lPhW7Ifd7kA10Zj8vv4DoQnmx3dQ6p66dwseZcZjyt3w9YoWfVd0lbjYG2ZF-1EYYxBKg9U0uj3eMiOML5zsfOCELYp8aBATg0u6mAi251sArzU5_Zcx3eG5bItDUleEr-W6ksQ4Y8jjXOI74AW57HLH4fvKbaTEgzIqFqrBxqQ0n8MRHsTY28vQQ?width=660&height=440&cropmode=none" width="660" />
+            <p>Mr.Narasimhan G</p>
+            <p>Asst.Prof.</p></a>
+          </li>
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal4"><img src="images/cardpics/card4.jpeg">
+            <p>Mr.Srihari M Subodha</p>
             <p>Asst.Prof.</p></a>
           </li>
           <li class="cardli"><a class="waves-effect waves-light" href="#modal5"><img src="images/cardpics/card4.jpeg">
-            <p>Mr.Sandeep Kumar H L</p>
+            <p>Mrs. B S Dhruvathara</p>
             <p>Asst.Prof.</p></a>
           </li>
           <li class="cardli"><a class="waves-effect waves-light" href="#modal6"><img src="images/cardpics/card4.jpeg">
-            <p>Ms.Smitha M.G</p>
+            <p>Mrs. Ambika Hejib</p>
+            <p>Asst.Prof.</p></a>
+          </li>
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal7"><img src="images/cardpics/card4.jpeg">
+            <p>Mr. Chinni Krishna</p>
+            <p>Asst.Prof.</p></a>
+          </li>
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal8"><img src="images/cardpics/card4.jpeg">
+            <p>Mrs. Shruthi Siddhartha Joshy</p>
             <p>Asst.Prof.</p></a>
           </li>
         </ul>
       </div>
     </div>
-
-  <div class="container">
-  <div class="row">
- <h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
-    <ul class="listul cardul">
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
-      <p>Dr.C.Pandurangappa</p>
-      <p>Associate Prof / HOD</p></a>
-      </li>
-    
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
-      <p>Mrs.Asha Parvathi K V</p>
-      <p>Asst.Prof.</p></a>
-      </li>
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
-      <p>Ms.Daly Paul</p>
-      <p>Asst.Prof.</p></a>
-      </li>
-            <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
-      <p>Mr.Rajendra H J</p>
-      <p>Asst.Prof.</p></a>
-      </li>
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
-      <p>Mr.Sandeep Kumar H L</p>
-      <p>Asst.Prof.</p></a>
-      </li>
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/cardpics/card4.jpeg">
-      <p>Ms.Smitha M.G</p>
-      <p>Asst.Prof.</p></a>
-      </li>
-    </ul>
-</div>
-</div>
-
-
-<div class="container">
-  <div class="row">
- <h4 class="black-text"><b><p>Non-Teaching Staff</p></b></h4>
- <div class=" col l3 m6 s12">
-<div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/cardpics/card4.jpeg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mrs. Bhagyalakshmi</p>
-      <p style="font-size: 14.5px;">Instructor</p></b><i class="material-icons right">more_vert</i></span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-    </div>
-  </div>
-  </div>
-  <div class=" col l3 m6 s12">
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/cardpics/card4.jpeg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr. Kumar K</p>
-      <p style="font-size: 14.5px;">Peon</p></b><i class="material-icons right">more_vert</i></span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
-
-
-  <div id="fot">
-        <footer id="footer" class="page-footer">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col l4 m4 s12">
-            <h5 class="orange-text">RNSIT</h5>
-            <p class="white-text text-lighten-4">R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman, Dr. R.N. Shetty.The Murudeshwar Group of Companies headed by Sri. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power &amp; IT services and education. The group has contributed significantly to the field of education.</p>
-
-
-
-
-          </div>
-          <div class="col l4 m4 s12 push-m1 push-l1">
-            <h5 class="orange-text">HELP</h5>
-            <p class="grey-text text-lighten-4"></p>
-            <ul>
-                  <li><a class="white-text text-lighten-3" href="#!">HOME</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">ABOUT</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">DEPT</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">COURSE</a></li>
-            </ul>
-            <a class="btn waves-effect waves-light black lighten-3" href="#!">Email</a>
-          </div>
-          <div class="col l4 m4 s12" style="overflow: hidden;">
-            <h5 class="orange-text">Connect</h5>
-            <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon" src="images/facebook.svg" alt="fb"></image></a>
-            <a href="instagram/rnsit"><image class="icon" src="images/instagram.svg" alt="insta"></image></a>
-            <a href="twitter/rnsit"><image class="icon" src="images/twitter.svg" alt="twitter"></image></a>
-            <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+    <div id="fot">
+      <footer id="footer" class="page-footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col l4 m4 s12">
+              <h5 class="orange-text">RNSIT</h5>
+              <p class="white-text text-lighten-4">R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman, Dr. R.N. Shetty.The Murudeshwar Group of Companies headed by Sri. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power &amp; IT services and education. The group has contributed significantly to the field of education.</p>
+            </div>
+            <div class="col l4 m4 s12 push-m1 push-l1">
+              <h5 class="orange-text">HELP</h5>
+              <p class="grey-text text-lighten-4"></p>
+              <ul>
+                <li><a class="white-text text-lighten-3" href="#!">HOME</a></li>
+                <li><a class="white-text text-lighten-3" href="#!">ABOUT</a></li>
+                <li><a class="white-text text-lighten-3" href="#!">DEPT</a></li>
+                <li><a class="white-text text-lighten-3" href="#!">COURSE</a></li>
+              </ul>
+              <a class="btn waves-effect waves-light black lighten-3" href="#!">Email</a>
+            </div>
+            <div class="col l4 m4 s12" style="overflow: hidden;">
+              <h5 class="orange-text">Connect</h5>
+              <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon" src="images/facebook.svg" alt="fb"></image></a>
+              <a href="instagram/rnsit"><image class="icon" src="images/instagram.svg" alt="insta"></image></a>
+              <a href="twitter/rnsit"><image class="icon" src="images/twitter.svg" alt="twitter"></image></a>
+              <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          <p style="text-align:center"><b>Handcrafted by Dept of CSE</b></p>
+        <div class="footer-copyright">
+          <div class="container">
+            <p style="text-align:center"><b>Handcrafted by Dept of CSE</b></p>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
     </div>
     <!-- Modal part -->
-
-
-      <div id="modal1" class="modal">
-    <div class="modal-content">
-      <div class="modal-back">
-        <img class="modal-img" src="images/cardpics/card1.jpeg">
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <div class="modal-back">
+          <img class="modal-img" src="images/cardpics/card1.jpeg">
+        </div>
+        
+        <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name:</td>
+                <td>Dr. C M Suresha</td>
+              </tr>
+              <tr>
+                <td>Designation:</td>
+                <td>Assistant Professor & HOD</td>
+              </tr>
+              <tr>
+                <td>Qualification:</td>
+                <td>M.Sc, Ph.D</td>
+              </tr>
+              <tr>
+                <td>Total Experience:</td>
+                <td>20 Years</td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
       </div>
-      
-      <div class="modal-details">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
       </div>
     </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <div class="modal-back">
+          <img class="modal-img" src="images/cardpics/card1.jpeg">
+        </div>
+        
+        <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name:</td>
+                <td>Mr.Sampath Kumar R</td>
+              </tr>
+              <tr>
+                <td>Designation:</td>
+                <td>Assistant Professor</td>
+              </tr>
+              <tr>
+                <td>Qualification:</td>
+                <td>M.Sc., M.Phill. (Ph.D)</td>
+              </tr>
+              <tr>
+                <td>Total Experience:</td>
+                <td>28 Years.</td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
     </div>
-  </div>
-
-
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <div class="modal-back">
+          <img class="modal-img" src="images/cardpics/card1.jpeg">
+        </div>
+        
+        <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name:</td>
+                <td>Mr.Narasimhan G</td>
+              </tr>
+              <tr>
+                <td>Designation:</td>
+                <td>Assistant Professor</td>
+              </tr>
+              <tr>
+                <td>Qualification:</td>
+                <td>M.Sc., M.Phill. (Ph.D)</td>
+              </tr>
+              <tr>
+                <td>Total Experience:</td>
+                <td>17 Years</td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <div class="modal-back">
+          <img class="modal-img" src="images/cardpics/card1.jpeg">
+        </div>
+        
+        <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name:</td>
+                <td>Mr.Srihari M Subodha</td>
+              </tr>
+              <tr>
+                <td>Designation:</td>
+                <td>Assistant Professor</td>
+              </tr>
+              <tr>
+                <td>Qualification:</td>
+                <td>M.Sc (Mathematics)</td>
+              </tr>
+              <tr>
+                <td>Total Experience:</td>
+                <td>3 Years</td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+    <div id="modal5" class="modal">
+      <div class="modal-content">
+        <div class="modal-back">
+          <img class="modal-img" src="images/cardpics/card1.jpeg">
+        </div>
+        
+        <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name:</td>
+                <td>  Mrs. B S Dhruvathara</td>
+              </tr>
+              <tr>
+                <td>Designation:</td>
+                <td>Assistant Professor</td>
+              </tr>
+              <tr>
+                <td>Qualification:</td>
+                <td>M.Sc (Mathematics)</td>
+              </tr>
+              <tr>
+                <td>Total Experience:</td>
+                <td>3 Years</td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+    <div id="modal6" class="modal">
+      <div class="modal-content">
+        <div class="modal-back">
+          <img class="modal-img" src="images/cardpics/card1.jpeg">
+        </div>
+        
+        <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name:</td>
+                <td>Mrs. Ambika Hejib</td>
+              </tr>
+              <tr>
+                <td>Designation:</td>
+                <td>Assistant Professor</td>
+              </tr>
+              <tr>
+                <td>Qualification:</td>
+                <td>B.Sc,M.Sc,M.Phil</td>
+              </tr>
+              <tr>
+                <td>Total Experience:</td>
+                <td>6 Years</td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+    <div id="modal7" class="modal">
+      <div class="modal-content">
+        <div class="modal-back">
+          <img class="modal-img" src="images/cardpics/card1.jpeg">
+        </div>
+        
+        <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name:</td>
+                <td>Mr. Chinni Krishna</td>
+              </tr>
+              <tr>
+                <td>Designation:</td>
+                <td>Assistant Professor</td>
+              </tr>
+              <tr>
+                <td>Qualification:</td>
+                <td>  B.Sc,M.Sc</td>
+              </tr>
+              <tr>
+                <td>Total Experience:</td>
+                <td>3 Years</td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+    <div id="modal8" class="modal">
+      <div class="modal-content">
+        <div class="modal-back">
+          <img class="modal-img" src="images/cardpics/card1.jpeg">
+        </div>
+        
+        <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name:</td>
+                <td>Mrs. Shruthi Siddhartha Joshy</td>
+              </tr>
+              <tr>
+                <td>Designation:</td>
+                <td>Assistant Professor</td>
+              </tr>
+              <tr>
+                <td>Qualification:</td>
+                <td>B.Sc, M.Sc</td>
+              </tr>
+              <tr>
+                <td>Total Experience:</td>
+                <td>2 Years</td>
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
     <!-- Modal end -->
     <script type="text/javascript" src="js/dept.js"></script>
     <script type="text/javascript" src="js/navbar.js"></script>
     <script type="text/javascript" src="js/modal.js"></script>
     
-
-</body>
+    
+  </body>
 </html>
