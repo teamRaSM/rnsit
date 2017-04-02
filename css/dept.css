@@ -2,6 +2,10 @@ body,html{
   height:   100%;
 }
 
+.card .card-content p{
+	font-weight: bold;
+	font-size: 2.5vh;
+}
 
 .buul {
 	position: relative;
@@ -57,9 +61,7 @@ h5{
 	font-weight: 700;;
 	margin-bottom: 5px;
 }
-.card-content {
-	background-color: #D7E3D2;
-}
+
 
 }
 .cardul{
