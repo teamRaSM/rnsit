@@ -1,5 +1,5 @@
 body,html{
-  height:   100%;
+  min-height: 100vh;
 }
 
 .card .card-content p{
@@ -49,6 +49,7 @@ h3
 	color:#222222;
 }
 h4{
+	padding-top:  60px;
 	color: #009688 !important;
 	font-family: 'Marcellus SC', serif
 	font-weight: 700;;
