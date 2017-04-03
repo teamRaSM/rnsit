@@ -12,6 +12,7 @@
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
+
 .hidden{
 	opacity: 0;
 }
@@ -22,6 +23,7 @@
 	width: 100%;
 	height: 100%;
 }
+
 
 .mainimage{
 	position: relative;
@@ -93,6 +95,8 @@
 	.maincont{
 		height:50vh;
 	}
+	
+
 }
 /*
 @media only screen and (max-width: 1050px){

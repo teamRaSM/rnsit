@@ -16,6 +16,7 @@
 .cotxt{
   margin:0;
 }
+<<<<<<< HEAD
 .icon {
     width: 60px;
     transition:   all .3s;  
@@ -26,6 +27,10 @@
     width:  50px;
   }
 }
+=======
+
+
+>>>>>>> 367cfbdba52009c5e3fd3dd698e20f564c9bdaba
 .roww{
   display:flex;
     flex-direction: row;
@@ -34,14 +39,22 @@
     width:100%;
 }
 
-.icon{
 
-}
 
 @media screen and (max-width: 768px){
 	  footer{
     display: hidden;
 }
 
+<<<<<<< HEAD
 
+=======
+.icon{
+  width:25px;
+}
+#ico
+{
+  width: 15px;
+}
+>>>>>>> 367cfbdba52009c5e3fd3dd698e20f564c9bdaba
 }
