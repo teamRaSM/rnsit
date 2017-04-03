@@ -12,8 +12,17 @@
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
+<<<<<<< HEAD
 
 
+=======
+.hidden{
+	opacity: 0;
+}
+.svg-logo,.brand-logo{
+	transition: all .3s;
+}
+>>>>>>> d5a9859832f8a8807709c6f72eb3b98aeb48a651
 .iframes{
 	width: 100%;
 	height: 100%;
