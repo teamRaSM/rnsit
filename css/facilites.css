@@ -4,6 +4,18 @@ h1
 	font-family: 'bree serif',serif;
 
 }
+.tab .faci{
+	color: rgba(255,255,255,.70) !important;
+}
+th,td{
+	color: black;
+}
+.content{
+	margin-top: 25vh;
+}
+.active{
+	color: #FFF !important;
+}
 #para
 {
 	color:#3e2723;
@@ -13,8 +25,7 @@ h1
 	font-family: 'bree serif',serif;
 	color:#222222;
 }
-i
-{
+i{
 	position:relative;
 	top:5px;
 }
@@ -51,4 +62,9 @@ i
 
 }
 
+@media only screen and (max-width: 768px){
+	.content{
+	margin-top: 20vh;
+}
 
+}
