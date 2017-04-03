@@ -42,6 +42,15 @@
           overflow: hidden;
           transition: all 2s;
         }
+        .crd{
+          min-height: 250px ;
+        }
+        @media only screen and (max-width: 750px){
+        .crd{
+          min-height: 300px ;
+        }
+
+        }
       </style>
    </head>
    <body>
@@ -54,7 +63,7 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <!-- <li><a id="home" href="index.html">Home</a></li> -->
-        <li><a id="aboutus" href="aboutus.html">About US</a></li>
+        <li><a id="aboutus" href="aboutus.html">About Us</a></li>
         <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
 
         <!-- Dropdown Trigger -->
@@ -103,7 +112,7 @@
      <!--mobile!-->
       <ul class="side-nav" id="mobile-demo">
         <li><a id="home" href="home.html">Home</a></li>
-        <li><a id="aboutus" href="aboutus.html">About US</a></li>
+        <li><a id="aboutus" href="aboutus.html">About Us</a></li>
         <li><a id="contact" href="contact.html">Contact</a></li>
         <li><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
          <li class="innerli">      <div class="innerNav">
@@ -195,8 +204,9 @@
 
   <div class="row">
   <p style="text-align:center;"><b>Reach Us at :</b></p>
+      
       <div class="col s12 m4">
-        <div class="card-panel card-hover">
+        <div class="crd card-panel card-hover">
           <span class="black-text">
           <ul><li>College Campus</li>
       <li>R N S Institute of Technology,</li>
@@ -208,7 +218,7 @@ Fax : +91 80 28611882</ul></span>
         </div>
       </div>
       <div class="col s12 m4">
-        <div class="card-panel card-hover">
+        <div class="crd card-panel card-hover">
           <span class="black-text">
           <ul><li>Dr. M K Venkatesha - Principal RNSIT</li>
       <li>Mob : 9880867337</li>
@@ -217,7 +227,7 @@ Fax : +91 80 28611882</ul></span>
         </div>
       </div>
       <div class="col s12 m4">
-        <div class="card-panel card-hover">
+        <div class="crd card-panel card-hover">
           <span class="black-text">
           <ul><li>Mr. Ganapathi M  Yaji - Registrar</li>
       <li>Mob : 09449060402,  09902155339 </li>
