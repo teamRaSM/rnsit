@@ -17,10 +17,15 @@
   margin:0;
 }
 .icon {
-    width: 75px !important;
+    width: 60px;
+    transition:   all .3s;  
     padding-left: 25px;
 }
-
+@media only screen and (max-width: 480px){
+  .icon{
+    width:  50px;
+  }
+}
 .roww{
   display:flex;
     flex-direction: row;
@@ -38,7 +43,5 @@
     display: hidden;
 }
 
-.icon{
-  width:50px;
-}
+
 }
