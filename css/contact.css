@@ -1,0 +1,14 @@
+#contact-cards{
+	height: 190px;
+	padding-top: 2px;
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 600px){
+	#contact-cards{
+		padding: 10px 10px 10px 10px;
+		height: 210px;
+		width: 185px;
+	}
+
+}
