@@ -50,7 +50,7 @@
 }
 .nightback{
   background-image: url('../images/night1.jpg');
-  transition: background-position .5s;
+  transition: background-position .4s;
   height: 75vh;
   width: 100%;
   position: absolute;
@@ -98,7 +98,7 @@
 	
 
 }
-/*
+
 @media only screen and (max-width: 1050px){
 	.nightback{
 		background-position:-175px 0px;
@@ -111,4 +111,3 @@
 		background-position:-350px 0px;
 	}
 }
-*/
