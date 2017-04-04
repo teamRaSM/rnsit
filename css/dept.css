@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans|Oswald');
 body,html{
   min-height: 100vh;
 }
@@ -6,7 +7,9 @@ body,html{
 	font-weight: bold;
 	font-size: 2.5vh;
 }
-
+#contact{
+	margin-bottom: 	5vh;
+}
 .buul {
 	position: relative;
 	left: 15px;
@@ -28,14 +31,25 @@ body,html{
 .cardli{
 
 }
+.avoid-nav{
+	padding-top: 60px;
+}
+.head-style{
+	font-family: 'Oswald', sans-serif;
+	font-size: 	2rem;
+	max-width: 100vw;
+	color:#009688;
+	font-weight: 700;
+	margin-bottom: 30px;
+
+}
+
 h3,h5,h4
 {
-	padding-top:  60px;
-	color:#009688;
-	font-family: 'Marcellus SC',serif;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1rem;
 	font-weight: 700;
-	max-width: 100vw;
-
+	
 }
 #para
 {
@@ -47,23 +61,6 @@ h3,h5,h4
 	font-family: 'Marcellus SC',serif;
 	font-weight: 700;
 	color:#222222;
-}
-h4{
-	padding-top:  60px;
-	color: #009688 !important;
-	font-family: 'Marcellus SC', serif
-	font-weight: 700;;
-	margin-bottom: 5px;
-}
-{
-	padding-top:  60px;
-	color: #009688 !important;
-	font-family: 'Marcellus SC', serif
-	font-weight: 700;;
-	margin-bottom: 5px;
-}
-
-
 }
 .cardul{
   display: flex;
