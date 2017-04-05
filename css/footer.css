@@ -17,10 +17,15 @@
   margin:0;
 }
 .icon {
-    width: 75px !important;
-    padding-left: 25px;
+    width: 50px;
+    transition:   all .3s;  
 }
 
+@media only screen and (max-width: 480px){
+  .icon{
+    width:  25px;
+  }
+}
 .roww{
   display:flex;
     flex-direction: row;
@@ -29,16 +34,11 @@
     width:100%;
 }
 
-.icon{
 
-}
 
 @media screen and (max-width: 768px){
 	  footer{
     display: hidden;
 }
 
-.icon{
-  width:50px;
-}
 }

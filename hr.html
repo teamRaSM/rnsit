@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>RNSIT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#021B38">
+    <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
+    <link rel="apple-touch-icon" href="imgages/logo.png"/>
+
+    <meta name="mobile-web-app-capable" content="yes">
+<meta name="RNSIT" content="RNSIT">
+<link rel="icon" sizes="192x192" href="images/logo.png">
+ <!-- <splash src="images/prin.jpg"></splash> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/dept.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link href="images/logo.png" rel="icon" type="image/png">
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+   </head>
+   <body>
+
+   <div>
+     <nav class="nav">
+    <div class="nav-wrapper">
+      <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+      <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <!-- <li><a id="home" href="index.html">Home</a></li> -->
+        <li><a id="aboutus" href="aboutus.html">About Us</a></li>
+        <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+
+        <!-- Dropdown Trigger -->
+  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+  <li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+
+
+
+
+        <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a>BASIC SCIENCE DEPARTMENTS</a></li>
+    <li class="divider"></li>
+    <li><a id="physics" href="physics.html">Physics</a></li>
+    <li><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+    <li><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+    <li class="divider"></li>
+    <li><a id="engineeringdept">ENGINEERING DEPARTMENTS</a></li>
+    <li class="divider"></li>
+    <li><a id="cse" href="cse.html">CSE</a></li>
+    <li><a id="ece" href="ece.html">ECE</a></li>
+    <li><a id="eee" href="eee.html">EEE</a></li>
+    <li><a id="ise" href="ise.html">ISE</a></li>
+    <li><a id="eie" href="eie.html">EIE</a></li>
+    <li><a id="mech" href="mech.html">MECH</a></li>
+    <li><a id="civil" href="civil.html">CIVIL</a></li>
+    <li class="divider"></li>
+    <li><a id="pg">POST GRADUATION</a></li>
+    <li class="divider"></li>
+    <li><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
+    <li><a id="mca"  href="mca.html">MCA</a></li>
+    </ul>
+  </ul>
+
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a id="cse" href="alumni.html">ALUMNI</a></li>
+    <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
+    <li><a id="eee" href="hr.html">HR</a></li>
+    <li><a id="ise" href="library.html">LIBRARY</a></li>
+    <li><a id="eie" href="hostel.html">HOSTEL</a></li>
+    <li><a id="mech" href="transport.html">TRANSPORT</a></li>
+    <li><a id="mba" href="sportsculture.html">SPORTS &amp; CULTURE</a></li>
+    <li><a id="mca" href="facilities.html">FACILITIES</a></li>
+  </ul>
+
+     <!--mobile!-->
+      <ul class="side-nav" id="mobile-demo">
+        <li><a id="home" href="home.html">Home</a></li>
+        <li><a id="aboutus" href="aboutus.html">About Us</a></li>
+        <li><a id="contact" href="contact.html">Contact</a></li>
+        <li><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+         <li class="innerli">      <div class="innerNav">
+        <a class="nava">BASIC SCIENCE DEPARTMENTS</a>
+        <ul><li class=" nava divider"></li></ul>
+        <a id="physics" class="nava awes" href="physics.html">Physics</a>
+        <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+        <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+        <a id="engineeringdept" class="nava ">ENGINEERING DEPARTMENTS</a>
+        <ul><li class=" nava divider"></li></ul>
+
+        <a id="cse" class="nava" href="cse.html">CSE</a>
+        <a id="ece" class="nava" href="ece.html">ECE</a>
+        <a id="eee" class="nava"  href="eee.html">EEE</a>
+        <a id="ise" class="nava" href="ise.html">ISE</a>
+        <a id="eie" class="nava" href="eie.html">EIE</a>
+        <a id="mech" class="nava" href="mech.html">MECH</a>
+        <a id="civil" class="nava" href="civil.html">CIVIL</a>
+        <a id="pg" class="nava">POST GRADUATION</a>
+        <ul><li  id=""class=" nava divider"></li></ul>
+        <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
+        <a id="mca" class="nava awes" href="mca.html">MCA</a>
+
+      </div></li>
+      <li><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
+         <li class="innerli">      <div class="innerNav1">
+          <a id="cse" class="nava" href="alumni.html">Alumini</a>
+          <a id="cse" class="nava" href="admissions.html">Admissions</a>
+          <a id="cse" class="nava" href="hr.hrml">HR</a>
+          <a id="cse" class="nava" href="library.html">Library</a>
+          <a id="cse" class="nava" href="hostel.html">Hostel</a>
+          <a id="cse" class="nava" href="transport.html">Transport</a>
+          <a id="cse" class="nava"  href="sportsculture.html">Sports &amp; Culture</a>
+          <a id="cse" class="nava" href="facilities.html">Facilities</a>
+          </div>
+          </li>
+
+    </ul>
+    </div>
+  </nav>
+  </div>
+<div class="container">
+  <h3 align="center">HR</h3>
+ <div class="row">
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img src="" width="660" />
+              <span class="card-title">MR Muralikrishna K Mysore</span>
+            </div>
+            <div class="card-content">
+              <p>College HR</p>
+            </div>
+          </div>
+        </div>
+<p>
+  RNSIT's placement cell is a platform to help students get employment opportunities before graduation. It has been a dedicated and integral part of the college for over a decade and has been successful in completing its mission time and time again by making sure that every student has an opportunity to pursue their careers in their own desired paths.
+
+</p><br><br><br><br>
+<h4 class="black-text"><b><p>Drives</p></b></h4>
+        
+      <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="https://uds6qw.bn1304.livefilestore.com/y4m0ft3R59Xp5ish79UmXQiGCaYOAAWlj3LU4t5I357fvnk5KrNqLeDyxDtAnskJ6GWsdZM5S_fmsZ1lVc2eDyNQnbzV4CWlvK2NMQWvb_f9ljRyALWw8M-INqHa7eLIYShi35rxrvOxJa-nADPQjIv0r9wfZQs7jLJqYqjf34IbEkuM5PvIGx35B5r3thbFkumiFhvVgf8pdOgbgKd3VR7kA?width=960&height=640&cropmode=none" width="960"  />
+        <!--div class="caption center-align">
+          <h2>This is our big Tagline!</h2>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div!-->
+      </li>
+      <li>
+        <img src="https://sttp5q.bn1304.livefilestore.com/y4mvScOA0EH54AWyTimraMrtZ4b81_PjGxQ7fHxzMrGbQCnxdWA5FW2iQSourKSHsGIRDeHuBRDSNjpRrGWbVX_a1OUuEEzOGuv9IZm_tbGHCNNIEEIjkNY5VUaQpnBUR8Y3XHtgbHznlzbZDmgj78sGsD3PvUclRoBiXVEGHLyiDKuHdLP9C3pilSqw1wXinBwDyapcOfNl-CCtQ8Kx9LnFQ?width=960&height=640&cropmode=none" width="960"  />
+        
+      </li>
+      <li>
+       <img src="https://sdtp5q.bn1304.livefilestore.com/y4mGBY6uWC7nkdBufPRuhwhKB863u-WTYpDOXh3RjepbZeeRTS-W9CnMbsxgcufd0f9LAbCCg9dy_uzw6yzJYHifijjVeLdAEMiix3A5thwfg45VoVNd4Qhc5UHXwEFDUeNzDbeNUu5q03XCANcCnsF-aqaZkcexoR688bctMV0ZNKlMkahqjnfOQEbIkP8AEx74lGyggxJy4_lUjRnrbC5Ww?width=960&height=640&cropmode=none" width="960" />
+        
+      </li>
+      <li>
+        <img src="https://uztp5q.bn1304.livefilestore.com/y4mYy1He2Sto0UJGPQ5ouJpmdd8Lil6bXN4i5MRlXwrvPbI2vwmJyKWpNJcP1hPyIeGA8RxUYrBQ39ATBhX36r4w5GyNiY-OIt0U40xEXTYMFdGjkKXV-Q4vJltU9FDwpCSwFY6JjayhJyylGn7l5nr6t2Nt9Zj-oVsI08CR0bBKaTTjGToFxoka1QInuaE52Vo1N9yRXLxPqV_4XU_E16y-g?width=960&height=640&cropmode=none" width="960" />
+      </li>
+    </ul>
+  </div>
+  <p id="para">
+  lorem ipsum
+
+</p>
+<p id="para">
+  lorem ipsum
+</p>
+<ol>
+    <li>  lorem ipsum </li> 
+    <li>  lorem ipsum </li>
+</ol>
+
+
+              </div>
+                 
+                    <div class="row">
+                  <h4 class="black-text"><b><p>Significant developments and Achievements</p></b></h4>
+                  <ol>
+                      <li>Average consistent pass percentage of more than 85% in university exams,  resulted in better quality of input</li>
+                      <li>Ms. Anjana Sudhi  bagged Sri P V Kumaraswamy Memorial Gold Medal for securing the highest marks from 1st – 8th Semester in Computer Science Engineering during 2010</li>
+                      <li>Pallavi Karanth has bagged 2nd  University Rank during 2006</li>
+                      <li> Mr. Rudramurthy has secured 35th Rank  and  Mr. Kushal Bafna has secured 303rd Rank in GATE 2011</li>
+                  </ol>
+                  </div>
+                <div class="row">
+                  <h4 class="black-text"><b><p>Our Students</p></b></h4>
+                  <ol>
+                      <li>are much sought after by leading computer firms in placement: Infosys, TCS etc.,</li>
+                      <li>have represented universities and state in Sports, Technical and Cultural events, won awards</li>
+                      <li>Have got admission to higher studies ( MS / PhD) in International renowned Institutions</li>
+                      <li>BALAJI , UNIVERSITY OF WISCOSIN, MILWAUKI , P h.D COMPUTER SCIENCE</li>
+                      <li>Vittal P , NUS, P h.D COMPUTER SCIENCE</li>
+                      <li>ABHIJIT SRINIVAS ,SUNNY-BUFFALO , COMPUTER SCIENCE</li>
+                      <li>PREETHI LAKSHMI , UNIVERSITY OF TEXAS ,DALLAS ,COMPUTER SCIENCE</li>
+                      <li>Paper presentation by Students/Faculty at CSI conventions and other National/International conferences and won awards/prizes.</li>
+                      <li> Faculty members have bagged Best Teacher awards – Kiran P and Hemanth S</li>
+                      <li> 11  faculty members have registered for PhD at various reputed universities</li>
+                      <li> Seminars and Workshops are regularly held in the department for the benefit of the teaching</li>
+                  </ol>
+              </div>
+              <div class="row">
+                 <h4 class="black-text"><b><p>Vision</p></b></h4>
+                 "Our placement cell has been deeply dedicated to provide opportunities for comapnies to find the right talent among students for their specific needs. We at RNSIT have a diverse student community, where we promote a wide variety of academic courses by enriching their frontier aspects, thereby enhancing the overall development of individuals. It is our vision to establish a scenario for the smooth transition of students from academic to professional lives."
+              </div>
+             </div>              
+
+
+  <div class="container">
+  <div class="row">
+ <h4 class="black-text"><b><p>Our Staff</p></b></h4>
+    <ul class="listul cardul">
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="https://hisjia.bn1304.livefilestore.com/y4mVqhISz4SaXkb4-g7dduWxT0YsNiYQoaJL6vf8Jb-a33TgiGLwSZqBBtDMbQypQdouuqdm67TGDlREOcqWug8xa-URZrFPVH7y-TyjDrdQZjvoXAKXdn0xFnbplT0vl_XmVZ2uji9Ibem-m44BVTU5_ps5S6V0wAh-GV6FZ9mv9phMsUBRt-z5jNbzqkskLlxTE6YUMp2XmkAXh8RNWZy3w?width=660&height=440&cropmode=none" width="660"  />
+      <p> Murali Sir</p>
+      <p> College HR</p></a>
+      </li>
+    
+
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="https://hisjia.bn1304.livefilestore.com/y4mVqhISz4SaXkb4-g7dduWxT0YsNiYQoaJL6vf8Jb-a33TgiGLwSZqBBtDMbQypQdouuqdm67TGDlREOcqWug8xa-URZrFPVH7y-TyjDrdQZjvoXAKXdn0xFnbplT0vl_XmVZ2uji9Ibem-m44BVTU5_ps5S6V0wAh-GV6FZ9mv9phMsUBRt-z5jNbzqkskLlxTE6YUMp2XmkAXh8RNWZy3w?width=660&height=440&cropmode=none" width="660"  />
+          </div>
+      
+          <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name</td>
+                <td>Murali Sir</td>
+              </tr>
+              <tr>
+                <td>Designation</td>
+                <td>HR</td>
+              </tr>
+              <tr>
+                <td>Qualification</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Total Experience</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal5"><img src="https://fis4kg.bn1304.livefilestore.com/y4mQZV3Sa8p_i8Miy2wtH9xZRNs01OypSSv1FLSBB13urZeET9lT_HX8VvWJYXi1z8AFWTulYFHc8dnqQe0zfohZPT0wplKI6O_mWin6tAnELSnQuPWsG2k5NGb_yyhOa3Uv5N2r00YixoAjEarWzMMETC2rRf_Ce5LlxmHcuZySFcrDD-KHEj510x0byHrvN45-RLs8dthsDjyutavmPtfVg?width=660&height=440&cropmode=none" width="660" />
+      <p>Dr. Kiran P</p>
+      <p> Assoc Professor.</p></a>
+      </li>
+
+        <div id="modal5" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="https://fis4kg.bn1304.livefilestore.com/y4mQZV3Sa8p_i8Miy2wtH9xZRNs01OypSSv1FLSBB13urZeET9lT_HX8VvWJYXi1z8AFWTulYFHc8dnqQe0zfohZPT0wplKI6O_mWin6tAnELSnQuPWsG2k5NGb_yyhOa3Uv5N2r00YixoAjEarWzMMETC2rRf_Ce5LlxmHcuZySFcrDD-KHEj510x0byHrvN45-RLs8dthsDjyutavmPtfVg?width=660&height=440&cropmode=none" width="660" />
+          </div>
+      
+          <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name</td>
+                <td>Dr. Kiran P</td>
+              </tr>
+              <tr>
+                <td>Designation</td>
+                <td>Assoc Professor</td>
+              </tr>
+              <tr>
+                <td>Qualification</td>
+                <td>B.E, M.Tech, Ph.D</td>
+              </tr>
+              <tr>
+                <td>Total Experience</td>
+                <td>11 years of teaching</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+      
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal6"><img src="https://iyrtnw.bn1304.livefilestore.com/y4mR93EToIY0M7_XWtszs0DsBTGn1X0cZHQBY9VvYnEQCou8x5I5JBvIaxxdAykW9A4zxrJzrXKBom8p7I0cc5uQIcUOq8EM_KN849_4C8zvPyz9GxSUfatDg8EYn3OC-OAozthFN3UOn12DndwYZw3Ed4azQQ20cQ3SLBIWo5hp_HWc1L8SLcruu43cAv8JKi_h01E-gw--jgXXEGPc2T82Q?width=660&height=440&cropmode=none" width="660"  />
+      <p> Mr. Hemanth S</p>
+      <p>Assoc Professor</p></a>
+      </li>
+
+        <div id="modal6" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="https://iyrtnw.bn1304.livefilestore.com/y4mR93EToIY0M7_XWtszs0DsBTGn1X0cZHQBY9VvYnEQCou8x5I5JBvIaxxdAykW9A4zxrJzrXKBom8p7I0cc5uQIcUOq8EM_KN849_4C8zvPyz9GxSUfatDg8EYn3OC-OAozthFN3UOn12DndwYZw3Ed4azQQ20cQ3SLBIWo5hp_HWc1L8SLcruu43cAv8JKi_h01E-gw--jgXXEGPc2T82Q?width=660&height=440&cropmode=none" width="660"  />
+          </div>
+      
+          <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name</td>
+                <td>Mr. Hemanth S</td>
+              </tr>
+              <tr>
+                <td>Designation</td>
+                <td>Assoc Professor</td>
+              </tr>
+              <tr>
+                <td>Qualification</td>
+                <td>B.E, M.Tech, Ph.D-Pursuing</td>
+              </tr>
+              <tr>
+                <td>Total Experience</td>
+                <td>10 years of teaching, 2 years of industry</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+    
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal7"><img src="https://76844w.bn1304.livefilestore.com/y4mhprWEeHU4EZh6xvC09onTPrFwCQgK0RQ0CCaYHNJ4UzgUybkr4FJX3WT57QSg87DOhwADytzUe1L-X-UXEHOkDt6zBehpy5v6ycWLbBPvwsWf1L1MX3a6Ffn8vSm3y97TOiFfIin0YgmD_Amvp43VuYzZ6mefH_-p8Kg2-BCCU93p3QtPpnThTAChsl80XFGn8ZwS5LULSJ2wSuBZdMbqQ?width=660&height=440&cropmode=none" width="660" />
+      <p> Mr. Bhavani Shankar.K</p>
+      <p> Asst Professor</p></a>
+      </li>
+    
+        <div id="modal7" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="https://76844w.bn1304.livefilestore.com/y4mhprWEeHU4EZh6xvC09onTPrFwCQgK0RQ0CCaYHNJ4UzgUybkr4FJX3WT57QSg87DOhwADytzUe1L-X-UXEHOkDt6zBehpy5v6ycWLbBPvwsWf1L1MX3a6Ffn8vSm3y97TOiFfIin0YgmD_Amvp43VuYzZ6mefH_-p8Kg2-BCCU93p3QtPpnThTAChsl80XFGn8ZwS5LULSJ2wSuBZdMbqQ?width=660&height=440&cropmode=none" width="660" />
+          </div>
+      
+          <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name</td>
+                <td>Mr. Bhavani Shankar.K</td>
+              </tr>
+              <tr>
+                <td>Designation</td>
+                <td>Asst Professor</td>
+              </tr>
+              <tr>
+                <td>Qualification</td>
+                <td>B.E, M.Tech, Ph.D-Pursuing</td>
+              </tr>
+              <tr>
+                <td>Total Experience</td>
+                <td>13 years of teaching, 5 years of industry</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal8"><img src="https://fyrtnw.bn1304.livefilestore.com/y4m-pVXTSjF9lv3eMOH7G7IJkNZOZ3RBQ8raeUusrQDZ6p44v8NlIaFBdsAyIKUMyo1RwJNh_caiKzPRX_kEKCjIpzkx2UrYwKhFS_P2S-8EQWbUVdF2bRiqZMoK-uzNP0EieQN5aYqyERrPamWlghN-0_E4T8c7uM2DrSOVWoyJmnjhjabXHI_fCei7dmvZBLpA1J5mgM7XPd04IBPzDdOGQ?width=660&height=440&cropmode=none" width="660" />
+      <p> Mr. Anjan Kumar K. N</p>
+      <p> Assistant Professor</p></a>
+      </li>
+
+       <div id="modal8" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="https://fyrtnw.bn1304.livefilestore.com/y4m-pVXTSjF9lv3eMOH7G7IJkNZOZ3RBQ8raeUusrQDZ6p44v8NlIaFBdsAyIKUMyo1RwJNh_caiKzPRX_kEKCjIpzkx2UrYwKhFS_P2S-8EQWbUVdF2bRiqZMoK-uzNP0EieQN5aYqyERrPamWlghN-0_E4T8c7uM2DrSOVWoyJmnjhjabXHI_fCei7dmvZBLpA1J5mgM7XPd04IBPzDdOGQ?width=660&height=440&cropmode=none" width="660" />
+          </div>
+      
+          <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name</td>
+                <td>Mr. Anjan Kumar K. N</td>
+              </tr>
+              <tr>
+                <td>Designation</td>
+                <td>Asst Professor</td>
+              </tr>
+              <tr>
+                <td>Qualification</td>
+                <td>B.E, M.Tech, Ph.D-Pursuing</td>
+              </tr>
+              <tr>
+                <td>Total Experience</td>
+                <td>8.5 years of teaching, 3 years 5 months of industry</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+
+    </ul>
+</div>
+</div>
+
+    
+
+  <div id="fot">
+        <footer id="footer" class="page-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col l4 m4 s12">
+            <h5 class="orange-text">RNSIT</h5>
+            <p class=
+            "white-text text-lighten-4">R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman, Dr. R.N. Shetty.The Murudeshwar Group of Companies headed by Sri. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power &amp; IT services and education. The group has contributed significantly to the field of education.</p>
+
+            
+<button name="action" class="btn waves-effect waves-light black lighten-3" type="submit" alt="Compliment">COMPLIMENT</button>
+
+
+
+
+
+          </div>
+          <div class="col l4 m4 s12 push-m1 push-l1">
+            <h5 class="orange-text">HELP</h5>
+            <p class="grey-text text-lighten-4"></p>
+            <ul>
+                  <li><a class="white-text text-lighten-3" href="#!">HOME</a></li>
+                  <li><a class="white-text text-lighten-3" href="#!">ABOUT</a></li>
+                  <li><a class="white-text text-lighten-3" href="#!">DEPT</a></li>
+                  <li><a class="white-text text-lighten-3" href="#!">COURSE</a></li>
+            </ul>
+            <a class="btn waves-effect waves-light black lighten-3" href="#!">Email</a>
+          </div>
+          <div class="col l4 m4 s12" style="overflow: hidden;">
+            <h5 class="orange-text">Connect</h5>
+            <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon" src="images/facebook.svg" alt="fb"></image></a>
+            <a href="instagram/rnsit"><image class="icon" src="images/instagram.svg" alt="insta"></image></a>
+            <a href="twitter/rnsit"><image class="icon" src="images/twitter.svg" alt="twitter"></image></a>
+            <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <p style="text-align:center"><b>Handcrafted by Dept of CSE</b></p>
+        </div>
+      </div>
+    </footer>
+    </div>
+
+
+    <!-- Modal end -->
+    <script type="text/javascript" src="js/dept.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
+    <script type="text/javascript" src="js/modal.js"></script>
+    
+
+  
+</body>
+</html>
