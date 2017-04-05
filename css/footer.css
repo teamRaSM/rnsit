@@ -16,7 +16,6 @@
 .cotxt{
   margin:0;
 }
-<<<<<<< HEAD
 .icon {
     width: 60px;
     transition:   all .3s;  
@@ -27,10 +26,6 @@
     width:  50px;
   }
 }
-=======
-
-
->>>>>>> 367cfbdba52009c5e3fd3dd698e20f564c9bdaba
 .roww{
   display:flex;
     flex-direction: row;
