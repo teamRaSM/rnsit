@@ -17,7 +17,8 @@
   margin:0;
 }
 .icon {
-    width: 60px;
+    width: 80px !important;
+    height: 40px !important;
     transition:   all .3s;  
     padding-left: 25px;
 }
@@ -41,9 +42,6 @@
     display: hidden;
 }
 
-<<<<<<< HEAD
-
-=======
 .icon{
   width:25px;
 }
@@ -51,5 +49,4 @@
 {
   width: 15px;
 }
->>>>>>> 367cfbdba52009c5e3fd3dd698e20f564c9bdaba
 }
