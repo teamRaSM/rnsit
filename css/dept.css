@@ -63,14 +63,16 @@ h3,h5,h4
 	font-weight: 500;
 	
 }
-#para
+
+p,body,html,div, #para
 {
-	font-family: 'open-sans',sans-serif;
+	font-family: 'Raleway',sans-serif;
 	color:#3e2723;
+	font-weight: 400;
 }
 #sub
 {
-	font-family: 'Marcellus SC',serif;
+	font-family: 'Raleway',serif;
 	font-weight: 700;
 	color:#222222;
 }
@@ -101,9 +103,6 @@ h4{
   transition: all .3s;
   width: 100%;
 
-}
-.container-fluid{
-	padding: 20px;
 }
 li{
   transition: all .3s;
