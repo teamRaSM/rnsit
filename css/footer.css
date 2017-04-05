@@ -16,8 +16,16 @@
 .cotxt{
   margin:0;
 }
+.icon {
+    width: 50px;
+    transition:   all .3s;  
+}
 
-
+@media only screen and (max-width: 480px){
+  .icon{
+    width:  25px !important;
+  }
+}
 .roww{
   display:flex;
     flex-direction: row;
@@ -26,18 +34,18 @@
     width:100%;
 }
 
-
+@media only screen and (min-width: 480px){
+  .roww{
+    justify-content: center;
+  }
+  .icon{
+    margin:10px;
+  }
+}
 
 @media screen and (max-width: 768px){
 	  footer{
     display: hidden;
 }
 
-.icon{
-  width:25px;
-}
-#ico
-{
-  width: 15px;
-}
 }
