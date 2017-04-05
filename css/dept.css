@@ -88,6 +88,26 @@ p,body,html,div, #para
 	font-weight: 700;
 	color:#222222;
 }
+<<<<<<< HEAD
+h4{
+	padding-top:  0px;
+	color: #009688 !important;
+	font-family: 'Marcellus SC', serif
+	font-weight: 700;;
+	margin-bottom: 5px;
+}
+{
+	padding-top:  60px;
+	color: #009688 !important;
+	font-family: 'Marcellus SC', serif
+	font-weight: 700;;
+	margin-bottom: 5px;
+}
+
+
+}
+=======
+>>>>>>> 4672bf0fc5dd37bef48b6909832ae48fb2e317d0
 .cardul{
   display: flex;
   flex-wrap: wrap;
