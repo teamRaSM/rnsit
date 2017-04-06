@@ -30,49 +30,47 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
   </head>
   <body>
-    <div>
-      <nav class="nav">
-        <div class="nav-wrapper">
-          <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
-          <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <!-- <li><a id="home" href="index.html">Home</a></li> -->
-            <li><a id="aboutus" href="aboutus.html">About Us</a></li>
-            <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
-            <!-- Dropdown Trigger -->
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
-            <!-- Dropdown Structure -->
-            <ul id="dropdown1" class="dropdown-content">
-              <li class="waves-effect waves-light"><a id="cse" href="cse.html">CSE</a></li>
-              <li class="waves-effect waves-light"><a id="ece" href="ece.html">ECE</a></li>
-              <li class="waves-effect waves-light"><a id="eee" href="eee.html">EEE</a></li>
-              <li class="waves-effect waves-light"><a id="ise" href="ise.html">ISE</a></li>
-              <li class="waves-effect waves-light"><a id="eie" href="eie.html">EIE</a></li>
-              <li class="waves-effect waves-light"><a id="mech" href="mech.html">MECH</a></li>
-              <li class="waves-effect waves-light"><a id="civil" href="civil.html">CIVIL</a></li>
-              <li class="divider"></li>
-              <li class="waves-effect waves-light"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
-              <li class="waves-effect waves-light"><a id="mca"  href="mca.html">MCA</a></li>
-              <li class="divider"></li>
-              <li class="waves-effect waves-light"><a id="physics" href="physics.html">Physics</a></li>
-              <li class="waves-effect waves-light"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
-              <li class="waves-effect waves-light"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
-            </ul>
+    <nav class="nav navin">
+      <div class="nav-wrapper">
+        <img class="svg-logo hidden" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+        <a href="index.html" class="brand-logo hidden" style="color: white; margin-left:0px; ">RNSIT</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
+          <li class="navali"><a id="aboutus" href="aboutus.html">About Us</a></li>
+          <li class="navali"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+          <!-- Dropdown Trigger -->
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+          <!-- Dropdown Structure -->
+          <ul id="dropdown1" class="dropdown-content">
+            <li class="divider"></li>
+            <li class="navali"><a id="cse" href="cse.html">CSE</a></li>
+            <li class="navali"><a id="ece" href="ece.html">ECE</a></li>
+            <li class="navali"><a id="eee" href="eee.html">EEE</a></li>
+            <li class="navali"><a id="ise" href="ise.html">ISE</a></li>
+            <li class="navali"><a id="eie" href="eie.html">EIE</a></li>
+            <li class="navali"><a id="mech" href="mech.html">MECH</a></li>
+            <li class="navali"><a id="civil" href="civil.html">CIVIL</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
+            <li class="navali"><a id="mca"  href="mca.html">MCA</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="physics" href="physics.html">Physics</a></li>
+            <li class="navali"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+            <li class="navali"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+            
+            
           </ul>
-          <ul id="dropdown2" class="dropdown-content">
-            <li><a id="cse" href="alumni.html">ALUMNI</a></li>
-            <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
-            <li><a id="eee" href="hr.html">HR</a></li>
-            <li><a id="ise" href="library.html">LIBRARY</a></li>
-            <li><a id="eie" href="hostel.html">HOSTEL</a></li>
-            <li><a id="mech" href="transport.html">TRANSPORT</a></li>
-            <li><a id="mba" href="sportsculture.html">SPORTS &amp; CULTURE</a></li>
-            <li><a id="mca" href="facilities.html">FACILITIES</a></li>
-          </ul>
-          <!--mobile!-->
-          <ul class="side-nav" id="mobile-demo">
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+          <li class="navali"><a id="cse" href="alumni.html">ALUMNI</a></li>
+          <li class="navali"><a id="ece" href="admissions.html">ADMISSIONS</a></li>
+          <li class="navali"><a id="eee" href="hr.html">HR</a></li>
+          <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
+        </ul>
+        <!--mobile!-->
+        <ul class="side-nav" id="mobile-demo">
           <li class="navali"><a id="home" href="index.html">Home</a></li>
           <li class="navali"><a id="aboutus" href="aboutus.html">About Us</a></li>
           <li class="navali"><a id="contact" href="contact.html">Contact</a></li>
@@ -93,537 +91,516 @@
             <a id="physics" class="nava awes" href="physics.html">Physics</a>
             <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
             <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
-           
+            
           </div></li>
           <li class="navali"><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
           <li class="innerli">      <div class="innerNav1">
             <a id="alum" class="nava" href="alumni.html">Alumini</a>
             <a id="admission" class="nava" href="admissions.html">Admissions</a>
             <a id="hr" class="nava" href="hr.hrml">HR</a>
-            <a id="lib" class="nava" href="library.html">Library</a>
-            <a id="hos" class="nava" href="hostel.html">Hostel</a>
-            <a id="trans" class="nava" href="transport.html">Transport</a>
-            <a id="sport" class="nava"  href="sportsculture.html">Sports &amp; Culture</a>
             <a id="faci" class="nava" href="facilities.html">Facilities</a>
           </div>
         </li>
       </ul>
-        </div>
-      </nav>
     </div>
-          </nav>
-  </div>
-    <div class="container">
-      <h3 align="center">CHEMISTRY DEPARTMENT</h3>
-      <div class="row">
-        <div class="col s12 m4 l3">
-          <div class="card">
-            <div class="card-image">
-             <img src="https://nce0pg.bn1304.livefilestore.com/y4mF1tDugx_Eha7MjqWfc9gdERKQ6vbI51oxsz02_NvgzZA27ctENXV_2Q1Onw1bItwFGFv_nHK8W2FQ-7oa9_xGfkXt_PpwzEpbbSEJu7MKydgwzv3gtRZgNq6Ymtqczrp7OccBKC_8bjs1dR3uKZoQ5e3RRWHxi10U3Yrt3AeAEDZYcZo_a6PTzpnSeU6vYRDC4Xv5uU0t1_AkwHo0tcpyw?width=960&height=640&cropmode=none" width="960" />
-            </div>
-            <div class="card-content">
-              <p> Dr. T. Jeevananda</p>
-              <p> Professor &amp; Head</p>
-            </div>
+  </nav>
+  <div class="container">
+    <h3 align="center">CHEMISTRY DEPARTMENT</h3>
+    <div class="row">
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://nce0pg.bn1304.livefilestore.com/y4mF1tDugx_Eha7MjqWfc9gdERKQ6vbI51oxsz02_NvgzZA27ctENXV_2Q1Onw1bItwFGFv_nHK8W2FQ-7oa9_xGfkXt_PpwzEpbbSEJu7MKydgwzv3gtRZgNq6Ymtqczrp7OccBKC_8bjs1dR3uKZoQ5e3RRWHxi10U3Yrt3AeAEDZYcZo_a6PTzpnSeU6vYRDC4Xv5uU0t1_AkwHo0tcpyw?width=960&height=640&cropmode=none" width="960" />
+          </div>
+          <div class="card-content">
+            <p> Dr. T. Jeevananda</p>
+            <p> Professor &amp; Head</p>
           </div>
         </div>
-        <p id="para">The Department of Chemistry at RNSIT was established in the year 2001 during the inception of the Institution. The Vision of the Department is to meet the core requirement of Chemistry in the field of Applied Science and Technology.</p>
-
-                <p id="para">The Department is headed by Dr. T. Jeevananda, who has 16 years of Teaching and Research experience of which 3 years as Post Doctoral Scientist in South Korea. The other Faculty members of the department are highly qualified, experienced and dedicated teaching faculty members of which three are Doctorates and one is pursuing his Ph.D. degree. The Department is well equipped with lab facilities to meet the curriculum of Engineering Chemistry.</p>
-
-                <p id="para">In the year 2008, the department got approved by VTU as R & D Centre for carrying out research work and to pursue PhD degree. The Department has a strong record of achievements both in teaching and research activities. The Department, R & D Centre has published more than 20 research articles in reputed National and International Journals in the previous years. The Department provide graduate students with the foundation needed for a meaningful professional career and a lifetime of independent learning. The department also organizes lectures to encourage students to upgrade their knowledge.</p>
-
-                <p id="para">The Department of Chemistry has organized a National Conference on “Recent Trends in Materials Chemistry and Engineering (RTMCE-2011)” during September 29-30, 2011. Some of the Research Activities at the Department are,
-                    <ul>
-                        <li><b>Conducting Polymer Composites/Nano-Composites,</b>
-                        </li>
-                        <li><b>Material Science,</b>
-                        </li>
-                        <li><b>Electrochemistry,</b>
-                        </li>
-                        <li><b>Solid State Reactions etc.,</b>
-                        </li>
-                    </ul>
-                </p>
-
-        <h4 class="black-text"><b><p>Laboratory</p></b></h4>
-        
-        <div class="slider">
-          <ul class="slides">
-            <li>
-              <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
-              <div class="caption center-align">
-                <h3></h3>
-                <h5 class="light grey-text text-lighten-3"></h5>
-              </div>
-            </li>
-            <li>
-              <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
-              <div class="caption left-align">
-                <h3></h3>
-                <h5 class="light grey-text text-lighten-3"></h5>
-              </div>
-            </li>
-            <li>
-              <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
-              <div class="caption right-align">
-                <h3></h3>
-                <h5 class="light grey-text text-lighten-3"></h5>
-              </div>
-            </li>
-            <li>
-              <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
-              <div class="caption center-align">
-                <h3></h3>
-                <h5 class="light grey-text text-lighten-3"></h5>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <p id="para">
-          The department has well equipped laboratory with sophisticated instruments. The practical classes are assisted by the well experienced lab instructor Mrs. Bhagyalakshmi. With all these strengths, the department has achieved 100% results in the past years. The department also encourages students updating their knowledge by involving them in seminars, invited talks and such activities
-        </p>
-        <p id="para">
-          The Department of Physics conducted a National Conference on Phosphors and their Applications (NCPA 2010) during November 15-16, 2010. The conference had 111 participants from various parts of the country and 65 papers were presented in the conference. In the year 2011 the department conducted two events-
-        </p>
-        <ol>
-          <li>Intercollegiate Physics Fest PHOTON 2011 on May 5th 2011</li> <li> National Seminar on Nuclear Technology for the Growth of the Nation on August 22, 2011.</li>
-        </ol>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
-        <ul class="listul cardul">
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="https://nce0pg.bn1304.livefilestore.com/y4mF1tDugx_Eha7MjqWfc9gdERKQ6vbI51oxsz02_NvgzZA27ctENXV_2Q1Onw1bItwFGFv_nHK8W2FQ-7oa9_xGfkXt_PpwzEpbbSEJu7MKydgwzv3gtRZgNq6Ymtqczrp7OccBKC_8bjs1dR3uKZoQ5e3RRWHxi10U3Yrt3AeAEDZYcZo_a6PTzpnSeU6vYRDC4Xv5uU0t1_AkwHo0tcpyw?width=960&height=640&cropmode=none" width="960" />
-            <p>Dr. T. Jeevananda</p>
-            <p>Associate Prof / HOD</p></a>
+      <p id="para">The Department of Chemistry at RNSIT was established in the year 2001 during the inception of the Institution. The Vision of the Department is to meet the core requirement of Chemistry in the field of Applied Science and Technology.</p>
+      <p id="para">The Department is headed by Dr. T. Jeevananda, who has 16 years of Teaching and Research experience of which 3 years as Post Doctoral Scientist in South Korea. The other Faculty members of the department are highly qualified, experienced and dedicated teaching faculty members of which three are Doctorates and one is pursuing his Ph.D. degree. The Department is well equipped with lab facilities to meet the curriculum of Engineering Chemistry.</p>
+      <p id="para">In the year 2008, the department got approved by VTU as R & D Centre for carrying out research work and to pursue PhD degree. The Department has a strong record of achievements both in teaching and research activities. The Department, R & D Centre has published more than 20 research articles in reputed National and International Journals in the previous years. The Department provide graduate students with the foundation needed for a meaningful professional career and a lifetime of independent learning. The department also organizes lectures to encourage students to upgrade their knowledge.</p>
+      <p id="para">The Department of Chemistry has organized a National Conference on “Recent Trends in Materials Chemistry and Engineering (RTMCE-2011)” during September 29-30, 2011. Some of the Research Activities at the Department are,
+        <ul>
+          <li><b>Conducting Polymer Composites/Nano-Composites,</b>
           </li>
-          
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal2"><img src="https://midpsw.bn1304.livefilestore.com/y4m3A8tanWbFWyvmhnVtMhYb5DMbVCXiqexw15c8abUx4Hgo_2CrhmT87DXQbuTi0BhnjoB63u7ACtE_moAUchliBiKGQ_tq4RedAIG5dtuk5KLL6pC_UnFpvLEFZ98qSbzO9mQkHR2tGm7k4HDr2NzRWvZ_KVSQfnpIdE6YkxEL76Rua1nIHb8SiHT5kzrweGQ5dz67Y4GXuLIWKDcd2KmbQ?width=960&height=640&cropmode=none" width="960"  />
-            <p>Dr. V Bheemaraju</p>
-            <p>Asst.Prof.</p></a>
+          <li><b>Material Science,</b>
           </li>
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal3"><img src="https://msdpsw.bn1304.livefilestore.com/y4mj13xAD5RVROXfggcR09FISUqS28hbvU0Hy9V7Bpph38CLXWKt9_SUOVbGl5DfoaIVK_FsezI7AY8dh2UFO14wy84wU45hG4TUCTdys14whndQW4NctkdUQ_nnbysd-yVZEzCa-mwIhYqIsPqqibPEvFWUkOGwwEnTpWtVbkNsdBRxyF8KENJj8gtVOpeZbrCAm7d5HYHsxgpyyzqZO3HnQ?width=960&height=640&cropmode=none" width="960"  />
-            <p>Mr. Ramanath Prabhu</p>
-            <p>Asst.Prof.</p></a>
+          <li><b>Electrochemistry,</b>
           </li>
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal4"><img src="https://jydpsw.bn1304.livefilestore.com/y4muvkiu7A68zXs8aQK8MCOpYHYbtLaNrR4unlMwj7MEM0ZbmP3PZ7h0KeGEzLERuG1DNp9ceuVWIUJ-qhY19883H9Mxvp7DOUFNVxLL58WN8r2KtuJ2gAxtde7ddH84l9k7JZFWMhQUr4LE9COvXqitMLQnY1cjwv9YavMy886zOY1Nignjtq6wV_BuPMp7kw0smekP5Z--Kv5f9MU5TMbDA?width=960&height=640&cropmode=none" width="960" />
-            <p>Dr. B Vinay Kumar</p>
-            <p>Asst.Prof.</p></a>
+          <li><b>Solid State Reactions etc.,</b>
           </li>
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal5"><img src="https://mce0pg.bn1304.livefilestore.com/y4mJA9xrqp8exvtpR7Z3lWtPn_SdhhQ6M3T070IbW7HqO-0WmSDRER0zUgUM3mRhebJ8429oy5Cu1Jrck_mdTQpmmkjIZN8fm4WdMo-Aemz8oThH6FeuY686NoiYMlWbNPKRIYfgQ4GgF7z4fZV-OW_bsBdSa9zRCeyFICAa33OaN-XB-b3TCsBrVQ8DlGpJf5_TtYaYjY9omZrW55DVwSTKQ?width=960&height=640&cropmode=none" width="960"  />
-            <p>Mrs. Karthika Shetty</p>
-            <p>Asst.Prof.</p></a>
+        </ul>
+      </p>
+      <h4 class="black-text"><b><p>Laboratory</p></b></h4>
+      
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+            <div class="caption center-align">
+              <h3></h3>
+              <h5 class="light grey-text text-lighten-3"></h5>
+            </div>
           </li>
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal6"><img src="https://kcdpsw.bn1304.livefilestore.com/y4mOPeD4GPL9DtXfQewjO8mGMiDI895zvLgHkZyEnQRMSJdCIpeokXGV1QnSf0AQrz5ZwwCy-YFuR4AP4ajQsg6Pdp8wZ4MXms-ixbCWLTBUaqpTFNJ0Qhvz_inxr2zYYPEvS09wloYQI4_J5AZAyK38EwyYtrgNks3YGTWq_MVRWEq4-zEBOEZ5lbq8TKIIFgLXY91LdiLgv2G9EtxvtEqWw?width=960&height=640&cropmode=none" width="960" />
-            <p>Mrs. Vidyavathi G T</p>
-            <p>Asst.Prof.</p></a>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+            <div class="caption left-align">
+              <h3></h3>
+              <h5 class="light grey-text text-lighten-3"></h5>
+            </div>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+            <div class="caption right-align">
+              <h3></h3>
+              <h5 class="light grey-text text-lighten-3"></h5>
+            </div>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+            <div class="caption center-align">
+              <h3></h3>
+              <h5 class="light grey-text text-lighten-3"></h5>
+            </div>
           </li>
         </ul>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <h4 class="black-text"><b><p>Non-Teaching Staff</p></b></h4>
-        <ul class="listul cardul">
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal7"><img src="https://mye0pg.bn1304.livefilestore.com/y4mZQc1pskZBdzVDXvPyJq0sx8S09-4ChNhm_7CvryTc5sWgDChsrcxahiX1lspAiv5AdykLKR61X98csrEsdX0rC8zocZ9GKjcU2n7LM66Xg1wenFqkZN08VOAHSC7q4x2_DMe5VDzlGqsNXiTpiUcB2Qg9TqbOirq1LYhQ7NV1rexCCd0JTrrl2xzycb_Bkde13itLvsaz3c6TgIUPtA-6Q?width=960&height=640&cropmode=none" width="960" />
-            <p>Mrs. Suma Raghavendra</p>
-            <p>Instructor</p></a>
-          </li>
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal8"><img src="https://lse0pg.bn1304.livefilestore.com/y4m8gEYR6zrYOndhKc8C7jc4XfEjVWApJiHljeIwAGsZ1XOUuebv9jBtmJEakLXpmZRndVIFBzRJyYXJMwzkx3TQteBMxEqPctXZnSBRsQh27bIbyRuUbpfxzKzAJilJFm9SwO1dcvez1to9_2yah04KtDxqMH998gZO2YVcqER64kpVSNsHtXt6t0nF7z4S7zDk6X77cqk_LRAGSQhPojeqw?width=960&height=640&cropmode=none" width="960" />
-            <p> Mr. Gnanesh S K</p>
-            <p>Asst.Instructor</p></a>
-          </li>
-          
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal9"><img src="https://lye0pg.bn1304.livefilestore.com/y4mtbfKfZXhrELtZboXV7dl7T57YS-lps2RBQ4_eEP2STQ9FLiVoacGynzrigPbOvmFgTlrugIywudUt5xCphuVe9nqsyt8h1ilDZOxTp4377xZufLHUMK78EdqnA8cwkyZ04I2IsrzOHZeq_GeQUtBguXL9g5Zs5Kj-sI_Q2s0N8sdDV92Wa8IpQBmWWohJv-5VPtLjah6EIu1sZ2PlkroIw?width=960&height=640&cropmode=none" width="960" />
-            <p> Mr. Chandra</p>
-            <p>Semi Skilled Lab Assistant (Mechanic)</p></a>
-          </li>
-          <li class="cardli"><a class="waves-effect waves-light" href="#modal10"><img src="https://lie0pg.bn1304.livefilestore.com/y4mWBFjKPt41qpC5PCsDaWgpvprwUZGKUaLV3I17D6RD_4fj47yRH8QHhGcPMv4stK8vzduvtnQdGV33fkZaVLYSbgmqaHYbNlBz4y1uPE8R1D0X8YORTvsT_-eypF20FLJ7tafSHg41MPMer10XmaggpL7qLPWTPdUr--ISHGVNeF3LgSt3MOatcIWV6fn85OBqBwrWJ_VNaDWsJ0RGL1tAw?width=960&height=640&cropmode=none" width="960" />
-            <p>Mr. Siddaraju</p>
-            <p>Helper</p></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-    <div id="fot">
-<footer id="footer" class="page-footer">
-    <div class="container-fluid">
-      <div class="row lool">
-        <!-- <div class="col l4 m4 s12 push-m1 push-l1">
-          <p class="grey-text text-lighten-4"></p>
-          <ul>
-            <li class="navali col l2 m2 s3"><a class="white-text text-lighten-3" href="#!">HOME</a></li>
-            <li class="navali col l2 m2 s3"><a class="white-text text-lighten-3" href="#!">ABOUT</a></li>
-            <li class="navali col l2 m2 s3"><a class="white-text text-lighten-3" href="#!">DEPT</a></li>
-            <li class="navali col l2 m2 s3"><a class="white-text text-lighten-3" href="#!">COURSE</a></li>
-          </ul>
-        </div> -->
-        <div class="roww" style="overflow: hidden;">
-          <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
-          <a href="instagram/rnsit"><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
-          <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
-          <a href="twitter/rnsit"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
-          <a href="linkedin/rnsit"><image class="icon ic4" src="images/linkedin.svg" alt="linkedin"></image></a>
-        
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
-      </div>
+      <p id="para">
+        The department has well equipped laboratory with sophisticated instruments. The practical classes are assisted by the well experienced lab instructor Mrs. Bhagyalakshmi. With all these strengths, the department has achieved 100% results in the past years. The department also encourages students updating their knowledge by involving them in seminars, invited talks and such activities
+      </p>
+      <p id="para">
+        The Department of Physics conducted a National Conference on Phosphors and their Applications (NCPA 2010) during November 15-16, 2010. The conference had 111 participants from various parts of the country and 65 papers were presented in the conference. In the year 2011 the department conducted two events-
+      </p>
+      <ol>
+        <li>Intercollegiate Physics Fest PHOTON 2011 on May 5th 2011</li> <li> National Seminar on Nuclear Technology for the Growth of the Nation on August 22, 2011.</li>
+      </ol>
     </div>
   </div>
-  </footer>
-</div>
-    <!-- Modal part -->
-    <div id="modal1" class="modal">
-      <div class="modal-content">
-        <div class="modal-back">
-          <img class="modal-img" src="https://nce0pg.bn1304.livefilestore.com/y4mF1tDugx_Eha7MjqWfc9gdERKQ6vbI51oxsz02_NvgzZA27ctENXV_2Q1Onw1bItwFGFv_nHK8W2FQ-7oa9_xGfkXt_PpwzEpbbSEJu7MKydgwzv3gtRZgNq6Ymtqczrp7OccBKC_8bjs1dR3uKZoQ5e3RRWHxi10U3Yrt3AeAEDZYcZo_a6PTzpnSeU6vYRDC4Xv5uU0t1_AkwHo0tcpyw?width=960&height=640&cropmode=none" width="960"  />
-        </div>
+  <div class="container">
+    <div class="row">
+      <h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
+      <ul class="listul cardul">
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="https://nce0pg.bn1304.livefilestore.com/y4mF1tDugx_Eha7MjqWfc9gdERKQ6vbI51oxsz02_NvgzZA27ctENXV_2Q1Onw1bItwFGFv_nHK8W2FQ-7oa9_xGfkXt_PpwzEpbbSEJu7MKydgwzv3gtRZgNq6Ymtqczrp7OccBKC_8bjs1dR3uKZoQ5e3RRWHxi10U3Yrt3AeAEDZYcZo_a6PTzpnSeU6vYRDC4Xv5uU0t1_AkwHo0tcpyw?width=960&height=640&cropmode=none" width="960" />
+          <p>Dr. T. Jeevananda</p>
+          <p>Associate Prof / HOD</p></a>
+        </li>
         
-        <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name:</td>
-                <td>Dr. T. Jeevananda</td>
-              </tr>
-              <tr>
-                <td>Designation:</td>
-                <td>Assistant Professor & HOD</td>
-              </tr>
-              <tr>
-                <td>Qualification:</td>
-                <td>M.Sc, Ph. D, PGDCA</td>
-              </tr>
-              <tr>
-                <td>Total Experience:</td>
-                <td>Teaching:16 Years , Research:18 Years</td>
-              </tr>
-            </tbody>
-          </table>
-          
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal2"><img src="https://midpsw.bn1304.livefilestore.com/y4m3A8tanWbFWyvmhnVtMhYb5DMbVCXiqexw15c8abUx4Hgo_2CrhmT87DXQbuTi0BhnjoB63u7ACtE_moAUchliBiKGQ_tq4RedAIG5dtuk5KLL6pC_UnFpvLEFZ98qSbzO9mQkHR2tGm7k4HDr2NzRWvZ_KVSQfnpIdE6YkxEL76Rua1nIHb8SiHT5kzrweGQ5dz67Y4GXuLIWKDcd2KmbQ?width=960&height=640&cropmode=none" width="960"  />
+          <p>Dr. V Bheemaraju</p>
+          <p>Asst.Prof.</p></a>
+        </li>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal3"><img src="https://msdpsw.bn1304.livefilestore.com/y4mj13xAD5RVROXfggcR09FISUqS28hbvU0Hy9V7Bpph38CLXWKt9_SUOVbGl5DfoaIVK_FsezI7AY8dh2UFO14wy84wU45hG4TUCTdys14whndQW4NctkdUQ_nnbysd-yVZEzCa-mwIhYqIsPqqibPEvFWUkOGwwEnTpWtVbkNsdBRxyF8KENJj8gtVOpeZbrCAm7d5HYHsxgpyyzqZO3HnQ?width=960&height=640&cropmode=none" width="960"  />
+          <p>Mr. Ramanath Prabhu</p>
+          <p>Asst.Prof.</p></a>
+        </li>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal4"><img src="https://jydpsw.bn1304.livefilestore.com/y4muvkiu7A68zXs8aQK8MCOpYHYbtLaNrR4unlMwj7MEM0ZbmP3PZ7h0KeGEzLERuG1DNp9ceuVWIUJ-qhY19883H9Mxvp7DOUFNVxLL58WN8r2KtuJ2gAxtde7ddH84l9k7JZFWMhQUr4LE9COvXqitMLQnY1cjwv9YavMy886zOY1Nignjtq6wV_BuPMp7kw0smekP5Z--Kv5f9MU5TMbDA?width=960&height=640&cropmode=none" width="960" />
+          <p>Dr. B Vinay Kumar</p>
+          <p>Asst.Prof.</p></a>
+        </li>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal5"><img src="https://mce0pg.bn1304.livefilestore.com/y4mJA9xrqp8exvtpR7Z3lWtPn_SdhhQ6M3T070IbW7HqO-0WmSDRER0zUgUM3mRhebJ8429oy5Cu1Jrck_mdTQpmmkjIZN8fm4WdMo-Aemz8oThH6FeuY686NoiYMlWbNPKRIYfgQ4GgF7z4fZV-OW_bsBdSa9zRCeyFICAa33OaN-XB-b3TCsBrVQ8DlGpJf5_TtYaYjY9omZrW55DVwSTKQ?width=960&height=640&cropmode=none" width="960"  />
+          <p>Mrs. Karthika Shetty</p>
+          <p>Asst.Prof.</p></a>
+        </li>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal6"><img src="https://kcdpsw.bn1304.livefilestore.com/y4mOPeD4GPL9DtXfQewjO8mGMiDI895zvLgHkZyEnQRMSJdCIpeokXGV1QnSf0AQrz5ZwwCy-YFuR4AP4ajQsg6Pdp8wZ4MXms-ixbCWLTBUaqpTFNJ0Qhvz_inxr2zYYPEvS09wloYQI4_J5AZAyK38EwyYtrgNks3YGTWq_MVRWEq4-zEBOEZ5lbq8TKIIFgLXY91LdiLgv2G9EtxvtEqWw?width=960&height=640&cropmode=none" width="960" />
+          <p>Mrs. Vidyavathi G T</p>
+          <p>Asst.Prof.</p></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <h4 class="black-text"><b><p>Non-Teaching Staff</p></b></h4>
+      <ul class="listul cardul">
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal7"><img src="https://mye0pg.bn1304.livefilestore.com/y4mZQc1pskZBdzVDXvPyJq0sx8S09-4ChNhm_7CvryTc5sWgDChsrcxahiX1lspAiv5AdykLKR61X98csrEsdX0rC8zocZ9GKjcU2n7LM66Xg1wenFqkZN08VOAHSC7q4x2_DMe5VDzlGqsNXiTpiUcB2Qg9TqbOirq1LYhQ7NV1rexCCd0JTrrl2xzycb_Bkde13itLvsaz3c6TgIUPtA-6Q?width=960&height=640&cropmode=none" width="960" />
+          <p>Mrs. Suma Raghavendra</p>
+          <p>Instructor</p></a>
+        </li>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal8"><img src="https://lse0pg.bn1304.livefilestore.com/y4m8gEYR6zrYOndhKc8C7jc4XfEjVWApJiHljeIwAGsZ1XOUuebv9jBtmJEakLXpmZRndVIFBzRJyYXJMwzkx3TQteBMxEqPctXZnSBRsQh27bIbyRuUbpfxzKzAJilJFm9SwO1dcvez1to9_2yah04KtDxqMH998gZO2YVcqER64kpVSNsHtXt6t0nF7z4S7zDk6X77cqk_LRAGSQhPojeqw?width=960&height=640&cropmode=none" width="960" />
+          <p> Mr. Gnanesh S K</p>
+          <p>Asst.Instructor</p></a>
+        </li>
+        
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal9"><img src="https://lye0pg.bn1304.livefilestore.com/y4mtbfKfZXhrELtZboXV7dl7T57YS-lps2RBQ4_eEP2STQ9FLiVoacGynzrigPbOvmFgTlrugIywudUt5xCphuVe9nqsyt8h1ilDZOxTp4377xZufLHUMK78EdqnA8cwkyZ04I2IsrzOHZeq_GeQUtBguXL9g5Zs5Kj-sI_Q2s0N8sdDV92Wa8IpQBmWWohJv-5VPtLjah6EIu1sZ2PlkroIw?width=960&height=640&cropmode=none" width="960" />
+          <p> Mr. Chandra</p>
+          <p>Semi Skilled Lab Assistant (Mechanic)</p></a>
+        </li>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal10"><img src="https://lie0pg.bn1304.livefilestore.com/y4mWBFjKPt41qpC5PCsDaWgpvprwUZGKUaLV3I17D6RD_4fj47yRH8QHhGcPMv4stK8vzduvtnQdGV33fkZaVLYSbgmqaHYbNlBz4y1uPE8R1D0X8YORTvsT_-eypF20FLJ7tafSHg41MPMer10XmaggpL7qLPWTPdUr--ISHGVNeF3LgSt3MOatcIWV6fn85OBqBwrWJ_VNaDWsJ0RGL1tAw?width=960&height=640&cropmode=none" width="960" />
+          <p>Mr. Siddaraju</p>
+          <p>Helper</p></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div id="fot">
+    <footer id="footer" class="page-footer">
+      <div class="container-fluid">
+        <div class="row lool">
+          <div class="roww" style="overflow: hidden;">
+            <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
+            <a href="instagram/rnsit"><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
+            <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+            <a href="twitter/rnsit"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
+            <a href="linkedin/rnsit"><image class="icon ic4" src="images/linkedin.png" alt="linkedin"></image></a>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
+          </div>
         </div>
       </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </footer>
+  </div>
+  <!-- Modal part -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://nce0pg.bn1304.livefilestore.com/y4mF1tDugx_Eha7MjqWfc9gdERKQ6vbI51oxsz02_NvgzZA27ctENXV_2Q1Onw1bItwFGFv_nHK8W2FQ-7oa9_xGfkXt_PpwzEpbbSEJu7MKydgwzv3gtRZgNq6Ymtqczrp7OccBKC_8bjs1dR3uKZoQ5e3RRWHxi10U3Yrt3AeAEDZYcZo_a6PTzpnSeU6vYRDC4Xv5uU0t1_AkwHo0tcpyw?width=960&height=640&cropmode=none" width="960"  />
+      </div>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Dr. T. Jeevananda</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor & HOD</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc, Ph. D, PGDCA</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>Teaching:16 Years , Research:18 Years</td>
+            </tr>
+          </tbody>
+        </table>
+        
       </div>
     </div>
-    <div id="modal2" class="modal">
-      <div class="modal-content">
-        <div class="modal-back">
-          <img class="modal-img" src="https://midpsw.bn1304.livefilestore.com/y4m3A8tanWbFWyvmhnVtMhYb5DMbVCXiqexw15c8abUx4Hgo_2CrhmT87DXQbuTi0BhnjoB63u7ACtE_moAUchliBiKGQ_tq4RedAIG5dtuk5KLL6pC_UnFpvLEFZ98qSbzO9mQkHR2tGm7k4HDr2NzRWvZ_KVSQfnpIdE6YkxEL76Rua1nIHb8SiHT5kzrweGQ5dz67Y4GXuLIWKDcd2KmbQ?width=960&height=640&cropmode=none" width="960"  />
-        </div>
-        
-        <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name:</td>
-                <td>Dr. V Bheemaraju</td>
-              </tr>
-              <tr>
-                <td>Designation:</td>
-                <td>Assistant Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification:</td>
-                <td> B.Sc, M.Sc, MBA,  Ph.D</td>
-              </tr>
-              <tr>
-                <td>Total Experience:</td>
-                <td>Teaching : 32 years</td>
-              </tr>
-            </tbody>
-          </table>
-          
-        </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://midpsw.bn1304.livefilestore.com/y4m3A8tanWbFWyvmhnVtMhYb5DMbVCXiqexw15c8abUx4Hgo_2CrhmT87DXQbuTi0BhnjoB63u7ACtE_moAUchliBiKGQ_tq4RedAIG5dtuk5KLL6pC_UnFpvLEFZ98qSbzO9mQkHR2tGm7k4HDr2NzRWvZ_KVSQfnpIdE6YkxEL76Rua1nIHb8SiHT5kzrweGQ5dz67Y4GXuLIWKDcd2KmbQ?width=960&height=640&cropmode=none" width="960"  />
       </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Dr. V Bheemaraju</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td> B.Sc, M.Sc, MBA,  Ph.D</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>Teaching : 32 years</td>
+            </tr>
+          </tbody>
+        </table>
+        
       </div>
     </div>
-    <div id="modal3" class="modal">
-      <div class="modal-content">
-        <div class="modal-back">
-          <img class="modal-img" src="https://msdpsw.bn1304.livefilestore.com/y4mj13xAD5RVROXfggcR09FISUqS28hbvU0Hy9V7Bpph38CLXWKt9_SUOVbGl5DfoaIVK_FsezI7AY8dh2UFO14wy84wU45hG4TUCTdys14whndQW4NctkdUQ_nnbysd-yVZEzCa-mwIhYqIsPqqibPEvFWUkOGwwEnTpWtVbkNsdBRxyF8KENJj8gtVOpeZbrCAm7d5HYHsxgpyyzqZO3HnQ?width=960&height=640&cropmode=none" width="960" />
-        </div>
-        
-        <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name:</td>
-                <td>Mr. Ramanath Prabhu</td>
-              </tr>
-              <tr>
-                <td>Designation:</td>
-                <td>Assistant Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification:</td>
-                <td> M.Sc, (Ph.D)</td>
-              </tr>
-              <tr>
-                <td>Total Experience:</td>
-                <td>Teaching:3 years , Research:1.5 years</td>
-              </tr>
-            </tbody>
-          </table>
-          
-        </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://msdpsw.bn1304.livefilestore.com/y4mj13xAD5RVROXfggcR09FISUqS28hbvU0Hy9V7Bpph38CLXWKt9_SUOVbGl5DfoaIVK_FsezI7AY8dh2UFO14wy84wU45hG4TUCTdys14whndQW4NctkdUQ_nnbysd-yVZEzCa-mwIhYqIsPqqibPEvFWUkOGwwEnTpWtVbkNsdBRxyF8KENJj8gtVOpeZbrCAm7d5HYHsxgpyyzqZO3HnQ?width=960&height=640&cropmode=none" width="960" />
       </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Mr. Ramanath Prabhu</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td> M.Sc, (Ph.D)</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>Teaching:3 years , Research:1.5 years</td>
+            </tr>
+          </tbody>
+        </table>
+        
       </div>
     </div>
-    <div id="modal4" class="modal">
-      <div class="modal-content">
-        <div class="modal-back">
-          <img class="modal-img" src="https://jydpsw.bn1304.livefilestore.com/y4muvkiu7A68zXs8aQK8MCOpYHYbtLaNrR4unlMwj7MEM0ZbmP3PZ7h0KeGEzLERuG1DNp9ceuVWIUJ-qhY19883H9Mxvp7DOUFNVxLL58WN8r2KtuJ2gAxtde7ddH84l9k7JZFWMhQUr4LE9COvXqitMLQnY1cjwv9YavMy886zOY1Nignjtq6wV_BuPMp7kw0smekP5Z--Kv5f9MU5TMbDA?width=960&height=640&cropmode=none" width="960" />
-        </div>
-        
-        <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name:</td>
-                <td>Dr. B Vinay Kumar</td>
-              </tr>
-              <tr>
-                <td>Designation:</td>
-                <td>Assistant Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification:</td>
-                <td>M.Sc, Ph.D</td>
-              </tr>
-              <tr>
-                <td>Total Experience:</td>
-                <td>2 Years</td>
-              </tr>
-            </tbody>
-          </table>
-          
-        </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://jydpsw.bn1304.livefilestore.com/y4muvkiu7A68zXs8aQK8MCOpYHYbtLaNrR4unlMwj7MEM0ZbmP3PZ7h0KeGEzLERuG1DNp9ceuVWIUJ-qhY19883H9Mxvp7DOUFNVxLL58WN8r2KtuJ2gAxtde7ddH84l9k7JZFWMhQUr4LE9COvXqitMLQnY1cjwv9YavMy886zOY1Nignjtq6wV_BuPMp7kw0smekP5Z--Kv5f9MU5TMbDA?width=960&height=640&cropmode=none" width="960" />
       </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Dr. B Vinay Kumar</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc, Ph.D</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>2 Years</td>
+            </tr>
+          </tbody>
+        </table>
+        
       </div>
     </div>
-    <div id="modal5" class="modal">
-      <div class="modal-content">
-        <div class="modal-back">
-          <img class="modal-img" src="https://mce0pg.bn1304.livefilestore.com/y4mJA9xrqp8exvtpR7Z3lWtPn_SdhhQ6M3T070IbW7HqO-0WmSDRER0zUgUM3mRhebJ8429oy5Cu1Jrck_mdTQpmmkjIZN8fm4WdMo-Aemz8oThH6FeuY686NoiYMlWbNPKRIYfgQ4GgF7z4fZV-OW_bsBdSa9zRCeyFICAa33OaN-XB-b3TCsBrVQ8DlGpJf5_TtYaYjY9omZrW55DVwSTKQ?width=960&height=640&cropmode=none" width="960" />
-        </div>
-        
-        <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name:</td>
-                <td>Mrs. Karthika Shetty</td>
-              </tr>
-              <tr>
-                <td>Designation:</td>
-                <td>Assistant Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification:</td>
-                <td>M.Sc</td>
-              </tr>
-              <tr>
-                <td>Total Experience:</td>
-                <td>Teaching:2 Years , Industry:1 Year</td>
-              </tr>
-            </tbody>
-          </table>
-          
-        </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://mce0pg.bn1304.livefilestore.com/y4mJA9xrqp8exvtpR7Z3lWtPn_SdhhQ6M3T070IbW7HqO-0WmSDRER0zUgUM3mRhebJ8429oy5Cu1Jrck_mdTQpmmkjIZN8fm4WdMo-Aemz8oThH6FeuY686NoiYMlWbNPKRIYfgQ4GgF7z4fZV-OW_bsBdSa9zRCeyFICAa33OaN-XB-b3TCsBrVQ8DlGpJf5_TtYaYjY9omZrW55DVwSTKQ?width=960&height=640&cropmode=none" width="960" />
       </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Mrs. Karthika Shetty</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>Teaching:2 Years , Industry:1 Year</td>
+            </tr>
+          </tbody>
+        </table>
+        
       </div>
     </div>
-    <div id="modal6" class="modal">
-      <div class="modal-content">
-        <div class="modal-back">
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal6" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
         <img class="modal-img" src="https://kcdpsw.bn1304.livefilestore.com/y4mOPeD4GPL9DtXfQewjO8mGMiDI895zvLgHkZyEnQRMSJdCIpeokXGV1QnSf0AQrz5ZwwCy-YFuR4AP4ajQsg6Pdp8wZ4MXms-ixbCWLTBUaqpTFNJ0Qhvz_inxr2zYYPEvS09wloYQI4_J5AZAyK38EwyYtrgNks3YGTWq_MVRWEq4-zEBOEZ5lbq8TKIIFgLXY91LdiLgv2G9EtxvtEqWw?width=960&height=640&cropmode=none" width="960" />
-        </div>
-        
-        <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name:</td>
-                <td>  Mrs. Vidyavathi G T</td>
-              </tr>
-              <tr>
-                <td>Designation:</td>
-                <td>Assistant Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification:</td>
-                <td>  M.Sc</td>
-              </tr>
-              <tr>
-                <td>Total Experience:</td>
-                <td>  Teaching:3 Years</td>
-              </tr>
-            </tbody>
-          </table>
-          
-        </div>
       </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>  Mrs. Vidyavathi G T</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>  M.Sc</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>  Teaching:3 Years</td>
+            </tr>
+          </tbody>
+        </table>
+        
       </div>
     </div>
-    <div id="modal7" class="modal">
-      <div class="modal-content">
-        <div class="modal-back">
-          <img class="modal-img" src="https://5k91ew.bn1304.livefilestore.com/y4mAFNzOhS_VOZ1K-I3GXuAMH8SW7nT0sFiaswkofdBuUUxRM83EN33BoWjm22jhVYIhA0JbugmO2t3m7qxdwNNeqTnHR5c5Jnxhyo25BMwud0n8vSWW2CJ8yX5WIIEKfl_wSzgJiZjZVIsXq01A7zC0vanIkjxILq2aaw_n4XuVyVrVtELvchMBCAzAxZYQWT_0ZEy34ROp0PdGZzDnzknSQ?width=660&height=440&cropmode=none" width="660"/>
-        </div>
-        
-        <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name:</td>
-                <td>Dr. B Vinay Kumar</td>
-              </tr>
-              <tr>
-                <td>Designation:</td>
-                <td>Assistant Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification:</td>
-                <td>M.Sc, Ph.D</td>
-              </tr>
-              <tr>
-                <td>Total Experience:</td>
-                <td>2 Years</td>
-              </tr>
-            </tbody>
-          </table>
-          
-        </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal7" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://5k91ew.bn1304.livefilestore.com/y4mAFNzOhS_VOZ1K-I3GXuAMH8SW7nT0sFiaswkofdBuUUxRM83EN33BoWjm22jhVYIhA0JbugmO2t3m7qxdwNNeqTnHR5c5Jnxhyo25BMwud0n8vSWW2CJ8yX5WIIEKfl_wSzgJiZjZVIsXq01A7zC0vanIkjxILq2aaw_n4XuVyVrVtELvchMBCAzAxZYQWT_0ZEy34ROp0PdGZzDnzknSQ?width=660&height=440&cropmode=none" width="660"/>
       </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Dr. B Vinay Kumar</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc, Ph.D</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>2 Years</td>
+            </tr>
+          </tbody>
+        </table>
+        
       </div>
     </div>
-    <div id="modal8" class="modal">
-      <div class="modal-content">
-        <div class="modal-back">
-          <img class="modal-img" src="https://5k91ew.bn1304.livefilestore.com/y4mAFNzOhS_VOZ1K-I3GXuAMH8SW7nT0sFiaswkofdBuUUxRM83EN33BoWjm22jhVYIhA0JbugmO2t3m7qxdwNNeqTnHR5c5Jnxhyo25BMwud0n8vSWW2CJ8yX5WIIEKfl_wSzgJiZjZVIsXq01A7zC0vanIkjxILq2aaw_n4XuVyVrVtELvchMBCAzAxZYQWT_0ZEy34ROp0PdGZzDnzknSQ?width=660&height=440&cropmode=none" width="660"/>
-        </div>
-        
-        <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name:</td>
-                <td>Dr. B Vinay Kumar</td>
-              </tr>
-              <tr>
-                <td>Designation:</td>
-                <td>Assistant Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification:</td>
-                <td>M.Sc, Ph.D</td>
-              </tr>
-              <tr>
-                <td>Total Experience:</td>
-                <td>2 Years</td>
-              </tr>
-            </tbody>
-          </table>
-          
-        </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal8" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://5k91ew.bn1304.livefilestore.com/y4mAFNzOhS_VOZ1K-I3GXuAMH8SW7nT0sFiaswkofdBuUUxRM83EN33BoWjm22jhVYIhA0JbugmO2t3m7qxdwNNeqTnHR5c5Jnxhyo25BMwud0n8vSWW2CJ8yX5WIIEKfl_wSzgJiZjZVIsXq01A7zC0vanIkjxILq2aaw_n4XuVyVrVtELvchMBCAzAxZYQWT_0ZEy34ROp0PdGZzDnzknSQ?width=660&height=440&cropmode=none" width="660"/>
       </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Dr. B Vinay Kumar</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc, Ph.D</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>2 Years</td>
+            </tr>
+          </tbody>
+        </table>
+        
       </div>
     </div>
-    <div id="modal9" class="modal">
-      <div class="modal-content">
-        <div class="modal-back">
-          <img class="modal-img" src="https://5k91ew.bn1304.livefilestore.com/y4mAFNzOhS_VOZ1K-I3GXuAMH8SW7nT0sFiaswkofdBuUUxRM83EN33BoWjm22jhVYIhA0JbugmO2t3m7qxdwNNeqTnHR5c5Jnxhyo25BMwud0n8vSWW2CJ8yX5WIIEKfl_wSzgJiZjZVIsXq01A7zC0vanIkjxILq2aaw_n4XuVyVrVtELvchMBCAzAxZYQWT_0ZEy34ROp0PdGZzDnzknSQ?width=660&height=440&cropmode=none" width="660"/>
-        </div>
-        
-        <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name:</td>
-                <td>Dr. B Vinay Kumar</td>
-              </tr>
-              <tr>
-                <td>Designation:</td>
-                <td>Assistant Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification:</td>
-                <td>M.Sc, Ph.D</td>
-              </tr>
-              <tr>
-                <td>Total Experience:</td>
-                <td>2 Years</td>
-              </tr>
-            </tbody>
-          </table>
-          
-        </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal9" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://5k91ew.bn1304.livefilestore.com/y4mAFNzOhS_VOZ1K-I3GXuAMH8SW7nT0sFiaswkofdBuUUxRM83EN33BoWjm22jhVYIhA0JbugmO2t3m7qxdwNNeqTnHR5c5Jnxhyo25BMwud0n8vSWW2CJ8yX5WIIEKfl_wSzgJiZjZVIsXq01A7zC0vanIkjxILq2aaw_n4XuVyVrVtELvchMBCAzAxZYQWT_0ZEy34ROp0PdGZzDnzknSQ?width=660&height=440&cropmode=none" width="660"/>
       </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Dr. B Vinay Kumar</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc, Ph.D</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>2 Years</td>
+            </tr>
+          </tbody>
+        </table>
+        
       </div>
     </div>
-    <div id="modal10" class="modal">
-      <div class="modal-content">
-        <div class="modal-back">
-          <img class="modal-img" src="https://5k91ew.bn1304.livefilestore.com/y4mAFNzOhS_VOZ1K-I3GXuAMH8SW7nT0sFiaswkofdBuUUxRM83EN33BoWjm22jhVYIhA0JbugmO2t3m7qxdwNNeqTnHR5c5Jnxhyo25BMwud0n8vSWW2CJ8yX5WIIEKfl_wSzgJiZjZVIsXq01A7zC0vanIkjxILq2aaw_n4XuVyVrVtELvchMBCAzAxZYQWT_0ZEy34ROp0PdGZzDnzknSQ?width=660&height=440&cropmode=none" width="660"/>
-        </div>
-        
-        <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name:</td>
-                <td>Dr. B Vinay Kumar</td>
-              </tr>
-              <tr>
-                <td>Designation:</td>
-                <td>Assistant Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification:</td>
-                <td>M.Sc, Ph.D</td>
-              </tr>
-              <tr>
-                <td>Total Experience:</td>
-                <td>2 Years</td>
-              </tr>
-            </tbody>
-          </table>
-          
-        </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal10" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://5k91ew.bn1304.livefilestore.com/y4mAFNzOhS_VOZ1K-I3GXuAMH8SW7nT0sFiaswkofdBuUUxRM83EN33BoWjm22jhVYIhA0JbugmO2t3m7qxdwNNeqTnHR5c5Jnxhyo25BMwud0n8vSWW2CJ8yX5WIIEKfl_wSzgJiZjZVIsXq01A7zC0vanIkjxILq2aaw_n4XuVyVrVtELvchMBCAzAxZYQWT_0ZEy34ROp0PdGZzDnzknSQ?width=660&height=440&cropmode=none" width="660"/>
       </div>
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Dr. B Vinay Kumar</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc, Ph.D</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>2 Years</td>
+            </tr>
+          </tbody>
+        </table>
+        
       </div>
     </div>
-    <!-- Modal end -->
-    <script type="text/javascript" src="js/dept.js"></script>
-    <script type="text/javascript" src="js/navbar.js"></script>
-    <script type="text/javascript" src="js/modal.js"></script>
-    
-    
-  </body>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <!-- Modal end -->
+  <script type="text/javascript" src="js/dept.js"></script>
+  <script type="text/javascript" src="js/navbar.js"></script>
+  <script type="text/javascript" src="js/modal.js"></script>
+  
+  
+</body>
 </html>

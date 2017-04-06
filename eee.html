@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>RNSIT</title>
+  <head>
+    <title>RNSIT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#021B38">
     <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
     <link rel="apple-touch-icon" href="imgages/logo.png"/>
-
     <meta name="mobile-web-app-capable" content="yes">
-<meta name="RNSIT" content="RNSIT">
-<link rel="icon" sizes="192x192" href="images/logo.png">
- <!-- <splash src="images/prin.jpg"></splash> -->
+    <meta name="RNSIT" content="RNSIT">
+    <link rel="icon" sizes="192x192" href="images/logo.png">
+    <!-- <splash src="images/prin.jpg"></splash> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/dept.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
@@ -26,973 +25,870 @@
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/modal.css">
     <link href="images/logo.png" rel="icon" type="image/png">
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-   </head>
-   <body>
-
-   <div>
-     <nav class="nav">
-    <div class="nav-wrapper">
-      <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
-      <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <!-- <li><a id="home" href="index.html">Home</a></li> -->
-        <li><a id="aboutus" href="aboutus.html">About Us</a></li>
-        <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
-
-        <!-- Dropdown Trigger -->
-  <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-  <li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
-
-
-
-
-        <!-- Dropdown Structure -->
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a>BASIC SCIENCE DEPARTMENTS</a></li>
-    <li class="divider"></li>
-    <li><a id="physics" href="physics.html">Physics</a></li>
-    <li><a id="chemistry" href="chemistry.html">Chemistry</a></li>
-    <li><a id="mathematics" href="mathematics.html">Mathematics</a></li>
-    <li class="divider"></li>
-    <li><a id="engineeringdept">ENGINEERING DEPARTMENTS</a></li>
-    <li class="divider"></li>
-    <li><a id="cse" href="cse.html">CSE</a></li>
-    <li><a id="ece" href="ece.html">ECE</a></li>
-    <li><a id="eee" href="eee.html">EEE</a></li>
-    <li><a id="ise" href="ise.html">ISE</a></li>
-    <li><a id="eie" href="eie.html">EIE</a></li>
-    <li><a id="mech" href="mech.html">MECH</a></li>
-    <li><a id="civil" href="civil.html">CIVIL</a></li>
-    <li class="divider"></li>
-    <li><a id="pg">POST GRADUATION</a></li>
-    <li class="divider"></li>
-    <li><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
-    <li><a id="mca"  href="mca.html">MCA</a></li>
-    </ul>
-  </ul>
-
-  <ul id="dropdown2" class="dropdown-content">
-    <li><a id="cse" href="alumni.html">ALUMNI</a></li>
-    <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
-    <li><a id="eee" href="hr.html">HR</a></li>
-    <li><a id="ise" href="library.html">LIBRARY</a></li>
-    <li><a id="eie" href="hostel.html">HOSTEL</a></li>
-    <li><a id="mech" href="transport.html">TRANSPORT</a></li>
-    <li><a id="mba" href="sportsculture.html">SPORTS &amp; CULTURE</a></li>
-    <li><a id="mca" href="facilities.html">FACILITIES</a></li>
-  </ul>
-
-     <!--mobile!-->
-      <ul class="side-nav" id="mobile-demo">
-        <li><a id="home" href="home.html">Home</a></li>
-        <li><a id="aboutus" href="aboutus.html">About Us</a></li>
-        <li><a id="contact" href="contact.html">Contact</a></li>
-        <li><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-         <li class="innerli">      <div class="innerNav">
-        <a class="nava">BASIC SCIENCE DEPARTMENTS</a>
-        <ul><li class=" nava divider"></li></ul>
-        <a id="physics" class="nava awes" href="physics.html">Physics</a>
-        <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
-        <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
-        <a id="engineeringdept" class="nava ">ENGINEERING DEPARTMENTS</a>
-        <ul><li class=" nava divider"></li></ul>
-
-        <a id="cse" class="nava" href="cse.html">CSE</a>
-        <a id="ece" class="nava" href="ece.html">ECE</a>
-        <a id="eee" class="nava"  href="eee.html">EEE</a>
-        <a id="ise" class="nava" href="ise.html">ISE</a>
-        <a id="eie" class="nava" href="eie.html">EIE</a>
-        <a id="mech" class="nava" href="mech.html">MECH</a>
-        <a id="civil" class="nava" href="civil.html">CIVIL</a>
-        <a id="pg" class="nava">POST GRADUATION</a>
-        <ul><li  id=""class=" nava divider"></li></ul>
-        <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
-        <a id="mca" class="nava awes" href="mca.html">MCA</a>
-
-      </div></li>
-      <li><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
-         <li class="innerli">      <div class="innerNav1">
-          <a id="cse" class="nava" href="alumni.html">Alumini</a>
-          <a id="cse" class="nava" href="admissions.html">Admissions</a>
-          <a id="cse" class="nava" href="hr.hrml">HR</a>
-          <a id="cse" class="nava" href="library.html">Library</a>
-          <a id="cse" class="nava" href="hostel.html">Hostel</a>
-          <a id="cse" class="nava" href="transport.html">Transport</a>
-          <a id="cse" class="nava"  href="sportsculture.html">Sports &amp; Culture</a>
-          <a id="cse" class="nava" href="facilities.html">Facilities</a>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <nav class="nav navin">
+      <div class="nav-wrapper">
+        <img class="svg-logo hidden" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+        <a href="index.html" class="brand-logo hidden" style="color: white; margin-left:0px; ">RNSIT</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
+          <li class="navali"><a id="aboutus" href="aboutus.html">About Us</a></li>
+          <li class="navali"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+          <!-- Dropdown Trigger -->
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+          <!-- Dropdown Structure -->
+          <ul id="dropdown1" class="dropdown-content">
+            <li class="divider"></li>
+            <li class="navali"><a id="cse" href="cse.html">CSE</a></li>
+            <li class="navali"><a id="ece" href="ece.html">ECE</a></li>
+            <li class="navali"><a id="eee" href="eee.html">EEE</a></li>
+            <li class="navali"><a id="ise" href="ise.html">ISE</a></li>
+            <li class="navali"><a id="eie" href="eie.html">EIE</a></li>
+            <li class="navali"><a id="mech" href="mech.html">MECH</a></li>
+            <li class="navali"><a id="civil" href="civil.html">CIVIL</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
+            <li class="navali"><a id="mca"  href="mca.html">MCA</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="physics" href="physics.html">Physics</a></li>
+            <li class="navali"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+            <li class="navali"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+            
+            
+          </ul>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+          <li class="navali"><a id="cse" href="alumni.html">ALUMNI</a></li>
+          <li class="navali"><a id="ece" href="admissions.html">ADMISSIONS</a></li>
+          <li class="navali"><a id="eee" href="hr.html">HR</a></li>
+          <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
+        </ul>
+        <!--mobile!-->
+        <ul class="side-nav" id="mobile-demo">
+          <li class="navali"><a id="home" href="index.html">Home</a></li>
+          <li class="navali"><a id="aboutus" href="aboutus.html">About Us</a></li>
+          <li class="navali"><a id="contact" href="contact.html">Contact</a></li>
+          <li class="navali"><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav">
+            <ul class="navali"><li class=" nava divider"></li></ul>
+            <a id="cse" class="nava" href="cse.html">CSE</a>
+            <a id="ece" class="nava" href="ece.html">ECE</a>
+            <a id="eee" class="nava"  href="eee.html">EEE</a>
+            <a id="ise" class="nava" href="ise.html">ISE</a>
+            <a id="eie" class="nava" href="eie.html">EIE</a>
+            <a id="mech" class="nava" href="mech.html">MECH</a>
+            <a id="civil" class="nava" href="civil.html">CIVIL</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
+            <a id="mca" class="nava awes" href="mca.html">MCA</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="physics" class="nava awes" href="physics.html">Physics</a>
+            <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+            <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+            
+          </div></li>
+          <li class="navali"><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav1">
+            <a id="alum" class="nava" href="alumni.html">Alumini</a>
+            <a id="admission" class="nava" href="admissions.html">Admissions</a>
+            <a id="hr" class="nava" href="hr.hrml">HR</a>
+            <a id="faci" class="nava" href="facilities.html">Facilities</a>
           </div>
-          </li>
-
-    </ul>
+        </li>
+      </ul>
     </div>
   </nav>
+  <div class="container">
+    <h3 align="center">ELECTRICAL AND ELECTRONICS ENGINEERING</h3>
+    <div class="row">
+      <div class="col s12 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://myfqjw.bn1304.livefilestore.com/y4mJQ88g8IFeGz0YgI_RvQVkd7mxOKmvtMm5ZaGvRyCPSL8m4bmzN56YfmlBHfnp3RYD7FWa-CKOVYFNuYhTBKJT6xJV0qXVdk-3ql5nNqLSfd3VocyPAZ_KPJ2EKBuk0FG8Tltiw0PosCRnPjw0vpzpoatVDKDZGbE0pdzxBJr_9I33d-1hNJLy6e1Q4vzX2qViDtX_6gXRhb8gWnsyL2hMw?width=960&height=640&cropmode=none" width="960" />
+            <span class="card-title">Dr. Sumathi S</span>
+          </div>
+          <div class="card-content">
+            <p> Professor &amp; Head</p>
+          </div>
+        </div>
+      </div>
+      <p>The department of Electrical and Electronics Engineering was started in the year 2004 with a sanctioned intake of 60 students. The department is headed by Dr.Sumathi S, Asst professor, who has specialized in the area of power systems and has over 18Years  of teaching experience. </p>
+      <p>The staff and the students of the department are working with the vision of making the department the top in India both in formal and non-formal education, research and service in electrical engineering over the next decade.</p>
+      <p>The laboratories are well equipped with state-of-art equipments to meet the growing needs of the industry, especially Electrical Machines Lab and High Voltage Lab have been established with an outlay of 35 lakhs and are considered one of the best setups in the state.</p>
+      <p>The department conducts workshops, seminars, conferences and invited lectures to keep the students and staff updated with the latest developments. The department also invites projects from industries to be implemented by the students of the college. The students have been well trained and with the support of the placement cell, have succeeded in being placed in top companies.</p>
+      <p>  The faculty of the Electrical Engineering are involved in active research in the areas of power quality, power system voltage stability and high voltage engineering. The focus of the department currently is to set up an R&D center to enable teachers to work for their doctoral degree in the department and also undertake industrial consultancy.</p>
+      <h4 class="black-text"><b><p>Laboratory</p></b></h4>
+      
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+            <div class="caption center-align">
+              <h2>This is our big Tagline!</h2>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+            <div class="caption left-align">
+              <h2>Left Aligned Caption</h2>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+            <div class="caption right-align">
+              <h2>Right Aligned Caption</h2>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+            <div class="caption center-align">
+              <h2>This is our big Tagline!</h2>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <p id="para">
+        The department has well equipped laboratory with sophisticated instruments. The practical classes are assisted by the well experienced lab instructor Mrs. Bhagyalakshmi. With all these strengths, the department has achieved 100% results in the past years. The department also encourages students updating their knowledge by involving them in seminars, invited talks and such activities
+      </p>
+      <p id="para">
+        The Department of Physics conducted a National Conference on Phosphors and their Applications (NCPA 2010) during November 15-16, 2010. The conference had 111 participants from various parts of the country and 65 papers were presented in the conference. In the year 2011 the department conducted two events-
+      </p>
+      <ol>
+        <li>Intercollegiate Physics Fest PHOTON 2011 on May 5th 2011</li> <li> National Seminar on Nuclear Technology for the Growth of the Nation on August 22, 2011.</li>
+      </ol>
+    </div>
   </div>
-<div class="container">
-  <h3 align="center">ELECTRICAL AND ELECTRONICS ENGINEERING</h3>
- <div class="row">
-        <div class="col s12 m3">
+  <div class="container">
+    <h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
+    <div class="row">
+      <ul class="listul cardul">
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="https://myfqjw.bn1304.livefilestore.com/y4mJQ88g8IFeGz0YgI_RvQVkd7mxOKmvtMm5ZaGvRyCPSL8m4bmzN56YfmlBHfnp3RYD7FWa-CKOVYFNuYhTBKJT6xJV0qXVdk-3ql5nNqLSfd3VocyPAZ_KPJ2EKBuk0FG8Tltiw0PosCRnPjw0vpzpoatVDKDZGbE0pdzxBJr_9I33d-1hNJLy6e1Q4vzX2qViDtX_6gXRhb8gWnsyL2hMw?width=960&height=640&cropmode=none" width="960" />
+          <p>Dr. Sumathi S </p>
+          <p>Associate Professor.& HOD</p></a>
+        </li>
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <div class="modal-back">
+              <img class="modal-img" src="https://myfqjw.bn1304.livefilestore.com/y4mJQ88g8IFeGz0YgI_RvQVkd7mxOKmvtMm5ZaGvRyCPSL8m4bmzN56YfmlBHfnp3RYD7FWa-CKOVYFNuYhTBKJT6xJV0qXVdk-3ql5nNqLSfd3VocyPAZ_KPJ2EKBuk0FG8Tltiw0PosCRnPjw0vpzpoatVDKDZGbE0pdzxBJr_9I33d-1hNJLy6e1Q4vzX2qViDtX_6gXRhb8gWnsyL2hMw?width=960&height=640&cropmode=none" width="960"  />
+            </div>
+            
+            <div class="modal-details">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Name</td>
+                    <td>Dr. Sumathi S </td>
+                  </tr>
+                  <tr>
+                    <td>Designation</td>
+                    <td>Associate Professor& HOD</td>
+                  </tr>
+                  <tr>
+                    <td>Qualification</td>
+                    <td>B.E(FC), M.E (FC), M.S, Ph.D</td>
+                  </tr>
+                  <tr>
+                    <td>Total Experience</td>
+                    <td>18 years of teaching, 1 year of industry</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+          </div>
+        </div>
+        
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal2"><img src="https://iir7pg.bn1304.livefilestore.com/y4mAgGb5Tf7UNB1bg4m4qhEs2m2AyqCKaZADYX28lB5Zc0-39BXYjmTQwL8wbEzSgvD1x1wuMPwx9YI59zw3zjTWTK-1kcnLfj6I7d0JzBTOseI_WTs5kgKZpYVJ_bS38lW6DevYi_pRaqaCHoxGF_yWMGcO6qhRLitUmOjIAAiqe2WCZXB785Cj1pb-YXTy02fQfThSnazmvVHHe54oWOTCw?width=660&height=440&cropmode=none" width="660"  />
+          <p>Mr. B Mallikarjuna</p>
+          <p>Asst. Professor</p></a>
+        </li>
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <div class="modal-back">
+              <img class="modal-img" src="https://iir7pg.bn1304.livefilestore.com/y4mAgGb5Tf7UNB1bg4m4qhEs2m2AyqCKaZADYX28lB5Zc0-39BXYjmTQwL8wbEzSgvD1x1wuMPwx9YI59zw3zjTWTK-1kcnLfj6I7d0JzBTOseI_WTs5kgKZpYVJ_bS38lW6DevYi_pRaqaCHoxGF_yWMGcO6qhRLitUmOjIAAiqe2WCZXB785Cj1pb-YXTy02fQfThSnazmvVHHe54oWOTCw?width=660&height=440&cropmode=none" width="660"  >
+            </div>
+            
+            <div class="modal-details">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Name</td>
+                    <td>Mr. B Mallikarjuna</td>
+                  </tr>
+                  <tr>
+                    <td>Designation</td>
+                    <td>Asst. Professor</td>
+                  </tr>
+                  <tr>
+                    <td>Qualification</td>
+                    <td>BE,ME(FC)</td>
+                  </tr>
+                  <tr>
+                    <td>Total Experience</td>
+                    <td>17 years of teaching</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+          </div>
+        </div>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal3"><img src="images/cardpics/card4.jpeg">
+          <p>Mr. S Sridhar</p>
+          <p> Asst. Professor</p></a>
+        </li>
+        <div id="modal3" class="modal">
+          <div class="modal-content">
+            <div class="modal-back">
+              <img class="modal-img" src="images/cardpics/card1.jpeg">
+            </div>
+            
+            <div class="modal-details">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Name</td>
+                    <td>Mr. S Sridhar</td>
+                  </tr>
+                  <tr>
+                    <td>Designation</td>
+                    <td>Asst. Professor</td>
+                  </tr>
+                  <tr>
+                    <td>Qualification</td>
+                    <td>B.E (FC), M.Tech(FC),(Ph.D)</td>
+                  </tr>
+                  <tr>
+                    <td>Total Experience</td>
+                    <td>8 years of teaching</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+          </div>
+        </div>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal4"><img src="https://ncfqjw.bn1304.livefilestore.com/y4mqNypbhIC5Nbcnu1cjlOWmIhebNzXIsk1kh2ylVoKogvJlm7EWa7Mv4hEJJKPvdX6tAxalcjN_qlUGUbE2n8GtGjcA7jACHDKbq98kuKwc7FYhGKC5DlrbCFGd7AM_kOuvLKpec2KEARCDiGdNOCUcCONnei-sITlvmSevJPzyY0xQ61aQtJx9ld0TC3VmmI08AFuAG19bciS9rdSK0JXkg?width=960&height=640&cropmode=none" width="960" />
+          <p>Mrs. Rashmy Deepak</p>
+          <p>Asst. Professor</p></a>
+        </li>
+        <div id="modal4" class="modal">
+          <div class="modal-content">
+            <div class="modal-back">
+              <img class="modal-img" src="https://ncfqjw.bn1304.livefilestore.com/y4mqNypbhIC5Nbcnu1cjlOWmIhebNzXIsk1kh2ylVoKogvJlm7EWa7Mv4hEJJKPvdX6tAxalcjN_qlUGUbE2n8GtGjcA7jACHDKbq98kuKwc7FYhGKC5DlrbCFGd7AM_kOuvLKpec2KEARCDiGdNOCUcCONnei-sITlvmSevJPzyY0xQ61aQtJx9ld0TC3VmmI08AFuAG19bciS9rdSK0JXkg?width=960&height=640&cropmode=none" width="960"  />
+            </div>
+            
+            <div class="modal-details">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Name</td>
+                    <td>Mrs. Rashmy Deepak</td>
+                  </tr>
+                  <tr>
+                    <td>Designation</td>
+                    <td>Asst. Professor</td>
+                  </tr>
+                  <tr>
+                    <td>Qualification</td>
+                    <td>BE(FCD), M.Tech (FCD)</td>
+                  </tr>
+                  <tr>
+                    <td>Total Experience</td>
+                    <td>7 years of teaching, 4 years of industry</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+          </div>
+        </div>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal5"><img src="images/cardpics/card4.jpeg">
+          <p>Mrs Roopa Nayak</p>
+          <p>Asst Professor</p></a>
+          <div id="modal5" class="modal">
+            <div class="modal-content">
+              <div class="modal-back">
+                <img class="modal-img" src="images/cardpics/card1.jpeg">
+              </div>
+              
+              <div class="modal-details">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Mrs Roopa Nayak</td>
+                    </tr>
+                    <tr>
+                      <td>Designation</td>
+                      <td>Asst Professor</td>
+                    </tr>
+                    <tr>
+                      <td>Qualification</td>
+                      <td>BE (FC), M.Tech (FCD)</td>
+                    </tr>
+                    <tr>
+                      <td>Total Experience</td>
+                      <td>8 years of teaching</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal6"><img src="https://lifqjw.bn1304.livefilestore.com/y4mztj8mgeAf-KbrqoDtp9Y_wrVpBE1ywiCBZYHMm2pNwMZ7Qd_cN5jsuKUQyAcYY0jNk4z4gXiEEZifIO7apdL8Y-Nm9MIPLA18uUqwykMw6mTW08CddqH8mdwd-mZu82eoIzqZ-7Np0CP_2b19TVinm3KI17m2kp3sqQjV_kGOw5f08UpSruhQSMycyYqmSzwGTWB0KY-2TNgC2qG_WYJug?width=960&height=640&cropmode=none" width="960"  />
+            <p>Mr. Ameen Sadiq </p>
+            <p> Asst Professor</p></a>
+          </li>
+          <div id="modal6" class="modal">
+            <div class="modal-content">
+              <div class="modal-back">
+                <img class="modal-img"  src="https://lifqjw.bn1304.livefilestore.com/y4mztj8mgeAf-KbrqoDtp9Y_wrVpBE1ywiCBZYHMm2pNwMZ7Qd_cN5jsuKUQyAcYY0jNk4z4gXiEEZifIO7apdL8Y-Nm9MIPLA18uUqwykMw6mTW08CddqH8mdwd-mZu82eoIzqZ-7Np0CP_2b19TVinm3KI17m2kp3sqQjV_kGOw5f08UpSruhQSMycyYqmSzwGTWB0KY-2TNgC2qG_WYJug?width=960&height=640&cropmode=none" width="960" />
+              </div>
+              
+              <div class="modal-details">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Mr. Ameen Sadiq</td>
+                    </tr>
+                    <tr>
+                      <td>Designation</td>
+                      <td>Asst Professor</td>
+                    </tr>
+                    <tr>
+                      <td>Qualification</td>
+                      <td>B.E, M.Tech(FC)</td>
+                    </tr>
+                    <tr>
+                      <td>Total Experience</td>
+                      <td>8 years of teaching, 2 years of industry</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal7"><img src="https://msfqjw.bn1304.livefilestore.com/y4mpkMPet5cSQjBSydK_uW75Q4MkibBEQxkMI-I1QWIa1eabIebnpJer2NKYvnZ0Idrsj0FiLNiM3_jhDE8WxOLkc7w1v6-yKEE4usIAKDcMJ-npBMaaU5UTc33fhwkKw7F-xlXtQq6jr_H-NnMeVKYadQHHywfv4ORxIY1pNNOVKH0Nh9cMn31GquooAxuUaxZLRi3B4XiMvHLngF9-KzHTA?width=960&height=640&cropmode=none" width="960" />
+            <p> Mr. Rakesh M N</p>
+            <p> Asst Professor</p></a>
+          </li>
+          <div id="modal7" class="modal">
+            <div class="modal-content">
+              <div class="modal-back">
+                <img class="modal-img" src="https://msfqjw.bn1304.livefilestore.com/y4mpkMPet5cSQjBSydK_uW75Q4MkibBEQxkMI-I1QWIa1eabIebnpJer2NKYvnZ0Idrsj0FiLNiM3_jhDE8WxOLkc7w1v6-yKEE4usIAKDcMJ-npBMaaU5UTc33fhwkKw7F-xlXtQq6jr_H-NnMeVKYadQHHywfv4ORxIY1pNNOVKH0Nh9cMn31GquooAxuUaxZLRi3B4XiMvHLngF9-KzHTA?width=960&height=640&cropmode=none" width="960"  />
+              </div>
+              
+              <div class="modal-details">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Mr. Rakesh M N</td>
+                    </tr>
+                    <tr>
+                      <td>Designation</td>
+                      <td>Asst Professor</td>
+                    </tr>
+                    <tr>
+                      <td>Qualification</td>
+                      <td>B.E, M. Tech</td>
+                    </tr>
+                    <tr>
+                      <td>Total Experience</td>
+                      <td>8 years of teaching, 2 years of industry</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal8"><img src="https://mifqjw.bn1304.livefilestore.com/y4m6s_fZ14ZHmBrGYbN_YYLthqWrRMiy49FAzRak8zZC27HbNi7owXZCmKcNx1V0eGr-CO3RAuXOFZVE9co_mH0NJznu1sOwg1z-TeflIvDlfHo6X06n9jxGsemL2xC8IFH4eFNuzTi_-U2Xo4Z8MxgMYzESwsFaT2dXHRk-28LjzTPodOn8B3CkH-zPKpJBDe-sBL2VSOkWLBwBxauWDUQLg?width=960&height=640&cropmode=none" width="960" />
+            <p>Swetha</p>
+            <p>Asst Professor</p></a>
+          </li>
+          <div id="modal8" class="modal">
+            <div class="modal-content">
+              <div class="modal-back">
+                <img class="modal-img"  src="https://mifqjw.bn1304.livefilestore.com/y4m6s_fZ14ZHmBrGYbN_YYLthqWrRMiy49FAzRak8zZC27HbNi7owXZCmKcNx1V0eGr-CO3RAuXOFZVE9co_mH0NJznu1sOwg1z-TeflIvDlfHo6X06n9jxGsemL2xC8IFH4eFNuzTi_-U2Xo4Z8MxgMYzESwsFaT2dXHRk-28LjzTPodOn8B3CkH-zPKpJBDe-sBL2VSOkWLBwBxauWDUQLg?width=960&height=640&cropmode=none" width="960"  />
+              </div>
+              
+              <div class="modal-details">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Swetha</td>
+                    </tr>
+                    <tr>
+                      <td>Designation</td>
+                      <td>Asst Professor</td>
+                    </tr>
+                    <tr>
+                      <td>Qualification</td>
+                      <td>DEEE (FC), B. E (FC), M.Tech (FCD)</td>
+                    </tr>
+                    <tr>
+                      <td>Total Experience</td>
+                      <td>6 years of teaching</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal9"><img src="https://jyfqjw.bn1304.livefilestore.com/y4ml8sQIYluniMpqPem9WfoqFpONf-Q39Cl5SPPNkIoDPUkleXJB_Kh1bH7jl89qY0oVhacpW3AgN77BDBJ-mlsnOnpyEdXKGlWjYQM-CUHYz5NGwXTI1YvSM9INsZDgbK8gNd6zkhsgoG4nPtwRDWtgsvXvxMCXldn4z6TiCLQ8LZYoakRrd4XZpfP7eXGAtRdCaGugx9kz1Yh_dA4avgvTw?width=960&height=640&cropmode=none" width="960" />
+            <p>Dr.Sharada prasad N</p>
+            <p>Asst Professor</p></a>
+          </li>
+          <div id="modal9" class="modal">
+            <div class="modal-content">
+              <div class="modal-back">
+                <img class="modal-img"  src="https://jyfqjw.bn1304.livefilestore.com/y4ml8sQIYluniMpqPem9WfoqFpONf-Q39Cl5SPPNkIoDPUkleXJB_Kh1bH7jl89qY0oVhacpW3AgN77BDBJ-mlsnOnpyEdXKGlWjYQM-CUHYz5NGwXTI1YvSM9INsZDgbK8gNd6zkhsgoG4nPtwRDWtgsvXvxMCXldn4z6TiCLQ8LZYoakRrd4XZpfP7eXGAtRdCaGugx9kz1Yh_dA4avgvTw?width=960&height=640&cropmode=none" width="960"  />
+              </div>
+              
+              <div class="modal-details">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Dr.Sharada prasad N</td>
+                    </tr>
+                    <tr>
+                      <td>Designation</td>
+                      <td>Asst Professor</td>
+                    </tr>
+                    <tr>
+                      <td>Qualification</td>
+                      <td>B.E, M.Tech, Ph.D</td>
+                    </tr>
+                    <tr>
+                      <td>Total Experience</td>
+                      <td>5 years of teaching, 1 year of industry</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal10"><img src="https://kcfqjw.bn1304.livefilestore.com/y4mJ-YfgnSXf3RZ37-onKBubYwM2Tw3hwhi2pAJnG-vMVc_WK0jjAxXEAQli8U2NwwHzoCPrsU4qSH_w831mXarH8WYZkC_7eVXraulz96pTkvMzzIXA6rdHuw9eIizcNOfPbqduQDgw0MkwOKdHyY6XPxalZqk_KwYi5EbfEbOTczhyHOJpkD302il8dheeUiPKj464MZzNbmwmPay5nkF4A?width=960&height=640&cropmode=none" width="960"  />
+            <p>Mr. Balaji Chakravarthy </p>
+            <p> Asst Professor</p></a>
+          </li>
+          <div id="modal10" class="modal">
+            <div class="modal-content">
+              <div class="modal-back">
+                <img class="modal-img" src="https://kcfqjw.bn1304.livefilestore.com/y4mJ-YfgnSXf3RZ37-onKBubYwM2Tw3hwhi2pAJnG-vMVc_WK0jjAxXEAQli8U2NwwHzoCPrsU4qSH_w831mXarH8WYZkC_7eVXraulz96pTkvMzzIXA6rdHuw9eIizcNOfPbqduQDgw0MkwOKdHyY6XPxalZqk_KwYi5EbfEbOTczhyHOJpkD302il8dheeUiPKj464MZzNbmwmPay5nkF4A?width=960&height=640&cropmode=none" width="960"  />
+              </div>
+              
+              <div class="modal-details">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Mr. Balaji Chakravarthy </td>
+                    </tr>
+                    <tr>
+                      <td>Designation</td>
+                      <td>Asst Professor</td>
+                    </tr>
+                    <tr>
+                      <td>Qualification</td>
+                      <td>B.E, M.Tech(FC)</td>
+                    </tr>
+                    <tr>
+                      <td>Total Experience</td>
+                      <td>7.5 years of teaching</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal11"><img src="https://lye7hq.bn1304.livefilestore.com/y4mzPJy3v7XrZpHhnuq6z3BMpteveEeTbPj_-sX85ufAnkcntuVSyxPeQakUU3J54aiqJP8N07ooypZUREPmOX3J9lQGw8KlXaESMc1U-slNqHsuS8k0jUYtwE5onnUVFghbp0VQWBcCPhGBR6xiX1ufZqGBeAZ38Rt6biUQe-qCpBhBXaLK_Kk80fNfyM-Nmo_QsMsmcn83EMrufgmfX7uMQ?width=960&height=640&cropmode=none" width="960" />
+            <p> Ms. Sharmila N</p>
+            <p> Asst Professor</p></a>
+          </li>
+          <div id="modal11" class="modal">
+            <div class="modal-content">
+              <div class="modal-back">
+                <img class="modal-img"  src="https://lye7hq.bn1304.livefilestore.com/y4mzPJy3v7XrZpHhnuq6z3BMpteveEeTbPj_-sX85ufAnkcntuVSyxPeQakUU3J54aiqJP8N07ooypZUREPmOX3J9lQGw8KlXaESMc1U-slNqHsuS8k0jUYtwE5onnUVFghbp0VQWBcCPhGBR6xiX1ufZqGBeAZ38Rt6biUQe-qCpBhBXaLK_Kk80fNfyM-Nmo_QsMsmcn83EMrufgmfX7uMQ?width=960&height=640&cropmode=none" width="960"  />
+              </div>
+              
+              <div class="modal-details">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Ms. Sharmila N</td>
+                    </tr>
+                    <tr>
+                      <td>Designation</td>
+                      <td>Asst Professor</td>
+                    </tr>
+                    <tr>
+                      <td>Qualification</td>
+                      <td>B.E, M. Tech</td>
+                    </tr>
+                    <tr>
+                      <td>Total Experience</td>
+                      <td>1 year of teaching</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal12"><img src="https://mce7hq.bn1304.livefilestore.com/y4m2VXsDct2DPJzxwNpsNbVcvK1umOgnBYRMKvnwTZduFZd1rZgaZCQrVs1gH6yhMaG37VS2Wx20hY3C6ZvzLE6IZ9HKb6BX81Tswdz-zkJNeFjBSRazDPnjJUVnS7dAVMPW8gkcwLGKUuRYh-RuOrBOInuBlqX_PXI0yVRrt4PlJwiR5uB7ZSDIPSMnO-n9KtTTOVPewr0svjG-fitVcINvA?width=960&height=640&cropmode=none" width="960"  />
+            <p> Mrs. Supriya P</p>
+            <p>Asst Professor</p></a>
+          </li>
+          <div id="modal12" class="modal">
+            <div class="modal-content">
+              <div class="modal-back">
+                <img class="modal-img" src="https://mce7hq.bn1304.livefilestore.com/y4m2VXsDct2DPJzxwNpsNbVcvK1umOgnBYRMKvnwTZduFZd1rZgaZCQrVs1gH6yhMaG37VS2Wx20hY3C6ZvzLE6IZ9HKb6BX81Tswdz-zkJNeFjBSRazDPnjJUVnS7dAVMPW8gkcwLGKUuRYh-RuOrBOInuBlqX_PXI0yVRrt4PlJwiR5uB7ZSDIPSMnO-n9KtTTOVPewr0svjG-fitVcINvA?width=960&height=640&cropmode=none" width="960" />
+              </div>
+              
+              <div class="modal-details">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Mrs. Supriya P</td>
+                    </tr>
+                    <tr>
+                      <td>Designation</td>
+                      <td>Asst Professor</td>
+                    </tr>
+                    <tr>
+                      <td>Qualification</td>
+                      <td>B.E, M.Tech</td>
+                    </tr>
+                    <tr>
+                      <td>Total Experience</td>
+                      <td>3.8 years of teaching</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal13"><img src="https://lse7hq.bn1304.livefilestore.com/y4mq6y1-LQQdsDnyQfBsw8JJ1m910nLwd-6qAXE-tqpXNGP8pgJvdfW6cc-_2oMBpfl5-ArZgHl8E2TgFwf6OHvuKFIAz_cIWBeLpJ913qfrzShR3JgQNHuKIsZK6EJXo7ekPl6b140Jlxu8Jqf2AX8p8Z0EortVMwTMwIc7EU8QOtqAiawJB65isgNu8tFclMS34tf4c7Z0F03QJHyMAsLCw?width=960&height=640&cropmode=none" width="960"  />
+            <p>Ms. Kokila R</p>
+            <p>Asst Professor</p></a>
+          </li>
+          <div id="modal13" class="modal">
+            <div class="modal-content">
+              <div class="modal-back">
+                <img class="modal-img"  src="https://lse7hq.bn1304.livefilestore.com/y4mq6y1-LQQdsDnyQfBsw8JJ1m910nLwd-6qAXE-tqpXNGP8pgJvdfW6cc-_2oMBpfl5-ArZgHl8E2TgFwf6OHvuKFIAz_cIWBeLpJ913qfrzShR3JgQNHuKIsZK6EJXo7ekPl6b140Jlxu8Jqf2AX8p8Z0EortVMwTMwIc7EU8QOtqAiawJB65isgNu8tFclMS34tf4c7Z0F03QJHyMAsLCw?width=960&height=640&cropmode=none" width="960"  />
+              </div>
+              
+              <div class="modal-details">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Ms. Kokila R</td>
+                    </tr>
+                    <tr>
+                      <td>Designation</td>
+                      <td>Asst Professor</td>
+                    </tr>
+                    <tr>
+                      <td>Qualification</td>
+                      <td> B.E, M.Tech</td>
+                    </tr>
+                    <tr>
+                      <td>Total Experience</td>
+                      <td>1 year of teaching</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal14"><img src="images/cardpics/card4.jpeg">
+            <p> Mr. Anoop H A</p>
+            <p> Asst Professor</p></a>
+          </li>
+          <div id="modal14" class="modal">
+            <div class="modal-content">
+              <div class="modal-back">
+                <img class="modal-img" src="images/cardpics/card1.jpeg">
+              </div>
+              
+              <div class="modal-details">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Mr. Anoop H A</td>
+                    </tr>
+                    <tr>
+                      <td>Designation</td>
+                      <td>Asst Professor</td>
+                    </tr>
+                    <tr>
+                      <td>Qualification</td>
+                      <td>B.E, M.Tech</td>
+                    </tr>
+                    <tr>
+                      <td>Total Experience</td>
+                      <td> - years of teaching</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <li class="cardli"><a class="waves-effect waves-light" href="#modal15"><img src="images/cardpics/card4.jpeg">
+            <p>Mrs. Shruthi Shivanand</p>
+            <p> Asst Professor</p></a>
+          </li>
+          <div id="modal15" class="modal">
+            <div class="modal-content">
+              <div class="modal-back">
+                <img class="modal-img" src="images/cardpics/card1.jpeg">
+              </div>
+              
+              <div class="modal-details">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Mrs. Shruthi Shivanand</td>
+                    </tr>
+                    <tr>
+                      <td>Designation</td>
+                      <td>Asst Professor</td>
+                    </tr>
+                    <tr>
+                      <td>Qualification</td>
+                      <td>B.E, M. Tech</td>
+                    </tr>
+                    <tr>
+                      <td>Total Experience</td>
+                      <td> - year of teaching</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <h4 class="black-text"><b><p>Non-Teaching Staff</p></b></h4>
+        <div class=" col l3 m6 s12">
           <div class="card">
-            <div class="card-image">
-              <img src="https://myfqjw.bn1304.livefilestore.com/y4mJQ88g8IFeGz0YgI_RvQVkd7mxOKmvtMm5ZaGvRyCPSL8m4bmzN56YfmlBHfnp3RYD7FWa-CKOVYFNuYhTBKJT6xJV0qXVdk-3ql5nNqLSfd3VocyPAZ_KPJ2EKBuk0FG8Tltiw0PosCRnPjw0vpzpoatVDKDZGbE0pdzxBJr_9I33d-1hNJLy6e1Q4vzX2qViDtX_6gXRhb8gWnsyL2hMw?width=960&height=640&cropmode=none" width="960" />
-              <span class="card-title">Dr. Sumathi S</span>
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator"  src="https://mye7hq.bn1304.livefilestore.com/y4mOyo0D9ZJmaZ5yoGWCaAd5wEgSxau1hl1Pgr2tCcHeOQYtFe-ajuLJ3lE8nuaDuSTcsAdFMuMlVPsz1nqF0GS5iVeT3xKqT6SgvvXTD0Vnrt_N3WR596MnlPQPfYRjk9bmNC5OcJXM0kr2zhtfaJQg8lBqdPd5V5uo2V7crSC5AUX5pBRqaevdTrhtvE9YsW5Txs3430J5bSmgr_aPgWdpQ?width=960&height=640&cropmode=none" width="960"  />
             </div>
             <div class="card-content">
-              <p> Professor &amp; Head</p>
+              <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr.Venketesha Sharma Y</p>
+              <p style="font-size: 14.5px;">Foreman</p></b><i class="material-icons right">more_vert</i></span>
             </div>
-          </div>
-        </div>
-<p>The department of Electrical and Electronics Engineering was started in the year 2004 with a sanctioned intake of 60 students. The department is headed by Dr.Sumathi S, Asst professor, who has specialized in the area of power systems and has over 18Years  of teaching experience. </p>
-<p>The staff and the students of the department are working with the vision of making the department the top in India both in formal and non-formal education, research and service in electrical engineering over the next decade.</p>
-<p>The laboratories are well equipped with state-of-art equipments to meet the growing needs of the industry, especially Electrical Machines Lab and High Voltage Lab have been established with an outlay of 35 lakhs and are considered one of the best setups in the state.</p>
-<p>The department conducts workshops, seminars, conferences and invited lectures to keep the students and staff updated with the latest developments. The department also invites projects from industries to be implemented by the students of the college. The students have been well trained and with the support of the placement cell, have succeeded in being placed in top companies.</p>
-<p>  The faculty of the Electrical Engineering are involved in active research in the areas of power quality, power system voltage stability and high voltage engineering. The focus of the department currently is to set up an R&D center to enable teachers to work for their doctoral degree in the department and also undertake industrial consultancy.</p>
-
-<h4 class="black-text"><b><p>Laboratory</p></b></h4>
-        
-      <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
-        <div class="caption center-align">
-          <h2>This is our big Tagline!</h2>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
-        <div class="caption left-align">
-          <h2>Left Aligned Caption</h2>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
-        <div class="caption right-align">
-          <h2>Right Aligned Caption</h2>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
-        <div class="caption center-align">
-          <h2>This is our big Tagline!</h2>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
-  <p id="para">
-    The department has well equipped laboratory with sophisticated instruments. The practical classes are assisted by the well experienced lab instructor Mrs. Bhagyalakshmi. With all these strengths, the department has achieved 100% results in the past years. The department also encourages students updating their knowledge by involving them in seminars, invited talks and such activities
-</p>
-<p id="para">
-    The Department of Physics conducted a National Conference on Phosphors and their Applications (NCPA 2010) during November 15-16, 2010. The conference had 111 participants from various parts of the country and 65 papers were presented in the conference. In the year 2011 the department conducted two events-
-</p>
-<ol>
-    <li>Intercollegiate Physics Fest PHOTON 2011 on May 5th 2011</li> <li> National Seminar on Nuclear Technology for the Growth of the Nation on August 22, 2011.</li>
-</ol>
-</div>
-</div>
-
-  <div class="container">
-  <h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
-  <div class="row">
-    <ul class="listul cardul">
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="https://myfqjw.bn1304.livefilestore.com/y4mJQ88g8IFeGz0YgI_RvQVkd7mxOKmvtMm5ZaGvRyCPSL8m4bmzN56YfmlBHfnp3RYD7FWa-CKOVYFNuYhTBKJT6xJV0qXVdk-3ql5nNqLSfd3VocyPAZ_KPJ2EKBuk0FG8Tltiw0PosCRnPjw0vpzpoatVDKDZGbE0pdzxBJr_9I33d-1hNJLy6e1Q4vzX2qViDtX_6gXRhb8gWnsyL2hMw?width=960&height=640&cropmode=none" width="960" />
-      <p>Dr. Sumathi S </p>
-      <p>Associate Professor.& HOD</p></a>
-      </li>
-
-      <div id="modal1" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img" src="https://myfqjw.bn1304.livefilestore.com/y4mJQ88g8IFeGz0YgI_RvQVkd7mxOKmvtMm5ZaGvRyCPSL8m4bmzN56YfmlBHfnp3RYD7FWa-CKOVYFNuYhTBKJT6xJV0qXVdk-3ql5nNqLSfd3VocyPAZ_KPJ2EKBuk0FG8Tltiw0PosCRnPjw0vpzpoatVDKDZGbE0pdzxBJr_9I33d-1hNJLy6e1Q4vzX2qViDtX_6gXRhb8gWnsyL2hMw?width=960&height=640&cropmode=none" width="960"  />
-          </div>
-      
-          <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Dr. Sumathi S </td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Associate Professor& HOD</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>B.E(FC), M.E (FC), M.S, Ph.D</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>18 years of teaching, 1 year of industry</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-    
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal2"><img src="https://iir7pg.bn1304.livefilestore.com/y4mAgGb5Tf7UNB1bg4m4qhEs2m2AyqCKaZADYX28lB5Zc0-39BXYjmTQwL8wbEzSgvD1x1wuMPwx9YI59zw3zjTWTK-1kcnLfj6I7d0JzBTOseI_WTs5kgKZpYVJ_bS38lW6DevYi_pRaqaCHoxGF_yWMGcO6qhRLitUmOjIAAiqe2WCZXB785Cj1pb-YXTy02fQfThSnazmvVHHe54oWOTCw?width=660&height=440&cropmode=none" width="660"  />
-      <p>Mr. B Mallikarjuna</p>
-      <p>Asst. Professor</p></a>
-      </li>
-
-      <div id="modal2" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img" src="https://iir7pg.bn1304.livefilestore.com/y4mAgGb5Tf7UNB1bg4m4qhEs2m2AyqCKaZADYX28lB5Zc0-39BXYjmTQwL8wbEzSgvD1x1wuMPwx9YI59zw3zjTWTK-1kcnLfj6I7d0JzBTOseI_WTs5kgKZpYVJ_bS38lW6DevYi_pRaqaCHoxGF_yWMGcO6qhRLitUmOjIAAiqe2WCZXB785Cj1pb-YXTy02fQfThSnazmvVHHe54oWOTCw?width=660&height=440&cropmode=none" width="660"  >
-          </div>
-      
-          <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Mr. B Mallikarjuna</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst. Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>BE,ME(FC)</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>17 years of teaching</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal3"><img src="images/cardpics/card4.jpeg">
-      <p>Mr. S Sridhar</p>
-      <p> Asst. Professor</p></a>
-      </li>
-      <div id="modal3" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img" src="images/cardpics/card1.jpeg">
-          </div>
-      
-          <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Mr. S Sridhar</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst. Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>B.E (FC), M.Tech(FC),(Ph.D)</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>8 years of teaching</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-
-            <li class="cardli"><a class="waves-effect waves-light" href="#modal4"><img src="https://ncfqjw.bn1304.livefilestore.com/y4mqNypbhIC5Nbcnu1cjlOWmIhebNzXIsk1kh2ylVoKogvJlm7EWa7Mv4hEJJKPvdX6tAxalcjN_qlUGUbE2n8GtGjcA7jACHDKbq98kuKwc7FYhGKC5DlrbCFGd7AM_kOuvLKpec2KEARCDiGdNOCUcCONnei-sITlvmSevJPzyY0xQ61aQtJx9ld0TC3VmmI08AFuAG19bciS9rdSK0JXkg?width=960&height=640&cropmode=none" width="960" />
-      <p>Mrs. Rashmy Deepak</p>
-      <p>Asst. Professor</p></a>
-      </li>
-
-      <div id="modal4" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img" src="https://ncfqjw.bn1304.livefilestore.com/y4mqNypbhIC5Nbcnu1cjlOWmIhebNzXIsk1kh2ylVoKogvJlm7EWa7Mv4hEJJKPvdX6tAxalcjN_qlUGUbE2n8GtGjcA7jACHDKbq98kuKwc7FYhGKC5DlrbCFGd7AM_kOuvLKpec2KEARCDiGdNOCUcCONnei-sITlvmSevJPzyY0xQ61aQtJx9ld0TC3VmmI08AFuAG19bciS9rdSK0JXkg?width=960&height=640&cropmode=none" width="960"  />
-          </div>
-      
-          <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Mrs. Rashmy Deepak</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst. Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>BE(FCD), M.Tech (FCD)</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>7 years of teaching, 4 years of industry</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal5"><img src="images/cardpics/card4.jpeg">
-      <p>Mrs Roopa Nayak</p>
-      <p>Asst Professor</p></a>
-
-      <div id="modal5" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img" src="images/cardpics/card1.jpeg">
-          </div>
-      
-          <div class="modal-details">
-          <table> 
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Mrs Roopa Nayak</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>BE (FC), M.Tech (FCD)</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>8 years of teaching</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-    
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal6"><img src="https://lifqjw.bn1304.livefilestore.com/y4mztj8mgeAf-KbrqoDtp9Y_wrVpBE1ywiCBZYHMm2pNwMZ7Qd_cN5jsuKUQyAcYY0jNk4z4gXiEEZifIO7apdL8Y-Nm9MIPLA18uUqwykMw6mTW08CddqH8mdwd-mZu82eoIzqZ-7Np0CP_2b19TVinm3KI17m2kp3sqQjV_kGOw5f08UpSruhQSMycyYqmSzwGTWB0KY-2TNgC2qG_WYJug?width=960&height=640&cropmode=none" width="960"  />
-      <p>Mr. Ameen Sadiq </p>
-      <p> Asst Professor</p></a>
-      </li>
-
-      <div id="modal6" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img"  src="https://lifqjw.bn1304.livefilestore.com/y4mztj8mgeAf-KbrqoDtp9Y_wrVpBE1ywiCBZYHMm2pNwMZ7Qd_cN5jsuKUQyAcYY0jNk4z4gXiEEZifIO7apdL8Y-Nm9MIPLA18uUqwykMw6mTW08CddqH8mdwd-mZu82eoIzqZ-7Np0CP_2b19TVinm3KI17m2kp3sqQjV_kGOw5f08UpSruhQSMycyYqmSzwGTWB0KY-2TNgC2qG_WYJug?width=960&height=640&cropmode=none" width="960" />
-          </div>
-      
-          <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Mr. Ameen Sadiq</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>B.E, M.Tech(FC)</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>8 years of teaching, 2 years of industry</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal7"><img src="https://msfqjw.bn1304.livefilestore.com/y4mpkMPet5cSQjBSydK_uW75Q4MkibBEQxkMI-I1QWIa1eabIebnpJer2NKYvnZ0Idrsj0FiLNiM3_jhDE8WxOLkc7w1v6-yKEE4usIAKDcMJ-npBMaaU5UTc33fhwkKw7F-xlXtQq6jr_H-NnMeVKYadQHHywfv4ORxIY1pNNOVKH0Nh9cMn31GquooAxuUaxZLRi3B4XiMvHLngF9-KzHTA?width=960&height=640&cropmode=none" width="960" />
-      <p> Mr. Rakesh M N</p>
-      <p> Asst Professor</p></a>
-      </li>
-      <div id="modal7" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img" src="https://msfqjw.bn1304.livefilestore.com/y4mpkMPet5cSQjBSydK_uW75Q4MkibBEQxkMI-I1QWIa1eabIebnpJer2NKYvnZ0Idrsj0FiLNiM3_jhDE8WxOLkc7w1v6-yKEE4usIAKDcMJ-npBMaaU5UTc33fhwkKw7F-xlXtQq6jr_H-NnMeVKYadQHHywfv4ORxIY1pNNOVKH0Nh9cMn31GquooAxuUaxZLRi3B4XiMvHLngF9-KzHTA?width=960&height=640&cropmode=none" width="960"  />
-          </div>
-      
-          <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Mr. Rakesh M N</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>B.E, M. Tech</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>8 years of teaching, 2 years of industry</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal8"><img src="https://mifqjw.bn1304.livefilestore.com/y4m6s_fZ14ZHmBrGYbN_YYLthqWrRMiy49FAzRak8zZC27HbNi7owXZCmKcNx1V0eGr-CO3RAuXOFZVE9co_mH0NJznu1sOwg1z-TeflIvDlfHo6X06n9jxGsemL2xC8IFH4eFNuzTi_-U2Xo4Z8MxgMYzESwsFaT2dXHRk-28LjzTPodOn8B3CkH-zPKpJBDe-sBL2VSOkWLBwBxauWDUQLg?width=960&height=640&cropmode=none" width="960" />
-      <p>Swetha</p>
-      <p>Asst Professor</p></a>
-      </li>
-      <div id="modal8" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img"  src="https://mifqjw.bn1304.livefilestore.com/y4m6s_fZ14ZHmBrGYbN_YYLthqWrRMiy49FAzRak8zZC27HbNi7owXZCmKcNx1V0eGr-CO3RAuXOFZVE9co_mH0NJznu1sOwg1z-TeflIvDlfHo6X06n9jxGsemL2xC8IFH4eFNuzTi_-U2Xo4Z8MxgMYzESwsFaT2dXHRk-28LjzTPodOn8B3CkH-zPKpJBDe-sBL2VSOkWLBwBxauWDUQLg?width=960&height=640&cropmode=none" width="960"  />
-          </div>
-      
-          <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Swetha</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>DEEE (FC), B. E (FC), M.Tech (FCD)</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>6 years of teaching</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal9"><img src="https://jyfqjw.bn1304.livefilestore.com/y4ml8sQIYluniMpqPem9WfoqFpONf-Q39Cl5SPPNkIoDPUkleXJB_Kh1bH7jl89qY0oVhacpW3AgN77BDBJ-mlsnOnpyEdXKGlWjYQM-CUHYz5NGwXTI1YvSM9INsZDgbK8gNd6zkhsgoG4nPtwRDWtgsvXvxMCXldn4z6TiCLQ8LZYoakRrd4XZpfP7eXGAtRdCaGugx9kz1Yh_dA4avgvTw?width=960&height=640&cropmode=none" width="960" />
-      <p>Dr.Sharada prasad N</p>
-      <p>Asst Professor</p></a>
-      </li>
-
-      <div id="modal9" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img"  src="https://jyfqjw.bn1304.livefilestore.com/y4ml8sQIYluniMpqPem9WfoqFpONf-Q39Cl5SPPNkIoDPUkleXJB_Kh1bH7jl89qY0oVhacpW3AgN77BDBJ-mlsnOnpyEdXKGlWjYQM-CUHYz5NGwXTI1YvSM9INsZDgbK8gNd6zkhsgoG4nPtwRDWtgsvXvxMCXldn4z6TiCLQ8LZYoakRrd4XZpfP7eXGAtRdCaGugx9kz1Yh_dA4avgvTw?width=960&height=640&cropmode=none" width="960"  />
-          </div>
-      
-          <div class="modal-details">
-          <table> 
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Dr.Sharada prasad N</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>B.E, M.Tech, Ph.D</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>5 years of teaching, 1 year of industry</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-    
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal10"><img src="https://kcfqjw.bn1304.livefilestore.com/y4mJ-YfgnSXf3RZ37-onKBubYwM2Tw3hwhi2pAJnG-vMVc_WK0jjAxXEAQli8U2NwwHzoCPrsU4qSH_w831mXarH8WYZkC_7eVXraulz96pTkvMzzIXA6rdHuw9eIizcNOfPbqduQDgw0MkwOKdHyY6XPxalZqk_KwYi5EbfEbOTczhyHOJpkD302il8dheeUiPKj464MZzNbmwmPay5nkF4A?width=960&height=640&cropmode=none" width="960"  />
-      <p>Mr. Balaji Chakravarthy </p>
-      <p> Asst Professor</p></a>
-      </li>
-
-      <div id="modal10" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img" src="https://kcfqjw.bn1304.livefilestore.com/y4mJ-YfgnSXf3RZ37-onKBubYwM2Tw3hwhi2pAJnG-vMVc_WK0jjAxXEAQli8U2NwwHzoCPrsU4qSH_w831mXarH8WYZkC_7eVXraulz96pTkvMzzIXA6rdHuw9eIizcNOfPbqduQDgw0MkwOKdHyY6XPxalZqk_KwYi5EbfEbOTczhyHOJpkD302il8dheeUiPKj464MZzNbmwmPay5nkF4A?width=960&height=640&cropmode=none" width="960"  />
-          </div>
-      
-          <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Mr. Balaji Chakravarthy </td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>B.E, M.Tech(FC)</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>7.5 years of teaching</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal11"><img src="https://lye7hq.bn1304.livefilestore.com/y4mzPJy3v7XrZpHhnuq6z3BMpteveEeTbPj_-sX85ufAnkcntuVSyxPeQakUU3J54aiqJP8N07ooypZUREPmOX3J9lQGw8KlXaESMc1U-slNqHsuS8k0jUYtwE5onnUVFghbp0VQWBcCPhGBR6xiX1ufZqGBeAZ38Rt6biUQe-qCpBhBXaLK_Kk80fNfyM-Nmo_QsMsmcn83EMrufgmfX7uMQ?width=960&height=640&cropmode=none" width="960" />
-      <p> Ms. Sharmila N</p>
-      <p> Asst Professor</p></a>
-      </li>
-      <div id="modal11" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img"  src="https://lye7hq.bn1304.livefilestore.com/y4mzPJy3v7XrZpHhnuq6z3BMpteveEeTbPj_-sX85ufAnkcntuVSyxPeQakUU3J54aiqJP8N07ooypZUREPmOX3J9lQGw8KlXaESMc1U-slNqHsuS8k0jUYtwE5onnUVFghbp0VQWBcCPhGBR6xiX1ufZqGBeAZ38Rt6biUQe-qCpBhBXaLK_Kk80fNfyM-Nmo_QsMsmcn83EMrufgmfX7uMQ?width=960&height=640&cropmode=none" width="960"  />
-          </div>
-      
-          <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Ms. Sharmila N</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>B.E, M. Tech</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>1 year of teaching</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal12"><img src="https://mce7hq.bn1304.livefilestore.com/y4m2VXsDct2DPJzxwNpsNbVcvK1umOgnBYRMKvnwTZduFZd1rZgaZCQrVs1gH6yhMaG37VS2Wx20hY3C6ZvzLE6IZ9HKb6BX81Tswdz-zkJNeFjBSRazDPnjJUVnS7dAVMPW8gkcwLGKUuRYh-RuOrBOInuBlqX_PXI0yVRrt4PlJwiR5uB7ZSDIPSMnO-n9KtTTOVPewr0svjG-fitVcINvA?width=960&height=640&cropmode=none" width="960"  />
-      <p> Mrs. Supriya P</p>
-      <p>Asst Professor</p></a>
-      </li>
-      <div id="modal12" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img" src="https://mce7hq.bn1304.livefilestore.com/y4m2VXsDct2DPJzxwNpsNbVcvK1umOgnBYRMKvnwTZduFZd1rZgaZCQrVs1gH6yhMaG37VS2Wx20hY3C6ZvzLE6IZ9HKb6BX81Tswdz-zkJNeFjBSRazDPnjJUVnS7dAVMPW8gkcwLGKUuRYh-RuOrBOInuBlqX_PXI0yVRrt4PlJwiR5uB7ZSDIPSMnO-n9KtTTOVPewr0svjG-fitVcINvA?width=960&height=640&cropmode=none" width="960" />
-          </div>
-      
-          <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Mrs. Supriya P</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>B.E, M.Tech</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>3.8 years of teaching</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal13"><img src="https://lse7hq.bn1304.livefilestore.com/y4mq6y1-LQQdsDnyQfBsw8JJ1m910nLwd-6qAXE-tqpXNGP8pgJvdfW6cc-_2oMBpfl5-ArZgHl8E2TgFwf6OHvuKFIAz_cIWBeLpJ913qfrzShR3JgQNHuKIsZK6EJXo7ekPl6b140Jlxu8Jqf2AX8p8Z0EortVMwTMwIc7EU8QOtqAiawJB65isgNu8tFclMS34tf4c7Z0F03QJHyMAsLCw?width=960&height=640&cropmode=none" width="960"  />
-      <p>Ms. Kokila R</p>
-      <p>Asst Professor</p></a>
-      </li>
-
-      <div id="modal13" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img"  src="https://lse7hq.bn1304.livefilestore.com/y4mq6y1-LQQdsDnyQfBsw8JJ1m910nLwd-6qAXE-tqpXNGP8pgJvdfW6cc-_2oMBpfl5-ArZgHl8E2TgFwf6OHvuKFIAz_cIWBeLpJ913qfrzShR3JgQNHuKIsZK6EJXo7ekPl6b140Jlxu8Jqf2AX8p8Z0EortVMwTMwIc7EU8QOtqAiawJB65isgNu8tFclMS34tf4c7Z0F03QJHyMAsLCw?width=960&height=640&cropmode=none" width="960"  />
-          </div>
-      
-          <div class="modal-details">
-          <table> 
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Ms. Kokila R</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td> B.E, M.Tech</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td>1 year of teaching</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-    
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal14"><img src="images/cardpics/card4.jpeg">
-      <p> Mr. Anoop H A</p>
-      <p> Asst Professor</p></a>
-      </li>
-
-      <div id="modal14" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img" src="images/cardpics/card1.jpeg">
-          </div>
-      
-          <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Mr. Anoop H A</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>B.E, M.Tech</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td> - years of teaching</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-
-      <li class="cardli"><a class="waves-effect waves-light" href="#modal15"><img src="images/cardpics/card4.jpeg">
-      <p>Mrs. Shruthi Shivanand</p>
-      <p> Asst Professor</p></a>
-      </li>
-      <div id="modal15" class="modal">
-        <div class="modal-content">
-          <div class="modal-back">
-            <img class="modal-img" src="images/cardpics/card1.jpeg">
-          </div>
-      
-          <div class="modal-details">
-          <table>
-            <tbody>
-              <tr>
-                <td>Name</td>
-                <td>Mrs. Shruthi Shivanand</td>
-              </tr>
-              <tr>
-                <td>Designation</td>
-                <td>Asst Professor</td>
-              </tr>
-              <tr>
-                <td>Qualification</td>
-                <td>B.E, M. Tech</td>
-              </tr>
-              <tr>
-                <td>Total Experience</td>
-                <td> - year of teaching</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="modal-footer">
-        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-      </div>
-    </div>
-    </ul>
-</div>
-</div>
-
-
-<div class="container">
-  <div class="row">
- <h4 class="black-text"><b><p>Non-Teaching Staff</p></b></h4>
- <div class=" col l3 m6 s12">
-<div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator"  src="https://mye7hq.bn1304.livefilestore.com/y4mOyo0D9ZJmaZ5yoGWCaAd5wEgSxau1hl1Pgr2tCcHeOQYtFe-ajuLJ3lE8nuaDuSTcsAdFMuMlVPsz1nqF0GS5iVeT3xKqT6SgvvXTD0Vnrt_N3WR596MnlPQPfYRjk9bmNC5OcJXM0kr2zhtfaJQg8lBqdPd5V5uo2V7crSC5AUX5pBRqaevdTrhtvE9YsW5Txs3430J5bSmgr_aPgWdpQ?width=960&height=640&cropmode=none" width="960"  />
-    </div>
-    <div class="card-content">
-      <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr.Venketesha Sharma Y</p>
-      <p style="font-size: 14.5px;">Foreman</p></b><i class="material-icons right">more_vert</i></span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken"><i class="material-icons right">close</i></span>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken"><i class="material-icons right">close</i></span>
               <b>Qualification</b>
               <p> PUC,DEE,AMIE-Sec-A</p>
               <b>Total Eperience</b>
               <p>23 Years in NGEF ltd, 8 years in Edu.institutions</p>
-    </div>
-  </div>
-  </div>
-
-  <div class=" col l3 m6 s12">
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="https://mse7hq.bn1304.livefilestore.com/y4mLM4UAb7nske5W61w8dkFosQoOAugQTqQDhTw3e2SsyOUj9IeodMKcZAsP2B9L7zYRbrEfgCm5LGYloiSW5nAU_ekyiOPsp__RsryKQro2G2AiVSe9oz50u1OSRLtR9gtXztBKjUxR_w88l0b7jAvlevF02WMLK0IMrNElJ43VdH5d-d5h7gA8vBru362kRdwfKFB65dU3SLkhF_-4lwfYg?width=960&height=640&cropmode=none" width="960" />
-    </div>
-    <div class="card-content">
-      <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mrs. Phanimala P N</p>
-      <p style="font-size: 14.5px;">Asst Instructor</p></b><i class="material-icons right">more_vert</i></span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+            </div>
+          </div>
+        </div>
+        <div class=" col l3 m6 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="https://mse7hq.bn1304.livefilestore.com/y4mLM4UAb7nske5W61w8dkFosQoOAugQTqQDhTw3e2SsyOUj9IeodMKcZAsP2B9L7zYRbrEfgCm5LGYloiSW5nAU_ekyiOPsp__RsryKQro2G2AiVSe9oz50u1OSRLtR9gtXztBKjUxR_w88l0b7jAvlevF02WMLK0IMrNElJ43VdH5d-d5h7gA8vBru362kRdwfKFB65dU3SLkhF_-4lwfYg?width=960&height=640&cropmode=none" width="960" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mrs. Phanimala P N</p>
+              <p style="font-size: 14.5px;">Asst Instructor</p></b><i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
               <b>Qualification</b>
               <p>PUC(Science), Diploma in E&CE</p>
               <b>Total Eperience</b>
               <p>7 years</p>
-
-    </div>
-  </div>
-  </div>
-
-  <div class=" col l3 m6 s12">
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator"  src="https://nce7hq.bn1304.livefilestore.com/y4mok3Sx8efmlpXt40hlfPy7FR1ys8iAzG2A5lkBI4X_LhDHKc_aR36YlHhAV_AnF-CuMQ6ZW3o4orYCaBWGWK7YRNe1m8tkBzGn8N4VepSAy3orPz2oerwPAE2G-_D0lXdwohcL4fISdXh5DFyW_e1MwvmBtRAPYZTBUuDiO4ttW12LJGCjaVdIM6ejA1iAyMZP4onX2ohvnB-0JIwC5N4ow?width=960&height=640&cropmode=none" width="960"  />
-    </div>
-    <div class="card-content">
-      <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr. Nagesh K</p>
-      <p style="font-size: 14.5px;">Asst Instructor</p></b><i class="material-icons right">more_vert</i></span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+            </div>
+          </div>
+        </div>
+        <div class=" col l3 m6 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator"  src="https://nce7hq.bn1304.livefilestore.com/y4mok3Sx8efmlpXt40hlfPy7FR1ys8iAzG2A5lkBI4X_LhDHKc_aR36YlHhAV_AnF-CuMQ6ZW3o4orYCaBWGWK7YRNe1m8tkBzGn8N4VepSAy3orPz2oerwPAE2G-_D0lXdwohcL4fISdXh5DFyW_e1MwvmBtRAPYZTBUuDiO4ttW12LJGCjaVdIM6ejA1iAyMZP4onX2ohvnB-0JIwC5N4ow?width=960&height=640&cropmode=none" width="960"  />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr. Nagesh K</p>
+              <p style="font-size: 14.5px;">Asst Instructor</p></b><i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
               <b>Qualification</b>
               <p>JOC ELECTRICAL</p>
               <b>Total Eperience</b>
               <p>9 years</p>
-
-    </div>
-  </div>
-  </div>
-
-  <div class=" col l3 m6 s12">
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="https://mie7hq.bn1304.livefilestore.com/y4mlNCL9Op322r2qbv-V2bpGskMoHP1p6ck9TEdvZMT_sSZUfCK7grilWxPX4Ehe0ASLIj1Kg1jSz1r--Po2Vg4bWauaMJWz2FdNCyZUY64WnbJpxSfznrtZOw3jIf8APydBpyabHjBC3yZD4LwZP066tyoqp10CCLzEAKBhLoopwv8NBsZO8vRSgKZnF3MkhU5EYbZ0ak_alITh2kVzD0vxw?width=960&height=640&cropmode=none" width="960"  />
-    </div>
-    <div class="card-content">
-      <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr. H.S. Bramesh</p>
-      <p style="font-size: 14.5px;">Asst Instructor</p></b><i class="material-icons right">more_vert</i></span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+            </div>
+          </div>
+        </div>
+        <div class=" col l3 m6 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="https://mie7hq.bn1304.livefilestore.com/y4mlNCL9Op322r2qbv-V2bpGskMoHP1p6ck9TEdvZMT_sSZUfCK7grilWxPX4Ehe0ASLIj1Kg1jSz1r--Po2Vg4bWauaMJWz2FdNCyZUY64WnbJpxSfznrtZOw3jIf8APydBpyabHjBC3yZD4LwZP066tyoqp10CCLzEAKBhLoopwv8NBsZO8vRSgKZnF3MkhU5EYbZ0ak_alITh2kVzD0vxw?width=960&height=640&cropmode=none" width="960"  />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr. H.S. Bramesh</p>
+              <p style="font-size: 14.5px;">Asst Instructor</p></b><i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
               <b>Qualification</b>
               <p>JOC COMPUTER SERVICING, ITI  ELECTRICIAN</p>
               <b>Total Eperience</b>
               <p>4 years</p>
-
-    </div>
-  </div>
-  </div>
-
-    <div class=" col l3 m6 s12">
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator"  src="https://jye7hq.bn1304.livefilestore.com/y4mPjHzCiR1uwa0Pi_t77DpqFNuXbS5rppwlhAo13soPkGgH2lvauY97-W7Uk89FAFJCn2Pi59po_av8jHUscFdZuoU3BrIDRf_W2VfDMWYS8Fd0J9XUwWtQmg8QetvKB0hs41GOrm29gk2OSPYCw85VyqZhXYjwe47ogoj0Gmig6bBnehPILCh-LPtbUIs5R33wE6ZnvAlhx_Y_rceMZ7-IQ?width=960&height=640&cropmode=none" width="960" />
-    </div>
-    <div class="card-content">
-      <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr. Suresh Kumar</p>
-      <p style="font-size: 14.5px;">Mechanic</p></b><i class="material-icons right">more_vert</i></span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+            </div>
+          </div>
+        </div>
+        <div class=" col l3 m6 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator"  src="https://jye7hq.bn1304.livefilestore.com/y4mPjHzCiR1uwa0Pi_t77DpqFNuXbS5rppwlhAo13soPkGgH2lvauY97-W7Uk89FAFJCn2Pi59po_av8jHUscFdZuoU3BrIDRf_W2VfDMWYS8Fd0J9XUwWtQmg8QetvKB0hs41GOrm29gk2OSPYCw85VyqZhXYjwe47ogoj0Gmig6bBnehPILCh-LPtbUIs5R33wE6ZnvAlhx_Y_rceMZ7-IQ?width=960&height=640&cropmode=none" width="960" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr. Suresh Kumar</p>
+              <p style="font-size: 14.5px;">Mechanic</p></b><i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
               <b>Qualification</b>
               <p>ITI (Diploma in EC)</p>
               <b>Total Eperience</b>
               <p>6 years</p>
-
-    </div>
-  </div>
-  </div>
-
-      <div class=" col l3 m6 s12">
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="images/cardpics/card4.jpeg">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr. Srishaila Hunasikatti </p>
-      <p style="font-size: 14.5px;">Electrician</p></b><i class="material-icons right">more_vert</i></span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+            </div>
+          </div>
+        </div>
+        <div class=" col l3 m6 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/cardpics/card4.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr. Srishaila Hunasikatti </p>
+              <p style="font-size: 14.5px;">Electrician</p></b><i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
               <b>Qualification</b>
               <p>ITI (Diploma in EEE)</p>
               <b>Total Eperience</b>
               <p>10 years</p>
-
-    </div>
-  </div>
-  </div>
-
-   <div class=" col l3 m6 s12">
-  <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator"  src="https://kce7hq.bn1304.livefilestore.com/y4mzXHI4UOYo4bq1zG-narqw37OnPqiX8ogGludrfqcvcVeFOf1xMZEize3o9zO01I6A0-4uMhOemGUhl6vZN5jpcl_VJ_xOCTn33xGDr9yfZbddhq9nSBn4fCzS4aD6Ny6eUl5oOceikZjRDxMrBiivQpI94LKK64FWXyZZmUCSq7E1pTY-_lVjzJ2PKRH0ENCDA8jaZFp_vJ0_YPjKmZBbQ?width=960&height=640&cropmode=none" width="960"  />
-    </div>
-    <div class="card-content">
-      <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr. Bharath Raj. S </p>
-      <p style="font-size: 14.5px;">Peon</p></b><i class="material-icons right">more_vert</i></span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+            </div>
+          </div>
+        </div>
+        <div class=" col l3 m6 s12">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator"  src="https://kce7hq.bn1304.livefilestore.com/y4mzXHI4UOYo4bq1zG-narqw37OnPqiX8ogGludrfqcvcVeFOf1xMZEize3o9zO01I6A0-4uMhOemGUhl6vZN5jpcl_VJ_xOCTn33xGDr9yfZbddhq9nSBn4fCzS4aD6Ny6eUl5oOceikZjRDxMrBiivQpI94LKK64FWXyZZmUCSq7E1pTY-_lVjzJ2PKRH0ENCDA8jaZFp_vJ0_YPjKmZBbQ?width=960&height=640&cropmode=none" width="960"  />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator blue-text text-darken-1"><b><p style="font-size: 14.5px;">Mr. Bharath Raj. S </p>
+              <p style="font-size: 14.5px;">Peon</p></b><i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
               <b>Qualification</b>
               <p>SSLC</p>
               <b>Total Eperience</b>
               <p>3 years</p>
-
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  </div>
-
-  </div>
-  </div>
-
-
-  <div id="fot">
-        <footer id="footer" class="page-footer">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col l4 m4 s12">
-            <h5 class="orange-text">RNSIT</h5>
-            <p class="white-text text-lighten-4">R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman, Dr. R.N. Shetty.The Murudeshwar Group of Companies headed by Sri. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power &amp; IT services and education. The group has contributed significantly to the field of education.</p>
-
-
+    <div id="fot">
+      <footer id="footer" class="page-footer">
+        <div class="container-fluid">
+          <div class="row lool">
+            <div class="roww" style="overflow: hidden;">
+              <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
+              <a href="instagram/rnsit"><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
+              <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+              <a href="twitter/rnsit"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
+              <a href="linkedin/rnsit"><image class="icon ic4" src="images/linkedin.png" alt="linkedin"></image></a>
+            </div>
           </div>
-          <div class="col l4 m4 s12 push-m1 push-l1">
-            <h5 class="orange-text">HELP</h5>
-            <p class="grey-text text-lighten-4"></p>
-            <ul>
-                  <li><a class="white-text text-lighten-3" href="#!">HOME</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">ABOUT</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">DEPT</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">COURSE</a></li>
-            </ul>
-            <a class="btn waves-effect waves-light black lighten-3" href="#!">Email</a>
-          </div>
-          <div class="col l4 m4 s12" style="overflow: hidden;">
-            <h5 class="orange-text">Connect</h5>
-            <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon" src="images/facebook.svg" alt="fb"></image></a>
-            <a href="instagram/rnsit"><image class="icon" src="images/instagram.svg" alt="insta"></image></a>
-            <a href="twitter/rnsit"><image class="icon" src="images/twitter.svg" alt="twitter"></image></a>
-            <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+          <div class="footer-copyright">
+            <div class="container">
+              <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          <p style="text-align:center"><b>Handcrafted by Dept of CSE</b></p>
-        </div>
-      </div>
-    </footer>
+      </footer>
     </div>
     <!-- Modal part -->
-
     <!-- Modal end -->
     <script type="text/javascript" src="js/dept.js"></script>
     <script type="text/javascript" src="js/navbar.js"></script>
     <script type="text/javascript" src="js/modal.js"></script>
     
-
-  
-</body>
+    
+  </body>
 </html>
