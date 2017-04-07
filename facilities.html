@@ -1,271 +1,254 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>RNSIT</title>
+  <head>
+    <title>RNSIT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#021B38">
     <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
     <link rel="apple-touch-icon" href="imgages/logo.png"/>
-
     <meta name="mobile-web-app-capable" content="yes">
-<meta name="RNSIT" content="RNSIT">
-<link rel="icon" sizes="192x192" href="images/logo.png">
- <!-- <splash src="images/prin.jpg"></splash> -->
+    <meta name="RNSIT" content="RNSIT">
+    <link rel="icon" sizes="192x192" href="images/logo.png">
+    <!-- <splash src="images/prin.jpg"></splash> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/facilites.css">
-       <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" type="text/css" href="css/modal.css">
     <link rel="stylesheet" type="text/css" href="css/library.css">
-       <link rel="stylesheet" type="text/css" href="css/dept.css">
+    <link rel="stylesheet" type="text/css" href="css/dept.css">
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link href="images/logo.png" rel="icon" type="image/png">
-
-          <script src="js/index.js"></script>
-      
-
-      <style type="text/css">
-        .nava{
-          display: block;
-          padding-left: 30px;
-
-        }
-        .hidden{
-          height: 0;
-          overflow: hidden;
-          transition: all 2s;
-        }
-      </style>
-   </head>
-   <body>
-
-   <div>
-   	 <nav class="nav-extended">
-    <div class="nav-wrapper">
-      <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
-      <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <!-- <li><a id="home" href="index.html">Home</a></li> -->
-        <li><a id="aboutus" href="aboutus.html">About Us</a></li>
-        <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
-
-        <!-- Dropdown Trigger -->
- 	<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
- 	<li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
-
-
-
-
-        <!-- Dropdown Structure -->
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a>BASIC SCIENCE DEPARTMENTS</a></li>
-    <li class="divider"></li>
-    <li><a id="physics" href="physics.html">Physics</a></li>
-    <li><a id="chemistry" href="chemistry.html">Chemistry</a></li>
-    <li><a id="mathematics" href="mathematics.html">Mathematics</a></li>
-    <li class="divider"></li>
-    <li><a id="engineeringdept">ENGINEERING DEPARTMENTS</a></li>
-    <li class="divider"></li>
-    <li><a id="cse" href="cse.html">CSE</a></li>
-    <li><a id="ece" href="ece.html">ECE</a></li>
-    <li><a id="eee" href="eee.html">EEE</a></li>
-    <li><a id="ise" href="ise.html">ISE</a></li>
-    <li><a id="eie" href="eie.html">EIE</a></li>
-    <li><a id="mech" href="mech.html">MECH</a></li>
-    <li><a id="civil" href="civil.html">CIVIL</a></li>
-    <li class="divider"></li>
-    <li><a id="pg">POST GRADUATION</a></li>
-    <li class="divider"></li>
-    <li><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
-    <li><a id="mca"  href="mca.html">MCA</a></li>
-    </ul>
-  </ul>
-
-  <ul id="dropdown2" class="dropdown-content">
-    <li><a id="cse" href="alumni.html">ALUMNI</a></li>
-    <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
-    <li><a id="eee" href="placements.html">PLACEMENTS</a></li>
-    <li><a id="ise" href="library.html">LIBRARY</a></li>
-    <li><a id="eie" href="hostel.html">HOSTEL</a></li>
-    <li><a id="mech" href="transport.html">TRANSPORT</a></li>
-    <li><a id="mba" href="sportsculture.html">SPORTS &amp; CULTURE</a></li>
-    <li><a id="mca" href="facilities.html">FACILITIES</a></li>
-  </ul>
-
-     <!--mobile!-->
-      <ul class="side-nav" id="mobile-demo">
-        <li><a id="home" href="home.html">Home</a></li>
-        <li><a id="aboutus" href="aboutus.html">About Us</a></li>
-        <li><a id="contact" href="contact.html">Contact</a></li>
-        <li><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-         <li class="innerli">      <div class="innerNav">
-        <a class="nava">BASIC SCIENCE DEPARTMENTS</a>
-        <ul><li class=" nava divider"></li></ul>
-        <a id="physics" class="nava awes" href="physics.html">Physics</a>
-        <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
-        <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
-        <a id="engineeringdept" class="nava ">ENGINEERING DEPARTMENTS</a>
-        <ul><li class=" nava divider"></li></ul>
-
-        <a id="cse" class="nava" href="cse.html">CSE</a>
-        <a id="ece" class="nava" href="ece.html">ECE</a>
-        <a id="eee" class="nava"  href="eee.html">EEE</a>
-        <a id="ise" class="nava" href="ise.html">ISE</a>
-        <a id="eie" class="nava" href="eie.html">EIE</a>
-        <a id="mech" class="nava" href="mech.html">MECH</a>
-        <a id="civil" class="nava" href="civil.html">CIVIL</a>
-        <a id="pg" class="nava">POST GRADUATION</a>
-        <ul><li  id=""class=" nava divider"></li></ul>
-        <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
-        <a id="mca" class="nava awes" href="mca.html">MCA</a>
-
-      </div></li>
-      <li><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
-         <li class="innerli">      <div class="innerNav1">
-          <a id="cse" class="nava" href="alumni.html">Alumini</a>
-          <a id="cse" class="nava" href="admissions.html">Admissions</a>
-          <a id="cse" class="nava" href="placements.hrml">Placement</a>
-          <a id="cse" class="nava" href="library.html">Library</a>
-          <a id="cse" class="nava" href="hostel.html">Hostel</a>
-          <a id="cse" class="nava" href="transport.html">Transport</a>
-          <a id="cse" class="nava" href="sportsculture.html">Sports & Culture</a>
-          <a id="cse" class="nava" href="facilities.html">Facilities</a>
-          </div>
+    <script src="js/index.js"></script>
+    
+    <style type="text/css">
+    .nava{
+    display: block;
+    padding-left: 30px;
+    }
+    .hidden{
+    height: 0;
+    overflow: hidden;
+    transition: all 2s;
+    }
+    </style>
+  </head>
+  <body>
+    <div>
+      <nav class="nav-extended">
+        <div class="nav-wrapper">
+          <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+          <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <!-- <li><a id="home" href="index.html">Home</a></li> -->
+            <li><a id="aboutus" href="aboutus.html">About Us</a></li>
+            <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+            <!-- Dropdown Structure -->
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a>BASIC SCIENCE DEPARTMENTS</a></li>
+              <li class="divider"></li>
+              <li><a id="physics" href="physics.html">Physics</a></li>
+              <li><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+              <li><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+              <li class="divider"></li>
+              <li><a id="engineeringdept">ENGINEERING DEPARTMENTS</a></li>
+              <li class="divider"></li>
+              <li><a id="cse" href="cse.html">CSE</a></li>
+              <li><a id="ece" href="ece.html">ECE</a></li>
+              <li><a id="eee" href="eee.html">EEE</a></li>
+              <li><a id="ise" href="ise.html">ISE</a></li>
+              <li><a id="eie" href="eie.html">EIE</a></li>
+              <li><a id="mech" href="mech.html">MECH</a></li>
+              <li><a id="civil" href="civil.html">CIVIL</a></li>
+              <li class="divider"></li>
+              <li><a id="pg">POST GRADUATION</a></li>
+              <li class="divider"></li>
+              <li><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
+              <li><a id="mca"  href="mca.html">MCA</a></li>
+            </ul>
+          </ul>
+          <ul id="dropdown2" class="dropdown-content">
+            <li><a id="cse" href="alumni.html">ALUMNI</a></li>
+            <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
+            <li><a id="eee" href="placements.html">PLACEMENTS</a></li>
+            <li><a id="ise" href="library.html">LIBRARY</a></li>
+            <li><a id="eie" href="hostel.html">HOSTEL</a></li>
+            <li><a id="mech" href="transport.html">TRANSPORT</a></li>
+            <li><a id="mba" href="sportsculture.html">SPORTS &amp; CULTURE</a></li>
+            <li><a id="mca" href="facilities.html">FACILITIES</a></li>
+          </ul>
+          <!--mobile!-->
+          <ul class="side-nav" id="mobile-demo">
+            <li><a id="home" href="home.html">Home</a></li>
+            <li><a id="aboutus" href="aboutus.html">About Us</a></li>
+            <li><a id="contact" href="contact.html">Contact</a></li>
+            <li><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li class="innerli">      <div class="innerNav">
+              <a class="nava">BASIC SCIENCE DEPARTMENTS</a>
+              <ul><li class=" nava divider"></li></ul>
+              <a id="physics" class="nava awes" href="physics.html">Physics</a>
+              <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+              <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+              <a id="engineeringdept" class="nava ">ENGINEERING DEPARTMENTS</a>
+              <ul><li class=" nava divider"></li></ul>
+              <a id="cse" class="nava" href="cse.html">CSE</a>
+              <a id="ece" class="nava" href="ece.html">ECE</a>
+              <a id="eee" class="nava"  href="eee.html">EEE</a>
+              <a id="ise" class="nava" href="ise.html">ISE</a>
+              <a id="eie" class="nava" href="eie.html">EIE</a>
+              <a id="mech" class="nava" href="mech.html">MECH</a>
+              <a id="civil" class="nava" href="civil.html">CIVIL</a>
+              <a id="pg" class="nava">POST GRADUATION</a>
+              <ul><li  id=""class=" nava divider"></li></ul>
+              <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
+              <a id="mca" class="nava awes" href="mca.html">MCA</a>
+            </div></li>
+            <li><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li class="innerli">      <div class="innerNav1">
+              <a id="cse" class="nava" href="alumni.html">Alumini</a>
+              <a id="cse" class="nava" href="admissions.html">Admissions</a>
+              <a id="cse" class="nava" href="placements.hrml">Placement</a>
+              <a id="cse" class="nava" href="library.html">Library</a>
+              <a id="cse" class="nava" href="hostel.html">Hostel</a>
+              <a id="cse" class="nava" href="transport.html">Transport</a>
+              <a id="cse" class="nava" href="sportsculture.html">Sports & Culture</a>
+              <a id="cse" class="nava" href="facilities.html">Facilities</a>
+            </div>
           </li>
-
-    </ul>
-    </div>
-     <div class="nav-content">
-      <ul class="tabs tabs-transparent">
-        <li class="tab"><a class="faci" href="#bank">Bank</a></li>
-        <li class="tab"><a class="faci" href="#canteen">Canteen</a></li>
-        <li class="tab"><a class="faci" href="#transport">Transport</a></li>
-        <li class="tab"><a class="faci" href="#hostel">Hostel</a></li>
-        <li class="tab"><a class="faci" href="#library">Library</a></li>
-      </ul>
-    </div>
-  </nav>
+        </ul>
+      </div>
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+          <li class="tab"><a class="faci" href="#bank">Bank</a></li>
+          <li class="tab"><a class="faci" href="#canteen">Canteen</a></li>
+          <li class="tab"><a class="faci" href="#transport">Transport</a></li>
+          <li class="tab"><a class="faci" href="#hostel">Hostel</a></li>
+          <li class="tab"><a class="faci" href="#library">Library</a></li>
+        </ul>
+      </div>
+    </nav>
   </div>
-
-
   <div class="content">
-  <div id="bank" class="col s12">
-    <div class="col s12 m9 l9">
-    <div class="row">
-      <p id="para">There is an extension Counter of Canara Bank in the college premises for providing banking facilities to the Students and Staff members. The bank is an extension counter of Banashankari Branch. The bank functions six days a week.</p>
+    <div id="bank" class="col s12">
+    <div class="container">
+    <h5 align="center" class="head-style avoid-nav">BANK</h5>
+      <div class="col s12 m9 l9">
+        <div class="row">
+          <p id="para">There is an extension Counter of Canara Bank in the college premises for providing banking facilities to the Students and Staff members. The bank is an extension counter of Banashankari Branch. The bank functions six days a week.</p>
+        </div>
+        <div id="para" class="row">
+          <p>The working hours are</p>
+          <table class="centered">
+            <thead>
+              <tr>
+                <th>Working Days</th>
+                <th>Timings</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday To Friday</td>
+                <td>9:00am to 2:00pm</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>9:00am to 11:30am</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <h5>Internet Bandwidth &amp; Wifi</h5>
+      </div>
+      <div class="row">
+        <p id="para">Presently College is having Internet speed of 30 Mbps leased line with Wi-Fi facility.</p>
+      </div>
+      
     </div>
-    <div id="para" class="row">
-      <p>The working hours are</p>
-      <table class="centered">
-        <thead>
-          <tr>
-            <th>Working Days</th>
-            <th>Timings</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Monday To Friday</td>
-            <td>9:00am to 2:00pm</td>
-          </tr>
-          <tr>
-            <td>Saturday</td>
-            <td>9:00am to 11:30am</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-  </div>
-
- <div class="row">
-      <h5>Internet Bandwidth &amp; Wifi</h5>
-    </div>
-    <div class="row">
-      <p id="para">Presently College is having Internet speed of 30 Mbps leased line with Wi-Fi facility.</p>
-    </div>
-   
-</div>
-
-<div id="hostel" class="col s12">
-  
-  <div class="container" style="color:black;"><br> 
-    <p>The College has presently two Boys and one Girls Hostel. These hostels accommodate around 530 boys and 300 girls boarders. Day to day affairs of hostels are managed by respective Wardens. There is also a Hostel Committee to help in taking policy decisions. Yoga and Meditation classes are held for both boys and girls in the early morning, on alternate days.</p>
-    <p>
-Accommodation is provided on a sharing basis. Rooms with basic furniture like cot, table and chair are provided. Bed-rolls, linen etc. have to be brought by the students themselves. Strict discipline is maintained in the hostels. Late night entry, leaving hostel without permission are not allowed. Smoking and drinking in hostel premises is totally prohibited. Entry of unauthorised persons is prohibited.
-    </p>
-    <p>
-    Hostel mess serves vegetarian food, the menu prepared by the boarders of the hostel itself. Various sports and Cultural Activities, along with regular academic work, is carried out for the benefit of the boarders.
-    </p>
-    <p>
-    There is a well equipped guest room for parents and guests in the hostel premises. Along with Libray facilities, separate Browsing center is also provided for the boarders to surf the net and avail the internet facility till midnight.
-    </p>
-<br>
-    <p align="center"><b>MESS TIMINGS</b></p><br>
-     <table class="centered bordered">
-        <tbody>
-          <tr>
-            <td>Breakfast</td>
-            <td>7:50 am to 8:30am</td>
-          </tr>
-          <tr>
-            <td>Lunch</td>
-            <td>12:30 noon to 2:00 pm</td>
-          </tr>
-          <tr>
-            <td>Tea</td>
-            <td>4:30 pm to 5:30 pm</td>
-          </tr>
-          <tr>
-            <td>Supper</td>
-            <td>8 pm to 9:00 pm</td>
-          </tr>
-        </tbody>
-      </table><br><br>
-      <p align="center"><b>FACULTY</b></p><br>
-     <table class="centered bordered">
-        <tbody>
-          <tr>
-            <td>Chief Warden Boys Hostel</td>
-            <td>Dr. U. Bhojanna</td>
-          </tr>
-           <tr>
-            <td>Warden Boys Hostel</td>
-            <td>Prof. I G Srikanth</td>
-          </tr>
-          <tr>
-            <td>Residential Warden Boys Hostel</td>
-            <td>Prof B S Nagesh</td>
-          </tr>
-          <tr>
-            <td>Warden Girls Hostel</td>
-            <td>Mrs. Rashmi Deepak</td>
-          </tr>
-          <tr>
-            <td>Residential Warden Boys Hostel</td>
-            <td>Ms. Netravathi</td>
-          </tr>
-        </tbody>
-      </table>
-
-    </p>
+    <div id="hostel" class="col s12">
+       <div class="container">
+    <h5 align="center" class="head-style avoid-nav">HOSTEL</h5>
+      
+      <div class="container" style="color:black;"><br>
+        <p>The College has presently two Boys and one Girls Hostel. These hostels accommodate around 530 boys and 300 girls boarders. Day to day affairs of hostels are managed by respective Wardens. There is also a Hostel Committee to help in taking policy decisions. Yoga and Meditation classes are held for both boys and girls in the early morning, on alternate days.</p>
+        <p>
+          Accommodation is provided on a sharing basis. Rooms with basic furniture like cot, table and chair are provided. Bed-rolls, linen etc. have to be brought by the students themselves. Strict discipline is maintained in the hostels. Late night entry, leaving hostel without permission are not allowed. Smoking and drinking in hostel premises is totally prohibited. Entry of unauthorised persons is prohibited.
+        </p>
+        <p>
+          Hostel mess serves vegetarian food, the menu prepared by the boarders of the hostel itself. Various sports and Cultural Activities, along with regular academic work, is carried out for the benefit of the boarders.
+        </p>
+        <p>
+          There is a well equipped guest room for parents and guests in the hostel premises. Along with Libray facilities, separate Browsing center is also provided for the boarders to surf the net and avail the internet facility till midnight.
+        </p>
+        <br>
+        <p align="center"><b>MESS TIMINGS</b></p><br>
+        <table class="centered bordered">
+          <tbody>
+            <tr>
+              <td>Breakfast</td>
+              <td>7:50 am to 8:30am</td>
+            </tr>
+            <tr>
+              <td>Lunch</td>
+              <td>12:30 noon to 2:00 pm</td>
+            </tr>
+            <tr>
+              <td>Tea</td>
+              <td>4:30 pm to 5:30 pm</td>
+            </tr>
+            <tr>
+              <td>Supper</td>
+              <td>8 pm to 9:00 pm</td>
+            </tr>
+          </tbody>
+        </table><br><br>
+        <p align="center"><b>FACULTY</b></p><br>
+        <table class="centered bordered">
+          <tbody>
+            <tr>
+              <td>Chief Warden Boys Hostel</td>
+              <td>Dr. U. Bhojanna</td>
+            </tr>
+            <tr>
+              <td>Warden Boys Hostel</td>
+              <td>Prof. I G Srikanth</td>
+            </tr>
+            <tr>
+              <td>Residential Warden Boys Hostel</td>
+              <td>Prof B S Nagesh</td>
+            </tr>
+            <tr>
+              <td>Warden Girls Hostel</td>
+              <td>Mrs. Rashmi Deepak</td>
+            </tr>
+            <tr>
+              <td>Residential Warden Boys Hostel</td>
+              <td>Ms. Netravathi</td>
+            </tr>
+          </tbody>
+        </table>
+      </p>
     </div>
     
-</div>
-
-<div id="library" class="col s12">
-  
-<h4 align="center">LIBRARY</h4>
-<div class="container">
- <div class="row">
+  </div>
+  <div id="library" class="col s12">
+    
+    
+     <div class="container">
+    <h5 align="center" class="head-style avoid-nav">LIBRARY</h5>
+      <div class="row">
         <div class="col s12 m3">
           <div class="card">
             <div class="card-image">
@@ -273,312 +256,275 @@ Accommodation is provided on a sharing basis. Rooms with basic furniture like co
             </div>
           </div>
         </div>
-<p>
-RNSIT Library was established during the year 2001 with a collection of 2000 volumes of books. Within a span of 10 years it has grown with a collection of over 26,341 volumes, 80 Journals, 18 Magazines and 11 News papers.. RNSIT Library is an automated Library. Books are Bar Coded and students are issued an identity card to transact with the library facilities. Each student will be issued 3 books during regular time and 4 Books are issued during their exams. Journals and Magazines are available to support and enhance their specialization. Both Indian and foreign journals are being subscribed. Our library has been subscribed to the IEEE – IEL Online through INDEST – AICTE consortium by paying Rs. 4 lakhs to support library users project works, technical reports, and R & D works.<p>
-<p><b>Also we are having the Long term plan of connecting the Library to
-- other renowned libraries like CPRI, ISRO, NAL and IISc.</b></p>
-</div>
-  <div class="row">
-        <div class="col s12 m3">
-          <div class="card">
-            <div class="card-image">
-              <img src="http://placehold.it/350x150" alt="limg2">
+        <p>
+          RNSIT Library was established during the year 2001 with a collection of 2000 volumes of books. Within a span of 10 years it has grown with a collection of over 26,341 volumes, 80 Journals, 18 Magazines and 11 News papers.. RNSIT Library is an automated Library. Books are Bar Coded and students are issued an identity card to transact with the library facilities. Each student will be issued 3 books during regular time and 4 Books are issued during their exams. Journals and Magazines are available to support and enhance their specialization. Both Indian and foreign journals are being subscribed. Our library has been subscribed to the IEEE – IEL Online through INDEST – AICTE consortium by paying Rs. 4 lakhs to support library users project works, technical reports, and R & D works.<p>
+            <p><b>Also we are having the Long term plan of connecting the Library to
+            - other renowned libraries like CPRI, ISRO, NAL and IISc.</b></p>
+          </div>
+          <div class="row">
+            <div class="col s12 m3">
+              <div class="card">
+                <div class="card-image">
+                  <img src="http://placehold.it/350x150" alt="limg2">
+                </div>
+              </div>
+            </div>
+            <p>
+              Separate CD Library is maintained with 4 computers and with a collection of 2200 CD's. Students can use this facility during their leisure time.
+              Separate Browsing center is also maintained with the support of Incable's Internet facilities and 17 separate systems for this purpose. Students can surf the net and avail the internet facility till midnight.
+              We have organized Book Exhibition 4 times in order to enrich our collection. Reputed book publishers and sellers like Book paradise, Generation Books, Sri Sai Books, Sri Laxmi Book Distributors, Ell Enn Books have participated in this. Faculty and students were given preference to select and suggest the books. <p>
+              </div>
+              <div class="row">
+                <div class="col s12 m3">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="http://placehold.it/350x150" alt="limg3">
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  Library is kept open from 8 am to 12 pm (midnight) daily and 1pm on Sundays. Books are kept in open access racks for free access. Reading facility with seating and writing arrangement for 200 students is also provided. Separate journals and news paper section is also maintained. Back Volumes of Journals are also maintained. Current Awareness service is also provided with the support of latest events, publications, thoughts etc. by putting it up in the notice Board, computer screens etc. Our library is also a member of IIMB library. Thus, providing all the information and helping the students and faculty for their overall development and growth, our Library acts as a catalyst for turning out our students as quality engineers. <p>
+                    <p>Also we are having the Long term plan of connecting the Library to other renowned libraries like PRI, ISRO, NAL and IISc Separate CD Library is maintained with 4 computers and with a collection of CD's. Students can use this facility during their leisure time.</p>
+                  </div>
+                  <div class="row">
+                    <p>
+                      The following VTU e-resources can be accessed by the following website,<p>
+                        <ol><li>Taylor and Francis Website</li>
+                        <li>IEEE / IEL Online Website e</li>
+                        <li> K-Nimbus Website </li>
+                        <li>E-book Website </li>
+                        <li> NPTEL Website </li>
+                        <li>Springer Website </li>
+                        <li>Elsevier Science Direct Website </li>
+                        <li>ASCE (e-journals) Website </li>
+                        <li>Proquest- Engg &amp; Management Website </li>
+                      </ol>
+                      <div class="row">
+                        <table class="centered bordered">
+                          <tbody>
+                            <tr>
+                              <td>WORKING HOURS</td>
+                              <td>WEEK DAYS : 8.00AM –11.59PM (NIGHT)</td>
+                              <td>SUNDAY : 9.00AM – 1PM</td>
+                            </tr>
+                            <tr>
+                              <td>NEWS PAPERS</td>
+                              <td></td>
+                              <td>11</td>
+                            </tr>
+                            <tr>
+                              <td>MAGAZINES</td>
+                              <td>Technical - 18</td>
+                              <td>Non-Technical - 00</td>
+                            </tr>
+                            <tr>
+                              <td>CD’SS</td>
+                              <td></td>
+                              <td>2200</td>
+                            </tr>
+                            <tr>
+                              <td>JOURNALS</td>
+                              <td>INDIAN - 81</td>
+                              <td>FOREIGN - 02</td>
+                            </tr>
+                            <tr>
+                              <td>BOOKS</td>
+                              <td>ISSUE - 7285</td>
+                              <td>REFERENCE - 19056</td>
+                            </tr>
+                            <tr>
+                              <td>NO. OF BOOKS ISSUED / STUDENT</td>
+                              <td>REGULAR TIME - 03</td>
+                              <td>EXAM TIME - 04</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <b><p>Details of Individual Faculty Members</p></b>
+                      <div class="col s4 m4">
+                        <div class="card">
+                          <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="https://s8b3kw.bn1304.livefilestore.com/y4mhxR_W3wC3SBCoE1eqiU3fADqGbNDxT_HpmZLiJwZgKrSlAa6-3rD3BtpRO9G_3EH3UQ9xMmWIiCGdYXG_EWjvQUjzGbfgWF8WWQ5noKKu5KlewlYPSI4nH1yxHk3pXZfKToqvzUisPoHDdl8YCI0BbfE9d1s1PnRHy8boAP5B0J0lK6qDTMgZTwRIJSL2jHPuanCqFTlENUns59wDgakTg?width=960&height=640&cropmode=none" width="960"  />
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4"> Mrs. Shobha H Prasad<i class="material-icons right">more_vert</i></span>
+                          </div>
+                          <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Mrs. Shobha H Prasad<i class="material-icons right">close</i>
+                            </span>
+                            <table class="centered bordered">
+                              <tbody>
+                                <tr>
+                                  <td><b>Designation</b></td>
+                                  <td>Librarian</td>
+                                </tr>
+                                <tr>
+                                  <td><b>Qualifications</b></td>
+                                  <td>MLISC, MPHIL , (PHD)</td>
+                                </tr>
+                                <tr>
+                                  <td><b>Total Experience</b></td>
+                                  <td> 15 years</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <!--next card!-->
+                      <div class="col s4 m4">
+                        <div class="card">
+                          <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="https://s8b3kw.bn1304.livefilestore.com/y4mhxR_W3wC3SBCoE1eqiU3fADqGbNDxT_HpmZLiJwZgKrSlAa6-3rD3BtpRO9G_3EH3UQ9xMmWIiCGdYXG_EWjvQUjzGbfgWF8WWQ5noKKu5KlewlYPSI4nH1yxHk3pXZfKToqvzUisPoHDdl8YCI0BbfE9d1s1PnRHy8boAP5B0J0lK6qDTMgZTwRIJSL2jHPuanCqFTlENUns59wDgakTg?width=960&height=640&cropmode=none" width="960"   alt="fac2">
+                          </div>
+                          <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4"> Mr. Kantharaju. V<i class="material-icons right">more_vert</i></span>
+                          </div>
+                          <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Mrs.Shobha H Prasad<i class="material-icons right">close</i>
+                            </span>
+                            <table class="centered bordered">
+                              <tbody>
+                                <tr>
+                                  <td><b>Designation</b></td>
+                                  <td>Librarian</td>
+                                </tr>
+                                <tr>
+                                  <td><b>Qualifications</b></td>
+                                  <td>MLISC, MPHIL, MBA</td>
+                                </tr>
+                                <tr>
+                                  <td><b>Total Experience</b></td>
+                                  <td> 12 years</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="canteen" class="col s12">
+                <div  class="row">
+                  <p id="para">The College has a Canteen inside the campus in which both South Indian and North Indian dishes are available at reasonable rates. The canteen remains open on all working days. Beverages of different flavours are served on different days according to different seasons. A committee consisting of staff, students and trustees oversee the functioning of the canteen and its upkeep</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-<p>
-Separate CD Library is maintained with 4 computers and with a collection of 2200 CD's. Students can use this facility during their leisure time.
-Separate Browsing center is also maintained with the support of Incable's Internet facilities and 17 separate systems for this purpose. Students can surf the net and avail the internet facility till midnight.
-We have organized Book Exhibition 4 times in order to enrich our collection. Reputed book publishers and sellers like Book paradise, Generation Books, Sri Sai Books, Sri Laxmi Book Distributors, Ell Enn Books have participated in this. Faculty and students were given preference to select and suggest the books. <p>
-
-  </div>
-  <div class="row">
-        <div class="col s12 m3">
-          <div class="card">
-            <div class="card-image">
-              <img src="http://placehold.it/350x150" alt="limg3">
+          <div id="transport" class="col s12">
+            <div class="container">
+              <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+                    <div class="caption center-align">
+                      <h3>This is our big Tagline!</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+                    <div class="caption left-align">
+                      <h3>Left Aligned Caption</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+                    <div class="caption right-align">
+                      <h3>Right Aligned Caption</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+                    <div class="caption center-align">
+                      <h3>This is our big Tagline!</h3>
+                      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
+            <!-- transport details -->
+            <table class="striped">
+              <thead>
+                <tr>
+                  <th data-field="id">ROUTE</th>
+                  <th data-field="name">STARTING POINT</th>
+                  <th data-field="price">STARTING TIME</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>R.N.S. Motors via Basaveshwara nagara<br>
+                  RNS Motors, MDL Circle, ISKCON Temple, Mahalakshmi Layout Entrance, Chord Raod, Modi Hospital, Shankar Mutt, Basaveswaranagar water tank, Pavithra Paradise, Magadi Road, Raheja Apaartments, Vijaynagar Bus Stand, BTS Garage, Attiguppe (Petrol Bunk), Chandra layout, Rajarajeshwari arch,RNSIT.</td>
+                  <td>7:15 A.M.</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>R.N.S. Motors via Malleshwaram<br>
+                  RNS Motors,Tata Institute, Mekri Circle, Kaveri Theatre, Sadashivanagar, Malleswaram 18th Cross Malleswaram 8th Cross, K.C.General Hospital, Devaiah Park, Harishchandra Ghat, Mariyappana Palya, Navrang Theatre, ESI Hospital, Prasanna Theatre, Bunt's Sangha, Rajarajeshwari Arch, RNSIT.</td>
+                  <td>7:00 A.M.</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Starting Point: RNS Motors via Nagarabhavi<br>
+                  RNS Motors, Mahalakshmi Layout Bus stand, Srinivasa Temple, Panchamukhi Ganesha Temple,, Geleyara Balaga, Shankar mutt signal, Housing Board, Saraswathipurum (Shobha Hospital), Moodanpalya, Nagharbhavi circle, Nammora thindi hotel, Dr.Ambedkar college signal, University quatress, Rajarajeshwari Arch, RNSIT.</td>
+                  <td>7:20 A.M.</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Naveen Complex, M.G. Road via Hanumanth nagara<br>
+                  Naveen Complex, Corporation circle, Pallavi Theatre, Subbalaha Circle, Lalbagh West Gate,Taxi stand, Gandhi Bazar/Ramakrishna Ashram, Hanumanth nagara 50ft road, Nirmala store, Srinivasa Nagara, Bank colony, Seetha circle, Hosakerehalli ring road, PESIT college, Rajarajeshwari Arch, RNSIT.</td>
+                  <td>7:20 A.M.</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Naveen Complex, M.G. Road via Jayanagara<br>
+                  Naveen Complex, Shoolay Circle, Richmond circle, Double road, Lalbagh circle, Ashoka pillar, Jayanagara 4th block(Cool point), Jayanagara T block(Coffee day),Marahalli petrol bunk, Ragavendra temple, 5th Block Sai travels, JSS Circle, Indira nursing home, DG bunk, Padmanabhanagara, Prarthana School, Brigade Apartments, Uttrahalli, RNSIT.</td>
+                  <td>7:15 A.M.</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Naveen Complex, M.G. Road via J P nagara<br>
+                    Naveen complex, Commando Hospital, Domlur flyover, Koramangala, Silk board, BTM Layout water tank, Bannerghatta road, G D Mara(J P Nagara 3rd phase), J P Nagara 6th phase 15th cross, Royal school, Brigade Millenium, Capital School, Gaurav nagar, Konankunte cross, Uttrahalli, RNSIT
+                  </td>
+                  <td>7:20 A.M.</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-<p>
-Library is kept open from 8 am to 12 pm (midnight) daily and 1pm on Sundays. Books are kept in open access racks for free access. Reading facility with seating and writing arrangement for 200 students is also provided. Separate journals and news paper section is also maintained. Back Volumes of Journals are also maintained. Current Awareness service is also provided with the support of latest events, publications, thoughts etc. by putting it up in the notice Board, computer screens etc. Our library is also a member of IIMB library. Thus, providing all the information and helping the students and faculty for their overall development and growth, our Library acts as a catalyst for turning out our students as quality engineers. <p>
-<p>Also we are having the Long term plan of connecting the Library to other renowned libraries like PRI, ISRO, NAL and IISc Separate CD Library is maintained with 4 computers and with a collection of CD's. Students can use this facility during their leisure time.</p>
-
-  </div>
-  <div class="row">
-<p>
-The following VTU e-resources can be accessed by the following website,<p>
-<ol><li>Taylor and Francis Website</li>
-<li>IEEE / IEL Online Website e</li>
-<li> K-Nimbus Website </li>
-<li>E-book Website </li>
-<li> NPTEL Website </li>
-<li>Springer Website </li>
-<li>Elsevier Science Direct Website </li>
-<li>ASCE (e-journals) Website </li>
-<li>Proquest- Engg &amp; Management Website </li>
-
-</ol>
-<div class="row">
-  <table class="centered bordered">
-        <tbody>
-          <tr>
-            <td>WORKING HOURS</td>
-            <td>WEEK DAYS : 8.00AM –11.59PM (NIGHT)</td>
-            <td>SUNDAY : 9.00AM – 1PM</td>
-          </tr>
-          <tr>
-            <td>NEWS PAPERS</td>
-            <td></td>
-            <td>11</td>
-          </tr>
-          <tr>
-            <td>MAGAZINES</td>
-            <td>Technical - 18</td>
-            <td>Non-Technical - 00</td>
-          </tr>
-          <tr>
-            <td>CD’SS</td>
-            <td></td>
-            <td>2200</td>
-          </tr>
-          <tr>
-            <td>JOURNALS</td>
-            <td>INDIAN - 81</td>
-            <td>FOREIGN - 02</td>
-          </tr>
-          <tr>
-            <td>BOOKS</td>
-            <td>ISSUE - 7285</td>
-            <td>REFERENCE - 19056</td>
-          </tr>
-          <tr>
-            <td>NO. OF BOOKS ISSUED / STUDENT</td>
-            <td>REGULAR TIME - 03</td>
-            <td>EXAM TIME - 04</td>
-          </tr>
-        </tbody>
-      </table>
-
-</div>
-
-  </div>
-  <div class="row">
-    <b><p>Details of Individual Faculty Members</p></b>
-    <div class="col s4 m4">
-    <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="https://s8b3kw.bn1304.livefilestore.com/y4mhxR_W3wC3SBCoE1eqiU3fADqGbNDxT_HpmZLiJwZgKrSlAa6-3rD3BtpRO9G_3EH3UQ9xMmWIiCGdYXG_EWjvQUjzGbfgWF8WWQ5noKKu5KlewlYPSI4nH1yxHk3pXZfKToqvzUisPoHDdl8YCI0BbfE9d1s1PnRHy8boAP5B0J0lK6qDTMgZTwRIJSL2jHPuanCqFTlENUns59wDgakTg?width=960&height=640&cropmode=none" width="960"  />
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4"> Mrs. Shobha H Prasad<i class="material-icons right">more_vert</i></span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Mrs. Shobha H Prasad<i class="material-icons right">close</i>
-      </span>
-       <table class="centered bordered">
-        <tbody>
-          <tr>
-            <td><b>Designation</b></td>
-            <td>Librarian</td>
-          </tr>
-          <tr>
-            <td><b>Qualifications</b></td>
-            <td>MLISC, MPHIL , (PHD)</td>
-          </tr>
-          <tr>
-            <td><b>Total Experience</b></td>
-            <td> 15 years</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-  </div>
-<!--next card!-->
-      <div class="col s4 m4">
-    <div class="card">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="https://s8b3kw.bn1304.livefilestore.com/y4mhxR_W3wC3SBCoE1eqiU3fADqGbNDxT_HpmZLiJwZgKrSlAa6-3rD3BtpRO9G_3EH3UQ9xMmWIiCGdYXG_EWjvQUjzGbfgWF8WWQ5noKKu5KlewlYPSI4nH1yxHk3pXZfKToqvzUisPoHDdl8YCI0BbfE9d1s1PnRHy8boAP5B0J0lK6qDTMgZTwRIJSL2jHPuanCqFTlENUns59wDgakTg?width=960&height=640&cropmode=none" width="960"   alt="fac2">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4"> Mr. Kantharaju. V<i class="material-icons right">more_vert</i></span>
-    </div>
-    <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Mrs.Shobha H Prasad<i class="material-icons right">close</i>
-      </span>
-       <table class="centered bordered">
-        <tbody>
-          <tr>
-            <td><b>Designation</b></td>
-            <td>Librarian</td>
-          </tr>
-          <tr>
-            <td><b>Qualifications</b></td>
-            <td>MLISC, MPHIL, MBA</td>
-          </tr>
-          <tr>
-            <td><b>Total Experience</b></td>
-            <td> 12 years</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-  </div>
-</div>
-</div>
- </div>
-
-</div>
-
-  <div id="canteen" class="col s12">
-    <div  class="row">
-      <p id="para">The College has a Canteen inside the campus in which both South Indian and North Indian dishes are available at reasonable rates. The canteen remains open on all working days. Beverages of different flavours are served on different days according to different seasons. A committee consisting of staff, students and trustees oversee the functioning of the canteen and its upkeep</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </div>
-  </div>  
-</div>
-  </div>
-  <div id="transport" class="col s12">
-
-  <div class="container">
-    <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        <div id="fot">
+          <footer id="footer" class="page-footer">
+            <div class="container-fluid">
+              <div class="row lool">
+                <div class="roww" style="overflow: hidden;">
+                  <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
+                  <a href="instagram/rnsit"><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
+                  <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+                  <a href="twitter/rnsit"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
+                  <a href="linkedin/rnsit"><image class="icon ic4" src="images/linkedin.png" alt="linkedin"></image></a>
+                </div>
+              </div>
+              <div class="footer-copyright">
+                <div class="container">
+                  <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
+                </div>
+              </div>
+            </div>
+          </footer>
         </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
-  </div>
-    <!-- transport details -->
-    <table class="striped">
-        <thead>
-          <tr>
-              <th data-field="id">ROUTE</th>
-              <th data-field="name">STARTING POINT</th>
-              <th data-field="price">STARTING TIME</th>
-          </tr>
-        </thead>
-
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>R.N.S. Motors via Basaveshwara nagara<br>
-RNS Motors, MDL Circle, ISKCON Temple, Mahalakshmi Layout Entrance, Chord Raod, Modi Hospital, Shankar Mutt, Basaveswaranagar water tank, Pavithra Paradise, Magadi Road, Raheja Apaartments, Vijaynagar Bus Stand, BTS Garage, Attiguppe (Petrol Bunk), Chandra layout, Rajarajeshwari arch,RNSIT.</td>
-            <td>7:15 A.M.</td>
-          </tr>
-
-          <tr>
-            <td>2</td>
-            <td>R.N.S. Motors via Malleshwaram<br>
-RNS Motors,Tata Institute, Mekri Circle, Kaveri Theatre, Sadashivanagar, Malleswaram 18th Cross Malleswaram 8th Cross, K.C.General Hospital, Devaiah Park, Harishchandra Ghat, Mariyappana Palya, Navrang Theatre, ESI Hospital, Prasanna Theatre, Bunt's Sangha, Rajarajeshwari Arch, RNSIT.</td>
-             <td>7:00 A.M.</td>
-          </tr>
-
-          <tr>
-            <td>3</td>
-            <td>Starting Point: RNS Motors via Nagarabhavi<br>
-RNS Motors, Mahalakshmi Layout Bus stand, Srinivasa Temple, Panchamukhi Ganesha Temple,, Geleyara Balaga, Shankar mutt signal, Housing Board, Saraswathipurum (Shobha Hospital), Moodanpalya, Nagharbhavi circle, Nammora thindi hotel, Dr.Ambedkar college signal, University quatress, Rajarajeshwari Arch, RNSIT.</td>
-            <td>7:20 A.M.</td>
-          </tr>
-
-          <tr>
-            <td>4</td>
-            <td>Naveen Complex, M.G. Road via Hanumanth nagara<br>
-Naveen Complex, Corporation circle, Pallavi Theatre, Subbalaha Circle, Lalbagh West Gate,Taxi stand, Gandhi Bazar/Ramakrishna Ashram, Hanumanth nagara 50ft road, Nirmala store, Srinivasa Nagara, Bank colony, Seetha circle, Hosakerehalli ring road, PESIT college, Rajarajeshwari Arch, RNSIT.</td>
-            <td>7:20 A.M.</td>
-          </tr>
-
-           <tr>
-            <td>5</td>
-            <td>Naveen Complex, M.G. Road via Jayanagara<br>
-Naveen Complex, Shoolay Circle, Richmond circle, Double road, Lalbagh circle, Ashoka pillar, Jayanagara 4th block(Cool point), Jayanagara T block(Coffee day),Marahalli petrol bunk, Ragavendra temple, 5th Block Sai travels, JSS Circle, Indira nursing home, DG bunk, Padmanabhanagara, Prarthana School, Brigade Apartments, Uttrahalli, RNSIT.</td>
-            <td>7:15 A.M.</td>
-          </tr>
-
-           <tr>
-            <td>6</td>
-            <td>Naveen Complex, M.G. Road via J P nagara<br>
-Naveen complex, Commando Hospital, Domlur flyover, Koramangala, Silk board, BTM Layout water tank, Bannerghatta road, G D Mara(J P Nagara 3rd phase), J P Nagara 6th phase 15th cross, Royal school, Brigade Millenium, Capital School, Gaurav nagar, Konankunte cross, Uttrahalli, RNSIT
-</td>
-            <td>7:20 A.M.</td>
-          </tr>
-
-        </tbody>
-      </table>
-
-
-  </div>
-</div>
-
-<div id="fot">
-        <footer id="footer" class="page-footer">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col l4 m4 s12">
-            <h5 class="orange-text">RNSIT</h5>
-            <p class="white-text text-lighten-4">R.N. Shetty Institute of Technology (RNSIT) established in the year 2001, is the brain-child of the Group Chairman, Dr. R.N. Shetty.The Murudeshwar Group of Companies headed by Sri. R. N. Shetty is a leading player in many industries viz construction, manufacturing, hotel, automobile, power & IT services and education. The group has contributed significantly to the field of education.</p>
-
-          </div>
-          <div class="col l4 m4 s12 push-m1 push-l1">
-            <h5 class="orange-text">HELP</h5>
-            <p class="grey-text text-lighten-4"></p>
-            <ul>
-                  <li><a class="white-text text-lighten-3" href="#!">HOME</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">ABOUT</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">DEPT</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">COURSE</a></li>
-            </ul>
-            <a class="btn waves-effect waves-light black lighten-3" href="#!">Email</a>
-          </div>
-          <div class="col l4 m4 s12" style="overflow: hidden;">
-            <h5 class="orange-text">Connect</h5>
-            <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon" src="images/facebook.svg" alt="fb"></image></a>
-            <a href="instagram/rnsit"><image class="icon" src="images/instagram.svg" alt="insta"></image></a>
-            <a href="twitter/rnsit"><image class="icon" src="images/twitter.svg" alt="twitter"></image></a>
-            <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          <p style="text-align:center"><b>Handcrafted by Dept of CSE</b></p>
-        </div>
-      </div>
-    </footer>
-    </div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-      <script type="text/javascript" src="js/navbar.js"></script>
-
-            
-
-
-    <script src="js/mainpage.js"></script>
-  </body>
-</html>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/navbar.js"></script>
+        
+        <script src="js/mainpage.js"></script>
+      </body>
+    </html>

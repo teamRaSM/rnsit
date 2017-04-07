@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
 body,html{
   min-height: 100vh;
+  text-align: justify;
+
 }
 
 .card .card-content p{
@@ -15,6 +17,10 @@ body,html{
 	position: relative;
 	left: 15px;
 }
+.card{
+	margin-top: 5px !important;
+	margin-bottom: 0px !important;
+}
 .buli {
 	list-style-type: circle;
 }
@@ -22,7 +28,15 @@ body,html{
 	width: 100%;
 	text-align: center;
 }
-
+.card-name{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+.card-info{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
 .cardul{
 	display: flex;
 	flex-direction: row;
