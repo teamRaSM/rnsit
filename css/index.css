@@ -91,6 +91,9 @@
 }
 @media only screen and (max-width: 480px){
 
+	.con-flex{
+		width: 92% !important;
+	}
 	.nightback{
 		height:50vh;
 
@@ -102,3 +105,9 @@
 
 }
 
+@media only screen and (max-width: 768px){
+
+	.con-flex{
+		width: 92% !important;
+	}
+		}
