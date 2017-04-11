@@ -4,6 +4,9 @@ h1
 	font-family: 'bree serif',serif;
 
 }
+.avoid-nav{
+	padding-top: 10px !important;
+}
 .tab .faci{
 	color: rgba(255,255,255,.70) !important;
 }
@@ -24,10 +27,6 @@ th,td{
 {
 	font-family: 'bree serif',serif;
 	color:#222222;
-}
-i{
-	position:relative;
-	top:5px;
 }
 #spara
 {

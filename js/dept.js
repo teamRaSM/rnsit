@@ -1,10 +1,4 @@
 $(document).ready(function(){
-      $('.slider').slider();
-    });
-        
-
-
-$(document).ready(function(){
 
       $('.modal').modal({
       dismissible: true, // Modal can be dismissed by clicking outside of the modal
@@ -18,5 +12,11 @@ $(document).ready(function(){
       complete: function() {} // Callback for Modal close
     }
   );
+            $('.slider').slider();
+
 
 });
+      function click(){
+          $(".map-iframe").addClass("clicked");
+
+      }
