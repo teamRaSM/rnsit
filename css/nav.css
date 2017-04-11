@@ -52,7 +52,7 @@ nav{
     transition: all .4s;
 }
 .side-nav{
-  z-index: 10000;
+  z-index: 100000;
 }
 .innerli :hover{
   background: white !important;
