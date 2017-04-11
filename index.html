@@ -157,13 +157,23 @@ console.log('Registration Failed. Error - '+error);
 })();
 </script>
 <script type="text/javascript">
+
+
+
+
+
+
+
+
 $(window).scroll(function () {
-var x=500;
-var w=$(window).width();
-if(w<430)
-x=200;
-if ($(window).scrollTop() > x) {
-$('.svg-logo').removeClass('hidden');
+
+topup = $(document).scrollTop();
+
+main = $('.maincont').height();
+
+
+if((topup+60)>main){
+  $('.svg-logo').removeClass('hidden');
 $('.brand-logo').removeClass('hidden');
 $('nav').removeClass('navin');
 }
@@ -172,6 +182,7 @@ $('.svg-logo').addClass('hidden');
 $('.brand-logo').addClass('hidden');
 $('nav').addClass('navin');
 }
+
 });
 </script>
 </body>
