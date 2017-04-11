@@ -13,8 +13,8 @@ h1
 	font-family: 'bree serif',serif;
 	color:#222222;
 }
-i
-{
+
+.shift-down{
 	position:relative;
 	top:5px;
 }
