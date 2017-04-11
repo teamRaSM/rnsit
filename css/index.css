@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
 ::-webkit-scrollbar {
     width: 12px;
 }
@@ -12,6 +12,17 @@
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
+
+body, html, p, div, span{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5,h6{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
 .body
 {
 	text-align: justify;
