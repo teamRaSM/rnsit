@@ -1,5 +1,6 @@
 /*@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans|Oswald');*/
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
+
 body,html{
   min-height: 80vh;
   text-align: justify;
@@ -87,14 +88,15 @@ body,html{
 h3,h5,h4
 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
+	font-weight: 600;
 	
 }
 
 p,body,html,div, #para
 {
 	font-family: 'Raleway',sans-serif;
-	font-weight: 400;
+	font-weight: 500;
+	font-size: .97em;
 }
 #sub
 {
