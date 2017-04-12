@@ -120,3 +120,30 @@ h1, h2, h3, h4, h5,h6{
 		width: 92% !important;
 	}
 }
+
+.news{
+	overflow-y: hidden;
+}
+.newscards{
+	width: 100%;
+	height: 50%;
+		border-top-width: 1px;
+	border-top-color: black;
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+}
+
+@keyframes newsscroll{
+
+	0%{
+		translate:0 50%;
+	}
+	25%{
+		translate:0 100%;
+	}
+	50%{
+		translate:0 150%;
+	}
+}

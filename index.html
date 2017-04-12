@@ -48,8 +48,8 @@
             <li class="navali"><a id="physics" href="physics.html">Physics</a></li>
             <li class="navali"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
             <li class="navali"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
-           
-          
+            
+            
           </ul>
         </ul>
         <ul id="dropdown2" class="dropdown-content">
@@ -80,7 +80,7 @@
             <a id="physics" class="nava awes" href="physics.html">Physics</a>
             <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
             <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
-           
+            
           </div></li>
           <li class="navali"><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
           <li class="innerli">      <div class="innerNav1">
@@ -112,31 +112,36 @@
 </div>
 <div class="cont">
 <div class="videos con-flex" align="center"><iframe class="iframes" src="https://www.youtube.com/embed/Wln9cR8UkZw?ecver=2" frameborder="0" allowfullscreen></iframe></div>
-<div class="news con-flex">News</div>
+<div class="news con-flex">
+<div class="newscards">Data put in</div>
+<div class="newscards">Dataputin</div>
+<div class="newscards">data put in</div>
+<div class="newscards"></div>
+</div>
 <div class="pc con-flex">Pics Carousal</div>
 <div class="tc con-flex">Text Carousal</div>
 </div>
 </div>
 <div id="fot">
 <footer id="footer" class="page-footer">
-    <div class="container-fluid">
-      <div class="row lool">
-        
-        <div class="roww" style="overflow: hidden;">
-          <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
-          <a href="instagram/rnsit"><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
-          <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
-          <a href="twitter/rnsit"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
-          <a href="linkedin/rnsit"><image class="icon ic4" src="images/linkedin.svg" alt="linkedin"></image></a>
-        
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
-      </div>
+<div class="container-fluid">
+  <div class="row lool">
+    
+    <div class="roww" style="overflow: hidden;">
+      <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
+      <a href="instagram/rnsit"><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
+      <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+      <a href="twitter/rnsit"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
+      <a href="linkedin/rnsit"><image class="icon ic4" src="images/linkedin.svg" alt="linkedin"></image></a>
+      
     </div>
   </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
+    </div>
+  </div>
+</div>
 </div>
 </footer>
 </div>
@@ -160,23 +165,11 @@ console.log('Registration Failed. Error - '+error);
 })();
 </script>
 <script type="text/javascript">
-
-
-
-
-
-
-
-
 $(window).scroll(function () {
-
 topup = $(document).scrollTop();
-
 main = $('.maincont').height();
-
-
 if((topup+60)>main){
-  $('.svg-logo').removeClass('hidden');
+$('.svg-logo').removeClass('hidden');
 $('.brand-logo').removeClass('hidden');
 $('nav').removeClass('navin');
 }
@@ -185,7 +178,6 @@ $('.svg-logo').addClass('hidden');
 $('.brand-logo').addClass('hidden');
 $('nav').addClass('navin');
 }
-
 });
 </script>
 </body>
