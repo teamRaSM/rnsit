@@ -18,6 +18,15 @@ h1
 	position:relative;
 	top:5px;
 }
+
+ul.points{
+	list-style-type: circle !important;
+	list-style-position: inside;
+}
+ul.points li{
+	list-style-type: circle !important;
+	list-style-position: inside;
+}
 #spara
 {
 	font-size: 3vh;

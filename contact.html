@@ -40,8 +40,8 @@
   <body>
     <nav class="nav navin">
       <div class="nav-wrapper">
-        <img class="svg-logo hidden" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
-        <a href="index.html" class="brand-logo hidden" style="color: white; margin-left:0px; ">RNSIT</a>
+        <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+        <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
@@ -75,6 +75,7 @@
           <li class="navali"><a id="cse" href="alumni.html">ALUMNI</a></li>
           <li class="navali"><a id="ece" href="admissions.html">ADMISSIONS</a></li>
           <li class="navali"><a id="eee" href="hr.html">HR</a></li>
+          <li class="navali"><a id="mca" href="cultural.html">CULTURAL</a></li>
           <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
         </ul>
         <!--mobile!-->
@@ -106,22 +107,28 @@
             <a id="alum" class="nava" href="alumni.html">Alumini</a>
             <a id="admission" class="nava" href="admissions.html">Admissions</a>
             <a id="hr" class="nava" href="hr.hrml">HR</a>
+            <a id="faci" class="nava" href="cultural.html">Cultural</a>
             <a id="faci" class="nava" href="facilities.html">Facilities</a>
           </div>
         </li>
       </ul>
     </div>
   </nav>
-  <div class="container">
-    <div class="row">
-      <h4 align="center" class="head-style avoid-nav">CONTACT US</h4>
+  
+       <div class="container">
+       <h5 align="center" class="head-style avoid-nav">CONTACT US</h5>
+
+  
       <form class="col s12" id="contact" name="contactform" method="post" action="send_my_email.php">
         <div class="row">
           <div class="input-field col s2">
           </div>
           <div class="input-field col s12 m8">
             <i class="material-icons prefix">account_circle</i>
+
+            <!--input id="icon_prefix" type="text" class="validate"-->
             <input id="icon_prefix" type="text" class="validate" required  title="Valid Name">
+
             <label for="icon_prefix first_name">Name</label>
           </div>
         </div>
@@ -130,8 +137,10 @@
           </div>
           <div class="input-field col s12 m8">
             <i class="material-icons prefix">phone</i>
+            <!--input id="icon_telephone" type="text" class="validate"-->
 
             <input id="icon_telephone" type="text" class="validate" required pattern="^\d{10}$" data-length=10>
+
             <label for="icon_telephone last_name">Telephone</label>
           </div>
         </div>
@@ -140,7 +149,11 @@
           </div>
           <div class="input-field col s12 m8">
             <i class="material-icons prefix">email </i>
+
+            <!--input id="email" type="email" class="validate"-->
+
             <input id="email" type="email" class="validate" pattern="[^ @]*@[^ @]*" required  data-error="wrong" data-success="right"  title="Include @, valid ID"> 
+
             <label for="email">Email</label>
           </div>
         </div>
@@ -149,18 +162,13 @@
           </div>
           <div class="input-field col s12 m8">
             <i class="material-icons prefix">mode_edit</i>
-            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+            <textarea id="icon_prefix2" minlength="10" class="materialize-textarea"></textarea>
             <label for="icon_prefix2">Message</label>
           </div>
         </div>
         <div align="center">
           <input  type="submit" class="center btn waves-effect waves-light" value="Submit"></div>
         </form>
-        </div>
-                <div class="row map" onclick="click();">
-                  <iframe class="map-iframe" onclick="click();" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAIpV_6fe4jaExGxLIaDzZNfnBc4do02Vo
-        &q=RNS+Institute+of+Technology"></iframe>
-      </div>
         <div class="row">
           <p style="text-align:center;"><b>Reach Us at :</b></p>
           
