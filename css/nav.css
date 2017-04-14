@@ -128,3 +128,10 @@ nav{
 nav{
   z-index: 9999;
 }
+
+.dropdown-content{
+  background-color: #021b38;
+}
+.dropdown-content li>a{
+  color: #fff;
+}
