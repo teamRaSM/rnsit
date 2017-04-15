@@ -18,7 +18,9 @@ nav{
 .logo{
   z-index: 20;
 }
-
+.nava{
+  color: black !important;
+}
 @media only screen and (max-width:768px){
 .logo {
   margin-top: 10px;

@@ -10,9 +10,13 @@ $(document).ready(function(){
   });
 
   });
-  
+	var count=0;  
 	setInterval(function(){
-		$('.event-a').css('transform':'translate(0,300%)');
+		count++;
+		count=count%4;
+		trans = "translate(-"+count*100+"%,0)";
+
+		$('.event-a').css({'transform':trans});
 	},3000);
 // parallax
 

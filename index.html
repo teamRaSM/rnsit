@@ -143,7 +143,7 @@
       </div>
     </div>
     <div class="col s12 m8 camp-video">
-      <iframe class="iframes" src="https://www.youtube.com/embed/Wln9cR8UkZw?ecver=2" frameborder="0" allowfullscreen></iframe>
+      <iframe class="iframes" src="https://www.youtube.com/embed/Wln9cR8UkZw?ecver=2?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
   <div class="up-events container-custom">
@@ -151,7 +151,7 @@
       <a href="#" class="event-a">
         <div class="upcoming-event">
           <div class="event-background"></div>
-          <div>
+          <div class="text-slide">
             <h5>Header you wanna see</h5>
             <p>Text you might want to see</p>
           </div>
@@ -160,7 +160,7 @@
       <a href="#" class="event-a">
         <div class="upcoming-event">
           <div class="event-background"></div>
-          <div>
+          <div class="text-slide">
             <h5>Header you wanna see</h5>
             <p>Text you might want to see</p>
           </div>
@@ -169,7 +169,7 @@
       <a href="#" class="event-a">
         <div class="upcoming-event">
           <div class="event-background"></div>
-          <div>
+          <div class="text-slide">
             <h5>Header you wanna see</h5>
             <p>Text you might want to see</p>
           </div>
@@ -178,7 +178,7 @@
       <a href="#" class="event-a">
         <div class="upcoming-event">
           <div class="event-background"></div>
-          <div>
+          <div class="text-slide">
             <h5>Header you wanna see</h5>
             <p>Text you might want to see</p>
           </div>
@@ -230,31 +230,27 @@
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="js/navbar.js"></script>
 <script type="text/javascript">
-// $(document).ready(function(){
-// var i=0;
-// helll();
-// function helll(){
-// setTimeout(function(){
-//     //alert("Boom!");
-//     i=i%2;
-//     if(i==0){
-//        alert('hi');
-//     $('.nightback').css("background", "url(/images/night1.jpg) no-repeat;");
-//     // $('.nightback').css('background-image','/images/night1.jpg');
-//   }
-//     else{
-//       alert('no hi');
+$(document).ready(function(){
+var i=0;
+setInterval(function(){
+    //alert("Boom!");
+    i=i%2;
+    if(i==0){
+      // alert('hi');
+    $('.nightback').css({"background-image": "url(images/night1.jpg)"});
+    // $('.nightback').css('background-image','/images/night1.jpg');
+  }
+    else{
+     // alert('no hi');
     
-//     // $('.nightback').css('background-image','/images/blur.jpg');
-//   }
-//     i++;
-//     helll();
-// }, 2000);
-
-// }
-// });
+    $('.nightback').css({'background-image':'url(images/blur.jpg)'});
+  }
+    i++;
+}, 30000);
+});
 
 (function(){
 if(!'serviceWorker' in navigator)
