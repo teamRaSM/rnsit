@@ -31,18 +31,24 @@ body,html{
 .buli {
 	list-style-type: circle;
 }
+
+.cardli{
+	border-radius: 5px;
+	overflow: hidden;
+}
+
 .cardli *{
 	width: 100%;
 	text-align: center;
 }
 .card-name{
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.05em;
+	font-size: 1.15em;
 	font-weight: 700;
 }
 .card-info{
 	font-family: 'Raleway', sans-serif;
-	font-size: .85em;
+	font-size: .95em;
 	font-weight: 500;
 }
 .cardul{

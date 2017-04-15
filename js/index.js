@@ -11,7 +11,9 @@ $(document).ready(function(){
 
   });
   
-
+	setInterval(function(){
+		$('.event-a').css('transform':'translate(0,300%)');
+	},3000);
 // parallax
 
 // parallax
