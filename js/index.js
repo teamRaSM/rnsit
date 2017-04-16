@@ -11,7 +11,7 @@ $(document).ready(function(){
 
   });
 
-	var pause = 0;
+	var paused = 0;
 
 	var count=0;  
 	setInterval(function(){

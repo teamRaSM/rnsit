@@ -7,6 +7,9 @@ h1
 .avoid-nav{
 	padding-top: 10px !important;
 }
+img{
+	width: 100%;
+}
 .tab .faci{
 	color: rgba(255,255,255,.70) !important;
 }
