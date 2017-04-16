@@ -1,181 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <title>RNSIT</title>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" type="text/css" href="css/default.css">
-    <link type="text/css" rel="stylesheet" href="css/index.css"  />
-    <link type="text/css" rel="stylesheet" href="css/nav.css"/>
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#021B38">
-    <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
-    <link rel="apple-touch-icon" href="imgages/logo.png"/>
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="RNSIT" content="RNSIT">
-    <link rel="icon" sizes="192x192" href="images/logo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  </head>
-  <body>
-    <nav class="nav navin">
-      <div class="nav-wrapper">
-        <img class="svg-logo hidden" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
-        <a href="index.html" class="brand-logo hidden" style="color: white; margin-left:0px; ">RNSIT</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
-          <li class="navali waves-effect waves-light"><a id="aboutus" href="aboutus.html">About Us</a></li>
-          <li class="navali waves-effect waves-light"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
-          <!-- Dropdown Trigger -->
-          <li class="navali waves-effect waves-light"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li class="navali waves-effect waves-light"><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
-          <!-- Dropdown Structure -->
-          <ul id="dropdown1" class="dropdown-content">
-            <li class="divider"></li>
-            <li class="navali waves-effect waves-light"><a id="cse" href="cse.html">CSE</a></li>
-            <li class="navali waves-effect waves-light"><a id="ece" href="ece.html">ECE</a></li>
-            <li class="navali waves-effect waves-light"><a id="eee" href="eee.html">EEE</a></li>
-            <li class="navali waves-effect waves-light"><a id="ise" href="ise.html">ISE</a></li>
-            <li class="navali waves-effect waves-light"><a id="eie" href="eie.html">EIE</a></li>
-            <li class="navali waves-effect waves-light"><a id="mech" href="mech.html">MECH</a></li>
-            <li class="navali waves-effect waves-light"><a id="civil" href="civil.html">CIVIL</a></li>
-            <li class="divider"></li>
-            <li class="navali waves-effect waves-light"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
-            <li class="navali waves-effect waves-light"><a id="mca"  href="mca.html">MCA</a></li>
-            <li class="divider"></li>
-            <li class="navali waves-effect waves-light"><a id="physics" href="physics.html">Physics</a></li>
-            <li class="navali waves-effect waves-light"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
-            <li class="navali waves-effect waves-light"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
-            <li class="divider"></li>
-            <li class="navali waves-effect waves-light"><a id="hr" href="hr.html">HR</a></li>
-            
-            
-          </ul>
-        </ul>
-        <ul id="dropdown2" class="dropdown-content">
-          <li class="navali waves-effect waves-light"><a id="cse" href="alumni.html">ALUMNI</a></li>
-          <li class="navali waves-effect waves-light"><a id="ece" href="admissions.html">ADMISSIONS</a></li>
-          <li class="navali waves-effect waves-light"><a id="mca" href="cultural.html">CULTURAL</a></li>
-          <li class="navali waves-effect waves-light"><a id="mca" href="facilities.html">FACILITIES</a></li>
-        </ul>
-        <!--mobile!-->
-        <ul class="side-nav" id="mobile-demo">
-          <li class="navali waves-effect waves-light"><a id="home" href="index.html">Home</a></li>
-          <li class="navali waves-effect waves-light"><a id="aboutus" href="aboutus.html">About Us</a></li>
-          <li class="navali waves-effect waves-light"><a id="contact" href="contact.html">Contact</a></li>
-          <li class="navali waves-effect waves-light"><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li class="innerli">      <div class="innerNav">
-            <ul class="navali waves-effect waves-light"><li class=" nava divider"></li></ul>
-            <a id="cse" class="nava" href="cse.html">CSE</a>
-            <a id="ece" class="nava" href="ece.html">ECE</a>
-            <a id="eee" class="nava"  href="eee.html">EEE</a>
-            <a id="ise" class="nava" href="ise.html">ISE</a>
-            <a id="eie" class="nava" href="eie.html">EIE</a>
-            <a id="mech" class="nava" href="mech.html">MECH</a>
-            <a id="civil" class="nava" href="civil.html">CIVIL</a>
-            <ul class="navali waves-effect waves-light"><li  id=""class=" nava divider"></li></ul>
-            <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
-            <a id="mca" class="nava awes" href="mca.html">MCA</a>
-            <ul class="navali waves-effect waves-light"><li  id=""class=" nava divider"></li></ul>
-            <a id="physics" class="nava awes" href="physics.html">Physics</a>
-            <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
-            <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
-            <ul class="navali waves-effect waves-light"><li  id=""class=" nava divider"></li></ul>
-            <a id="hr" class="nava" href="hr.html">HR</a>
-            
-          </div></li>
-          <li class="navali waves-effect waves-light"><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li class="innerli">      <div class="innerNav1">
-            <a id="alum" class="nava" href="alumni.html">Alumni</a>
-            <a id="admission" class="nava" href="admissions.html">Admissions</a>
-            <a id="faci" class="nava" href="cultural.html">Cultural</a>
-            <a id="faci" class="nava" href="facilities.html">Facilities</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-
-
-  <div class="container">
-  <h4 align="center" class="avoid-nav">Admissions</h4>
-  <br>
-  <h5><center>Common Entereance Test (CET)</center></h5>
-<h6><center>TOP MOST ENGINEERING COLLEGES IN KARNATAKA</center></h6><br>
-<ol>
-  
-  <li>The Government of Karnataka conducts Common Entrance Test (CET) for admission into various professional courses. The   CET is generally conducted during Feb/March and the notification will appear in all leading newspapers. RNSIT is being in the list of top most engineering colleges in karnataka.
-</li>
-
-<li>A merit list will be prepared based on the combined performance in PUC/XII std. and CET.
-</li>
-
-<li>Seat matrix are announced indicating seats available in different colleges in different branches based on the sanctioned  intake.
-</li>
-
-<li>Admissions are made according to merit, subject to reservations to various categories. 
-</li>
-
-<li>Students called for counseling on a particular day will be announced on previous day in leading newspapers.
-</li>
-
-<li>On the day of counseling, when his/her turn comes, he/she can choose the college and branch based on the  vacancy position displayed online.
-</li>
-
-<li>Students also get the opportunity to change the branch/college only once before the end of admission and this is final.
-</li>
-<br><br>
-Change of branch: As per the VTU regulations, change of branch is permitted only at the beginning of 3rd semester provided vacancy exists. The change of branch is done according to prescribed regulations and is subject to approval by Director of Technical Education and the University. Providing the better education and maintaining the reputation has made RNSIT to be in the list of one of the top most engineering colleges in karnataka.
-<br><br><center>More Details : <a href="http://vtu.ac.in/">www.vtu.ac.in</a></center><br><br><br><br><br>
-
-
-
-</ol>
-
-
-
-
-</div>
-
-      <div id="fot">
-  <footer id="footer" class="page-footer">
-    <div class="container-fluid">
-      <div class="row lool">
-        
-        <div class="roww" style="overflow: hidden;">
-          <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
-          <a href="instagram/rnsit"><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
-          <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
-          <a href="twitter/rnsit"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
-          <a href="linkedin/rnsit"><image class="icon ic4" src="images/linkedin.png" alt="linkedin"></image></a>
-          
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-</div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-              <script type="text/javascript" src="js/dept.js"></script>
-    <script type="text/javascript" src="js/navbar.js"></script>
-
-
-    
-  </body>
-<!DOCTYPE html>
-<html>
    <head>
-      <title>RNSIT</title>
+      <title>Asmissions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
     <link rel="manifest" href="manifest.json">
@@ -194,121 +20,107 @@ Change of branch: As per the VTU regulations, change of branch is permitted only
    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
-     <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/modal.css">s
-       <link rel="stylesheet" type="text/css" href="css/dept.css">
-       <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/alumni.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/dept.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link href="images/logo.png" rel="icon" type="image/png">
 
-
-
       <style type="text/css">
-       
+        .nava{
+          display: block;
+          padding-left: 30px;
+
+        }
+        .hidden{
+          height: 0;
+          overflow: hidden;
+          transition: all 2s;
+        }
       </style>
    </head>
    <body>
 
-   <div>
-   	 <nav class="nav">
-    <div class="nav-wrapper">
-      <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
-      <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <!-- <li><a id="home" href="index.html">Home</a></li> -->
-        <li><a id="aboutus" href="aboutus.html">About Us</a></li>
-        <li><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
-
-        <!-- Dropdown Trigger -->
- 	<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
- 	<li><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
-
-
-
-
-        <!-- Dropdown Structure -->
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a>BASIC SCIENCE DEPARTMENTS</a></li>
-    <li class="divider"></li>
-    <li><a id="physics" href="physics.html">Physics</a></li>
-    <li><a id="chemistry" href="chemistry.html">Chemistry</a></li>
-    <li><a id="mathematics" href="mathematics.html">Mathematics</a></li>
-    <li class="divider"></li>
-    <li><a id="engineeringdept">ENGINEERING DEPARTMENTS</a></li>
-    <li class="divider"></li>
-    <li><a id="cse" href="cse.html">CSE</a></li>
-    <li><a id="ece" href="ece.html">ECE</a></li>
-    <li><a id="eee" href="eee.html">EEE</a></li>
-    <li><a id="ise" href="ise.html">ISE</a></li>
-    <li><a id="eie" href="eie.html">EIE</a></li>
-    <li><a id="mech" href="mech.html">MECH</a></li>
-    <li><a id="civil" href="civil.html">CIVIL</a></li>
-    <li class="divider"></li>
-    <li><a id="pg">POST GRADUATION</a></li>
-    <li class="divider"></li>
-    <li><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
-    <li><a id="mca"  href="mca.html">MCA</a></li>
-    </ul>
-  </ul>
-
-  <ul id="dropdown2" class="dropdown-content">
-    <li><a id="cse" href="alumni.html">ALUMNI</a></li>
-    <li><a id="ece" href="admissions.html">ADMISSIONS</a></li>
-    <li><a id="eee" href="placements.html">PLACEMENTS</a></li>
-    <li><a id="ise" href="library.html">LIBRARY</a></li>
-    <li><a id="eie" href="hostel.html">HOSTEL</a></li>
-    <li><a id="mech" href="transport.html">TRANSPORT</a></li>
-    <li><a id="mba" href="sportsculture.html">SPORTS & CULTURE</a></li>
-    <li><a id="mca" href="facilities.html">FACILITIES</a></li>
-  </ul>
-
-     <!--mobile!-->
-      <ul class="side-nav" id="mobile-demo">
-        <li><a id="home" href="home.html">Home</a></li>
-        <li><a id="aboutus" href="aboutus.html">About Us</a></li>
-        <li><a id="contact" href="contact.html">Contact</a></li>
-        <li><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-         <li class="innerli">      <div class="innerNav">
-        <a class="nava">BASIC SCIENCE DEPARTMENTS</a>
-        <ul><li class=" nava divider"></li></ul>
-        <a id="physics" class="nava awes" href="physics.html">Physics</a>
-        <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
-        <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
-        <a id="engineeringdept" class="nava ">ENGINEERING DEPARTMENTS</a>
-        <ul><li class=" nava divider"></li></ul>
-
-        <a id="cse" class="nava" href="cse.html">CSE</a>
-        <a id="ece" class="nava" href="ece.html">ECE</a>
-        <a id="eee" class="nava"  href="eee.html">EEE</a>
-        <a id="ise" class="nava" href="ise.html">ISE</a>
-        <a id="eie" class="nava" href="eie.html">EIE</a>
-        <a id="mech" class="nava" href="mech.html">MECH</a>
-        <a id="civil" class="nava" href="civil.html">CIVIL</a>
-        <a id="pg" class="nava">POST GRADUATION</a>
-        <ul><li  id=""class=" nava divider"></li></ul>
-        <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
-        <a id="mca" class="nava awes" href="mca.html">MCA</a>
-
-      </div></li>
-      <li><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
-         <li class="innerli">      <div class="innerNav1">
-          <a id="cse" class="nava" href="alumni.html">Alumini</a>
-          <a id="cse" class="nava" href="admissions.html">Admissions</a>
-          <a id="cse" class="nava" href="placements.hrml">Placement</a>
-          <a id="cse" class="nava" href="library.html">Library</a>
-          <a id="cse" class="nava" href="hostel.html">Hostel</a>
-          <a id="cse" class="nava" href="transport.html">Transport</a>
-          <a id="cse" class="nava"  href="sportsculture.html">Sports & Culture</a>
-          <a id="cse" class="nava" href="facilities.html">Facilities</a>
+   <nav class="nav navin">
+      <div class="nav-wrapper">
+        <img class="svg-logo" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+        <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
+          <li class="navali"><a id="aboutus" href="aboutus.html">About Us</a></li>
+          <li class="navali"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+          <!-- Dropdown Trigger -->
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+          <!-- Dropdown Structure -->
+          <ul id="dropdown1" class="dropdown-content">
+            <li class="divider"></li>
+            <li class="navali"><a id="cse" href="cse.html">CSE</a></li>
+            <li class="navali"><a id="ece" href="ece.html">ECE</a></li>
+            <li class="navali"><a id="eee" href="eee.html">EEE</a></li>
+            <li class="navali"><a id="ise" href="ise.html">ISE</a></li>
+            <li class="navali"><a id="eie" href="eie.html">EIE</a></li>
+            <li class="navali"><a id="mech" href="mech.html">MECH</a></li>
+            <li class="navali"><a id="civil" href="civil.html">CIVIL</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
+            <li class="navali"><a id="mca"  href="mca.html">MCA</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="physics" href="physics.html">Physics</a></li>
+            <li class="navali"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+            <li class="navali"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+            <li class="divider"></li>
+              <li class="navali"><a id="eee" href="hr.html">HR</a></li>
+           
+          
+          </ul>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+          <li class="navali"><a id="cse" href="alumni.html">ALUMNI</a></li>
+          <li class="navali"><a id="ece" href="admissions.html">ADMISSIONS</a></li>
+        
+          <li class="navali"><a id="mca" href="cultural.html">CULTURAL</a></li>
+          <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
+        </ul>
+        <!--mobile!-->
+        <ul class="side-nav" id="mobile-demo">
+          <li class="navali"><a id="home" href="index.html">Home</a></li>
+          <li class="navali"><a id="aboutus" href="aboutus.html">About Us</a></li>
+          <li class="navali"><a id="contact" href="contact.html">Contact</a></li>
+          <li class="navali"><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav">
+            <ul class="navali"><li class=" nava divider"></li></ul>
+            <a id="cse" class="nava" href="cse.html">CSE</a>
+            <a id="ece" class="nava" href="ece.html">ECE</a>
+            <a id="eee" class="nava"  href="eee.html">EEE</a>
+            <a id="ise" class="nava" href="ise.html">ISE</a>
+            <a id="eie" class="nava" href="eie.html">EIE</a>
+            <a id="mech" class="nava" href="mech.html">MECH</a>
+            <a id="civil" class="nava" href="civil.html">CIVIL</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
+            <a id="mca" class="nava awes" href="mca.html">MCA</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="physics" class="nava awes" href="physics.html">Physics</a>
+            <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+            <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+             <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+             <a id="hr" class="nava" href="hr.hrml">HR</a>
+           
+          </div></li>
+          <li class="navali"><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav1">
+            <a id="alum" class="nava" href="alumni.html">Alumni</a>
+            <a id="admission" class="nava" href="admissions.html">Admissions</a>
+           
+            <a id="faci" class="nava" href="cultural.html">Cultural</a>
+            <a id="faci" class="nava" href="facilities.html">Facilities</a>
           </div>
-          </li>
-
-    </ul>
+        </li>
+      </ul>
     </div>
   </nav>
-  </div>
-
-
 
   <div class="container">
   <h4 align="center" class="avoid-nav">Admissions</h4>
@@ -350,35 +162,32 @@ Change of branch: As per the VTU regulations, change of branch is permitted only
 
 </div>
 
-      <div id="fot">
+  <div id="fot">
   <footer id="footer" class="page-footer">
-    <div class="container-fluid">
-      <div class="row lool">
-        
-        <div class="roww" style="overflow: hidden;">
-          <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
-          <a href="instagram/rnsit"><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
-          <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
-          <a href="twitter/rnsit"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
-          <a href="linkedin/rnsit"><image class="icon ic4" src="images/linkedin.png" alt="linkedin"></image></a>
-          
-        </div>
+  <div class="container-fluid">
+    <div class="row lool">
+      <div class="roww" style="overflow: hidden;">
+        <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
+        <a href="instagram/rnsit"><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
+        <a href="mailto:principal@rnsit.ac.in"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+        <a href="twitter/rnsit"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
+        <a href="linkedin/rnsit"><image class="icon ic4" src="images/linkedin.png" alt="linkedin"></image></a>
       </div>
-      <div class="footer-copyright">
-        <div class="container">
-          <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
-        </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
       </div>
     </div>
   </div>
-</footer>
-</div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-              <script type="text/javascript" src="js/dept.js"></script>
-    <script type="text/javascript" src="js/navbar.js"></script>
+  </footer>
+  </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/navbar.js"></script>
+            
 
 
-    
   </body>
+
 </html>
