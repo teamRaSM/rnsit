@@ -80,8 +80,12 @@ h1, h2, h3, h4, h5,h6{
 	font-size: 1.9em;
 
 }
+.events-scroll a{
+	height: 	100%;
+}
 .events-scroll{
-	height: 100%;
+	position: 	relative;	
+	height: calc(100% - 39px);
 	overflow-y: scroll;
 }
 .nightback{
@@ -138,7 +142,7 @@ h1, h2, h3, h4, h5,h6{
 .maincont{
 	text-align: center;
 	color:white;
-	height:85vh;
+	height:80vh;
 	padding-top: 50px;
 }
 .cont{
@@ -177,6 +181,11 @@ h1, h2, h3, h4, h5,h6{
 	
 
 }
+
+.changers a{
+	cursor: 	pointer;	
+}
+
 .event-a{
 	flex-shrink: 0;
 	padding-top: 0;
@@ -241,7 +250,9 @@ h1, h2, h3, h4, h5,h6{
 	overflow-y: hidden;
 }
 .newscards{
+	padding-left: 	20px;
 	width: 100%;
+	padding-top: 	10px;
 	color: black;
 /*		border-top-width: 1px;
 	border-top-color: #888;
@@ -252,22 +263,11 @@ h1, h2, h3, h4, h5,h6{
 	/*animation: newsscroll 30s infinite;*/
 }
 
-@keyframes newsscroll{
-
-	0%{
-		transform:translate(0,-50%);
-	}
-	25%{
-		transform:translate(0,-100%);
-	}
-	50%{
-		transform:translate(0,-150%);
-	}
-	75%{
-		transform:translate(0,-200%);
-	}
-	100%{
-		transform:translate(0,-250%);
-	}
+.newscards:hover{
+		background-color: 	#e3f2fd;
 }
 
+
+.newscards h6{
+	margin-top: 	0px;
+}

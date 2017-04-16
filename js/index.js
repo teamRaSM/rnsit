@@ -10,8 +10,12 @@ $(document).ready(function(){
   });
 
   });
+
+	var pause = 0;
+
 	var count=0;  
 	setInterval(function(){
+		if(paused==0){
 		count++;
 		count=count%4;
 		$('#'+(count-1)).removeClass('active-eve-a');
@@ -22,7 +26,21 @@ $(document).ready(function(){
 		trans = "translate(-"+count*100+"%,0)";
 
 		$('.event-a').css({'transform':trans});
+	}
 	},3000);
+
+	goTo = function(slideno){
+		$('#'+count).removeClass('active-eve-a');
+		$('#'+slideno).addClass('active-eve-a')
+		trans = "translate(-"+slideno*100+"%,0)";
+		$('.event-a').css({'transform':trans});
+		count=slideno;
+		paused=1;
+		setTimeout(function(){
+			paused = 0;
+		},3000);
+
+	}
 // parallax
 
 // parallax
