@@ -50,7 +50,7 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
-          <li class="navali"><a id="aboutus" href="aboutus.html">About Us</a></li>
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown3">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
           <li class="navali"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
           <!-- Dropdown Trigger -->
           <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -84,10 +84,24 @@
           <li class="navali"><a id="mca" href="cultural.html">CULTURAL</a></li>
           <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
         </ul>
+
+        <ul id="dropdown3" class="dropdown-content">
+          <li class="navali"><a id="chair" href="https://en.wikipedia.org/wiki/R._N._Shetty">CHAIRMAN</a></li>
+          <li class="navali"><a id="diret" href="director.html">DIRECTOR</a></li>
+          <li class="navali"><a id="princi" href="principal.html">PRINCIPAL</a></li>
+          <li class="navali"><a id="regi" href="#">REGISTRAR</a></li>
+        </ul>
         <!--mobile!-->
         <ul class="side-nav" id="mobile-demo">
           <li class="navali"><a id="home" href="index.html">Home</a></li>
-          <li class="navali"><a id="aboutus" href="aboutus.html">About Us</a></li>
+          <li class="navali"><a class="dropNav2">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav2">
+            <a id="chair" class="nava" href="https://en.wikipedia.org/wiki/R._N._Shetty">Chairman</a>
+            <a id="direct" class="nava" href="director.html">Director</a>
+            <a id="princi" class="nava" href="principal.html">Principal</a>
+            <a id="regi" class="nava" href="#">Registrar</a>
+          </div>
+          </li>
           <li class="navali"><a id="contact" href="contact.html">Contact</a></li>
           <li class="navali"><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
           <li class="innerli">      <div class="innerNav">
