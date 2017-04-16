@@ -14,6 +14,11 @@ $(document).ready(function(){
 	setInterval(function(){
 		count++;
 		count=count%4;
+		$('#'+(count-1)).removeClass('active-eve-a');
+		$('#'+count).addClass('active-eve-a');
+		if (count==0) {
+			$('#'+(count+3)).removeClass('active-eve-a');
+		}
 		trans = "translate(-"+count*100+"%,0)";
 
 		$('.event-a').css({'transform':trans});
