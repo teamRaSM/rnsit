@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5,h6{
   transition: background-position .4s;
   height: 75vh;
   width: 100%;
-  transition: all 1s;
+  transition: background-image 1s;
   position: absolute;
   top:0;
   background-size: cover;
@@ -184,7 +184,8 @@ h1, h2, h3, h4, h5,h6{
 }
 
 .changers a{
-	cursor: 	pointer;	
+	cursor: 	pointer;
+	margin: 10px;	
 }
 
 .event-a{
@@ -216,7 +217,7 @@ h1, h2, h3, h4, h5,h6{
 	width: 100%;
 	position: absolute;
 	bottom: 5px;
-	justify-content: space-around;
+	justify-content: center;
 	display: flex;
 	flex-direction: row;
 }
@@ -227,7 +228,7 @@ h1, h2, h3, h4, h5,h6{
 	height: 20px;
 }
 .active-eve-a{
-	background: #fff !important;
+	background: #aaa !important;
 }
 .text-slide{
 	position: absolute;
