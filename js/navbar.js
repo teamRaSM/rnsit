@@ -13,7 +13,10 @@ stopPropagation: false // Stops event propagation
 
 sessionStorage.setItem('slide',1);
 sessionStorage.setItem('slide1',1);
-  $(".innerNav1").slideUp(300);
+sessionStorage.setItem('slide2',1);
+
+      $(".innerNav2").slideUp(300);
+        $(".innerNav1").slideUp(300);
             $(".innerNav").slideUp(300);
       $(".dropNav").click(function(){
       				if(sessionStorage.getItem('slide') == 0){
@@ -34,9 +37,19 @@ sessionStorage.setItem('slide1',1);
               else{
               sessionStorage.setItem('slide1',0);
               $(".innerNav1").slideDown("fast");
-
-}
+              }
       });
+
+     // $(".dropNav2").click(function(){
+     //        if(sessionStorage.getItem('slide2') == 0){
+     //            $(".innerNav2").slideUp(300);
+     //            sessionStorage.setItem('slide2',1);
+     //          }
+     //        else{
+     //          sessionStorage.setItem('slide2',0);
+     //          $(".innerNav2").slideDown("fast");
+     //        }
+     //   });
 
 
 
