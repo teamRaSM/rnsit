@@ -42,12 +42,12 @@ $(document).ready(function(){
 
 	}
 // parallax
-window.onscroll = function(){
-	 var windowYOffset = window.pageYOffset,
-          elBackgrounPos = "50% " + (windowYOffset * .5) + "px";
-          $('.parallaxs').css({"background-position":elBackgrounPos});
+// window.onscroll = function(){
+// 	 var windowYOffset = window.pageYOffset,
+//           elBackgrounPos = "50% " + (windowYOffset * .5) + "px";
+//           $('.parallaxs').css({"background-position":elBackgrounPos});
 
-}
+// }
 // parallax
 
 });
