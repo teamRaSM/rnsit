@@ -40,16 +40,16 @@ sessionStorage.setItem('slide2',1);
               }
       });
 
-     // $(".dropNav2").click(function(){
-     //        if(sessionStorage.getItem('slide2') == 0){
-     //            $(".innerNav2").slideUp(300);
-     //            sessionStorage.setItem('slide2',1);
-     //          }
-     //        else{
-     //          sessionStorage.setItem('slide2',0);
-     //          $(".innerNav2").slideDown("fast");
-     //        }
-     //   });
+      $(".dropNav2").click(function(){
+            if(sessionStorage.getItem('slide2') == 0){
+                $(".innerNav2").slideUp(300);
+                sessionStorage.setItem('slide2',1);
+              }
+            else{
+              sessionStorage.setItem('slide2',0);
+              $(".innerNav2").slideDown("fast");
+            }
+        });
 
 
 
