@@ -94,6 +94,8 @@ h1, h2, h3, h4, h5,h6{
   transition: background-position .4s;
   height: 75vh;
   width: 100%;
+  background-position: -20vh -15vh;
+  background-attachment: fixed;
   transition: background-image 1s;
   position: absolute;
   top:0;
@@ -111,7 +113,7 @@ h1, h2, h3, h4, h5,h6{
 .up-events{
 	position: relative;
 	
-	height: 	60vh;
+	height: 	70vh;
 	
 	box-shadow: 0 0 20px 2px rgba(0,0,0,0.22);
 	margin-bottom: 	40px;
@@ -168,16 +170,26 @@ h1, h2, h3, h4, h5,h6{
 	height:auto;
 }
 @media only screen and (max-width: 480px){
-
+	.flexed{
+		flex-wrap: wrap;
+		height: auto;
+	}
+	.camp-video{
+		width: 100%;
+	}
+	.events{
+		width: 100%;
+		margin-bottom: 20px;
+	}
 	.con-flex{
 		width: 92% !important;
 	}
 	.nightback{
-		height:50vh;
+		height:75;
 
 	}
 	.maincont{
-		height:50vh;
+		height:75vh;
 	}
 	
 
@@ -201,7 +213,12 @@ h1, h2, h3, h4, h5,h6{
 	overflow-y: hidden;
 }
 @media only screen and (max-width: 768px){
-
+	.up-events{
+		width: 100%;
+	}
+	.nightback{
+		background-position: -80vh -15vh;
+	}
 	.con-flex{
 		width: 92% !important;
 	}
