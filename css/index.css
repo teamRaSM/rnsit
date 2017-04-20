@@ -99,8 +99,6 @@ h1, h2, h3, h4, h5,h6{
   transition: background-position .4s;
   height: 75vh;
   width: 100%;
-  background-position: -20vh -15vh;
-  background-attachment: fixed;
   transition: background-image 1s;
   position: absolute;
   top:0;
@@ -222,7 +220,7 @@ h1, h2, h3, h4, h5,h6{
 		width: 100%;
 	}
 	.nightback{
-		background-position: -80vh -15vh;
+		background-position: -50vh -15vh;
 	}
 	.con-flex{
 		width: 92% !important;
