@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5,h6{
 	background-size: contain !important;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-color: linear-gradient(left, #fff, #eee);
 }
 .body
 {
@@ -243,9 +244,7 @@ h1, h2, h3, h4, h5,h6{
 	.up-events{
 		width: 100%;
 	}
-	.nightback{
-		background-position: -50vh -15vh;
-	}
+
 	.con-flex{
 		width: 92% !important;
 	}
