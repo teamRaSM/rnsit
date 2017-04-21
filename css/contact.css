@@ -17,14 +17,16 @@
 .map {
   width: 100%;
   margin: 50px 0 10px;
+    
 }
 .map iframe{
   display: block;
-  pointer-events: none;
+pointer-events: none;
   position: relative; /* IE needs a position other than static */
 }
-.map-container iframe.clicked{
-  pointer-events: auto;
+
+.clicked{
+  pointer-events: auto !important;
 }
 
 
