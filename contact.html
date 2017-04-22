@@ -24,7 +24,6 @@
     <link rel="stylesheet" type="text/css" href="css/dept.css">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link href="images/logo.png" rel="icon" type="image/png">
-    <script src="js/index.js"></script>
     <style type="text/css">
     .nava{
     display: block;
@@ -116,7 +115,7 @@
             <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
             <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
             <ul class="navali"><li  id=""class=" nava divider"></li></ul>
-            <a id="hr" class="nava" href="hr.hrml">HR</a>
+            <a id="hr" class="nava" href="hr.html">HR</a>
             
           </div></li>
           <li class="navali"><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -157,7 +156,7 @@
 
             <input id="icon_telephone" type="text" class="validate" required pattern="^\d{10}$" data-length=10>
 
-            <label for="icon_telephone last_name">Telephone</label>
+            <label for="icon_telephone last_name">Mobile</label>
           </div>
         </div>
         <div class="row">
@@ -186,6 +185,10 @@
           <input  type="submit" class="center btn waves-effect waves-light" value="Submit"></div>
         </form>
         <div class="row">
+                      <div class="col s12 m12 map" onclick="togg()" >
+              <iframe  width="100%"  height="100%"  class="gmap" frameborder="10" style="border:0"  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBJEWX_LBsHs0VNTWjVIIIqZvnbzXGm7yA&center=12.9021954,77.5163933&q=RNS+Institute+of+Technology" allowfullscreen>
+              </iframe>
+            </div>
           <p style="text-align:center;"><b>Reach Us at :</b></p>
           
           <div class="col s12 m4">
@@ -205,7 +208,7 @@
               <span class="black-text">
                 <ul><li>Dr. M K Venkatesha - Principal RNSIT</li>
                 <li>Mob : 9880867337</li>
-                <li>Email  : principal@rnsit.ac.in or mkvenkatesha@gmail.com</li>
+                <li>Email:principal@rnsit.ac.in</li>
               </ul></span>
             </div>
           </div>
@@ -244,5 +247,11 @@
     </body>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
     <script type="text/javascript" src="js/navbar.js"></script>
+    <script type="text/javascript">
+        $('.map').click(function(){
+            $('.gmap').addClass('clicked');
+        });
+    </script>
   </html>
