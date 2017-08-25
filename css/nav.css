@@ -6,6 +6,11 @@
   box-shadow: none;
 
 }
+
+.deptinnav{
+  font-size:  .5em !important;
+}
+
 .logo{ 
   width: 300px;
 }
@@ -117,9 +122,7 @@ nav{
   height: 65px; width: 65px;
 }
 @media only screen and (max-width: 768px){
-  ul a{
-    color: #000 !important;
-  }
+
 }
 @media only screen and (max-width: 992px){
   .svg-logo{
