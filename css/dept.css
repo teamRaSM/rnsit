@@ -11,6 +11,13 @@ body,html{
 	font-weight: bold;
 	font-size: 2.5vh;
 }
+.paper-table{
+	width: 100%;
+	overflow-x: scroll;
+}
+.head-fit{
+	width: 100%;
+}
 /*#contact{
 	margin-bottom: 	5vh;
 }*/
@@ -102,7 +109,7 @@ p,body,html,div, #para
 {
 	font-family: 'Raleway',sans-serif;
 	font-weight: 500;
-	font-size: .96em;
+	font-size: .98em;
 }
 #sub
 {
