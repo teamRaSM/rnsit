@@ -5589,7 +5589,7 @@ function PickerConstructor( ELEMENT, NAME, COMPONENT, OPTIONS ) {
 
                         // * For mousedown events, cancel the default action in order to
                         //   prevent cases where focus is shifted onto external elements
-                        //   when using things like jQuery mobile or MagnificPopup (ref: #249 & #120).
+                        //   when using things like jQuery mobile or MagnificPopup (ref: #249 &amp;#120).
                         //   Also, for Firefox, don’t prevent action on the `option` element.
                         if ( event.type == 'mousedown' && !$( target ).is( 'input, select, textarea, button, option' )) {
 
@@ -6488,7 +6488,7 @@ DatePicker.prototype.validate = function( type, dateObject, options ) {
         // Check if we have any enabled dates after/before now.
         hasEnabledBeforeTarget, hasEnabledAfterTarget,
 
-        // The min & max limits.
+        // The min &amp;max limits.
         minLimitObject = calendar.item.min,
         maxLimitObject = calendar.item.max,
 
