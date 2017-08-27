@@ -150,6 +150,12 @@ li img{
    box-shadow: 0 0 30px 5px rgba(0,0,0,.2);
 }
 
+.collapsible-header{
+    max-width: 100%;
+    height:20px;
+    overflow: hidden;
+}
+
 @media only screen and (min-width: 480px){
 		.cardli{
 		width: 200px;
