@@ -134,7 +134,7 @@
        <h5 align="center" class="head-style avoid-nav">CONTACT US</h5>
 
   
-      <form class="col s12" id="contact" name="contactform" method="post" action="send_my_email.php">
+      <form class="col s12" id="contact" name="contactform" action="https://formspree.io/saiprasanth2007@gmail.com" method="POST">
         <div class="row">
           <div class="input-field col s2">
           </div>
@@ -142,7 +142,7 @@
             <i class="material-icons prefix">account_circle</i>
 
             <!--input id="icon_prefix" type="text" class="validate"-->
-            <input id="icon_prefix" type="text" class="validate" required  title="Valid Name">
+            <input id="icon_prefix" type="text" class="validate" name="Name" required  title="Valid Name">
 
             <label for="icon_prefix first_name">Name</label>
           </div>
@@ -154,7 +154,7 @@
             <i class="material-icons prefix">phone</i>
             <!--input id="icon_telephone" type="text" class="validate"-->
 
-            <input id="icon_telephone" type="text" class="validate" required pattern="^\d{10}$" data-length=10>
+            <input id="icon_telephone" type="text" class="validate" name="Mobile" required pattern="^\d{10}$" data-length=10>
 
             <label for="icon_telephone last_name">Mobile</label>
           </div>
@@ -167,7 +167,7 @@
 
             <!--input id="email" type="email" class="validate"-->
 
-            <input id="email" type="email" class="validate" pattern="[^ @]*@[^ @]*" required  data-error="wrong" data-success="right"  title="Include @, valid ID"> 
+            <input id="email" type="email" name="_replyto" class="validate" pattern="[^ @]*@[^ @]*" required  data-error="wrong" data-success="right"  title="Include @, valid ID"> 
 
             <label for="email">Email</label>
           </div>
@@ -177,13 +177,15 @@
           </div>
           <div class="input-field col s12 m8">
             <i class="material-icons prefix">mode_edit</i>
-            <textarea id="icon_prefix2" minlength="10" class="materialize-textarea"></textarea>
+            <textarea id="icon_prefix2" minlength="10" name="Message" class="materialize-textarea"></textarea>
             <label for="icon_prefix2">Message</label>
           </div>
         </div>
         <div align="center">
-          <input  type="submit" class="center btn waves-effect waves-light" value="Submit"></div>
+          <input  type="submit" class="center btn waves-effect waves-light" value="Send"></div>
+          <input type="hidden" name="_next" value="http://rnsit.ac.in/rnstest/" />
         </form>
+
         <div class="row">
                       <div class="col s12 m12 map" onclick="togg()" >
               <iframe  width="100%"  height="100%"  class="gmap" frameborder="10" style="border:0"  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBJEWX_LBsHs0VNTWjVIIIqZvnbzXGm7yA&center=12.9021954,77.5163933&q=RNS+Institute+of+Technology" allowfullscreen>
