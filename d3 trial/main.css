@@ -1,0 +1,27 @@
+/*To change the colour of the circles in the line and scatter plot*/
+circle.dimple-series-1
+{
+	fill:rgb(255,0,0) !important;
+}
+
+/*To remove gridlines*/
+.dimple-custom-gridline
+{
+	opacity:0!important;
+}
+
+/*To center allign the heading*/
+#top
+{
+	text-align:center;
+}
+
+/*All the styling done below is for alligning the plots and text*/
+.brief
+{
+	margin-left: 50px;
+}
+#plot1{
+	width: 100%;
+	height: 100%;
+}
