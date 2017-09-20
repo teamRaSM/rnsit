@@ -22,6 +22,9 @@ h1, h2, h3, h4, h5,h6{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 }
+#logo{
+	width: 300px;
+}
 .slide{
 	background-image: url('https://v4jxkq.bn1304.livefilestore.com/y4ms9uE92Zgtld93n7oKNkrVqpvvrfF6jFSsz_UK4rcREs_rYlqEElBlzViafCdJoQ9G7ohZrff9Dl902GQBKN_sfDcTnAgsM5a_zuYqRzk9Ke_pPN2MqVms5k_HcaNZ-rH-81n09kvbHXU3UpWhKHr38J2sLxnJ1V0i0-R3_YZo2RtxvywY4NO6aM0aJAoiiEW9lGwZOqAuVQCM9d_sM82Kg?width=5184&height=3456&cropmode=none') !important;
 	background-size: cover !important;
@@ -120,7 +123,7 @@ h1, h2, h3, h4, h5,h6{
   width: 100%;
   transition: background-image 1s;
   position: absolute;
-  top:-180px;
+  top:-160px;
   background-size: cover;
   z-index:-1;
   filter: brightness(1);
@@ -167,9 +170,11 @@ h1, h2, h3, h4, h5,h6{
 .maincont{
 	text-align: center;
 	color:white;
-	padding-top: 5vh;
+	/*overflow: hidden;*/
+}
+#logo{
+		padding-top: 5vh;
 	padding-bottom: 08vh;
-	overflow: hidden;
 }
 .cont{
 	display:flex;
@@ -203,7 +208,7 @@ h1, h2, h3, h4, h5,h6{
 	.con-flex{
 		width: 92% !important;
 	}
-		.maincont{
+		#logo{
 			padding-bottom: 	15vh;
 		}
 	
@@ -251,8 +256,9 @@ h1, h2, h3, h4, h5,h6{
 	.up-events{
 		width: 100%;
 	}
-		.maincont{
-			padding-top: 	12vh;
+		#logo{
+			width: 250px;
+			padding-top: 	10vh;
 			padding-bottom: 	9vh;
 		}
 	.con-flex{
