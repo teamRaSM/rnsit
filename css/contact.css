@@ -10,11 +10,10 @@
 		height: 210px;
 		width: 185px;
 	}
-
 }
 
-.prefix{
-	padding-top: 15px;
+.input-field .prefix{
+	padding-top: 10px;
 }
 
 .map {
@@ -32,7 +31,11 @@ pointer-events: none;
   pointer-events: auto !important;
 }
 
-
+.card-hover:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
 .map{
 	width: 100%;
 	height: 400px;
