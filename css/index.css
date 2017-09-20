@@ -203,6 +203,11 @@ h1, h2, h3, h4, h5,h6{
 	.con-flex{
 		width: 92% !important;
 	}
+		.maincont{
+			padding-bottom: 	13vh;
+		}
+	
+
 }
 
 .changers a{
@@ -246,6 +251,10 @@ h1, h2, h3, h4, h5,h6{
 	.up-events{
 		width: 100%;
 	}
+		.maincont{
+			padding-top: 	12vh;
+			padding-bottom: 	9vh;
+		}
 	.con-flex{
 		width: 92% !important;
 	}
