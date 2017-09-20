@@ -11,9 +11,17 @@
 		width: 185px;
 	}
 }
+<<<<<<< HEAD
 .input-field .prefix{
 	padding-top: 10px;
 }
+=======
+
+.prefix{
+	padding-top: 15px;
+}
+
+>>>>>>> abb243cdeafe626d81bc4713657f6ec370c142b2
 .map {
   width: 100%;
   margin: 50px 0 10px;
