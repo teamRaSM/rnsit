@@ -160,8 +160,8 @@ h1, h2, h3, h4, h5,h6{
 .maincont{
 	text-align: center;
 	color:white;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 1vh;
+	padding-bottom: 08vh;
 	overflow: hidden;
 }
 .cont{
@@ -243,8 +243,8 @@ h1, h2, h3, h4, h5,h6{
 		width: 100%;
 	}
 		.maincont{
-			padding-top: 	50px;
-			padding-bottom: 	15vh;
+			padding-top: 	8vh;
+			padding-bottom: 	9vh;
 		}
 	.con-flex{
 		width: 92% !important;
