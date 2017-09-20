@@ -173,8 +173,8 @@ h1, h2, h3, h4, h5,h6{
 	/*overflow: hidden;*/
 }
 #logo{
-		padding-top: 5vh;
-	padding-bottom: 08vh;
+		padding-top: 6vh;
+	padding-bottom: 09vh;
 }
 .cont{
 	display:flex;
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5,h6{
 		width: 92% !important;
 	}
 		#logo{
-			padding-bottom: 	15vh;
+			padding-bottom: 	17vh;
 		}
 	
 
@@ -258,8 +258,8 @@ h1, h2, h3, h4, h5,h6{
 	}
 		#logo{
 			width: 250px;
-			padding-top: 	10vh;
-			padding-bottom: 	9vh;
+			padding-top: 	11vh;
+			padding-bottom: 	10vh;
 		}
 	.con-flex{
 		width: 92% !important;
