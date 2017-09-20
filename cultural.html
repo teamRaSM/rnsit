@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>CULTURAL</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#021B38">
     <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
-    <link rel="apple-touch-icon" href="imgages/logo.png"/>
+    <link rel="apple-touch-icon" href="imgages/logo.png" />
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="RNSIT" content="RNSIT">
     <link rel="icon" sizes="192x192" href="images/logo.png">
@@ -27,351 +28,364 @@
     <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link href="images/logo.png" rel="icon" type="image/png">
     <script src="js/index.js"></script>
-    
+
     <style type="text/css">
-    .nava{
-    display: block;
-    padding-left: 30px;
-    }
-    .hidden{
-    height: 0;
-    overflow: hidden;
-    transition: all 2s;
-    }
-    </style>
-  </head>
-  <body>
-    <div>
-      <nav class="nav-extended">
-        <div class="nav-wrapper">
-          <img class="svg-logo hidden" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
-          <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
-            <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown3">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li class="navali"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
-            <!-- Dropdown Trigger -->
-            <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
-            <!-- Dropdown Structure -->
-            <ul id="dropdown1" class="dropdown-content">
-              
-              <li class="navali"><a id="cse" href="cse.html">CSE</a></li>
-              <li class="navali"><a id="ece" href="ece.html">ECE</a></li>
-              <li class="navali"><a id="eee" href="eee.html">EEE</a></li>
-              <li class="navali"><a id="ise" href="ise.html">ISE</a></li>
-              <li class="navali"><a id="eie" href="eie.html">EIE</a></li>
-              <li class="navali"><a id="mech" href="mech.html">MECH</a></li>
-              <li class="navali"><a id="civil" href="civil.html">CIVIL</a></li>
-              <li class="divider"></li>
-              <li class="navali"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
-              <li class="navali"><a id="mca"  href="mca.html">MCA</a></li>
-              <li class="divider"></li>
-              <li class="navali"><a id="physics" href="physics.html">Physics</a></li>
-              <li class="navali"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
-              <li class="navali"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
-              <li class="divider"></li>
-              <li class="navali"><a id="eee" href="hr.html">HR</a></li>
-              
-              
-            </ul>
-          </ul>
-          <ul id="dropdown2" class="dropdown-content">
-            <li class="navali"><a id="cse" href="alumni.html">ALUMNI</a></li>
-            <li class="navali"><a id="ece" href="admissions.html">ADMISSIONS</a></li>
-            <li class="navali"><a id="mca" href="cultural.html">CULTURAL</a></li>
-            <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
-          </ul>
-
-          <ul id="dropdown3" class="dropdown-content">
-            <li class="navali"><a id="chair" href="chairmain.html">CHAIRMAN</a></li>
-            <li class="navali"><a id="diret" href="director.html">DIRECTOR</a></li>
-            <li class="navali"><a id="princi" href="principal.html">PRINCIPAL</a></li>
-            <li class="navali"><a id="regi" href="registrar.html">REGISTRAR</a></li>
-          </ul>
-          <!--mobile!-->
-          <ul class="side-nav" id="mobile-demo">
-            <li class="navali"><a id="home" href="index.html">Home</a></li>
-            <li class="navali"><a class="dropNav2">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li class="innerli">      <div class="innerNav2">
-              <a id="chair" class="nava" href="https://en.wikipedia.org/wiki/R._N._Shetty">Chairman</a>
-              <a id="direct" class="nava" href="director.html">Director</a>
-              <a id="princi" class="nava" href="principal.html">Principal</a>
-              <a id="regi" class="nava" href="registrar.html">Registrar</a>
-            </div>
-            </li>
-            <li class="navali"><a id="contact" href="contact.html">Contact</a></li>
-            <li class="navali"><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li class="innerli">      <div class="innerNav">
-              <ul class="navali"><li class=" nava divider"></li></ul>
-              <a id="cse" class="nava" href="cse.html">CSE</a>
-              <a id="ece" class="nava" href="ece.html">ECE</a>
-              <a id="eee" class="nava"  href="eee.html">EEE</a>
-              <a id="ise" class="nava" href="ise.html">ISE</a>
-              <a id="eie" class="nava" href="eie.html">EIE</a>
-              <a id="mech" class="nava" href="mech.html">MECH</a>
-              <a id="civil" class="nava" href="civil.html">CIVIL</a>
-              <ul class="navali"><li  id=""class=" nava divider"></li></ul>
-              <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
-              <a id="mca" class="nava awes" href="mca.html">MCA</a>
-              <ul class="navali"><li  id=""class=" nava divider"></li></ul>
-              <a id="physics" class="nava awes" href="physics.html">Physics</a>
-              <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
-              <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
-              <ul class="navali"><li  id=""class=" nava divider"></li></ul>
-              <a id="hr" class="nava" href="hr.html">HR</a>
-              
-            </div></li>
-            <li class="navali"><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li class="innerli">      <div class="innerNav1">
-              <a id="alum" class="nava" href="alumni.html">Alumni</a>
-              <a id="admission" class="nava" href="admissions.html">Admissions</a>
-              <a id="faci" class="nava" href="cultural.html">Cultural</a>
-              <a id="faci" class="nava" href="facilities.html">Facilities</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="nav-content">
-        <ul class="tabs tabs-transparent">
-          <li class="tab"><a class="faci" href="#bank">DANCE</a></li>
-          <li class="tab"><a class="faci" href="#canteen">FASHION</a></li>
-          <li class="tab"><a class="faci" href="#transport">CAT</a></li>
-          <li class="tab"><a class="faci" href="#hostel">IEEE</a></li>
-          <li class="tab"><a class="faci" href="#library">CLUBS</a></li>
-          <li class="tab"><a class="faci" href="#activities">ACTIVITIES</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <div class="content">
-    <div id="bank" class="col s12">
-    <div class="container">
-      <div class="col s12 m9 l9">
-        <div class="row">
-        <h3 align="left" class="head-style avoid-nav">SYNAPSE</h3>
-        <div align="center"><img src="https://t4iohw.bn1304.livefilestore.com/y4mvdIFbZ_ms9RKgdaD2yJzn_FQMWiBPuHJtTHK7TqfH-wc70krVTx3i3K_4urLd6hJJNQSrdCjDwDv1zm5RwB8TKPMLJDEGmmfHrZ84AnUPqvsae8t1_LpcnwKAwyM2Vr7eRLfKtgD6taq2Q_y2mcJO8isoyIbum_QFQsMMQaCLtymnSuuKyH3iDCSQm55aW98RcvOtba4M0Fhcm5ew0AFbQ?width=595&height=395&cropmode=none" width="595"  /></div>
-          <p id="para">RNSIT Western Dance Crew.They keep their heads up with their feet on the grounds.Trained by one of the well known name in the hip-hop culture Zuboo. This family is representing the culture and college since it's birth in 2012.</p>
-        </div>
-        <div class="row">
-          <p id="para"><b>Achievements:</b></p>
-          <p id="para">Sanskruti AIT - 1st 2k16&2k17</p>
-          <p id="para">DSI Management Fest -1st 2k17</p>
-          <p id="para">Acharya Habba - 2nd 2k17</p>
-          <p id="para">BMC Fest-1st 2k17</p>
-          <p id="para">Global Fest - 1st 2k16</p>
-          <p id="para">AMC Fest -1st 2k16</p>
-          <p id="para">AVCE Fest - 1st 2k16</p>
-          <p id="para">BIT Fest -1st 2k16</p>
-          <p id="para">DBIT Fest -2nd 2k16</p>
-          <p id="para">Performed for DD Chandana for their new year's eve programme</p>
-        </div>
-       <div class="row">
-        <h3 align="left" class="head-style avoid-nav">IRA</h3>
-        <div align="center"><img src="https://woiohw.bn1304.livefilestore.com/y4m6jJkxmlIleXD_zJX0digfK6icqtz6FI3Ys64orMAK0f-T4OiHuOS1WWmg1AI6eCcVg7N6o0164VSoGqhBMkBpTnnrwRu-9mu40j_bxiktEgnq6PvhiWcEW9XU3XqsYbpnL0IxZi2WHHeP43FaWEDTxBVCDHdE70BG6nXv1UNMMl4YogcsfWeA32fHXPSHUlg3nlbV6OHizVuQM8IJIY9RA?width=660&height=432&cropmode=none" width="660"  /></div>
-          <p id="para">Dance being the hidden language of their soul, IRA is the Indian Contemporary team of RNSIT formed 5 years ago.
-In the year 2015-2016, IRA soared new heights by winning in almost every college of Bangalore.</p>
-        </div>
-        <div class="row">
-          <p id="para"><b>Achievements:</b></p>
-          <p id="para">2nd place in furore-Dsi</p>
-          <p id="para">Dayananda Fest -2nd 2k17</p>
-        </div>
-      </div>
-     
-      
-    </div>
-    </div>
-    </div>
-
-
-
-
-    <div class="content">
-    <div id="hostel" class="col s12">
-       <div class="container">
-        <div class="col s12 m9 l9">
-        <div class="row">
-        <h3 align="left" class="head-style avoid-nav">IEEE RNSIT Student Branch</h3>
-        <div align="center"><img src="https://z5tb4q.bn1304.livefilestore.com/y4mlJYRUI5MT8wOcNDY63yHdIhaoaRSYRaLZH_GglqGm9rpzVWbnlfszy86bwp5R4f-BIPCuFEtr9eFd7ECyq0iugh-V9zX0Yx6hMvhTzI7U4Q5u1e2E6T0a04bW0vpFVKSC8E3zeV3e-L9kfej88WU4HCyGv-vUUpwrz8QnLHkiOl3WlBHWCsnF6_VC5dBLXnB3_Oh0LVWHVauQBBMStEuLQ?width=960&height=540&cropmode=none" width="960" height="540" /></div>
-          <p id="para">Institute for Electrical and Electronics Engineers (IEEE) is the world's largest professional association of technical professionals with more than 400000 members around the globe. IEEE RNSIT Student Branch has been started in March 2010 with 22 members and now the number has crossed 100, with members from various branches of B.E, M.tech and MCA. The Student Branch is headed by Dr. Rajini V H, Associate Professor, Department of ECE. </p></div>
-          <div class="row">
-          <p id="para">Student branch now has two IEEE Societies functioning, namely Robotics and Automation Society , Computer Society.  </p>
-        </div>
-        <div class="row">
-          <p id="para">The SB organizes numerous workshops, talks and industry visits throughout the year. In the past IEEE RNSIT had organized flagship events such as Internship Drive, Workshops on Robotics, Python programming, MongoDB Programming, Industry visit to ISRO and many more.</p>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-
-
-
-
-
-       <div class="content">
-    <div id="activities" class="col s12">
-       <div class="container">
-        <div class="col s12 m9 l9">
-        <div class="row">
-        <h3 align="left" class="head-style avoid-nav">Guest Lecture-ISRO</h3>
-        <div align="center"><img src="http://placehold.it/700x300" alt="limg3"></div>
-          <p id="para">Mr Nagaraj Ananth of the Indian Space Research Organization was invited to deliver a guest lecture on ‘Growth of space technology around the world’.
-This event was conducted for 3rd year students and saw the attendance of over 120 students for the lecture.
-Bosch Rexroth Industry 4.0 Seminar
-A seminar on the emerging trends in the manufacturing sector was conducted by Bosch Rexroth in 2016. It was attended by second and third year students of mechanical, electrical and electronics departments. Mr. Santhosh gave an insightful presentation on the concept of Industry 4.0 and the increasing role of automation in the manufacturing sector.
-Using real world case studies, he engaged the students in a debate regarding the relevance and implications of automation to society and jobs in general. The seminar was a precursor to the launch of the RNSIT- Bosch Rexroth Centre for Automation and Technology.</p>
-      </div>
-      <div class="row">
-        <h3 align="left" class="head-style avoid-nav">Social Awareness Programme</h3>
-        <div align="center"><img src="http://placehold.it/700x300" alt="limg3"></div>
-          <p id="para">The Department of Civil Engineering organised this event to inculcate a sense of responsibility in the students' mind.
-The event kicked off @10am on 31st March, 2017. Mr. B. K. Nagaraj Singh, Head of Fire Station, Banashankari Branch briefly addressed us about the services offered by the fire department. This was followed by an amazing lecture by Mr. Nagesh, also from the fire brigade who introduced us to different classes of Fire, their causes and the ways through which we can prevent it from spreading.</p></div>
-<div class="row"><p id="para">
-We also had with us, Mr. Nagaraj who is an IT trainer in SAMARTHANAM TRUST for the differently abled people. He explained how these physically and mentally challenged youth were being trained, the phase through which these people learn various fields. Their main aim is to make these people as "Taxpayers of the country rather than being a pensioner". We were then shown a documentary regarding the charity being done by this organisation.
-This was followed by a MOCK FIRE DRILL by the fire brigade, where different types of extinguishers and various ways of smothering fire were taught to us. Some students also got the privilege to operate the instruments directed by the fire crew. New fittings used by the fire department in real situations were also demonstrated.
-The donation event was started @ 10.30am. Many students offered clothes, money as well as stationary to the trust to extend their helping hands.
-Meanwhile, the 2nd, 4th and 6th semester civil students staged a street play in front of the college canteen having the theme as HARASSMENT ON WOMEN which came out beautifully and was appreciated by everyone.</p></div>
-<div class="row"><p id="para">
-At the end of the day, the donations had hit a high and we had collected around 8k cash, 12 boxes full of clothes and a box full of stationary. This was handed over to the trust member Ms. Harshitha Prakash, who thanked the management for this extended support to uplift the poor and disabled.
-Finally, it boosted the thoughts of every individual. It evoked a sense of responsibility within us. </p>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>   
-
-
-
-
-
-
-
- <div class="content">
-    <div id="library" class="col s12">
-       <div class="container">
-        <div class="col s12 m9 l9">
-        <div class="row">
-        <h3 align="left" class="head-style avoid-nav">Defence Tech Club</h3>
-        <div align="center"><img src="http://placehold.it/700x300" alt="limg3"></div>
-          <p id="para">This club was started in 2015 in order to create a platform for defence enthusiasts of RNSIT to discuss and share their views on various issues related to defence, strategic and current affairs.
-Numerous meetings and activities have been held, including a Defence Tech Quiz which was conducted as a part of the Department Fest.</p>
-      </div>
-      <div class="row">
-        <h3 align="left" class="head-style avoid-nav">Mech Radiance</h3>
-        <div align="center"><img src="http://placehold.it/700x300" alt="limg3"></div>
-          <p id="para">This is the premier activity club of the Mechanical Department of RNSIT. It was founded in 2016 with the intention of organizing a variety of events ranging from photography to mini project expos. The core team consists of 8 members from the 3rd year with event coordinators and volunteers drawn from the first and second years.
-The highlight of 2016 in mechanical department was the mini project expo which saw extensive participation. It saw the involvement of over 50 3-man teams from various departments including first and third year students, who had worked hard to make amazing projects.</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-
-
-
-
-
-  
-
-
-              <div class="content">
-              <div id="canteen" class="col s12">
-                <div class="container">
-              <div class="col s12 m9 l9">
-               <div class="row">
-                <h3 align="left" class="head-style avoid-nav">AURA</h3>
-                <div align="center"><img src="https://w4kneg.bn1304.livefilestore.com/y4mbItHebA52wfldzkiJ1_HE2zxjAdxX8a9NrkAJjMZG7daKAM-TpETNIgKqcqwTI6CnzsX_rzisSfkolQsEd8rhvcpOly-zhuZ4GSRA2emhy3o8mvF9eETuzw-fgTIBKgXWdFhUbmGzjNslKcZUbf_gYkSfp0GCfl_Ya1cC4ZxR5TaLKz77sR5q30Zl0IX7XrR-mqdLECgcc2sII1wIf71cA?width=1024&height=576&cropmode=none" width="1024" height="576" /></div>
-                <p id="para">They believe that fashion is a statement, an art of self expression. Fashion is an art and we are canvas. Formed in the year 2013 by Muhammad Bilal Shaikh.Aura has represented RNSIT and won in many colleges including:</p></div>
-                    <div class="row">
-                    <p id="para">BMSCE</p>
-                    <p id="para">RVCE</p>
-                    <p id="para">CMRIT</p>
-                    <p id="para">NMIT</p>
-                    <p id="para">IISC</p>
-                    <p id="para">NITK</p>
-                    <p id="para">BMSIT</p>
-                    <p id="para">JSSATE</p>
-                    <p id="para">CIT</p>
-                    <p id="para">REVA</p>
-                    </div>
-                    <div class="row">
-                    <p id="para"><b>Themes include:</b></p>
-                    <p id="para">DENIM INTO VILLAGE</p>
-                    <p id="para">TRIBAL</p>
-                    <p id="para">CANDY</p>
-                    <p id="para">GREEK</p>
-                    <p id="para">CIRCUS</p>
-                    <p id="para">AQUATIC</p>
-                    <p id="para">CASINO</p>
-                    </div>
-              </div>
-              </div>
-              </div>
-              </div>
-
-
-
-
-           <div class="content">
-          <div id="transport" class="col s12">
-            <div class="container">
-              <div class="col s12 m9 l9">
-              <div class="row">
-                <h3 align="left" class="head-style avoid-nav">CULTURAL ACTIVITY TEAM (CAT)</h3>
-                <div align="center"><img src="https://wokneg.bn1304.livefilestore.com/y4msTh57kS-y3bex_vdDiEjgglYwrgXwuVUnX6TTeZGtD7G1KU6s7eSJpMjPfAWzZ6L0aDCE7eW2FSj54gTuD_Byp4lwueT7se70quKY1f6CJCIbh-ONL55AR0yQlVA7DMfq6JqGzvo7PRTHKHczbUr4ypWdmmbV0IbNUyWP12r9VqmOHaRVPqVkQkaeHXMyiwBDGBtlc0LSUrXGvSPW6nwDA?width=1024&height=683&cropmode=none" width="1024" height="683" /></div>
-                <p id="para">The cultural activity team (CAT) is the eminence of creativity in RNSIT. The team uses its honed and polished set of skills to collectively put up a fest that the rest of the college can enjoy. There are two fests that the Cultural Activity Team has to its name: </p></div>
-                 <div class="row">
-                   <p id="para">
-                     <b>PARICHAY:</b> The Intra college extravaganza that features a frantic jig for two trophies fought for by all the seven branches- The spirit of Parichay and the Talent of Parichay. Parichay boasts of over 50 events organised with utmost care by the Events committee of CAT. The Talent of Parichay is awarded to the branch that has the most number of wins in these events. The Spirit of Parichay is awarded to the branch with most number of Participants in all the events. Overall, Parichay has been very well received by the students and continues to be a tradition that is rooted within the spirit of RNSIT as an institution.
-                   </p>
-                 </div>
-                 <div class="row">
-                   <p id="para">
-                     <b>PANTHEON:</b> The Bi-annual Inter-college fest that to this day, is a brand name among students. Pantheon boasts of a very large number of events and tests the CAT to its limits in terms of managing and scheduling. Pantheon has also hosted many popular acts such as Agam, Lagori, Aathma, Argenil productions among many others. Pantheon has seen a footfall over 3000 everytime and has been the pride of RNSIT's cultural pursuits. It has successfully put RNSIT on the Cultural Map. The word Pantheon refers to the deities of a religion collectively. It is safe to say, that the fest lives up to this name. 
-                   </p>
-                 </div>
-                  <div class="row">
-                   <p id="para">
-                     The CAT comprises of unsung heroes who selflessly work to put a fest up for the rest of the college and do not participate in any events. The CAT also owes its smooth functioning to the Cultural head; Prof. T.S Bhagavath Singh, who is an integral part of the team which would not have existed without the work put in by him. 
-                   </p>
-                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-
-
-
-
-
-        <div id="fot">
-          <footer id="footer" class="page-footer">
-            <div class="container-fluid">
-              <div class="row lool">
-                <div class="roww" style="overflow: hidden;">
-                  <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon shift-down ic1" src="images/facebook.svg" alt="fb"></image></a>
-                  <a href="instagram/rnsit"><image class="icon shift-down in12" src="images/instagram.svg" alt="insta"></image></a>
-                  <a href="mailto:principal@rnsit.ac.in"><image class="icon shift-down" src="images/gmail.svg" alt="gmail"></image></a>
-                  <a href="twitter/rnsit"><image class="icon shift-down ic3" src="images/twitter.svg" alt="twitter"></image></a>
-                  <a href="linkedin/rnsit"><image class="icon shift-down ic4" src="images/linkedin.png" alt="linkedin"></image></a>
-                </div>
-              </div>
-              <div class="footer-copyright">
-                <div class="container">
-                  <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
-                </div>
-              </div>
-            </div>
-          </footer>
-        </div>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-        <script type="text/javascript" src="js/navbar.js"></script>
+        .nava {
+            display: block;
+            padding-left: 30px;
+        }
         
-        <script src="js/mainpage.js"></script>
-      </body>
-    </html>
+        .hidden {
+            height: 0;
+            overflow: hidden;
+            transition: all 2s;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav class="nav-extended">
+            <div class="nav-wrapper">
+                <img class="svg-logo hidden" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+                <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
+                    <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown3">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li class="navali"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+                    <!-- Dropdown Trigger -->
+                    <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <!-- Dropdown Structure -->
+                    <ul id="dropdown1" class="dropdown-content">
+
+                        <li class="navali"><a id="cse" href="cse.html">CSE</a></li>
+                        <li class="navali"><a id="ece" href="ece.html">ECE</a></li>
+                        <li class="navali"><a id="eee" href="eee.html">EEE</a></li>
+                        <li class="navali"><a id="ise" href="ise.html">ISE</a></li>
+                        <li class="navali"><a id="eie" href="eie.html">EIE</a></li>
+                        <li class="navali"><a id="mech" href="mech.html">MECH</a></li>
+                        <li class="navali"><a id="civil" href="civil.html">CIVIL</a></li>
+                        <li class="divider"></li>
+                        <li class="navali"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
+                        <li class="navali"><a id="mca" href="mca.html">MCA</a></li>
+                        <li class="divider"></li>
+                        <li class="navali"><a id="physics" href="physics.html">Physics</a></li>
+                        <li class="navali"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+                        <li class="navali"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+                        <li class="divider"></li>
+                        <li class="navali"><a id="eee" href="hr.html">Placements &amp; HR</a></li>
+
+                    </ul>
+                </ul>
+                <ul id="dropdown2" class="dropdown-content">
+                    <li class="navali"><a id="cse" href="alumni.html">ALUMNI</a></li>
+                    <li class="navali"><a id="ece" href="admissions.html">ADMISSIONS &amp; OFFICE</a></li>
+                    <li class="navali"><a id="mca" href="cultural.html">CULTURAL</a></li>
+                    <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
+                </ul>
+
+                <ul id="dropdown3" class="dropdown-content">
+                    <li class="navali"><a id="chair" href="chairman.html">CHAIRMAN</a></li>
+                    <li class="navali"><a id="diret" href="director.html">DIRECTOR</a></li>
+                    <li class="navali"><a id="princi" href="principal.html">PRINCIPAL</a></li>
+                    <li class="navali"><a id="regi" href="registrar.html">REGISTRAR</a></li>
+                </ul>
+                <!--mobile!-->
+                <ul class="side-nav" id="mobile-demo">
+                    <li class="navali"><a id="home" href="index.html">Home</a></li>
+                    <li class="navali"><a class="dropNav2">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li class="innerli">
+                        <div class="innerNav2">
+                            <a id="chair" class="nava" href="chairman.html">Chairman</a>
+                            <a id="direct" class="nava" href="director.html">Director</a>
+                            <a id="princi" class="nava" href="principal.html">Principal</a>
+                            <a id="regi" class="nava" href="registrar.html">Registrar</a>
+                        </div>
+                    </li>
+                    <li class="navali"><a id="contact" href="contact.html">Contact</a></li>
+                    <li class="navali"><a class="dropNav">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li class="innerli">
+                        <div class="innerNav">
+                            <ul class="navali">
+                                <li class=" nava divider"></li>
+                            </ul>
+                            <a id="cse" class="nava" href="cse.html">CSE</a>
+                            <a id="ece" class="nava" href="ece.html">ECE</a>
+                            <a id="eee" class="nava" href="eee.html">EEE</a>
+                            <a id="ise" class="nava" href="ise.html">ISE</a>
+                            <a id="eie" class="nava" href="eie.html">EIE</a>
+                            <a id="mech" class="nava" href="mech.html">MECH</a>
+                            <a id="civil" class="nava" href="civil.html">CIVIL</a>
+                            <ul class="navali">
+                                <li id="" class=" nava divider"></li>
+                            </ul>
+                            <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
+                            <a id="mca" class="nava awes" href="mca.html">MCA</a>
+                            <ul class="navali">
+                                <li id="" class=" nava divider"></li>
+                            </ul>
+                            <a id="physics" class="nava awes" href="physics.html">Physics</a>
+                            <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+                            <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+                            <ul class="navali">
+                                <li id="" class=" nava divider"></li>
+                            </ul>
+                            <a id="hr" class="nava" href="hr.html">Placements &amp; HR</a>
+
+                        </div>
+                    </li>
+                    <li class="navali"><a class="dropNav1">Others<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li class="innerli">
+                        <div class="innerNav1">
+                            <a id="alum" class="nava" href="alumni.html">Alumni</a>
+                            <a id="admission" class="nava" href="admissions.html">ADMISSIONS &amp; OFFICE</a>
+                            <a id="faci" class="nava" href="cultural.html">Cultural</a>
+                            <a id="faci" class="nava" href="facilities.html">Facilities</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab"><a class="faci" href="#dance">DANCE</a></li>
+                    <li class="tab"><a class="faci" href="#fashion">FASHION</a></li>
+                    <li class="tab"><a class="faci" href="#sports">SPORTS</a></li>
+                    <li class="tab"><a class="faci" href="#cat">CAT</a></li>
+                    <li class="tab"><a class="faci" href="#ieee">IEEE</a></li>
+                    <li class="tab"><a class="faci" href="#clubs">CLUBS</a></li>
+                    <li class="tab"><a class="faci" href="#activities">ACTIVITIES</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--dance  -->
+    <div class="content">
+        <div id="dance" class="col s12">
+            <div class="container">
+                <div class="col s12 m9 l9">
+                    <div class="row">
+                        <h3 align="left" class="head-style avoid-nav">SYNAPSE</h3>
+                        <div align="center"><img src="https://t4iohw.bn1304.livefilestore.com/y4mvdIFbZ_ms9RKgdaD2yJzn_FQMWiBPuHJtTHK7TqfH-wc70krVTx3i3K_4urLd6hJJNQSrdCjDwDv1zm5RwB8TKPMLJDEGmmfHrZ84AnUPqvsae8t1_LpcnwKAwyM2Vr7eRLfKtgD6taq2Q_y2mcJO8isoyIbum_QFQsMMQaCLtymnSuuKyH3iDCSQm55aW98RcvOtba4M0Fhcm5ew0AFbQ?width=595&height=395&cropmode=none" width="595" /></div>
+                        <p id="para">RNSIT Western Dance Crew.They keep their heads up with their feet on the grounds.Trained by one of the well known name in the hip-hop culture Zuboo. This family is representing the culture and college since it's birth in 2012.</p>
+                    </div>
+                    <div class="row">
+                        <p id="para"><b>Achievements:</b></p>
+                        <p id="para">Sanskruti AIT - 1st 2k16&2k17</p>
+                        <p id="para">DSI Management Fest -1st 2k17</p>
+                        <p id="para">Acharya Habba - 2nd 2k17</p>
+                        <p id="para">BMC Fest-1st 2k17</p>
+                        <p id="para">Global Fest - 1st 2k16</p>
+                        <p id="para">AMC Fest -1st 2k16</p>
+                        <p id="para">AVCE Fest - 1st 2k16</p>
+                        <p id="para">BIT Fest -1st 2k16</p>
+                        <p id="para">DBIT Fest -2nd 2k16</p>
+                        <p id="para">Performed for DD Chandana for their new year's eve programme</p>
+                    </div>
+                    <div class="row">
+                        <h3 align="left" class="head-style avoid-nav">IRA</h3>
+                        <div align="center"><img src="https://woiohw.bn1304.livefilestore.com/y4m6jJkxmlIleXD_zJX0digfK6icqtz6FI3Ys64orMAK0f-T4OiHuOS1WWmg1AI6eCcVg7N6o0164VSoGqhBMkBpTnnrwRu-9mu40j_bxiktEgnq6PvhiWcEW9XU3XqsYbpnL0IxZi2WHHeP43FaWEDTxBVCDHdE70BG6nXv1UNMMl4YogcsfWeA32fHXPSHUlg3nlbV6OHizVuQM8IJIY9RA?width=660&height=432&cropmode=none" width="660" /></div>
+                        <p id="para">Dance being the hidden language of their soul, IRA is the Indian Contemporary team of RNSIT formed 5 years ago. In the year 2015-2016, IRA soared new heights by winning in almost every college of Bangalore.</p>
+                    </div>
+                    <div class="row">
+                        <p id="para"><b>Achievements:</b></p>
+                        <p id="para">2nd place in furore-Dsi</p>
+                        <p id="para">Dayananda Fest -2nd 2k17</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!--ieee  -->
+    <div class="content">
+        <div id="ieee" class="col s12">
+            <div class="container">
+                <div class="col s12 m9 l9">
+                    <div class="row">
+                        <h3 align="left" class="head-style avoid-nav">IEEE RNSIT Student Branch</h3>
+                        <div align="center"><img src="https://z5tb4q.bn1304.livefilestore.com/y4mlJYRUI5MT8wOcNDY63yHdIhaoaRSYRaLZH_GglqGm9rpzVWbnlfszy86bwp5R4f-BIPCuFEtr9eFd7ECyq0iugh-V9zX0Yx6hMvhTzI7U4Q5u1e2E6T0a04bW0vpFVKSC8E3zeV3e-L9kfej88WU4HCyGv-vUUpwrz8QnLHkiOl3WlBHWCsnF6_VC5dBLXnB3_Oh0LVWHVauQBBMStEuLQ?width=960&height=540&cropmode=none" width="960" /></div>
+                        <p id="para">Institute for Electrical and Electronics Engineers (IEEE) is the world's largest professional association of technical professionals with more than 400000 members around the globe. IEEE RNSIT Student Branch has been started in March 2010 with 22 members and now the number has crossed 100, with members from various branches of B.E, M.tech and MCA. The Student Branch is headed by Dr. Rajini V H, Associate Professor, Department of ECE. </p>
+                    </div>
+                    <div class="row">
+                        <p id="para">Student branch now has two IEEE Societies functioning, namely Robotics and Automation Society , Computer Society. </p>
+                    </div>
+                    <div class="row">
+                        <p id="para">The SB organizes numerous workshops, talks and industry visits throughout the year. In the past IEEE RNSIT had organized flagship events such as Internship Drive, Workshops on Robotics, Python programming, MongoDB Programming, Industry visit to ISRO and many more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--sports  -->
+    <div class="content">
+        <div id="sports" class="col s12">
+            <div class="container">
+                <div class="col s12 m9 l9">
+                    <div class="row">
+                        <h3 align="left" class="head-style avoid-nav">IEEE RNSIT Student Branch</h3>
+                        <div align="center"><img src="https://z5tb4q.bn1304.livefilestore.com/y4mlJYRUI5MT8wOcNDY63yHdIhaoaRSYRaLZH_GglqGm9rpzVWbnlfszy86bwp5R4f-BIPCuFEtr9eFd7ECyq0iugh-V9zX0Yx6hMvhTzI7U4Q5u1e2E6T0a04bW0vpFVKSC8E3zeV3e-L9kfej88WU4HCyGv-vUUpwrz8QnLHkiOl3WlBHWCsnF6_VC5dBLXnB3_Oh0LVWHVauQBBMStEuLQ?width=960&height=540&cropmode=none" width="960" /></div>
+                        <p id="para">Institute for Electrical and Electronics Engineers (IEEE) is the world's largest professional association of technical professionals with more than 400000 members around the globe. IEEE RNSIT Student Branch has been started in March 2010 with 22 members and now the number has crossed 100, with members from various branches of B.E, M.tech and MCA. The Student Branch is headed by Dr. Rajini V H, Associate Professor, Department of ECE. </p>
+                    </div>
+                    <div class="row">
+                        <p id="para">Student branch now has two IEEE Societies functioning, namely Robotics and Automation Society , Computer Society. </p>
+                    </div>
+                    <div class="row">
+                        <p id="para">The SB organizes numerous workshops, talks and industry visits throughout the year. In the past IEEE RNSIT had organized flagship events such as Internship Drive, Workshops on Robotics, Python programming, MongoDB Programming, Industry visit to ISRO and many more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--activities  -->
+    <div class="content">
+        <div id="activities" class="col s12">
+            <div class="container">
+                <div class="col s12 m9 l9">
+                    <div class="row">
+                        <h3 align="left" class="head-style avoid-nav">Guest Lecture-ISRO</h3>
+                        <div align="center"><!--img src="http://placehold.it/700x300" alt="limg3"!--></div>
+                        <p id="para">Mr Nagaraj Ananth of the Indian Space Research Organization was invited to deliver a guest lecture on ‘Growth of space technology around the world’. This event was conducted for 3rd year students and saw the attendance of over 120 students for the lecture. Bosch Rexroth Industry 4.0 Seminar A seminar on the emerging trends in the manufacturing sector was conducted by Bosch Rexroth in 2016. It was attended by second and third year students of mechanical, electrical and electronics departments. Mr. Santhosh gave an insightful presentation on the concept of Industry 4.0 and the increasing role of automation in the manufacturing sector. Using real world case studies, he engaged the students in a debate regarding the relevance and implications of automation to society and jobs in general. The seminar was a precursor to the launch of the RNSIT- Bosch Rexroth Centre for Automation and Technology.</p>
+                    </div>
+                    <div class="row">
+                        <h3 align="left" class="head-style avoid-nav">Social Awareness Programme</h3>
+                        <div align="center"><!--img src="http://placehold.it/700x300" alt="limg3"!--></div>
+                        <p id="para">The Department of Civil Engineering organised this event to inculcate a sense of responsibility in the students' mind. The event kicked off @10am on 31st March, 2017. Mr. B. K. Nagaraj Singh, Head of Fire Station, Banashankari Branch briefly addressed us about the services offered by the fire department. This was followed by an amazing lecture by Mr. Nagesh, also from the fire brigade who introduced us to different classes of Fire, their causes and the ways through which we can prevent it from spreading.</p>
+                    </div>
+                    <div class="row">
+                        <p id="para">
+                            We also had with us, Mr. Nagaraj who is an IT trainer in SAMARTHANAM TRUST for the differently abled people. He explained how these physically and mentally challenged youth were being trained, the phase through which these people learn various fields. Their main aim is to make these people as "Taxpayers of the country rather than being a pensioner". We were then shown a documentary regarding the charity being done by this organisation. This was followed by a MOCK FIRE DRILL by the fire brigade, where different types of extinguishers and various ways of smothering fire were taught to us. Some students also got the privilege to operate the instruments directed by the fire crew. New fittings used by the fire department in real situations were also demonstrated. The donation event was started @ 10.30am. Many students offered clothes, money as well as stationary to the trust to extend their helping hands. Meanwhile, the 2nd, 4th and 6th semester civil students staged a street play in front of the college canteen having the theme as HARASSMENT ON WOMEN which came out beautifully and was appreciated by everyone.</p>
+                    </div>
+                    <div class="row">
+                        <p id="para">
+                            At the end of the day, the donations had hit a high and we had collected around 8k cash, 12 boxes full of clothes and a box full of stationary. This was handed over to the trust member Ms. Harshitha Prakash, who thanked the management for this extended support to uplift the poor and disabled. Finally, it boosted the thoughts of every individual. It evoked a sense of responsibility within us. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--clubs  -->
+    <div class="content">
+        <div id="clubs" class="col s12">
+            <div class="container">
+                <div class="col s12 m9 l9">
+                    <div class="row">
+                        <h3 align="left" class="head-style avoid-nav">Defence Tech Club</h3>
+                        <div align="center"><!--img src="http://placehold.it/700x300" alt="limg3"!--></div>
+                        <p id="para">This club was started in 2015 in order to create a platform for defence enthusiasts of RNSIT to discuss and share their views on various issues related to defence, strategic and current affairs. Numerous meetings and activities have been held, including a Defence Tech Quiz which was conducted as a part of the Department Fest.</p>
+                    </div>
+                    <div class="row">
+                        <h3 align="left" class="head-style avoid-nav">Mech Radiance</h3>
+                        <div align="center"><!--img src="http://placehold.it/700x300" alt="limg3"!--></div>
+                        <p id="para">This is the premier activity club of the Mechanical Department of RNSIT. It was founded in 2016 with the intention of organizing a variety of events ranging from photography to mini project expos. The core team consists of 8 members from the 3rd year with event coordinators and volunteers drawn from the first and second years. The highlight of 2016 in mechanical department was the mini project expo which saw extensive participation. It saw the involvement of over 50 3-man teams from various departments including first and third year students, who had worked hard to make amazing projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--fashion  -->
+    <div class="content">
+        <div id="fashion" class="col s12">
+            <div class="container">
+                <div class="col s12 m9 l9">
+                    <div class="row">
+                        <h3 align="left" class="head-style avoid-nav">AURA</h3>
+                        <div align="center"><img src="https://w4kneg.bn1304.livefilestore.com/y4mbItHebA52wfldzkiJ1_HE2zxjAdxX8a9NrkAJjMZG7daKAM-TpETNIgKqcqwTI6CnzsX_rzisSfkolQsEd8rhvcpOly-zhuZ4GSRA2emhy3o8mvF9eETuzw-fgTIBKgXWdFhUbmGzjNslKcZUbf_gYkSfp0GCfl_Ya1cC4ZxR5TaLKz77sR5q30Zl0IX7XrR-mqdLECgcc2sII1wIf71cA?width=1024&height=576&cropmode=none" width="1024" /></div>
+                        <p id="para">They believe that fashion is a statement, an art of self expression. Fashion is an art and we are canvas. Formed in the year 2013 by Muhammad Bilal Shaikh.Aura has represented RNSIT and won in many colleges including:</p>
+                    </div>
+                    <div class="row">
+                        <p id="para">BMSCE</p>
+                        <p id="para">RVCE</p>
+                        <p id="para">CMRIT</p>
+                        <p id="para">NMIT</p>
+                        <p id="para">IISC</p>
+                        <p id="para">NITK</p>
+                        <p id="para">BMSIT</p>
+                        <p id="para">JSSATE</p>
+                        <p id="para">CIT</p>
+                        <p id="para">REVA</p>
+                    </div>
+                    <div class="row">
+                        <p id="para"><b>Themes include:</b></p>
+                        <p id="para">DENIM INTO VILLAGE</p>
+                        <p id="para">TRIBAL</p>
+                        <p id="para">CANDY</p>
+                        <p id="para">GREEK</p>
+                        <p id="para">CIRCUS</p>
+                        <p id="para">AQUATIC</p>
+                        <p id="para">CASINO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--cat  -->
+    <div class="content">
+        <div id="cat" class="col s12">
+            <div class="container">
+                <div class="col s12 m9 l9">
+                    <div class="row">
+                        <h3 align="left" class="head-style avoid-nav">CULTURAL ACTIVITY TEAM (CAT)</h3>
+                        <div align="center"><img src="https://wokneg.bn1304.livefilestore.com/y4msTh57kS-y3bex_vdDiEjgglYwrgXwuVUnX6TTeZGtD7G1KU6s7eSJpMjPfAWzZ6L0aDCE7eW2FSj54gTuD_Byp4lwueT7se70quKY1f6CJCIbh-ONL55AR0yQlVA7DMfq6JqGzvo7PRTHKHczbUr4ypWdmmbV0IbNUyWP12r9VqmOHaRVPqVkQkaeHXMyiwBDGBtlc0LSUrXGvSPW6nwDA?width=1024&height=683&cropmode=none" width="1024" /></div>
+                        <p id="para">The cultural activity team (CAT) is the eminence of creativity in RNSIT. The team uses its honed and polished set of skills to collectively put up a fest that the rest of the college can enjoy. There are two fests that the Cultural Activity Team has to its name: </p>
+                    </div>
+                    <div class="row">
+                        <p id="para">
+                            <b>PARICHAY:</b> The Intra college extravaganza that features a frantic jig for two trophies fought for by all the seven branches- The spirit of Parichay and the Talent of Parichay. Parichay boasts of over 50 events organised with utmost care by the Events committee of CAT. The Talent of Parichay is awarded to the branch that has the most number of wins in these events. The Spirit of Parichay is awarded to the branch with most number of Participants in all the events. Overall, Parichay has been very well received by the students and continues to be a tradition that is rooted within the spirit of RNSIT as an institution.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p id="para">
+                            <b>PANTHEON:</b> The Bi-annual Inter-college fest that to this day, is a brand name among students. Pantheon boasts of a very large number of events and tests the CAT to its limits in terms of managing and scheduling. Pantheon has also hosted many popular acts such as Agam, Lagori, Aathma, Argenil productions among many others. Pantheon has seen a footfall over 3000 everytime and has been the pride of RNSIT's cultural pursuits. It has successfully put RNSIT on the Cultural Map. The word Pantheon refers to the deities of a religion collectively. It is safe to say, that the fest lives up to this name.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <p id="para">
+                            The CAT comprises of unsung heroes who selflessly work to put a fest up for the rest of the college and do not participate in any events. The CAT also owes its smooth functioning to the Cultural head; Prof. T.S Bhagavath Singh, who is an integral part of the team which would not have existed without the work put in by him.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="fot">
+        <footer id="footer" class="page-footer">
+            <div class="container-fluid">
+                <div class="row lool">
+                    <div class="roww" style="overflow: hidden;">
+                        <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957">
+                            <image class="icon shift-down ic1" src="images/facebook.svg" alt="fb"></image>
+                        </a>
+                        <a href="instagram/rnsit">
+                            <image class="icon shift-down in12" src="images/instagram.svg" alt="insta"></image>
+                        </a>
+                        <a href="mailto:principal@rnsit.ac.in">
+                            <image class="icon shift-down" src="images/gmail.svg" alt="gmail"></image>
+                        </a>
+                        <a href="twitter/rnsit">
+                            <image class="icon shift-down ic3" src="images/twitter.svg" alt="twitter"></image>
+                        </a>
+                        <a href="linkedin/rnsit">
+                            <image class="icon shift-down ic4" src="images/linkedin.png" alt="linkedin"></image>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
+
+    <script src="js/mainpage.js"></script>
+</body>
+
+</html>
