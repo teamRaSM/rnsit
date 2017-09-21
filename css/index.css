@@ -119,11 +119,11 @@ h1, h2, h3, h4, h5,h6{
 .nightback{
   background-image: url('../images/night1.jpg');
   transition: background-position .4s;
-  height: 75vh;
+  height: 100%;
   width: 100%;
   transition: background-image 1s;
   position: absolute;
-  top:-160px;
+  /*top:-160px;*/
   background-size: cover;
   z-index:-1;
   filter: brightness(1);
@@ -168,13 +168,10 @@ h1, h2, h3, h4, h5,h6{
 }
 
 .maincont{
+	position: relative;
 	text-align: center;
 	color:white;
-	/*overflow: hidden;*/
-}
-#logo{
-		padding-top: 6vh;
-	padding-bottom: 09vh;
+	overflow: hidden;
 }
 .cont{
 	display:flex;
@@ -208,10 +205,7 @@ h1, h2, h3, h4, h5,h6{
 	.con-flex{
 		width: 92% !important;
 	}
-		#logo{
-			padding-bottom: 	17vh;
-		}
-	
+
 
 }
 
@@ -256,11 +250,7 @@ h1, h2, h3, h4, h5,h6{
 	.up-events{
 		width: 100%;
 	}
-		#logo{
-			width: 250px;
-			padding-top: 	11vh;
-			padding-bottom: 	10vh;
-		}
+
 	.con-flex{
 		width: 92% !important;
 	}
@@ -336,4 +326,12 @@ background-image: url('../images/night.jpg');
 
 .newscards h6{
 	margin-top: 	0px;
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+ /* your css rules for ipad portrait */
+
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+/* your css rules for ipad landscape */
 }
