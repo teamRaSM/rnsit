@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5,h6{
 	overflow-y: scroll;
 }
 .nightback{
-  background-image: url('../images/night2.jpg');
+  background-image: url('../images/night1.jpg');
   transition: background-position .4s;
   height: 100%;
   width: 100%;
