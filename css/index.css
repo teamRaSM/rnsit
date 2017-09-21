@@ -278,8 +278,8 @@ background-image: url('../images/night.jpg');
 .changers a{
 	background-color: #555;
 	border-radius: 50%;
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 }
 .active-eve-a{
 	background: #aaa !important;
