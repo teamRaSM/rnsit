@@ -62,3 +62,6 @@ closeOnClick:false,
 draggable:true});
 
 });
+function insta(){
+          alert("Instagram Coming Soon!!")
+        }
