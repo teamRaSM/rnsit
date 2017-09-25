@@ -28,6 +28,9 @@
     width:  25px !important;
   }
 }
+.row{
+margin-bottom:0px !important;
+}
 .roww{
   display:flex;
     flex-direction: row;
