@@ -1,0 +1,33 @@
+h1 {
+	color: #009688 ;
+	font-family: 'Bree Serif', serif;
+}
+
+p {
+	color: #3e2723;
+	text-align: justify;
+}
+
+.centered {
+	color: #3e2723;
+}
+
+.modal-img{
+	margin-bottom: 100px;
+}
+.modal-back{
+	margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px){
+  h1{
+   margin-top:75px;
+  }
+  footer{
+    display: hidden;
+}
+
+}
+ol{
+color: #3e2723;
+}

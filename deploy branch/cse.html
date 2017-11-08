@@ -1,0 +1,2226 @@
+<!DOCTYPE html>
+<html>
+<style>
+  .right_icons{
+    float: right !important;
+  }
+.listss{
+    padding-left: 10px;
+    }
+</style>
+<head>
+    <title>Computer Science and Engineering</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#021B38">
+    <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
+    <link rel="apple-touch-icon" href="imgages/logo.png" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="RNSIT" content="RNSIT">
+    <link rel="icon" sizes="192x192" href="images/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/dept.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link href="images/logo.png" rel="icon" type="image/png">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+</head>
+
+  <body>
+    <nav class="nav navin">
+      <div class="nav-wrapper">
+        <img class="svg-logo hidden" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+        <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown3">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="navali"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+          <!-- Dropdown Trigger -->
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+          <!-- Dropdown Structure -->
+          <ul id="dropdown1" class="dropdown-content">
+            <li class="navali"><a id="cse" href="cse.html">CSE</a></li>
+            <li class="navali"><a id="ece" href="ece.html">ECE</a></li>
+            <li class="navali"><a id="eee" href="eee.html">EEE</a></li>
+            <li class="navali"><a id="ise" href="ise.html">ISE</a></li>
+            <li class="navali"><a id="eie" href="eie.html">EIE</a></li>
+            <li class="navali"><a id="mech" href="mech.html">MECH</a></li>
+            <li class="navali"><a id="civil" href="civil.html">CIVIL</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
+            <li class="navali"><a id="mca" href="mca.html">MCA</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="physics" href="physics.html">Physics</a></li>
+            <li class="navali"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+            <li class="navali"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="eee" href="hr.html">Placements &amp; HR</a></li>
+          </ul>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+          <li class="navali"><a id="cse" href="alumni.html">ALUMNI</a></li>
+          <li class="navali"><a id="ece" href="admissions.html">ADMISSIONS &amp; OFFICE</a></li>
+          <li class="navali"><a id="mca" href="cultural.html">CULTURAL</a></li>
+          <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
+        </ul>
+        <ul id="dropdown3" class="dropdown-content">
+          <li class="navali"><a id="chair" href="chairman.html">CHAIRMAN</a></li>
+          <li class="navali"><a id="diret" href="director.html">DIRECTOR</a></li>
+          <li class="navali"><a id="princi" href="principal.html">PRINCIPAL</a></li>
+          <li class="navali"><a id="regi" href="registrar.html">REGISTRAR</a></li>
+        </ul>
+        <!--mobile!-->
+        <ul class="side-nav" id="mobile-demo">
+          <li class="navali"><a id="home" href="index.html">Home</a></li>
+          <li class="navali"><a class="dropNav2">About Us<i class="material-icons right aud">arrow_drop_down</i></a></li>
+          <li class="innerli">
+            <div class="innerNav2">
+              <a id="chair" class="nava" href="chairman.html">Chairman</a>
+              <a id="direct" class="nava" href="director.html">Director</a>
+              <a id="princi" class="nava" href="principal.html">Principal</a>
+              <a id="regi" class="nava" href="registrar.html">Registrar</a>
+            </div>
+          </li>
+          <li class="navali"><a id="contact" href="contact.html">Contact</a></li>
+          <li class="navali"><a class="dropNav">Departments<i class="material-icons right dd">arrow_drop_down</i></a></li>
+          <li class="innerli">
+            <div class="innerNav">
+              <ul class="navali">
+                <li class=" nava divider"></li>
+              </ul>
+              <a id="cse" class="nava" href="cse.html">CSE</a>
+              <a id="ece" class="nava" href="ece.html">ECE</a>
+              <a id="eee" class="nava" href="eee.html">EEE</a>
+              <a id="ise" class="nava" href="ise.html">ISE</a>
+              <a id="eie" class="nava" href="eie.html">EIE</a>
+              <a id="mech" class="nava" href="mech.html">MECH</a>
+              <a id="civil" class="nava" href="civil.html">CIVIL</a>
+              <ul class="navali">
+                <li id="" class=" nava divider"></li>
+              </ul>
+              <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
+              <a id="mca" class="nava awes" href="mca.html">MCA</a>
+              <ul class="navali">
+                <li id="" class=" nava divider"></li>
+              </ul>
+              <a id="physics" class="nava awes" href="physics.html">Physics</a>
+              <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+              <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+              <ul class="navali">
+                <li id="" class=" nava divider"></li>
+              </ul>
+              <a id="hr" class="nava" href="hr.html">Placements &amp; HR</a>
+            </div>
+          </li>
+          <li class="navali"><a class="dropNav1">Others<i class="material-icons right md">arrow_drop_down</i></a></li>
+          <li class="innerli">
+            <div class="innerNav1">
+              <a id="alum" class="nava" href="alumni.html">Alumni</a>
+              <a id="admission" class="nava" href="admissions.html">ADMISSIONS &amp; OFFICE</a>
+              <a id="faci" class="nava" href="cultural.html">Cultural</a>
+              <a id="faci" class="nava" href="facilities.html">Facilities</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <h5 align="center" class="head-style avoid-nav">COMPUTER SCIENCE ENGINEERING</h5>
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://hisjia.bn1304.livefilestore.com/y4mVqhISz4SaXkb4-g7dduWxT0YsNiYQoaJL6vf8Jb-a33TgiGLwSZqBBtDMbQypQdouuqdm67TGDlREOcqWug8xa-URZrFPVH7y-TyjDrdQZjvoXAKXdn0xFnbplT0vl_XmVZ2uji9Ibem-m44BVTU5_ps5S6V0wAh-GV6FZ9mv9phMsUBRt-z5jNbzqkskLlxTE6YUMp2XmkAXh8RNWZy3w?width=660&height=440&cropmode=none" width="660" />
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <span class="card-name">Dr. G. T. Raju</span>
+              <div><span class="card-info">Dean of Engg, Professor and Head</span></div>
+            </div>
+          </div>
+        </div>
+        <p>The department of Computer Science and Engineering was established in the year 2001 right from the inception of the Institution with an objective of imparting quality technical education in IT field. The department is currently headed by Dr. G T Raju who has more than 25 years of experience in the field. The department offers BE and M.Tech degrees in Computer Science and Engineering (CSE) with an intake 120 UG students and 24 PG students respectively. The department has a VTU recognized R&amp;D centre and currently 18 research scholars are pursuing their research work leading to PhD/MSc (Engg) degrees. The department has state-of-the-art laboratories, library facility for staff &amp;students and boasts of well trained, committed and experienced teaching faculty with an average teaching experience of 10.04 years, who emphasize the theoretical and practical applications of computation and computer systems to the needs of society.</p>
+        <p>The department is striving hard to make the unique spirit of RNSIT, an Institution with a difference by promoting excellence in Teaching, Research and Services covering the fundamentals as well as applied aspects of Computer Science and IT.</p>
+        <p>The fast changing scenario in Computer Science and Engineering necessitates the department to actively extend its focus and activities in</p>
+        <ol>
+          <li>Research and Development</li>
+          <li>Consultancy in IT related areas and Sponsored projects apart from its excellent conventional UG and PG teaching.</li>
+        </ol>
+        <p>Being a forerunner in the field of technology, the department envisages evolving as a center of excellence to adapt itself to the rapid advancements in various specialized fields. Computer Science and Engineering continues to be the driving force of the nation's economy in the fields of science and technology. We in the CSE department, at RNSIT, are very excited to be part of this information revolution.</p>
+        <div class="row">
+          <div class="col s12 m6">
+            <h4 class="black-text"><b><p>Vision</p></b></h4> Better Computer Professsionals for a Real World.
+          </div>
+          <div class="col s12 m6">
+            <h4 class="black-text"><b><p>Mission</p></b></h4>
+            <ol>
+              <li>To promote an intellectual and ethical environment in which the strengths and skills will flourish</li>
+              <li>To impart solid foundations and applied aspects in both Computer Science theory and Programming practices</li>
+              <li>To educate and prepare the graduates, highly sought after and productive, and well-respected for their work culture</li>
+              <li>To Provide training and encouraging R&amp;D and Consultancy Services in frontier areas of Computer Science with Global outlook</li>
+            </ol>
+          </div>
+        </div>
+
+<div class="row">
+<h4 class="black-text"><b><p>Objectives/Goals</p></b></h4>
+          <div class="col s12 m6">
+            <h5 class="black-text"><b><p>Short Range</p></b></h5> 
+            <ol>
+            <li>To build and use modern aids for effective teaching</li>
+            <li>To modernize the Laboratories with state-of-the-art software, hardware, Interfacing and networking components</li>
+            <li>To ensure all-round development of students through conduction of self-sustained training programs</li>
+            <li>To organize and conduct short-term courses/workshops/FDPs/seminars on recent trends in IT at National and International levels on regular basis</li>
+        </ol>
+          </div>
+          <div class="col s12 m6">
+            <h5 class="black-text"><b><p>Long Range</p></b></h5>
+            <ol>
+            <li>To become part of the Industry and Research organizations at National and International levels
+                <ol>
+                  <li>To promote Industry-Institute Interactions through projects, consultancy and executive development programs</li>
+                  <li>To promote research and development activities in the frontier areas of Computer Science and engineering</li>
+                </ol>
+              </li>
+            <li>To enter into understanding with globally renowned  Universities</li>
+            <li>To develop Centers of Excellence in core areas
+              <ol>
+                  <li>Artificial Intelligence and Machine Learning</li>
+                  <li>Internet of Things, Digital/Device Mesh, User Experience</li>
+              </ol>
+            </li>
+            <li>To strengthen Entrepreneurship Development Cell 
+              <ol>
+                <li>To provide necessary strengths for enabling the students to innovate and become entrepreneurs</li>
+              </ol>
+            </li>
+        </ol>
+          </div>
+        </div>
+
+        <h4 class="black-text"><b><p>Laboratory</p></b></h4>
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="https://uds6qw.bn1304.livefilestore.com/y4m0ft3R59Xp5ish79UmXQiGCaYOAAWlj3LU4t5I357fvnk5KrNqLeDyxDtAnskJ6GWsdZM5S_fmsZ1lVc2eDyNQnbzV4CWlvK2NMQWvb_f9ljRyALWw8M-INqHa7eLIYShi35rxrvOxJa-nADPQjIv0r9wfZQs7jLJqYqjf34IbEkuM5PvIGx35B5r3thbFkumiFhvVgf8pdOgbgKd3VR7kA?width=960&height=640&cropmode=none" width="960" />
+              <!--div class="caption center-align">
+              <h2>This is our big Tagline!</h2>
+              <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div!-->
+          </li>
+          <li>
+            <img src="https://sttp5q.bn1304.livefilestore.com/y4mvScOA0EH54AWyTimraMrtZ4b81_PjGxQ7fHxzMrGbQCnxdWA5FW2iQSourKSHsGIRDeHuBRDSNjpRrGWbVX_a1OUuEEzOGuv9IZm_tbGHCNNIEEIjkNY5VUaQpnBUR8Y3XHtgbHznlzbZDmgj78sGsD3PvUclRoBiXVEGHLyiDKuHdLP9C3pilSqw1wXinBwDyapcOfNl-CCtQ8Kx9LnFQ?width=960&height=640&cropmode=none" width="960" />
+          </li>
+          <li>
+            <img src="https://sdtp5q.bn1304.livefilestore.com/y4mGBY6uWC7nkdBufPRuhwhKB863u-WTYpDOXh3RjepbZeeRTS-W9CnMbsxgcufd0f9LAbCCg9dy_uzw6yzJYHifijjVeLdAEMiix3A5thwfg45VoVNd4Qhc5UHXwEFDUeNzDbeNUu5q03XCANcCnsF-aqaZkcexoR688bctMV0ZNKlMkahqjnfOQEbIkP8AEx74lGyggxJy4_lUjRnrbC5Ww?width=960&height=640&cropmode=none" width="960" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <ul class="collapsible popout" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">location_city</i><b>FACILITIES AND INFRASTRUCTURE</b><!--i class="material-icons right_icons">arrow_drop_down</i--></div>
+          <div class="collapsible-body">
+            <ol>
+              <li>Adequate Infrastructure: state-of-the-art laboratories - 198 latest computers, departmental library, Seminar Hall, Well furnished class rooms</li>
+              <li>Boasts of well qualified, committed and experienced teaching faculty - 3 Professors, 7 Asst. Professors, 4 Senior Lecturers and 11 Lecturers</li>
+              <li>Faculty to Student ratio is very good, 1:18, with an average teaching experience 12.23 years</li>
+              <li> Faculty members in diversified areas with Research motivation</li>
+              <li> Faculty involvement in conducting Conferences, Seminars, and Workshops.</li>
+              <li>Participation in University activities/ Other Institutions - Curriculum update, BOE members, BOS members at University and Autonomous Institutions</li>
+              <li>Very good consistent pass percentage in University exams > 85%</li>
+              <li>More than 90% Placement for UG and PG students, Internships at reputed Industries for Project works</li>
+            </ol>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">thumb_up</i><b>EXCELLENCE/ACHIEVEMENTS</b><!--i class="material-icons right_icons">arrow_drop_down</i--></div>
+          <div class="collapsible-body">
+            <ol>
+              <li>National/International conferences and won awards/prizes. </li>
+              <li>4 papers presented at 31st CSI convention held at JSSATE, Bangalore, Mar 2017, Best Paper Award </li>
+              <li>3 papers presented at 30th CSI convention held at SIT, Tumkur, Feb 2016, Best Paper Award </li>
+              <li>6 papers presented at 29th CSI convention held at KSIT, Bangalore, Jan 2015, Best Paper Award </li>
+              <li>Mr.Harshit N L and Mr. Adithya Mr.Arjun K P have won first prize in National Conference on Computing Technologies and Trends,(NCCTT) Mr.Anirudh S,Mr.Ganapati V S and Mr. Karthik have been appreciated with Consolation Prize Mr. Mayukh Das, of 2012 batch CSE, secured the second place in the technical quiz &amp;on spot programming in C++. </li>
+              <li>Ms. Nivedita Priyadarshini, of 2012 batch CSE, got the consolation prize for the paper titled Localization of Algorithms in Wireless Sensor Networks in paper presentation.</li>
+              <li>Sreevatsa KV of 4<sup>th</sup> Sem won the best paper award along with cash prize of 1500/- at Institution of Engineers(India) Students's Technical Paper presentation and project model exhibiyion IEINITTE-2016 conducted by Indian Institute of Engineers at NMAMIT, Nitte on 5<sup>th</sup> March 2016.</li>
+              <li>Prateek Prasad of 4<sup>th</sup>CSE received a scholorship of 1.2 Lakhs from Google India for "Android Developer"-Nanodegree course.</li>
+              <li>Student Internships:
+              <ol>
+                <li>Ramesh S M at IBM, Bangalore with Stipend of 20000/-</li>
+                <li>Sai Teja T at ThoughtWorks, Bangalore with Stipend of 20000/-</li>
+                <li>Sachin P, Niranjan B, Akash, Sujay and Pooja K P at Samsung R&amp;D Bangalore with Stipend of 35000/- </li>
+              </ol>
+              </li>
+              <li>Students with very high scores/percentile in Competitive Exams like GATE, GRE and CAT : 35th AIR @ GATE, 98 percentile @ CAT, 325 score @ CAT.</li>
+            </ol>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">people</i><b>WORKSHOPS/CONFERENCES CONDUCTED</b><!--i class="material-icons right_icons">arrow_drop_down</i--></div>
+          <div class="collapsible-body">
+            <ol>
+              <li>1st International Conference on Data Engineering &amp;Communication Systems  ICDECS-2011 30-31, Dec 2011 Two days 400 Participated,105 research scholars presented papers and published in conference proceedings, Supported by Accenture, Infosys, VTU, Canara Bank, Atria IT, Escube, Acharya IT, RNSIT</li>
+              <li>2nd International Conference on Data Engineering and Communication Systems  ICDECS-2015 28-29 , Dec 2015 Two days 260 Participated, 82 research scholars presented papers and published in scopus indexed journal- IJAER , Supported by CSI,VTU, Orange Computers, Canara Bank, Wiley, Universities Press</li>
+              <li>Have got admission to higher studies ( MS / PhD) in International renowned Institutions</li>
+              <li>BALAJI , UNIVERSITY OF WISCOSIN, MILWAUKI , P h.D COMPUTER SCIENCE</li>
+              <li>Vi56 Workshops/FDPs Organized</li>
+            </ol>
+          </span>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">event_available</i><b>EXTRA CURRICULAR EVENTS/ACTIVITIES</b><!--i class="material-icons right_icons">arrow_drop_down</i--></div>
+        <div class="collapsible-body">
+          <ol>
+            <li>Mr. Mayukh Das, of 2012 batch CSE, secured the second place in the technical quiz &amp;on spot programming in C++.</li>
+            <li>Ms. Nivedita Priyadarshini, of 2012 batch CSE, got the consolation prize for the paper titled Localization of Algorithms in Wireless Sensor Networks in paper presentation.</li>
+            <li>Good Academic and Extra, Co-Curricular records by students, Consistent performance in university exams and placement of the students in Core Companies .</li>
+            <li> Good number of Paper Publications by both Faculty and Students.</li>
+            <li>Good number of technical interactions like Guest Lectures, Workshops, Competitions &amp; Conferences are conducted by the Department.</li>
+            <li>Students Club AIKYA, Robotics Club, mini project exhibition(PROP), Professional societies IEEE, CSI &amp;ISTE for the benefit of faculty and students to alert their skills.</li>
+            <li>Training Classes are carried out to prepare the students for Placements/GATE /GRE Examination.</li>
+          </ol>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">monetization_on</i><b>SPONSORED RESEARCH PROGRAM DETAILS</b><!--i class="material-icons right_icons">arrow_drop_down</i--></div>
+        <div class="collapsible-body">
+          <ol>
+            <li>Completed two Research Projects 3.8 Lakhs for the research project entitled Diagnosis Tool for Assessment of Lung Nodules that helps in Analyzing Tumors with the aid of CT Image Databases using CBIR Techniques under VTU Research Grants Scheme, for a period of 2 years . Ref: VTU/Aca/2011-12/A-9/844 dated 8 May 2012.</li>
+            <li>5.2 Lakhs for the research project entitled System for Image Retrieval from Medical Image Databases by associating Content and Semantic of Images, under AICTE Research Grants Scheme, for a period of 2 years during April 2012</li>
+          </ol>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">poll</i><b>PERFORMANCE</b><!--i class="material-icons right_icons">arrow_drop_down</i--></div>
+        <div class="collapsible-body">
+          <ol>
+            <li>Quality Input : CET ranks :
+            < 2500 and COMED-K ranks : < 6000</li>
+            <li>Faculty: Boasts of well qualified, committed and experienced teaching faculty - 2 Professors, 3 Asso. Professors, 21 Asst. Professors </li>
+            <li>Faculty to Student ratio 1:16, with an average teaching experience 10.6 years.</li>
+            <li>Faculty members in diversified areas with Research motivation.</li>
+            <li>Faculty involvement in conducting Conferences, Seminars, and Workshops. Participation in University activities/ Other Institutions “ Curriculum update, BOE members, BOS members, LIC Committee members at University and Autonomous Institutions.</li>
+            <li>Results and Placements: Consistent pass percentage in University exams > 85 % and Placement > 95%.</li>
+            <li>Paper Publications:  Faculty: > 105 (last three years) Students: > 87 (last three years from both UG and PG)</li>
+            <li>Produced 8 Doctorates, Completed 2 R&amp;D Projects.</li>
+          </ol>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">message</i><b>NEWSLETTER(S) DESCRIPTON</b><!--i class="material-icons right_icons">arrow_drop_down</i--></div>
+        <div class="collapsible-body">
+          <ol>
+            <li>AIKYA - Annual departmental newsletter, 6 editions so far covers major achievements of our students and faculty, technical articles etc., </li>
+          </ol>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">work</i><b>PROJECT OPEN HOUSE</b><!--i class="material-icons right_icons">arrow_drop_down</i--></div>
+        <div class="collapsible-body">
+          <ol>
+            <li>Every year during May, the department orgnaizes a Project Open House Panoram for all the students where in they showcase their projects. Industry and academia people will evaluate the quality of projects and award the best project awards.
+            </li>
+            <li>Project Open House Panorama-2016(PROP)- Intercollegiate Project Exhibition 6th May 2016, One day, total of 40 groups presented.</li>
+            <li>Project Open House Panorama-2017(PROP)- Intercollegiate Project Exhibition 11th May 2017, One day, total of 42 groups presented .</li>
+          </ol>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">directions_run</i><b>SPORTS PARTICIPATION</b><!--i class="material-icons right_icons">arrow_drop_down</i--></div>
+        <div class="collapsible-body"><span>
+        Our students have represented university and state in Sports, Technical and Cultural events, won awards and also actively participated in cultural &amp; sports activities in the intra collegiate fest</span>
+      </div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">receipts</i><b>R &amp;D WORK / PAPERS PUBLISHED</b><!--i class="material-icons right_icons">arrow_drop_down</i--></div>
+      <div class="collapsible-body">
+        <table class="responsive-table">
+          <tr>
+            <td>No. of Candidates Registered </td>
+            <td>No. of Research Supervisors </td>
+            <td>Total no. of Publications </td>
+            <td>No. of Workshops attended </td>
+            <td>No. of Workshops/ Seminars Organized </td>
+            <td>No. of Doctral Candidates Produced</td>
+          </tr>
+          <tr>
+            <td>28 ( 27 PhD + 1 MSc (Engg)</td>
+            <td> 06</td>
+            <td>105 in the last three years</td>
+            <td> 51 in the last three years</td>
+            <td> 24 </td>
+            <td>08</td>
+          </tr>
+        </table>
+        <ul>
+          <b>Research Projects Completedunder VTU / AICTE Research Grants:</b>
+          <li>3.8 Lakhs for the research project entitled  Diagnosis Tool for Assessment of Lung Nodules that helps in Analyzing Tumors with the aid of CT Image Databases using CBIR Techniques under VTU Research Grants Scheme, for a period of 2 years . Ref: VTU/Aca/2011-12/A-9/844 dated 8 May 2012.
+          </li>
+          <li>5.2 Lakhs for the research project entitled System for Image Retrieval from Medical Image Databases by associating Content and Semantic of Images , under AICTE Research Grants Scheme, for a period of 2 years during April 2012.</li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
+<ul class="listul cardul">
+  <li class="cardli">
+    <a class="waves-effect waves-light" href="#modal1"><img src="https://hisjia.bn1304.livefilestore.com/y4mVqhISz4SaXkb4-g7dduWxT0YsNiYQoaJL6vf8Jb-a33TgiGLwSZqBBtDMbQypQdouuqdm67TGDlREOcqWug8xa-URZrFPVH7y-TyjDrdQZjvoXAKXdn0xFnbplT0vl_XmVZ2uji9Ibem-m44BVTU5_ps5S6V0wAh-GV6FZ9mv9phMsUBRt-z5jNbzqkskLlxTE6YUMp2XmkAXh8RNWZy3w?width=660&height=440&cropmode=none" width="660" />
+      <p> Dr. G. T. Raju</p>
+      <p> Dean of Engg ,Professor and Head</p>
+    </a>
+  </li>
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://hisjia.bn1304.livefilestore.com/y4mVqhISz4SaXkb4-g7dduWxT0YsNiYQoaJL6vf8Jb-a33TgiGLwSZqBBtDMbQypQdouuqdm67TGDlREOcqWug8xa-URZrFPVH7y-TyjDrdQZjvoXAKXdn0xFnbplT0vl_XmVZ2uji9Ibem-m44BVTU5_ps5S6V0wAh-GV6FZ9mv9phMsUBRt-z5jNbzqkskLlxTE6YUMp2XmkAXh8RNWZy3w?width=660&height=440&cropmode=none" width="660" />
+      </div>
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>Dr. G. T. Raju</td>
+            </tr>
+            <tr>
+              <td>Designation</td>
+              <td>Dean of Engg., Professor and Head</td>
+            </tr>
+            <tr>
+              <td>Qualification</td>
+              <td>BE(CSE), ME(CSE), PhD</td>
+            </tr>
+            <td>Total Experience</td>
+            <td>25 years of teaching, 1 year of industry, 11 years of research</td>
+          </tr>
+          <tr>
+            <td>Experience in RNSIT</td>
+            <td>9 Years</td>
+          </tr>
+          <tr>
+            <tr>
+              <td>
+                Areas Of Interest
+              </td>
+              <td>
+                Data Mining, Web Mining Image Processing, Prefetching and Caching, Information Retrieval
+              </td>
+            </tr>
+            <tr>
+              <td>Projects</td>
+              <td>Guided 86 UG students' projects, 36 PG students' projects, 12 MCA students' projects 4 Research Projects under Grants from AICTE, VTU</td>
+            </tr>
+            <tr>
+              <td>
+                Papers
+              </td>
+              <td>Published 96+ papers at reputed indexed International Journals, 24+ papers at reputed Intrrnational Conferences and 6 at National conferences</td>
+            </tr>
+            <tr>
+              <td>No of Books Published</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Other Achievements</td>
+              <td>Best Teacher Award and Rajiv Gandhi Gold Medal</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <li class="cardli">
+    <a class="waves-effect waves-light" href="#modal2"><img src="https://7a844w.bn1304.livefilestore.com/y4mTSpWQnWfdQqdTPm_pRaUQ3uL2QSKjg57ofB64FRcwkO2rbNmbiFfJ2m_uNFssURgU_xMGJuogCpUquF1sShZcK7yBR-ixeOIOct6V6KmlIeMzUwM1gKifMH5uJEofxPvH6L0KXA3RcI4dMJgSNaYF5oMsxh-W8T0KfIwxcB9PJYM_-jUpPVCrDG8T2KCsfaqTH1Z1IpEJTlq4jTqHw25Cw?width=660&height=440&cropmode=none" width="660" />
+      <p> Dr. Girijamma H A</p>
+      <p> Professor</p>
+    </a>
+  </li>
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://7a844w.bn1304.livefilestore.com/y4mTSpWQnWfdQqdTPm_pRaUQ3uL2QSKjg57ofB64FRcwkO2rbNmbiFfJ2m_uNFssURgU_xMGJuogCpUquF1sShZcK7yBR-ixeOIOct6V6KmlIeMzUwM1gKifMH5uJEofxPvH6L0KXA3RcI4dMJgSNaYF5oMsxh-W8T0KfIwxcB9PJYM_-jUpPVCrDG8T2KCsfaqTH1Z1IpEJTlq4jTqHw25Cw?width=660&height=440&cropmode=none" width="660" />
+      </div>
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>Dr. Girijamma H A</td>
+            </tr>
+            <tr>
+              <td>Designation</td>
+              <td>Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification</td>
+              <td>B.E, MTech, Ph.D</td>
+            </tr>
+            <tr>
+              <td>Total Experience</td>
+              <td>16 years of teaching, 2 years of industry, 9 years of research</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <li class="cardli">
+    <a class="waves-effect waves-light" href="#modal3"><img src="https://vok1bq.bn1304.livefilestore.com/y4mvbMUIL_itgFyBOTCdGiIo2m3XM0yijxabRDZL8ML8yTRRThecHUPaGuU03QnKdW3b6ews64McYKxepXjXIYZOq41SGolVNWu6utopeFnuAtoc3Bux9NB9nhS82JsJUKjoglAkNA7vFPCUmjRjJXqNkSINEypJG-DOb7YESEBvVwaa-uix4OUCIhb5lL5fTfqKDtou5I5y_c-_FDCUpLSsQ?width=3286&height=2386&cropmode=none" width="3286" height="185" />
+      <p>Mr.Shashidhara H R</p>
+      <p> Assistant Professor</p>
+    </a>
+  </li>
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://vok1bq.bn1304.livefilestore.com/y4mvbMUIL_itgFyBOTCdGiIo2m3XM0yijxabRDZL8ML8yTRRThecHUPaGuU03QnKdW3b6ews64McYKxepXjXIYZOq41SGolVNWu6utopeFnuAtoc3Bux9NB9nhS82JsJUKjoglAkNA7vFPCUmjRjJXqNkSINEypJG-DOb7YESEBvVwaa-uix4OUCIhb5lL5fTfqKDtou5I5y_c-_FDCUpLSsQ?width=3286&height=2386&cropmode=none" width="3286" height="180" />
+      </div>
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>Mr.Shashidhara H R</td>
+            </tr>
+            <tr>
+              <td>Designation</td>
+              <td> Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification</td>
+              <td>B.E, M.Tech, (Ph.D)</td>
+            </tr>
+            <tr>
+              <td>Total Experience</td>
+              <td>25 years of teaching, 1 year of research</td>
+            </tr>
+            <tr>
+              <td>Experience in RNSIT</td>
+              <td>6</td>
+            </tr>
+           
+              <td>
+                Areas Of Interest
+              </td>
+              <td>
+              Data Mining, Web Mining</td>
+            </tr>
+            <tr>
+              <td>Projects</td>
+              <td>Published 50 UG projects and 30 PG projects</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <li class="cardli">
+    <a class="waves-effect waves-light" href="#modal4"><img src="https://7k844w.bn1304.livefilestore.com/y4mhW8dMLdn9p0QvaJPUchalPuWRWZSWc0CNmeGx7lCs3KseJ_zqwoglD5f8jTz1LEbooTQhrKgvJQR2Tg53kQM6zfyeuSIm_i8NQli4-SxCpNtvckKyEiVA4J0h0K5Xb7wlwCP0sVG7AMCd2OMI6LQM8tgA8PUdrhEnd0FW_Ao0_jJPuQeSZf23Ed4NN6oY1b6pZb8Idg-IFambOxkSTPvFA?width=660&height=440&cropmode=none" width="660" />
+      <p> Dr. S Sathish Kumar</p>
+      <p>Associate Professor</p>
+    </a>
+  </li>
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://7k844w.bn1304.livefilestore.com/y4mhW8dMLdn9p0QvaJPUchalPuWRWZSWc0CNmeGx7lCs3KseJ_zqwoglD5f8jTz1LEbooTQhrKgvJQR2Tg53kQM6zfyeuSIm_i8NQli4-SxCpNtvckKyEiVA4J0h0K5Xb7wlwCP0sVG7AMCd2OMI6LQM8tgA8PUdrhEnd0FW_Ao0_jJPuQeSZf23Ed4NN6oY1b6pZb8Idg-IFambOxkSTPvFA?width=660&height=440&cropmode=none" width="660" />
+      </div>
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>Dr. S Sathish Kumar</td>
+            </tr>
+            <tr>
+              <td>Designation</td>
+              <td>Associate Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification</td>
+              <td>B.E, M.Tech, Ph.D</td>
+            </tr>
+            <tr>
+              <td>Total Experience</td>
+              <td>25 years of teaching</td>
+            </tr>
+            <tr>
+              <td>Experience in RNSIT</td>
+              <td>15 Years</td>
+            </tr>
+            <tr>
+              <td>
+                Areas Of Interest
+              </td>
+              <td>
+              Data Mining Bio-informatics Cloud Computing Internet of Things</td>
+            </tr>
+            <tr>
+              <td>Projects</td>
+              <td>Guided 2 projects for KSCST</td>
+            </tr>
+            <tr>
+              <td>
+                Papers
+              </td>
+              <td>Published 19 Papers in National and International magazines</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <li class="cardli">
+    <a class="waves-effect waves-light" href="#modal5"><img src="https://fis4kg.bn1304.livefilestore.com/y4mQZV3Sa8p_i8Miy2wtH9xZRNs01OypSSv1FLSBB13urZeET9lT_HX8VvWJYXi1z8AFWTulYFHc8dnqQe0zfohZPT0wplKI6O_mWin6tAnELSnQuPWsG2k5NGb_yyhOa3Uv5N2r00YixoAjEarWzMMETC2rRf_Ce5LlxmHcuZySFcrDD-KHEj510x0byHrvN45-RLs8dthsDjyutavmPtfVg?width=660&height=440&cropmode=none" width="660" />
+      <p>Dr. Kiran P</p>
+      <p>Associate Professor.</p>
+    </a>
+  </li>
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="https://fis4kg.bn1304.livefilestore.com/y4mQZV3Sa8p_i8Miy2wtH9xZRNs01OypSSv1FLSBB13urZeET9lT_HX8VvWJYXi1z8AFWTulYFHc8dnqQe0zfohZPT0wplKI6O_mWin6tAnELSnQuPWsG2k5NGb_yyhOa3Uv5N2r00YixoAjEarWzMMETC2rRf_Ce5LlxmHcuZySFcrDD-KHEj510x0byHrvN45-RLs8dthsDjyutavmPtfVg?width=660&height=440&cropmode=none" width="660" />
+      </div>
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>Dr. Kiran P</td>
+            </tr>
+            <tr>
+              <td>Designation</td>
+              <td>Associate Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification</td>
+              <td>B.E, M.Tech, Ph.D</td>
+            </tr>
+            <tr>
+              <td>Total Experience</td>
+              <td>11 years of teaching</td>
+            </tr>
+            <tr>
+              <td>Experience in RNSIT</td>
+              <td>14 Years</td>
+            </tr>
+            <tr>
+              <tr>
+                <td>
+                  Areas Of Interest
+                </td>
+                <td>
+                  Cryptography, Randomization &amp;Anonymization methods in generalization, Indexing techniques and Design patterns, Data Mining, Database Management Systems
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Papers
+                </td>
+                <td>Published 12 Papers in National and International Magazines</td>
+              </tr>
+              <tr>
+                <td>Other Achievements</td>
+                <td>Best Teacher Award in 2005 and 2006 in RNSIT</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+    <li class="cardli">
+      <a class="waves-effect waves-light" href="#modal6"><img src="https://iyrtnw.bn1304.livefilestore.com/y4mR93EToIY0M7_XWtszs0DsBTGn1X0cZHQBY9VvYnEQCou8x5I5JBvIaxxdAykW9A4zxrJzrXKBom8p7I0cc5uQIcUOq8EM_KN849_4C8zvPyz9GxSUfatDg8EYn3OC-OAozthFN3UOn12DndwYZw3Ed4azQQ20cQ3SLBIWo5hp_HWc1L8SLcruu43cAv8JKi_h01E-gw--jgXXEGPc2T82Q?width=660&height=440&cropmode=none" width="660" />
+        <p> Mr. Hemanth S</p>
+        <p>Associate Professor</p>
+      </a>
+    </li>
+    <div id="modal6" class="modal">
+      <div class="modal-content">
+        <div class="modal-back">
+          <img class="modal-img" src="https://iyrtnw.bn1304.livefilestore.com/y4mR93EToIY0M7_XWtszs0DsBTGn1X0cZHQBY9VvYnEQCou8x5I5JBvIaxxdAykW9A4zxrJzrXKBom8p7I0cc5uQIcUOq8EM_KN849_4C8zvPyz9GxSUfatDg8EYn3OC-OAozthFN3UOn12DndwYZw3Ed4azQQ20cQ3SLBIWo5hp_HWc1L8SLcruu43cAv8JKi_h01E-gw--jgXXEGPc2T82Q?width=660&height=440&cropmode=none" width="660" />
+        </div>
+        <div class="modal-details">
+          <table>
+            <tbody>
+              <tr>
+                <td>Name</td>
+                <td>Mr. Hemanth S</td>
+              </tr>
+              <tr>
+                <td>Designation</td>
+                <td>Associate Professor</td>
+              </tr>
+              <tr>
+                <td>Qualification</td>
+                <td>B.E, M.Tech, Ph.D-Pursuing</td>
+              </tr>
+              <tr>
+                <td>Total Experience</td>
+                <td>14 years of teaching, 2 years of industry</td>
+              </tr>
+              <tr>
+                <td>Experience in RNSIT</td>
+                <td>14 Years</td>
+              </tr>
+              <tr>
+                <tr>
+                  <td>
+                    Areas Of Interest
+                  </td>
+                  <td>Data Mining
+                  </td>
+                </tr>
+                <tr>
+                  <td>Projects</td>
+                  <td>Semantic analysis using Python NLTK</td>
+                </tr>
+                <tr>
+                  <td>
+                    Papers
+                  </td>
+                  <td>Published 1 Paper in National Magazines</td>
+                </tr>
+                <tr>
+                  <td>Other Achievements</td>
+                  <td>Best Teacher Award, Technical training for Placement</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+      <li class="cardli">
+        <a class="waves-effect waves-light" href="#modal7"><img src="https://76844w.bn1304.livefilestore.com/y4mhprWEeHU4EZh6xvC09onTPrFwCQgK0RQ0CCaYHNJ4UzgUybkr4FJX3WT57QSg87DOhwADytzUe1L-X-UXEHOkDt6zBehpy5v6ycWLbBPvwsWf1L1MX3a6Ffn8vSm3y97TOiFfIin0YgmD_Amvp43VuYzZ6mefH_-p8Kg2-BCCU93p3QtPpnThTAChsl80XFGn8ZwS5LULSJ2wSuBZdMbqQ?width=660&height=440&cropmode=none" width="660" />
+          <p> Mr. Bhavani Shankar.K</p>
+          <p> Assistant Professor</p>
+        </a>
+      </li>
+      <div id="modal7" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="https://76844w.bn1304.livefilestore.com/y4mhprWEeHU4EZh6xvC09onTPrFwCQgK0RQ0CCaYHNJ4UzgUybkr4FJX3WT57QSg87DOhwADytzUe1L-X-UXEHOkDt6zBehpy5v6ycWLbBPvwsWf1L1MX3a6Ffn8vSm3y97TOiFfIin0YgmD_Amvp43VuYzZ6mefH_-p8Kg2-BCCU93p3QtPpnThTAChsl80XFGn8ZwS5LULSJ2wSuBZdMbqQ?width=660&height=440&cropmode=none" width="660" />
+          </div>
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mr. Bhavani Shankar.K</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td> Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>B.E, M.Tech, Ph.D-Pursuing</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>13 years of teaching, 5 years of industry</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+      <li class="cardli">
+        <a class="waves-effect waves-light" href="#modal8"><img src="https://fyrtnw.bn1304.livefilestore.com/y4m-pVXTSjF9lv3eMOH7G7IJkNZOZ3RBQ8raeUusrQDZ6p44v8NlIaFBdsAyIKUMyo1RwJNh_caiKzPRX_kEKCjIpzkx2UrYwKhFS_P2S-8EQWbUVdF2bRiqZMoK-uzNP0EieQN5aYqyERrPamWlghN-0_E4T8c7uM2DrSOVWoyJmnjhjabXHI_fCei7dmvZBLpA1J5mgM7XPd04IBPzDdOGQ?width=660&height=440&cropmode=none" width="660" />
+          <p> Mr. Anjan Kumar K. N</p>
+          <p> Assistant Professor</p>
+        </a>
+      </li>
+      <div id="modal8" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="https://fyrtnw.bn1304.livefilestore.com/y4m-pVXTSjF9lv3eMOH7G7IJkNZOZ3RBQ8raeUusrQDZ6p44v8NlIaFBdsAyIKUMyo1RwJNh_caiKzPRX_kEKCjIpzkx2UrYwKhFS_P2S-8EQWbUVdF2bRiqZMoK-uzNP0EieQN5aYqyERrPamWlghN-0_E4T8c7uM2DrSOVWoyJmnjhjabXHI_fCei7dmvZBLpA1J5mgM7XPd04IBPzDdOGQ?width=660&height=440&cropmode=none" width="660" />
+          </div>
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mr. Anjan Kumar K. N</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td> Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>B.E, M.Tech, Ph.D-Pursuing</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>15 years of teaching, 3 years 5 months of industry</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT</td>
+                  <td>9 Years</td>
+                </tr>
+                <tr>
+                  <tr>
+                    <td>
+                      Areas Of Interest
+                    </td>
+                    <td>
+                      Network Security, IOT Protocol Stack, Data Mining
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+          </div>
+        </div>
+        <li class="cardli">
+          <a class="waves-effect waves-light" href="#modal9"><img src="https://hysjia.bn1304.livefilestore.com/y4mXmttpRwBkfwHwDRw_FxfWbjy4mIFiz0wzmkd1caOQmwuGs4F5LjgYEFG9QuRWOnCkS2teYKXinrLlbOiCqi2q3JsgKdxHDuAm2siYYzq-4lB2vT6kmkiNWI0T6SszPAbmjMQT5gKiGzw5YnnVRw1qQyRmM9Hmxy3rFvKlHXcMTj__zOFjexAChfR1_XQccf-EIS55lXkGMdgTqLOA1b_sw?width=660&height=440&cropmode=none" width="660" />
+            <p> Mrs. Sudhamani M. J</p>
+            <p> Assistant Professor</p>
+          </a>
+        </li>
+        <div id="modal9" class="modal">
+          <div class="modal-content">
+            <div class="modal-back">
+              <img class="modal-img" src="https://hysjia.bn1304.livefilestore.com/y4mXmttpRwBkfwHwDRw_FxfWbjy4mIFiz0wzmkd1caOQmwuGs4F5LjgYEFG9QuRWOnCkS2teYKXinrLlbOiCqi2q3JsgKdxHDuAm2siYYzq-4lB2vT6kmkiNWI0T6SszPAbmjMQT5gKiGzw5YnnVRw1qQyRmM9Hmxy3rFvKlHXcMTj__zOFjexAChfR1_XQccf-EIS55lXkGMdgTqLOA1b_sw?width=660&height=440&cropmode=none" width="660" />
+            </div>
+            <div class="modal-details">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Name</td>
+                    <td>Mrs.Sudhamani M J</td>
+                  </tr>
+                  <tr>
+                    <td>Designation</td>
+                    <td> Assistant Professor</td>
+                  </tr>
+                  <tr>
+                    <td>Qualification</td>
+                    <td>B.E, M.Tech, Ph.D-Pursuing</td>
+                  </tr>
+                  <tr>
+                    <td>Total Experience</td>
+                    <td>13 years of teaching</td>
+                  </tr>
+                  <tr>
+                    <td>Experience in RNSIT</td>
+                    <td>13 Years</td>
+                  </tr>
+                  <tr>
+                    <tr>
+                      <td>
+                        Areas Of Interest
+                      </td>
+                      <td>Image Processing and pattern Recognitions, Computer Architecture
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Papers
+                      </td>
+                      <td>Publised 7 Papers in National and International Magazines</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <li class="cardli">
+            <a class="waves-effect waves-light" href="#modal10"><img src="https://66844w.bn1304.livefilestore.com/y4m5Qzg2NIsUZsZ5zqmWv-z_ghDSQKle-fgtPPyD6meph2I6eGKyhyUu8IpQiWdkAoOiYqlGNqR4WpFGvfPH8leO36xLn0txRWr5VEgbwT4PzCktAUXaQsbc_7QNvFVgNZLerDPRUZRXBrzRiGBVCYXgaBiV9zXkQ1rLuK5SR1SpO8akbdpxeCYh0WV53iTBiAcnZFaCK9VMYv9ie7AKWsJcQ?width=660&height=440&cropmode=none" width="660" />
+              <p> Mrs. Gayatri V. Kanade</p>
+              <p> Assistant Professor</p>
+            </a>
+          </li>
+          <div id="modal10" class="modal">
+            <div class="modal-content">
+              <div class="modal-back">
+                <img class="modal-img" src="https://66844w.bn1304.livefilestore.com/y4m5Qzg2NIsUZsZ5zqmWv-z_ghDSQKle-fgtPPyD6meph2I6eGKyhyUu8IpQiWdkAoOiYqlGNqR4WpFGvfPH8leO36xLn0txRWr5VEgbwT4PzCktAUXaQsbc_7QNvFVgNZLerDPRUZRXBrzRiGBVCYXgaBiV9zXkQ1rLuK5SR1SpO8akbdpxeCYh0WV53iTBiAcnZFaCK9VMYv9ie7AKWsJcQ?width=660&height=440&cropmode=none" width="660" />
+              </div>
+              <div class="modal-details">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Name</td>
+                      <td>Mrs. Gayatri V. Kanade</td>
+                    </tr>
+                    <tr>
+                      <td>Designation</td>
+                      <td> Assistant Professor</td>
+                    </tr>
+                    <tr>
+                      <td>Qualification</td>
+                      <td>B.E, M.Tech, Ph.D-Pursuing</td>
+                    </tr>
+                    <tr>
+                      <td>Total Experience</td>
+                      <td>10 Years</td>
+                    </tr>
+                    <tr>
+                      <td>Experience in RNSIT</td>
+                      <td>10 Years</td>
+                    </tr>
+                    <tr>
+                      <tr>
+                        <td>
+                          Areas Of Interest
+                        </td>
+                        <td>Artificial Intelligence, Neural Networks, Embedded Computing Systems
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Projects
+                        </td>
+                        <td>Intranet Chatting, RTOS Sytem Application,Embedded Computing Systems</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+              </div>
+            </div>
+            <li class="cardli">
+              <a class="waves-effect waves-light" href="#modal11"><img src="https://his4kg.bn1304.livefilestore.com/y4m9K1sY5i5z5V-DyfbMZ4I5fQ-o_83Vs68k2HjHONwF0BC4ZDd-53lpI7JdO9cpjNv0xw19JHomtarcoPUhW2iyNuopycd25zAlp-TFtiY_yzNrGB7Ya9rNiDmG6wHDpNmSJcGQ1qbg2P7PYTb_iUQ6Tk4ibxvvphDxhAKXus5E2RuiqXlrB8iNwOj49ENCBFbpsECsN3ZXc7VyaSYWkXp4A?width=660&height=440&cropmode=none" width="660" />
+                <p> Mr. Sanjay P Kalas</p>
+                <p> Assistant Professor</p>
+              </a>
+            </li>
+            <div id="modal11" class="modal">
+              <div class="modal-content">
+                <div class="modal-back">
+                  <img class="modal-img" src="https://his4kg.bn1304.livefilestore.com/y4m9K1sY5i5z5V-DyfbMZ4I5fQ-o_83Vs68k2HjHONwF0BC4ZDd-53lpI7JdO9cpjNv0xw19JHomtarcoPUhW2iyNuopycd25zAlp-TFtiY_yzNrGB7Ya9rNiDmG6wHDpNmSJcGQ1qbg2P7PYTb_iUQ6Tk4ibxvvphDxhAKXus5E2RuiqXlrB8iNwOj49ENCBFbpsECsN3ZXc7VyaSYWkXp4A?width=660&height=440&cropmode=none" width="660" />
+                </div>
+                <div class="modal-details">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td>Name</td>
+                        <td>Mr. Sanjay P Kalas</td>
+                      </tr>
+                      <tr>
+                        <td>Designation</td>
+                        <td> Assistant Professor</td>
+                      </tr>
+                      <tr>
+                        <td>Qualification</td>
+                        <td>B.E, M.Tech</td>
+                      </tr>
+                      <tr>
+                        <td>Total Experience</td>
+                        <td>10 years of teaching</td>
+                        <tr>
+                          <td>Experience in RNSIT</td>
+                          <td>10 Years</td>
+                        </tr>
+                        <tr>
+                          <tr>
+                            <td>
+                              Areas Of Interest
+                            </td>
+                            <td>Data Mining,Wireless Sensor Networks,IOT
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+                <li class="cardli">
+                  <a class="waves-effect waves-light" href="#modal12"><img src="https://tjtp5q.bn1304.livefilestore.com/y4m-tyiu7AXB0x2AWuxYMz_iB-Q-8qoaZd9g619ii396ijCL66m-4Eu8BckXtzaqDYqBwZ6zE7XMMoOSDsJSU4zXX-Rn1mWWWmpbP1THtROWp9eacPBHouYGRiJSEaC3aZNFF6NA65sie6Yovb0BbWt2JihGkM6qRk1XGP0R1JVC0gE6089YWUVFXv3IGVp34vGUV-x0StoK_tukPgVeFdGpA?width=660&height=440&cropmode=none" width="660" />
+                    <p>Mrs. Mahima M Katti</p>
+                    <p>Assistant Professor</p>
+                  </a>
+                </li>
+                <div id="modal12" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img" src="https://tjtp5q.bn1304.livefilestore.com/y4m-tyiu7AXB0x2AWuxYMz_iB-Q-8qoaZd9g619ii396ijCL66m-4Eu8BckXtzaqDYqBwZ6zE7XMMoOSDsJSU4zXX-Rn1mWWWmpbP1THtROWp9eacPBHouYGRiJSEaC3aZNFF6NA65sie6Yovb0BbWt2JihGkM6qRk1XGP0R1JVC0gE6089YWUVFXv3IGVp34vGUV-x0StoK_tukPgVeFdGpA?width=660&height=440&cropmode=none" width="660" />
+                    </div>
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name</td>
+                            <td>Mrs. Mahima M Katti</td>
+                          </tr>
+                          <tr>
+                            <td>Designation</td>
+                            <td> Assistant Professor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification</td>
+                            <td>M.Tech</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience</td>
+                            <td>11.75 years of teaching</td>
+                            <tr>
+                              <td>Experience in RNSIT</td>
+                              <td>3.25 Years</td>
+                            </tr>
+                            <tr>
+                              <tr>
+                                <td>
+                                  Areas Of Interest
+                                </td>
+                                <td>Network Security, Wireless Networks, Applications of Microprocessors,
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  Papers
+                                </td>
+                                <td>2 papers (Where?)</td>
+                              </tr>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                  </div>
+                  <li class="cardli">
+                    <a class="waves-effect waves-light" href="#modal13"><img src="https://8k844w.bn1304.livefilestore.com/y4mVp6riWvaBcaHI_g5KQ1zkJiuC0xceW4QH1g_fbK0eKF2ONj77hYb1miVown8bTDh1C2d3bsT-bn7NultT-GRBCEDfkicLGpfrR2MyZLan5NxDe4d6IHXQ-GdSbvpW9t_mGfqbEhKMwTbIbfWpcrLXyoSKh2KohT0HrM_x_emLVIMwaY_gIvIf3M2JtCel68FthVXYy56nLnqvYGPOpImaA?width=660&height=440&cropmode=none" width="660" />
+                      <p> Mrs. Swathi G</p>
+                      <p> Assistant Professor</p>
+                    </a>
+                  </li>
+                  <div id="modal13" class="modal">
+                    <div class="modal-content">
+                      <div class="modal-back">
+                        <img class="modal-img" src="https://8k844w.bn1304.livefilestore.com/y4mVp6riWvaBcaHI_g5KQ1zkJiuC0xceW4QH1g_fbK0eKF2ONj77hYb1miVown8bTDh1C2d3bsT-bn7NultT-GRBCEDfkicLGpfrR2MyZLan5NxDe4d6IHXQ-GdSbvpW9t_mGfqbEhKMwTbIbfWpcrLXyoSKh2KohT0HrM_x_emLVIMwaY_gIvIf3M2JtCel68FthVXYy56nLnqvYGPOpImaA?width=660&height=440&cropmode=none" width="660" />
+                      </div>
+                      <div class="modal-details">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td>Name</td>
+                              <td>Mrs. Swathi G</td>
+                            </tr>
+                            <tr>
+                              <td>Designation</td>
+                              <td> Assistant Professor</td>
+                            </tr>
+                            <tr>
+                              <td>Qualification</td>
+                              <td>B.Tech, M.Tech</td>
+                            </tr>
+                            <tr>
+                              <td>Total Experience</td>
+                              <td>10 years of teaching</td>
+                            </tr>
+                            <tr>
+                              <td>Experience in RNSIT</td>
+                              <td>10 Years</td>
+                            </tr>
+                            <tr>
+                              <tr>
+                                <td>
+                                  Areas Of Interest
+                                </td>
+                                <td>Software Testing
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  Projects
+                                </td>
+                                <td>An Enhanced Healthcare systems</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                      </div>
+                    </div>
+                    <li class="cardli">
+                      <a class="waves-effect waves-light" href="#modal14"><img src="https://hcsjia.bn1304.livefilestore.com/y4mgkEHtshu25XSKatjZvuBhV4jIj30Y8Kpmo1J-HtpK7XG7-62_w0mpAdjbJSGWelFc1GrGc0wYiv6UJigow-m60TrjTjtjQJnHGc8jxC3LclU1avhmw0kZ9-3i-ERNoZfOTv98KCJbAhkm4EM1dfhuAx7RvJ5uhtHI7Lmj89_WaFvpc-2REJbX2xFd9eU8iYKx87xtbAWgztjFy77n9gkBQ?width=660&height=440&cropmode=none" width="660" />
+                        <p> Mr. Devaraj B. M</p>
+                        <p> Assistant Professor</p>
+                      </a>
+                    </li>
+                    <div id="modal14" class="modal">
+                      <div class="modal-content">
+                        <div class="modal-back">
+                          <img class="modal-img" src="https://hcsjia.bn1304.livefilestore.com/y4mgkEHtshu25XSKatjZvuBhV4jIj30Y8Kpmo1J-HtpK7XG7-62_w0mpAdjbJSGWelFc1GrGc0wYiv6UJigow-m60TrjTjtjQJnHGc8jxC3LclU1avhmw0kZ9-3i-ERNoZfOTv98KCJbAhkm4EM1dfhuAx7RvJ5uhtHI7Lmj89_WaFvpc-2REJbX2xFd9eU8iYKx87xtbAWgztjFy77n9gkBQ?width=660&height=440&cropmode=none" width="660" />
+                        </div>
+                        <div class="modal-details">
+                          <table>
+                            <tbody>
+                              <tr>
+                                <td>Name</td>
+                                <td>Mr. Devaraj B. M</td>
+                              </tr>
+                              <tr>
+                                <td>Designation</td>
+                                <td> Assistant Professor</td>
+                              </tr>
+                              <tr>
+                                <td>Qualification</td>
+                                <td>B.E, M.E</td>
+                              </tr>
+                              <tr>
+                                <td>Total Experience</td>
+                                <td>12 years of teaching,2 years of industry</td>
+                              </tr>
+                              <tr>
+                                <td>Experience in RNSIT</td>
+                                <td>9 Years</td>
+                              </tr>
+                              <tr>
+                                <tr>
+                                  <td>
+                                    Areas Of Interest
+                                  </td>
+                                  <td>Network Security, Data Mining
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                        </div>
+                      </div>
+                      <li class="cardli">
+                        <a class="waves-effect waves-light" href="#modal15"><img src="https://isrtnw.bn1304.livefilestore.com/y4mhim43n6-m5t0OhC00Zf4fcHGe1FL3XnpSOxSKxKkQ3koPe2pEscDE1kED1uWAK3CxB7W7KFRL2PTkv09NqNb94Z-BoimGCyspu-gqFa8UX8x9L_C3b-2YyR8jO-Hcp8ffA3RLcgG0SGGbZdFjlEdncLlgBpp0rzF7jXt6P7vFK25IJsJfCjOJ7gyg4IzfHuUF2w53PBzEW_XBlUbkvSbmA?width=960&height=640&cropmode=none" width="960" />
+                          <p>Mr. Chandrashekar B S</p>
+                          <p>Assistant Professor</p>
+                        </a>
+                      </li>
+                      <div id="modal15" class="modal">
+                        <div class="modal-content">
+                          <div class="modal-back">
+                            <img class="modal-img" src="https://isrtnw.bn1304.livefilestore.com/y4mhim43n6-m5t0OhC00Zf4fcHGe1FL3XnpSOxSKxKkQ3koPe2pEscDE1kED1uWAK3CxB7W7KFRL2PTkv09NqNb94Z-BoimGCyspu-gqFa8UX8x9L_C3b-2YyR8jO-Hcp8ffA3RLcgG0SGGbZdFjlEdncLlgBpp0rzF7jXt6P7vFK25IJsJfCjOJ7gyg4IzfHuUF2w53PBzEW_XBlUbkvSbmA?width=960&height=640&cropmode=none" width="960" />
+                          </div>
+                          <div class="modal-details">
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td>Name</td>
+                                  <td>Mr. Chandrashekar B S</td>
+                                </tr>
+                                <tr>
+                                  <td>Designation</td>
+                                  <td> Assistant Professor</td>
+                                </tr>
+                                <tr>
+                                  <td>Qualification</td>
+                                  <td>B.E, M.Tech</td>
+                                </tr>
+                                <tr>
+                                  <td>Total Experience</td>
+                                  <td>7 years of teaching, 4 years of industry</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                        </div>
+                      </div>
+                      <li class="cardli">
+                        <a class="waves-effect waves-light" href="#modal16"><img src="https://6q844w.bn1304.livefilestore.com/y4maiEZtUrtp61cLa0IJQX_TaahNN09_V2_Wc96HS3gMrEapsaMovmf52CLVKD58mlIIEaENrRHjugO65gajYFZIO88SU3FwzjRfwOCpZ9EJXwGbR_TZDdjuWif7-Go0j5zqm8w3KMtXhQBgDNPEuRlzAjn5iEZUFnE3tNuJRSCK1KykuiFtRIgtM8XSKLkz2SnCUiY0E47p9NgQY-l01X9ZA?width=660&height=440&cropmode=none" width="660" />
+                          <p> Mrs. Sampada K. S</p>
+                          <p> Assistant Professor</p>
+                        </a>
+                      </li>
+                      <div id="modal16" class="modal">
+                        <div class="modal-content">
+                          <div class="modal-back">
+                            <img class="modal-img" src="https://6q844w.bn1304.livefilestore.com/y4maiEZtUrtp61cLa0IJQX_TaahNN09_V2_Wc96HS3gMrEapsaMovmf52CLVKD58mlIIEaENrRHjugO65gajYFZIO88SU3FwzjRfwOCpZ9EJXwGbR_TZDdjuWif7-Go0j5zqm8w3KMtXhQBgDNPEuRlzAjn5iEZUFnE3tNuJRSCK1KykuiFtRIgtM8XSKLkz2SnCUiY0E47p9NgQY-l01X9ZA?width=660&height=440&cropmode=none" width="660" />
+                          </div>
+                          <div class="modal-details">
+                            <table>
+                              <tbody>
+                                <tr>
+                                  <td>Name</td>
+                                  <td>Mrs. Sampada K. S</td>
+                                </tr>
+                                <tr>
+                                  <td>Designation</td>
+                                  <td> Assistant Professor</td>
+                                </tr>
+                                <tr>
+                                  <td>Qualification</td>
+                                  <td>B.E, M.Tech</td>
+                                </tr>
+                                <tr>
+                                  <td>Total Experience</td>
+                                  <td>14 years of teaching, 3.5 years of industry</td>
+                                </tr>
+                                <tr>
+                                  <td>Experience in RNSIT</td>
+                                  <td>10 Years</td>
+                                </tr>
+                                <tr>
+                                  <tr>
+                                    <td>
+                                      Areas Of Interest
+                                    </td>
+                                    <td>Text Mining, Big data, Networks</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Papers</td>
+                                    <td>
+                                      5 Papers in International Journals
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>
+                                      Projects
+                                    </td>
+                                    <td>1.iAgni Management System for Karnataka State Fire &amp;Emergency Services(KSFES) 2. ROSAT Student management and assessment system.</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                          </div>
+                        </div>
+                        <li class="cardli">
+                          <a class="waves-effect waves-light" href="#modal17"><img src="https://hcs4kg.bn1304.livefilestore.com/y4m0moPGCM-yAfU6YD_lCbLmGmS-ZuE-PtjuO2NZBSYaTjshADFG5xcoQ8KaFmeB6cnNGUDig3WmuYFVcUr7exLTXbaQdwWzgfD64a2UCbbuRgSoRDdLev2XjR7b5D38DZ0xU_mni4yY4DGatTjwjuo-DV4e4Wkzh7Ou2aVVapp_wk6VUXUZlmAcUyoU7IVtV69RHFUgo8JYVBwch85puKzUg?width=660&height=440&cropmode=none" width="660" />
+                            <p>Mr. Karanam Sunil Kumar</p>
+                            <p> Assistant Professor</p>
+                          </a>
+                        </li>
+                        <div id="modal17" class="modal">
+                          <div class="modal-content">
+                            <div class="modal-back">
+                              <img class="modal-img" src="https://hcs4kg.bn1304.livefilestore.com/y4m0moPGCM-yAfU6YD_lCbLmGmS-ZuE-PtjuO2NZBSYaTjshADFG5xcoQ8KaFmeB6cnNGUDig3WmuYFVcUr7exLTXbaQdwWzgfD64a2UCbbuRgSoRDdLev2XjR7b5D38DZ0xU_mni4yY4DGatTjwjuo-DV4e4Wkzh7Ou2aVVapp_wk6VUXUZlmAcUyoU7IVtV69RHFUgo8JYVBwch85puKzUg?width=660&height=440&cropmode=none" width="660" />
+                            </div>
+                            <div class="modal-details">
+                              <table>
+                                <tbody>
+                                  <tr>
+                                    <td>Name</td>
+                                    <td>Mr. Karanam Sunil Kumar</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Designation</td>
+                                    <td> Assistant Professor</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Qualification</td>
+                                    <td>B.E, M.Tech</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Total Experience</td>
+                                    <td>10 years of teaching</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Experience in RNSIT</td>
+                                    <td>10 Years</td>
+                                  </tr>
+                                  <tr>
+                                    <tr>
+                                      <td>
+                                        Areas Of Interest
+                                      </td>
+                                      <td>Video tracking, Data Structures</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                          </div>
+                          <li class="cardli">
+                            <a class="waves-effect waves-light" href="#modal18"><img src="https://iisjia.bn1304.livefilestore.com/y4mxLH9fdu6nu3ODjDCueo-7p1JI2IEWe1AlffbEzpytxAbC7U8XdB7aVgpgIDbNPHBVAK3ae5YYIN-iDoGW78rsvHnoUoQqchVhi4hSKFUG4nszrroH6Ev5O2niecdyaQbvSLG9Nnxx2bwBKK4fDi-tL4zaIr2xSvRZoo2B7Sabp58YzNWIhP-sfJTs1cxT4LLA9nCqX9HoQruK732qb4tBQ?width=660&height=440&cropmode=none" width="660" />
+                              <p> Mrs. Ramyashree A N</p>
+                              <p> Assistant Professor</p>
+                            </a>
+                          </li>
+                          <div id="modal18" class="modal">
+                            <div class="modal-content">
+                              <div class="modal-back">
+                                <img class="modal-img" src="https://iisjia.bn1304.livefilestore.com/y4mxLH9fdu6nu3ODjDCueo-7p1JI2IEWe1AlffbEzpytxAbC7U8XdB7aVgpgIDbNPHBVAK3ae5YYIN-iDoGW78rsvHnoUoQqchVhi4hSKFUG4nszrroH6Ev5O2niecdyaQbvSLG9Nnxx2bwBKK4fDi-tL4zaIr2xSvRZoo2B7Sabp58YzNWIhP-sfJTs1cxT4LLA9nCqX9HoQruK732qb4tBQ?width=660&height=440&cropmode=none" width="660" />
+                              </div>
+                              <div class="modal-details">
+                                <table>
+                                  <tbody>
+                                    <tr>
+                                      <td>Name</td>
+                                      <td>Mrs. Ramyashree A N</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Designation</td>
+                                      <td> Assistant Professor</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Qualification</td>
+                                      <td>B.Tech, M.Tech</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Total Experience</td>
+                                      <td>12 years of teaching</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Experience in RNSIT</td>
+                                      <td>11 Years</td>
+                                    </tr>
+                                    <tr>
+                                      <tr>
+                                        <td>
+                                          Areas Of Interest
+                                        </td>
+                                        <td>Data Mining, Computer Networks</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Papers</td>
+                                        <td>
+                                          2 Papers in International Journals and 2 in National Journals
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                          Projects
+                                        </td>
+                                        <td>Performance analysis of iSCSI in a SAN using software based target and initiator e- basket Customer management
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>Other Achievements</td>
+                                        <td>Won Best Paper award at national conference-SJBIT 2010 STATE AWARD winner for essay writing on Global warming and it's consequences in 1998-1999 Member of Technical Training Team at RNSIT.</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                              </div>
+                            </div>
+                            <li class="cardli">
+                              <a class="waves-effect waves-light" href="#modal19"><img src="https://uttp5q.bn1304.livefilestore.com/y4m3TA8D5ipCfZ4baoZx1nsFtoGurYk-jVMNLITNItWuJq_SxkPKxDvv7qulVZ8QOoSIbN98EWGI4hGsN-SP5XphaMtD0TYMfpcK5OAsIUcNoV3-FhUodCAIqhVJ6oEugpd6rE8vsvFXx8KWuzBgV1TldYfxVO-X9Hck4SB4swEBJ5SCr1AErblnc3HE7N61DqLYG5XY4Nja1xmiODjUTx7yg?width=660&height=440&cropmode=none" width="660" />
+                                <p> Ms. Reshma Jakabal</p>
+                                <p> Assistant Professor</p>
+                              </a>
+                            </li>
+                            <div id="modal19" class="modal">
+                              <div class="modal-content">
+                                <div class="modal-back">
+                                  <img class="modal-img" src="https://uttp5q.bn1304.livefilestore.com/y4m3TA8D5ipCfZ4baoZx1nsFtoGurYk-jVMNLITNItWuJq_SxkPKxDvv7qulVZ8QOoSIbN98EWGI4hGsN-SP5XphaMtD0TYMfpcK5OAsIUcNoV3-FhUodCAIqhVJ6oEugpd6rE8vsvFXx8KWuzBgV1TldYfxVO-X9Hck4SB4swEBJ5SCr1AErblnc3HE7N61DqLYG5XY4Nja1xmiODjUTx7yg?width=660&height=440&cropmode=none" width="660" />
+                                </div>
+                                <div class="modal-details">
+                                  <table>
+                                    <tbody>
+                                      <tr>
+                                        <td>Name</td>
+                                        <td>Ms. Reshma Jakabal</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Designation</td>
+                                        <td> Assistant Professor</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Qualification</td>
+                                        <td>B.E, M.Tech</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Total Experience</td>
+                                        <td>8 years</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Experience in RNSIT</td>
+                                        <td>5 Years</td>
+                                      </tr>
+                                      <tr>
+                                        <tr>
+                                          <td>
+                                            Areas Of Interest
+                                          </td>
+                                          <td>Data Mining, Big Data, Networking</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                </div>
+                              </div>
+                              <li class="cardli">
+                                <a class="waves-effect waves-light" href="#modal20"><img src="https://5k844w.bn1304.livefilestore.com/y4mNv0NEvreVLoDpmDfb54A3VhcQA2i8PbFeDv7MoRXJ9bouxGNQ2GphVVI9TgsGc1JnYX1RnkHHAbJb6Xuu_KotwU_clqZRltb4ufPiLkbil3wmOd9OCkJqLJd6IV5YYdHhz7yLUJnaJtO9aZFhfht5OFMt1Bb6Rpz6wzq_eGljEKs5DErL_DlE6WH9eCH-KAK0TGMbLtC64X6tC7LEbOYew?width=660&height=440&cropmode=none" width="660" />
+                                  <p> Mr. Chethan D S</p>
+                                  <p> Assistant Professor</p>
+                                </a>
+                              </li>
+                              <div id="modal20" class="modal">
+                                <div class="modal-content">
+                                  <div class="modal-back">
+                                    <img class="modal-img" src="https://5k844w.bn1304.livefilestore.com/y4mNv0NEvreVLoDpmDfb54A3VhcQA2i8PbFeDv7MoRXJ9bouxGNQ2GphVVI9TgsGc1JnYX1RnkHHAbJb6Xuu_KotwU_clqZRltb4ufPiLkbil3wmOd9OCkJqLJd6IV5YYdHhz7yLUJnaJtO9aZFhfht5OFMt1Bb6Rpz6wzq_eGljEKs5DErL_DlE6WH9eCH-KAK0TGMbLtC64X6tC7LEbOYew?width=660&height=440&cropmode=none" width="660" />
+                                  </div>
+                                  <div class="modal-details">
+                                    <table>
+                                      <tbody>
+                                        <tr>
+                                          <td>Name</td>
+                                          <td>Mr. Chethan D S</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Designation</td>
+                                          <td> Assistant Professor</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Qualification</td>
+                                          <td>B.E, M.Tech</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Total Experience</td>
+                                          <td>6 years of teaching</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                </div>
+                              </div>
+                              <li class="cardli">
+                                <a class="waves-effect waves-light" href="#modal21"><img src="https://7q844w.bn1304.livefilestore.com/y4m9iX0EvsD43fM0nr3mwmXCND79mfiaHC483MGQHXEuVESwwdy4rr9PGetwR_FReHtLX2IsmgKGJKcI_E86O0N9cnxj-nGo0R5dH5rSysyMjdVL08UUeH5BxnD0bnppN5UKxMDlV_s5-rexMuUFCe_QoPY5PKZzzYRC__QMTEova6zHO5dxwbTUYivusRSFBojJzAES_qSZ3RGyNXdRasiVQ?width=660&height=440&cropmode=none" width="660" />
+                                  <p> Ms. Medha Gourayya</p>
+                                  <p> Assistant Professor</p>
+                                </a>
+                              </li>
+                              <div id="modal21" class="modal">
+                                <div class="modal-content">
+                                  <div class="modal-back">
+                                    <img class="modal-img" src="https://7q844w.bn1304.livefilestore.com/y4m9iX0EvsD43fM0nr3mwmXCND79mfiaHC483MGQHXEuVESwwdy4rr9PGetwR_FReHtLX2IsmgKGJKcI_E86O0N9cnxj-nGo0R5dH5rSysyMjdVL08UUeH5BxnD0bnppN5UKxMDlV_s5-rexMuUFCe_QoPY5PKZzzYRC__QMTEova6zHO5dxwbTUYivusRSFBojJzAES_qSZ3RGyNXdRasiVQ?width=660&height=440&cropmode=none" width="660" />
+                                  </div>
+                                  <div class="modal-details">
+                                    <table>
+                                      <tbody>
+                                        <tr>
+                                          <td>Name</td>
+                                          <td>Ms. Medha Gourayya</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Designation</td>
+                                          <td> Assistant Professor</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Qualification</td>
+                                          <td>B.E, M.Tech</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Total Experience</td>
+                                          <td>5 years of teaching</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Experience in RNSIT</td>
+                                          <td>5 Years</td>
+                                        </tr>
+                                        <tr>
+                                          <tr>
+                                            <td>
+                                              Areas Of Interest
+                                            </td>
+                                            <td>Data Mining</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Papers</td>
+                                            <td>
+                                              3 Papers in National Journals
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>
+                                              Projects
+                                            </td>
+                                            <td>Maximixing the efficiency of wireless networks</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Other Achievements</td>
+                                            <td>University third rank in M.tech computer engineering</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                  </div>
+                                </div>
+                                <li class="cardli">
+                                  <a class="waves-effect waves-light" href="#modal22"><img src="https://6a844w.bn1304.livefilestore.com/y4mop8Kp5qU1-5MPMd1H4xGN6a-i4ACzIPEbP8uyeliwZ0SkNibEspje9pJlFduO5yPWKO6Zz9CQ4N9Y87q6lBRypm_d7DxdrvZ58fqf-NwRqmhh1FsnlF0jPRxbsX1QwDENkyS5BON8FT_j8_Gjt85Sp-j-r8PWKqRZrAUhtWoy2ttTQ152Kcj5PyL7MDU-Ag1XAGpHvYZGpeinKZSzyLXWA?width=660&height=440&cropmode=none" width="660" />
+                                    <p> Ms. Vidya Y</p>
+                                    <p> Assistant Professor</p>
+                                  </a>
+                                </li>
+                                <div id="modal22" class="modal">
+                                  <div class="modal-content">
+                                    <div class="modal-back">
+                                      <img class="modal-img" src="https://6a844w.bn1304.livefilestore.com/y4mop8Kp5qU1-5MPMd1H4xGN6a-i4ACzIPEbP8uyeliwZ0SkNibEspje9pJlFduO5yPWKO6Zz9CQ4N9Y87q6lBRypm_d7DxdrvZ58fqf-NwRqmhh1FsnlF0jPRxbsX1QwDENkyS5BON8FT_j8_Gjt85Sp-j-r8PWKqRZrAUhtWoy2ttTQ152Kcj5PyL7MDU-Ag1XAGpHvYZGpeinKZSzyLXWA?width=660&height=440&cropmode=none" width="660" />
+                                    </div>
+                                    <div class="modal-details">
+                                      <table>
+                                        <tbody>
+                                          <tr>
+                                            <td>Name</td>
+                                            <td>Ms. Vidya Y</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Designation</td>
+                                            <td> Assistant Professor</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Qualification</td>
+                                            <td>B.E, M.Tech</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Total Experience</td>
+                                            <td>6 years of teaching</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Experience in RNSIT</td>
+                                            <td>4 Years</td>
+                                          </tr>
+                                          <tr>
+                                            <tr>
+                                              <td>
+                                                Areas Of Interest
+                                              </td>
+                                              <td>Big Data, Wireless Sensor networks, Data Mining</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Papers</td>
+                                              <td>
+                                                4 Papers in National Conferences
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                    </div>
+                                  </div>
+                                  <li class="cardli">
+                                    <a class="waves-effect waves-light" href="#modal23"><img src="https://iss4kg.bn1304.livefilestore.com/y4mjUpUzZeTU04eb8TdOvgDhULpRlbrkXoWE7cXn0PodKZOPAHLTyxxp7Xpa_nnSWQLFv9sQeJrfuxNy3wagdH6J04DZBJdCXxfpQeyXp24o4jMjOKoA7jl2h3c4mT8virp7Ch48w_7asFCuondj7AgUB6fSo1vr6yzLlbfruF6MtPjeAq6UcgdxnxZQMgVyV6FPvQF4gC_hBHDniyZIXc8-w?width=660&height=440&cropmode=none" width="660" />
+                                      <p> Ms. Rashmi M</p>
+                                      <p> Assistant Professor</p>
+                                    </a>
+                                  </li>
+                                  <div id="modal23" class="modal">
+                                    <div class="modal-content">
+                                      <div class="modal-back">
+                                        <img class="modal-img" src="https://iss4kg.bn1304.livefilestore.com/y4mjUpUzZeTU04eb8TdOvgDhULpRlbrkXoWE7cXn0PodKZOPAHLTyxxp7Xpa_nnSWQLFv9sQeJrfuxNy3wagdH6J04DZBJdCXxfpQeyXp24o4jMjOKoA7jl2h3c4mT8virp7Ch48w_7asFCuondj7AgUB6fSo1vr6yzLlbfruF6MtPjeAq6UcgdxnxZQMgVyV6FPvQF4gC_hBHDniyZIXc8-w?width=660&height=440&cropmode=none" width="660" />
+                                      </div>
+                                      <div class="modal-details">
+                                        <table>
+                                          <tbody>
+                                            <tr>
+                                              <td>Name</td>
+                                              <td>Ms. Rashmi M</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Designation</td>
+                                              <td> Assistant Professor</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Qualification</td>
+                                              <td>B.E, M.Tech</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Total Experience</td>
+                                              <td> 2 years of teaching</td>
+                                            </tr>
+                                            <tr>
+                                              <td>Experience in RNSIT</td>
+                                              <td>2 Years</td>
+                                            </tr>
+                                            <tr>
+                                              <tr>
+                                                <td>
+                                                  Areas Of Interest
+                                                </td>
+                                                <td>MANETS, Data Mining, Neural Networks</td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                                  Projects
+                                                </td>
+                                                <td>Artificial Intelligence and Stimulus Response System , Implementation of One-to-One Optimization Technique to Improve Data Storage in MANETS</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                      </div>
+                                    </div>
+                                    <li class="cardli">
+                                      <a class="waves-effect waves-light" href="#modal24"><img src="https://firtnw.bn1304.livefilestore.com/y4mqQTVQpI9GIo57Yg-1h0QqaFk_sIAbFaj3KcHmja_8H3HRL8Ce7Cq6SJ7aIgO3zLeAj3tDfHZpsh9N4_ERoaX_rz4AAgiTudQA8gm1zrZJeRmQnTcdN9yobND7JKueyFulJazjJ0nuKK-gzsj6q4lYSYZ5inm-1udVZytjuCGp4lnOtbj9MuGzKCe7QP8JTtLOMJ7ELKw3gw-mbQvypU6Kg?width=660&height=440&cropmode=none" width="660" />
+                                        <p> Mr. Shrinivas Biradar</p>
+                                        <p> Assistant Professor</p>
+                                      </a>
+                                    </li>
+                                    <div id="modal24" class="modal">
+                                      <div class="modal-content">
+                                        <div class="modal-back">
+                                          <img class="modal-img" src="https://firtnw.bn1304.livefilestore.com/y4mqQTVQpI9GIo57Yg-1h0QqaFk_sIAbFaj3KcHmja_8H3HRL8Ce7Cq6SJ7aIgO3zLeAj3tDfHZpsh9N4_ERoaX_rz4AAgiTudQA8gm1zrZJeRmQnTcdN9yobND7JKueyFulJazjJ0nuKK-gzsj6q4lYSYZ5inm-1udVZytjuCGp4lnOtbj9MuGzKCe7QP8JTtLOMJ7ELKw3gw-mbQvypU6Kg?width=660&height=440&cropmode=none" width="660" />
+                                        </div>
+                                        <div class="modal-details">
+                                          <table>
+                                            <tbody>
+                                              <tr>
+                                                <td>Name</td>
+                                                <td>Mr. Shrinivas Biradar</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Designation</td>
+                                                <td> Assistant Professor</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Qualification</td>
+                                                <td>B.E, M.Tech</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Total Experience</td>
+                                                <td>4.5 years of teaching</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Experience in RNSIT</td>
+                                                <td>1 Years</td>
+                                              </tr>
+                                              <tr>
+                                                <tr>
+                                                  <td>
+                                                    Areas Of Interest
+                                                  </td>
+                                                  <td>Web Mining</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>
+                                                    Projects
+                                                  </td>
+                                                <td>Fatigue meter, Biospec</tr>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </div>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                      </div>
+                                    </div>
+
+                                    <li class="cardli">
+                                      <a class="waves-effect waves-light" href="#modal26"><img src="https://w4k1bq.bn1304.livefilestore.com/y4m-zKobm7kAgT_P2OLf_IgqBFY0ZZuLerIjxouInO3hIY4aycckrWXXiUECo1OOFD2DHGOQrNathASZMEW3QsoJgRFQ8hI8ECrbw5WqUA83b5qInInizTmC-_JVrhRjqIIJIg3pAtZ5l0gWbCba2A4vxR6rN1E3l60GsBtUHy2BELaElhSo42ypee2PQ86BZ6DJcI5-ZsTkI-B-khxpKvdKg?width=3389&height=2711&cropmode=none" width="3389" />
+                                        <p> Ms. Chethana H R</p>
+                                        <p> Assistant Professor</p>
+                                      </a>
+                                    </li>
+                                    <div id="modal26" class="modal">
+                                      <div class="modal-content">
+                                        <div class="modal-back">
+                                          <img class="modal-img" src="https://w4k1bq.bn1304.livefilestore.com/y4m-zKobm7kAgT_P2OLf_IgqBFY0ZZuLerIjxouInO3hIY4aycckrWXXiUECo1OOFD2DHGOQrNathASZMEW3QsoJgRFQ8hI8ECrbw5WqUA83b5qInInizTmC-_JVrhRjqIIJIg3pAtZ5l0gWbCba2A4vxR6rN1E3l60GsBtUHy2BELaElhSo42ypee2PQ86BZ6DJcI5-ZsTkI-B-khxpKvdKg?width=3389&height=2711&cropmode=none" width="3389" />
+                                        </div>
+                                        <div class="modal-details">
+                                          <table>
+                                            <tbody>
+                                              <tr>
+                                                <td>Name</td>
+                                                <td>Ms. Chethana H R</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Designation</td>
+                                                <td> Assistant Professor</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Qualification</td>
+                                                <td>B.E, M.Tech</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Total Experience</td>
+                                                <td>1 Year of teaching, 8.5 years of industry</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Experience in RNSIT</td>
+                                                <td>1 Years</td>
+                                              </tr>
+                                              <tr>
+                                                <tr>
+                                                  <td>
+                                                    Areas Of Interest
+                                                  </td>
+                                                  <td>Data Mining</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Papers</td>
+                                                  <td>
+                                                    3 Papers in National Journals
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td>
+                                                    Projects
+                                                  </td>
+                                                  <td>Maximixing the efficiency of wireless networks</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Other Achievements</td>
+                                                  <td>Received Bravo Award at IBM for excellent performance, Completed IBM DB2 certification in 2007, Received BEST PAPER AWARD for presenting my research work on Attribute Based Access for Information Sharing Networks in Cloud at Third National Conference On Wireless Control &amp; Communication Technologies conducted by Department of Telecommunication Engineering, Dr AIT, Bangalore. "
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                    </ul>
+                                  </div>
+                                </div>
+                                <div class="container">
+                                  <div class="row">
+                                    <h4 class="black-text"><b><p>Non-Teaching Staff</p></b></h4>
+                                    <ul class="listul cardul">
+                                      <li class="cardli">
+                                        <a class="waves-effect waves-light" href="#modal27"><img src="https://vdtp5q.bn1304.livefilestore.com/y4mmEraFTsoogOK6qlqWqUeQhknVJjhMc20tqXDu7K5bftB1npwZn4DwYJNgWpIvhFNcJYJdMTeyMexvm99M0Fu-99W6TYcr7lvDkcVWrpGqZzfO7Z2vRWASRoD0utAMeM6caY3tgIcQDIy4w0givRE20F5GOK3hP_yIgPHHB3rgSlPfLL0oCvMR22fw2-9O-pcytLGsPsHZMeAC0z30oxuBg?width=660&height=440&cropmode=none" width="660" />
+                                          <p>Mr. R Sundar Krishna</p>
+                                          <p>System Analyst</p>
+                                        </a>
+                                      </li>
+                                      <div id="modal27" class="modal">
+                                        <div class="modal-content">
+                                          <div class="modal-back">
+                                            <img class="modal-img" src="https://vdtp5q.bn1304.livefilestore.com/y4mmEraFTsoogOK6qlqWqUeQhknVJjhMc20tqXDu7K5bftB1npwZn4DwYJNgWpIvhFNcJYJdMTeyMexvm99M0Fu-99W6TYcr7lvDkcVWrpGqZzfO7Z2vRWASRoD0utAMeM6caY3tgIcQDIy4w0givRE20F5GOK3hP_yIgPHHB3rgSlPfLL0oCvMR22fw2-9O-pcytLGsPsHZMeAC0z30oxuBg?width=660&height=440&cropmode=none" width="660" />
+                                          </div>
+                                          <div class="modal-details">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Name</td>
+                                                  <td>Mr. R Sundar Krishna</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Designation</td>
+                                                  <td>System Analyst</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Qualification</td>
+                                                  <td>BE, MS</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Total Experience</td>
+                                                  <td>23 years of teaching</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                      <li class="cardli">
+                                        <a class="waves-effect waves-light" href="#modal28"><img class="photofix" src="https://6qbpkq.bn1304.livefilestore.com/y4m45IuA8H_10C_j6i_SNZaa1Z92ul-PFk9rxRJ5764cRi_rVPYi0fFfvV6G9mhL1yySVKAD2N71BKwxEbnbm37eAA2-xF8ePSsbtVpU1rimuuH9hAu3WSjFKZvTV_BVQ7ebXKWvFihCcj7ZBo5ibZA_FjVk7brmHjzn_JDKqxw3-tSFg9d_tlRxk8hRqieAOqBC3GNuocO6TjX2pI6UVaPgw?width=2638&height=2182&cropmode=none" width="2638" height="185" />
+                                          <p>Mrs. Deepa S</p>
+                                          <p>Programmer</p>
+                                        </a>
+                                      </li>
+                                      <div id="modal28" class="modal">
+                                        <div class="modal-content">
+                                          <div class="modal-back">
+                                            <img class="modal-img" src="https://6qbpkq.bn1304.livefilestore.com/y4m45IuA8H_10C_j6i_SNZaa1Z92ul-PFk9rxRJ5764cRi_rVPYi0fFfvV6G9mhL1yySVKAD2N71BKwxEbnbm37eAA2-xF8ePSsbtVpU1rimuuH9hAu3WSjFKZvTV_BVQ7ebXKWvFihCcj7ZBo5ibZA_FjVk7brmHjzn_JDKqxw3-tSFg9d_tlRxk8hRqieAOqBC3GNuocO6TjX2pI6UVaPgw?width=2638&height=2182&cropmode=none" width="2638" height="200" />
+                                          </div>
+                                          <div class="modal-details">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Name</td>
+                                                  <td>Mrs. Deepa S</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Designation</td>
+                                                  <td>Programmer</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Qualification</td>
+                                                  <td>BE, (M.Tech)</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Total Experience</td>
+                                                  <td>7 years of teaching</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                      <li class="cardli">
+                                        <a class="waves-effect waves-light" href="#modal29"><img src="https://iirtnw.bn1304.livefilestore.com/y4mjGgZOv5DpJ7qtUKKJ3Wj1FwRTV3ATWQ5BI25Zgmp7ieSgpZXySvWE6I0kPsFiDeWE2OP1RG0SR9sLnYebqKKMlza-qHdNKfE9-05lwjhuN2kS1JzZQnHWWSghMiriirSNB2AQpjgG4RY55OtXUre3df9HoIKkoL3QZ1qJfBMZz2Z1d2l4vQPCt0OzV-qyEPHUSPEvWITdUqs0DLsP1JHoQ?width=660&height=440&cropmode=none" width="660" />
+                                          <p>Mr. Ravikiran M Devadiga T</p>
+                                          <p>Programmer</p>
+                                        </a>
+                                      </li>
+                                      <div id="modal29" class="modal">
+                                        <div class="modal-content">
+                                          <div class="modal-back">
+                                            <img class="modal-img" src="https://iirtnw.bn1304.livefilestore.com/y4mjGgZOv5DpJ7qtUKKJ3Wj1FwRTV3ATWQ5BI25Zgmp7ieSgpZXySvWE6I0kPsFiDeWE2OP1RG0SR9sLnYebqKKMlza-qHdNKfE9-05lwjhuN2kS1JzZQnHWWSghMiriirSNB2AQpjgG4RY55OtXUre3df9HoIKkoL3QZ1qJfBMZz2Z1d2l4vQPCt0OzV-qyEPHUSPEvWITdUqs0DLsP1JHoQ?width=660&height=440&cropmode=none" width="660" />
+                                          </div>
+                                          <div class="modal-details">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Name</td>
+                                                  <td>Mr. Ravikiran M Devadiga T</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Designation</td>
+                                                  <td>Programmer</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Qualification</td>
+                                                  <td>BE, (M.Tech)</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Total Experience</td>
+                                                  <td>2 years of teaching</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                      <li class="cardli">
+                                        <a class="waves-effect waves-light" href="#modal30"><img src="https://iys4kg.bn1304.livefilestore.com/y4mKw-y5QMkSKqsnsPaszppTPgFtwiXz51L5EJ7UPi2pp2H3vNDHCJ9D-BQaTRqcV9XuFYN1Dts0HhSdV-QMYTsape-fbMUrCra_7uZ9jjMaapGKiOFzWZ1Yqx87n74rpCVBd1-5236_Y941MUiCWhN-tMGm0SPWmt_EYoJ7J7UsMapntjA2B3VY-zAdzUZ6dDPWtkqvsD4aEL6xUjc8vTUQA?width=660&height=440&cropmode=none" width="660" />
+                                          <p>Mrs. Mamatha P K</p>
+                                          <p> Assistant Instructor</p>
+                                        </a>
+                                      </li>
+                                      <div id="modal30" class="modal">
+                                        <div class="modal-content">
+                                          <div class="modal-back">
+                                            <img class="modal-img" src="https://iys4kg.bn1304.livefilestore.com/y4mKw-y5QMkSKqsnsPaszppTPgFtwiXz51L5EJ7UPi2pp2H3vNDHCJ9D-BQaTRqcV9XuFYN1Dts0HhSdV-QMYTsape-fbMUrCra_7uZ9jjMaapGKiOFzWZ1Yqx87n74rpCVBd1-5236_Y941MUiCWhN-tMGm0SPWmt_EYoJ7J7UsMapntjA2B3VY-zAdzUZ6dDPWtkqvsD4aEL6xUjc8vTUQA?width=660&height=440&cropmode=none" width="660" />
+                                          </div>
+                                          <div class="modal-details">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Name</td>
+                                                  <td>Mrs. Mamatha P K</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Designation</td>
+                                                  <td> Assistant Instructor</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Qualification</td>
+                                                  <td>Diploma in CS</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Total Experience</td>
+                                                  <td>2 years of teaching</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                      <li class="cardli">
+                                        <a class="waves-effect waves-light" href="#modal31"><img src="https://iis4kg.bn1304.livefilestore.com/y4mS_QPsutqRYz9qHBP4VArOwcVlpmz280XH8WPvZ0TpjzqrX5wFIa7j9U8d5GiswVCXL4Ie0Es43a_qWFBssrYUUE3COT8BGAjDikMyV05ajRXk1Gs48snfOjpL7gjQa1opcrGjwxJePj7c03kv3jBoP6fTpyNaFv-aU8XCEGqIR8L8bbkMRnq3Aj0QSz56eyvJ5pZuonjXxjF8jjRghgfbw?width=660&height=440&cropmode=none" width="660" />
+                                          <p>Mr. Kartik Hegde</p>
+                                          <p>Semi Skilled Lab Assistant</p>
+                                        </a>
+                                      </li>
+                                      <div id="modal31" class="modal">
+                                        <div class="modal-content">
+                                          <div class="modal-back">
+                                            <img class="modal-img" src="https://iis4kg.bn1304.livefilestore.com/y4mS_QPsutqRYz9qHBP4VArOwcVlpmz280XH8WPvZ0TpjzqrX5wFIa7j9U8d5GiswVCXL4Ie0Es43a_qWFBssrYUUE3COT8BGAjDikMyV05ajRXk1Gs48snfOjpL7gjQa1opcrGjwxJePj7c03kv3jBoP6fTpyNaFv-aU8XCEGqIR8L8bbkMRnq3Aj0QSz56eyvJ5pZuonjXxjF8jjRghgfbw?width=660&height=440&cropmode=none" width="660" />
+                                          </div>
+                                          <div class="modal-details">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Name</td>
+                                                  <td>Mr. Kartik Hegde</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Designation</td>
+                                                  <td>Semi Skilled Lab Assistant</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Qualification</td>
+                                                  <td>DEC,(CCNA),(B.E),MCITP</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Total Experience</td>
+                                                  <td>9 years of teaching</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                      <li class="cardli">
+                                        <a class="waves-effect waves-light" href="#modal33"><img src="https://hcrtnw.bn1304.livefilestore.com/y4m0uHyC357UitIoUxaMhajNXhvBXh9Lszxtx-L4ZPVYVYKm8cuH2IX6k08uohKOcI0CCO4wPJmO1VCNXuG--MjoTGiuKEMmUfFxFVNtM0rC3KWNbQkYMh0XuPmX1YDXE18ZVzNFc3sA9vx6PCnR-AhIMraGSLbCHidfosr7-SNR12UD-u_KdmaAMYaiZhng0_w9-UckGqj0HYebZFMD2BREw?width=660&height=440&cropmode=none" width="660" />
+                                          <p> Mr. Vinayak P H</p>
+                                          <p>Semi Skilled Lab Assistant</p>
+                                        </a>
+                                      </li>
+                                      <div id="modal33" class="modal">
+                                        <div class="modal-content">
+                                          <div class="modal-back">
+                                            <img class="modal-img" src="https://hcrtnw.bn1304.livefilestore.com/y4m0uHyC357UitIoUxaMhajNXhvBXh9Lszxtx-L4ZPVYVYKm8cuH2IX6k08uohKOcI0CCO4wPJmO1VCNXuG--MjoTGiuKEMmUfFxFVNtM0rC3KWNbQkYMh0XuPmX1YDXE18ZVzNFc3sA9vx6PCnR-AhIMraGSLbCHidfosr7-SNR12UD-u_KdmaAMYaiZhng0_w9-UckGqj0HYebZFMD2BREw?width=660&height=440&cropmode=none" width="660" />
+                                          </div>
+                                          <div class="modal-details">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Name</td>
+                                                  <td>Mr. Vinayak P H</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Designation</td>
+                                                  <td>Semi Skilled Lab Assistant</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Qualification</td>
+                                                  <td>BA, A+,N+ (MCA)</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Total Experience</td>
+                                                  <td>9 years</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                      <li class="cardli">
+                                        <a class="waves-effect waves-light" href="#modal34"><img src="https://tztp5q.bn1304.livefilestore.com/y4mr7fUz4iP0wBQq7QS42zFmOPcajyluAJf5bv2iNKgj0JqWYUcvcogoKlVwNck1mJcppZCZK8z5SU4RSaPDhXpAIu2OrcH4FaI1FMxcGleHhUBwjqeehhEGALKQE8sav0woY1ZUsyS8ZPGhBrK01DUY8QFVUtet4K6VhjKUmEugOwzmwl45_jyxyUXXUgsLFA7UWGfnjijNQwEBGZ6g7n4Ow?width=660&height=440&cropmode=none" width="660" />
+                                          <p>Mr. Rajesh</p>
+                                          <p>Semi Skilled Lab Assistant</p>
+                                        </a>
+                                      </li>
+                                      <div id="modal34" class="modal">
+                                        <div class="modal-content">
+                                          <div class="modal-back">
+                                            <img class="modal-img" src="https://tztp5q.bn1304.livefilestore.com/y4mr7fUz4iP0wBQq7QS42zFmOPcajyluAJf5bv2iNKgj0JqWYUcvcogoKlVwNck1mJcppZCZK8z5SU4RSaPDhXpAIu2OrcH4FaI1FMxcGleHhUBwjqeehhEGALKQE8sav0woY1ZUsyS8ZPGhBrK01DUY8QFVUtet4K6VhjKUmEugOwzmwl45_jyxyUXXUgsLFA7UWGfnjijNQwEBGZ6g7n4Ow?width=660&height=440&cropmode=none" width="660" />
+                                          </div>
+                                          <div class="modal-details">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Name</td>
+                                                  <td>Mr. Rajesh</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Designation</td>
+                                                  <td>Semi Skilled Lab Assistant</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Qualification</td>
+                                                  <td>PUC, DEC,(BE)</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Total Experience</td>
+                                                  <td>7 years</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                      <li class="cardli">
+                                        <a class="waves-effect waves-light" href="#modal36"><img src="https://fys4kg.bn1304.livefilestore.com/y4mBVu0HiBBNpFzK_x46PIC7D4Y145MOn00KG37mlQ1q8fvExb5ubQqWBeD7pf5mRjfpKh1MipcOMPn_QUYAQR_Z10dGWh6Vudj7t27tomvz64GSWlOGGPjbrKIOLXniGKtpROfilTK6ytSqZW8R6NHPI9j3onKdp4gq2CpmFcFsEfnreEuIOo4k4fUzImU_j-bxJ_Pa4BGwoIy34OSd9CEXA?width=660&height=440&cropmode=none" width="660" />
+                                          <p>Mr. Nagendra T P</p>
+                                          <p>Semi Skilled Lab Assistant</p>
+                                        </a>
+                                      </li>
+                                      <div id="modal36" class="modal">
+                                        <div class="modal-content">
+                                          <div class="modal-back">
+                                            <img class="modal-img" src="https://fys4kg.bn1304.livefilestore.com/y4mBVu0HiBBNpFzK_x46PIC7D4Y145MOn00KG37mlQ1q8fvExb5ubQqWBeD7pf5mRjfpKh1MipcOMPn_QUYAQR_Z10dGWh6Vudj7t27tomvz64GSWlOGGPjbrKIOLXniGKtpROfilTK6ytSqZW8R6NHPI9j3onKdp4gq2CpmFcFsEfnreEuIOo4k4fUzImU_j-bxJ_Pa4BGwoIy34OSd9CEXA?width=660&height=440&cropmode=none" width="660" />
+                                          </div>
+                                          <div class="modal-details">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Name</td>
+                                                  <td>Mr. Nagendra T P</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Designation</td>
+                                                  <td>Semi Skilled Lab Assistant</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Qualification</td>
+                                                  <td>PUC, DCH,(BA)</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Total Experience</td>
+                                                  <td>19 years</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                      <li class="cardli">
+                                        <a class="waves-effect waves-light" href="#modal37"><img src="https://icrtnw.bn1304.livefilestore.com/y4mrHrFPoSegZkg-fYGstT-jY4MSTmQ_rWUvtDINtRt5xezyZs3_wuFBl3-FmD2d7hJujbcqA8UaNQlPkUeZxitu7VD1ceOi0kRZ8IBWZeAa1FXV_Ur4a-leYbkY8B1jqiNj46f_Q-wat1-18nWdYx00lIUaCbuiD5niDp4Nk0q-bxb0VN8hufYLNqbxyVzgkzlJ0k2snMtw1gMUA3jLO15_w?width=660&height=440&cropmode=none" width="660" />
+                                          <p>Mr. Radhakrishna B S</p>
+                                          <p>Helper</p>
+                                        </a>
+                                      </li>
+                                      <div id="modal37" class="modal">
+                                        <div class="modal-content">
+                                          <div class="modal-back">
+                                            <img class="modal-img" src="https://icrtnw.bn1304.livefilestore.com/y4mrHrFPoSegZkg-fYGstT-jY4MSTmQ_rWUvtDINtRt5xezyZs3_wuFBl3-FmD2d7hJujbcqA8UaNQlPkUeZxitu7VD1ceOi0kRZ8IBWZeAa1FXV_Ur4a-leYbkY8B1jqiNj46f_Q-wat1-18nWdYx00lIUaCbuiD5niDp4Nk0q-bxb0VN8hufYLNqbxyVzgkzlJ0k2snMtw1gMUA3jLO15_w?width=660&height=440&cropmode=none" width="660" />
+                                          </div>
+                                          <div class="modal-details">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Name</td>
+                                                  <td>Mr. Radhakrishna B S</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Designation</td>
+                                                  <td>Helper</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Qualification</td>
+                                                  <td>B.A., B.L.I.Sc</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Total Experience</td>
+                                                  <td>20 years</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                      <li class="cardli">
+                                        <a class="waves-effect waves-light" href="#modal38"><img src="https://hsrtnw.bn1304.livefilestore.com/y4mIagishjelLNdib1t4Ia_84ADtx6Z2W2-ZG_gP1tjfM2JV5xzpuiE5KCfbefhfMqKCfRf1g39f5sFgpEVo1xtVxf3CWatnW7O_Rg9z7M8eFCiRnsCm3jzTECrKe8KvoGEx0V0V_Wcnv-Cec5SZFzUlcf1K4ZJtxvlxlUt9LjAyNRsupzp-mYHzeqXMTbw4jxKQ5_bfO-wu2iNOWZ3BIRecw?width=660&height=440&cropmode=none" width="660" />
+                                          <p>Mr. Ganapathi</p>
+                                          <p>Helper</p>
+                                        </a>
+                                      </li>
+                                      <div id="modal38" class="modal">
+                                        <div class="modal-content">
+                                          <div class="modal-back">
+                                            <img class="modal-img" src="https://hsrtnw.bn1304.livefilestore.com/y4mIagishjelLNdib1t4Ia_84ADtx6Z2W2-ZG_gP1tjfM2JV5xzpuiE5KCfbefhfMqKCfRf1g39f5sFgpEVo1xtVxf3CWatnW7O_Rg9z7M8eFCiRnsCm3jzTECrKe8KvoGEx0V0V_Wcnv-Cec5SZFzUlcf1K4ZJtxvlxlUt9LjAyNRsupzp-mYHzeqXMTbw4jxKQ5_bfO-wu2iNOWZ3BIRecw?width=660&height=440&cropmode=none" width="660" />
+                                          </div>
+                                          <div class="modal-details">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Name</td>
+                                                  <td>Mr. Ganapathi</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Designation</td>
+                                                  <td>Helper</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Qualification</td>
+                                                  <td>PUC,(B.Sc(IT))</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Total Experience</td>
+                                                  <td>4 years</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                      <li class="cardli">
+                                        <a class="waves-effect waves-light" href="#modal39"><img src="https://hyrtnw.bn1304.livefilestore.com/y4mN0Kgwjox-q-vptMyDKWOeK7O6kfZ_JWmR9Nc83VQlgQ2CRAP2LbY3wWtvTqcN3uJMupEXy81s_K6U5TJ2cyPVFV4DjJEEnh5yQMD2jcp-pAZw8lQZSHI9tQAFWu5URX9fOddlT30iafjP0sbgMRTmiW2FCJPX5E-acKXvRzp-cSUl2inSQrshT7ujkNCWxoBcF1jgRQarkQuB_FLfjoNvw?width=660&height=440&cropmode=none" width="660" />
+                                          <p>Mr. Vithal M</p>
+                                          <p>Attender</p>
+                                        </a>
+                                      </li>
+                                      <div id="modal39" class="modal">
+                                        <div class="modal-content">
+                                          <div class="modal-back">
+                                            <img class="modal-img" src="https://hyrtnw.bn1304.livefilestore.com/y4mN0Kgwjox-q-vptMyDKWOeK7O6kfZ_JWmR9Nc83VQlgQ2CRAP2LbY3wWtvTqcN3uJMupEXy81s_K6U5TJ2cyPVFV4DjJEEnh5yQMD2jcp-pAZw8lQZSHI9tQAFWu5URX9fOddlT30iafjP0sbgMRTmiW2FCJPX5E-acKXvRzp-cSUl2inSQrshT7ujkNCWxoBcF1jgRQarkQuB_FLfjoNvw?width=660&height=440&cropmode=none" width="660" />
+                                          </div>
+                                          <div class="modal-details">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Name</td>
+                                                  <td>Mr. Vithal M</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Designation</td>
+                                                  <td>Attender</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Qualification</td>
+                                                  <td>PUC,(BA)</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Total Experience</td>
+                                                  <td>4 years</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                      <li class="cardli">
+                                        <a class="waves-effect waves-light" href="#modal40"><img src="https://hirtnw.bn1304.livefilestore.com/y4mw2Ez4lKyXq_F2OZIfGm_H41hQQRTO7fvIaeaaIAJqb8rm8rx8F5J9LFMxSeCPdUAnhSZGBr_8B-_qY_iv8NZ0ovx9hbjYTiCQRNMSdGgxlNkBBPQfsMMkzK1DVORAKOki5YG4X_rl21H7kxbQ8w5x-W8S0nA7BvHp9dp_VstfMz2o_REl_4W4Top91agsoMGcKIx5qIs1jDuooPVCzPi1A?width=660&height=440&cropmode=none" width="660" />
+                                          <p>Mr. Krishna Murthy</p>
+                                          <p>Peon</p>
+                                        </a>
+                                      </li>
+                                      <div id="modal40" class="modal">
+                                        <div class="modal-content">
+                                          <div class="modal-back">
+                                            <img class="modal-img" src="https://hirtnw.bn1304.livefilestore.com/y4mw2Ez4lKyXq_F2OZIfGm_H41hQQRTO7fvIaeaaIAJqb8rm8rx8F5J9LFMxSeCPdUAnhSZGBr_8B-_qY_iv8NZ0ovx9hbjYTiCQRNMSdGgxlNkBBPQfsMMkzK1DVORAKOki5YG4X_rl21H7kxbQ8w5x-W8S0nA7BvHp9dp_VstfMz2o_REl_4W4Top91agsoMGcKIx5qIs1jDuooPVCzPi1A?width=660&height=440&cropmode=none" width="660" />
+                                          </div>
+                                          <div class="modal-details">
+                                            <table>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Name</td>
+                                                  <td>Mr. Krishna Murthy</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Designation</td>
+                                                  <td>Peon</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Qualification</td>
+                                                  <td>SSLC</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Total Experience</td>
+                                                  <td>3 years</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                                        </div>
+                                      </div>
+                                    </ul>
+                                  </div>
+                                </div>
+        <div id="fot">
+       <footer id="footer" class="page-footer">
+  <div class="container-fluid">
+    <div class="row lool">
+      <div class="roww" style="overflow: hidden;">
+        <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
+        <a onclick="insta()" href=""><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
+        <a href="mailto:rnsitplacement@gmail.com"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+        <a href="https://www.twitter.com/RNSIT_Bangalore/"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
+        <a href="https://www.linkedin.com/in/rnsit-bangalore-00765014b/"><image class="icon ic4" src="images/linkedin.svg" alt="linkedin"></image></a>
+      </div>
+        <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
+    </div>
+  </div>
+  </footer>
+      </div>
+                                <!-- Modal end -->
+                                <script type="text/javascript" src="js/dept.js"></script>
+                                <script type="text/javascript" src="js/navbar.js"></script>
+                                <script type="text/javascript" src="js/modal.js"></script>
+                              </body>
+                            </html>
