@@ -7,6 +7,16 @@
   width: 100%;
 
 }
+@media screen and (max-width: 700px){
+	.photofix{
+		height: 150px !important;
+	}
+}
+@media screen and (max-width: 370px){
+	.photofix{
+		height: 105px !important;
+	}
+}
 
 
 ::-webkit-scrollbar {
@@ -60,6 +70,8 @@ li img{
 	background: linear-gradient(141deg, #2af598, #009efd);
 	margin-bottom: 100px;
 }
+
+
 
 @media only screen and (min-width: 480px){
 	.modal-img{
