@@ -5,6 +5,7 @@
   justify-content: space-around;
   transition: all .3s;
   width: 100%;
+  padding-left: 0px;
 
 }
 @media screen and (max-width: 700px){

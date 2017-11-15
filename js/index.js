@@ -53,3 +53,6 @@ $(document).ready(function(){
 
 
 });
+//last modified js
+var x = document.lastModified;
+document.getElementById("lastmodipara").innerHTML = "The website was last modified on :" + x;

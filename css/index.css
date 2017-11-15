@@ -335,3 +335,8 @@ background-image: url('../images/night.jpg');
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
 /* your css rules for ipad landscape */
 }
+#lastmodipara{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+}
