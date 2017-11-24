@@ -1,1 +1,1 @@
-$(document).ready(function(){$('.modal').modal({dismissible:true,opacity:.8,opacity:.9,inDuration:300,outDuration:200,startingTop:'4%',endingTop:'10%',ready:function(modal,trigger){},complete:function(){}});});
+$(document).ready(function(){$(".modal").modal({dismissible:!0,opacity:.8,opacity:.9,inDuration:300,outDuration:200,startingTop:"4%",endingTop:"10%",ready:function(o,i){},complete:function(){}})});
