@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EEE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#021B38">
+    <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
+    <link rel="apple-touch-icon" href="imgages/logo.png"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="RNSIT" content="RNSIT">
+    <link rel="icon" sizes="192x192" href="images/logo.png">
+    <!-- <splash src="images/prin.jpg"></splash> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/dept.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link href="images/logo.png" rel="icon" type="image/png">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <nav class="nav navin">
+      <div class="nav-wrapper">
+        <img class="svg-logo hidden" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+        <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown3">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="navali"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+          <!-- Dropdown Trigger -->
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+          <!-- Dropdown Structure -->
+          <ul id="dropdown1" class="dropdown-content">
+            
+            <li class="navali"><a id="cse" href="cse.html">CSE</a></li>
+            <li class="navali"><a id="ece" href="ece.html">ECE</a></li>
+            <li class="navali"><a id="eee" href="eee.html">EEE</a></li>
+            <li class="navali"><a id="ise" href="ise.html">ISE</a></li>
+            <li class="navali"><a id="eie" href="eie.html">EIE</a></li>
+            <li class="navali"><a id="mech" href="mech.html">MECH</a></li>
+            <li class="navali"><a id="civil" href="civil.html">CIVIL</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
+            <li class="navali"><a id="mca"  href="mca.html">MCA</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="physics" href="physics.html">Physics</a></li>
+            <li class="navali"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+            <li class="navali"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="eee" href="hr.html">Placements &amp; HR</a></li>
+            
+            
+          </ul>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+          <li class="navali"><a id="cse" href="alumni.html">ALUMNI</a></li>
+          <li class="navali"><a id="ece" href="admissions.html">ADMISSIONS &amp; OFFICE</a></li>
+          <li class="navali"><a id="mca" href="cultural.html">CULTURAL</a></li>
+          <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
+        </ul>
+
+        <ul id="dropdown3" class="dropdown-content">
+          <li class="navali"><a id="chair" href="chairman.html">CHAIRMAN</a></li>
+          <li class="navali"><a id="diret" href="director.html">DIRECTOR</a></li>
+          <li class="navali"><a id="princi" href="principal.html">PRINCIPAL</a></li>
+          <li class="navali"><a id="regi" href="registrar.html">REGISTRAR</a></li>
+        </ul>
+        <!--mobile!-->
+        <ul class="side-nav" id="mobile-demo">
+          <li class="navali"><a id="home" href="index.html">Home</a></li>
+          <li class="navali"><a class="dropNav2">About Us<i class="material-icons right aud">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav2">
+            <a id="chair" class="nava" href="chairman.html">Chairman</a>
+            <a id="direct" class="nava" href="director.html">Director</a>
+            <a id="princi" class="nava" href="principal.html">Principal</a>
+            <a id="regi" class="nava" href="registrar.html">Registrar</a>
+          </div>
+          </li>
+          <li class="navali"><a id="contact" href="contact.html">Contact</a></li>
+          <li class="navali"><a class="dropNav">Departments<i class="material-icons right dd">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav">
+            <ul class="navali"><li class=" nava divider"></li></ul>
+            <a id="cse" class="nava" href="cse.html">CSE</a>
+            <a id="ece" class="nava" href="ece.html">ECE</a>
+            <a id="eee" class="nava"  href="eee.html">EEE</a>
+            <a id="ise" class="nava" href="ise.html">ISE</a>
+            <a id="eie" class="nava" href="eie.html">EIE</a>
+            <a id="mech" class="nava" href="mech.html">MECH</a>
+            <a id="civil" class="nava" href="civil.html">CIVIL</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
+            <a id="mca" class="nava awes" href="mca.html">MCA</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="physics" class="nava awes" href="physics.html">Physics</a>
+            <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+            <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="hr" class="nava" href="hr.html">Placements &amp; HR</a>
+            
+          </div></li>
+          <li class="navali"><a class="dropNav1">Others<i class="material-icons right md">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav1">
+            <a id="alum" class="nava" href="alumni.html">Alumni</a>
+            <a id="admission" class="nava" href="admissions.html">ADMISSIONS &amp; OFFICE</a>
+            <a id="faci" class="nava" href="cultural.html">Cultural</a>
+            <a id="faci" class="nava" href="facilities.html">Facilities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+        <div class="container">
+          <h5 align="center" class="head-style avoid-nav">ELECTRICAL AND ELECTRONICS ENGINEERING</h5>
+          
+            <div class="row">
+              <div class="col s12 m3">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="https://hcscqq.bn1304.livefilestore.com/y4mij2fpHMrgzfWJO1m92IfvACXYxPBXlOO1kCRPPssyJhwaigElOsFT6BByiVTMJkzcUmMfVEZwM5oh-tu9Fb88gVHtlowmncdiekFbx-WRPazmedJeOe9kAXOFbileeKulUVQCtyI2PqLJYLZUeGQ_NdZFXB_U4taqQb-jcd5fnczN8H2N2eQESck3CwqO-gSSWT2nv6hEFIOXozPVXw0CQ?width=660&height=440&cropmode=none" width="660"  />
+                    <span class="card-title"></span>
+                  </div>
+                  <div class="card-content">
+                             <span class="card-name">Dr. Sumathi S</span>
+                    <div><span class="card-info">Associate Professor &amp; Head</span></div>
+                  </div>
+                </div>
+              </div>
+              
+                <p>The department of Electrical and Electronics Engineering was started in the year 2004 with a sanctioned intake of 60 students. The department is headed by Dr.Sumathi S, Assistant Professor, who has specialized in the area of power systems and has over 22Years  of teaching experience and one year of Industrial Experience.</p>
+                <p>She completed B. E in EEE  from Madurai Kamaraj University in the year 1990, M.E in Power Systems from UVCE, Bangalore in the  year 1994 , M.S in software systems from BITS, Pilani in the year 2002 and Ph.D from VTU in the year 2014.</p>
+                <p>She has 22 years of Teaching Experience and one year of Industrial experience. she has published Papers in  international Journals/Conferences. She also served as BOS/BOE Member of various Universities.</p>
+                <p>Currently she is guiding 4 Ph.D students.  Her area of research includes FACTS controllers, AI Applications to Power Systems, Renewable Energy Sources.</p>
+                <p>The staff and the students of the department are working with the vision of making the department the top in India both in formal and non-formal education, research and service in electrical engineering over the next decade.</p>
+                <p>The laboratories are well equipped with state-of-art equipments to meet the growing needs of the industry, especially Electrical Machines Lab and High Voltage Lab have been established with an outlay of 35 lakhs and are considered one of the best setups in the state.</p>
+                <p>The department conducts workshops, seminars, conferences and invited lectures to keep the students and staff updated with the latest developments. The department also invites projects from industries to be implemented by the students of the college. The students have been well trained and with the support of the placement cell, have succeeded in being placed in top companies.</p>
+                <p>The faculty of the Electrical Engineering are involved in active research in the areas of power quality, power system voltage stability and high voltage engineering. The focus of the department currently is to set up an R&amp;D center to enable teachers to work for their doctoral degree in the department and also undertake industrial consultancy.</p>
+            </div>
+
+            <div class="row">
+                <div class="col s12 m6">
+                    <h4 class="black-text"><b><p>Vision</p></b></h4>Pursuit of Excellence in Content and Application of  Technology.
+                </div>
+                <div class="col s12 m6">
+                    <h4 class="black-text"><b><p>Mission</p></b></h4>
+                    <p><ol><li>To Prepare Students to Achieve Academic Excellence.</li><li> To Provide the Necessary Skill to Face the Challenges and Contribute to Technological Growth in Field of Electrical &amp; Electronics Engineering.</li><li> To Provide Training and Encourage R &amp; D in Latest Areas of Electrical &amp; Electronics Engineering.</li><li> To Support and Induce Self Learning.</li></ol></p>
+                </div>
+            </div>
+
+            <div class="row">
+              <h4 class="black-text"><b><p>Laboratory</p></b></h4>
+              <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="images/eee/lab1.jpg"  />
+                  </li>
+                  <li>
+                   <img src="images/eee/lab2.jpg" />
+                  </li>
+                </ul>
+              </div>
+           </div>
+
+            <!--<div class="row">
+             <h4 class="black-text"><b><p>Programs Offered</p></b></h4>
+             <ul>
+                <li> UG: B.E in Electrical &amp; Electronics Engineering </li>
+              </ul>
+            </div>-->
+
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">location_city</i><b>FACILITIES AND INFRASTRUCTURE</b></div>
+              <div class="collapsible-body"><span>
+                <ol>
+                  <li>The  department has state of art  Electrical Machines lab, High voltage lab spread over  600 sq mts of area.</li>
+                  <li>The department also has exclusive computer lab with 35 high- end systems and softwares such as Mi-power, MATLAB, Kiel, Auto CAD .</li>
+                  <li>The department has well equipped Control systems lab, Logic design lab and Power Electronics Lab.</li>
+                  <li>The department has 3 class rooms with a seating capacity of 72 and 2 class rooms with a seating capacity of 30  The class rooms are well furnished along with LCD projectors.</li>
+                  <li>The department also has spacious  HoD's  cabin and Staff rooms,  with internet facility and Wi-Fi connectivity</li>
+                </ol>
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header"><i class="material-icons">thumb_up</i><b>EXCELLENCE / ACHIEVEMENTS</b></div>
+              <div class="collapsible-body"><span>
+                <ul>
+                    <li>2016-17</li>
+                    <ol>
+                      <li>Ms. Raksha Umesh received "Jain University Gold Medal" award for securing highest marks in B.E Electrical &amp; Electronics Engineering.</li>
+                      <li>Mr. Lohith S M, active member of Mountaining club, reached the Skandakphu  peak (11950 ft) in Singalia National Park, West Bengal in January 2016 &amp; also scaled the coveted Friendship Peak (17500ft) in the Pir Panjal range, Himachal Pradesh in July 2016.</li>                   
+                    </ol>
+                    <li>2015-16</li>
+                    <ol>
+                      <li>Mr. Sreyash Sarkar was awarded the “Changing Scenery Poetry” Prize, 2016 for his socially awakening poem, "The Tibetan Epistle7Q".</li>
+                      <li>Ms. Sushma Kambanna has been recently nominated for the award “YUVA CHETANA” by Youth for  Seva organization.</li>
+                    </ol>
+                    <li>2014-15</li>
+                    <ol>
+                      <li>Mr. Shreyas Sarkar has been awarded  “The Gandharva Puraskar” at National Thumri Festival, staged in Banares, in 2014.</li> 
+                      <li>Ms. Shreyas Sarkar’s  painting on oil, named “The Janitors of Exuberance”, went on to win “Grande Artista Dell’ano” award by the Italian magazine “The Arty Legume” and was consequently interviewed on Cubism &amp; Existentialism..</li>
+                    </ol>
+                </ul></span>
+              </div>
+            </li>
+
+            <li>
+              <div class="collapsible-header"><i class="material-icons">people</i><b>WORKSHOPS / CONFERENCES CONDUCTED</b></div>
+              <div class="collapsible-body"><span>
+                <ol>
+                    <li>International Conference - ‘Circuits, Controls and Communications’, C3 - 2013</li>
+                    <li>A Short Term Program on “COMPUTER AIDED ELECTRICAL DRAWING”</li>
+                    <li>A Three - Day Workshop On VHDL for Students</li>
+                    <li>A Three - Day Workshop On Switch Grear &amp; Contol by ADR Controllers</li>
+                    <li>A Five - Day Workshop On “Adavances in Power Electronics &amp; Drives”</li>
+                </ol></span>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="collapsible-header"><i class="material-icons">poll</i><b>PERFORMANCE</b></div>
+              <div class="collapsible-body"><span>              
+                <ol>
+                    <li>Consistently our results in University exams is more than 90% in all subjects.</li>
+                    <li>More than 90% of the eligible Students gets placed every year.</li>
+                    <li>Over 10% of the students go for Higher studies in India or Abroad.</li>
+                  </ol></span>
+              </div>
+            </li>
+
+          <li>
+            <div class="collapsible-header"><i class="material-icons">message</i><b>NEWSLETTER(S) DESCRIPTON</b></div>
+            <div class="collapsible-body"><span>
+              <p>"Dhwanee", The department news letter is released every year. This news letter gives the platform for the students to bring out their technical ability,  literary and art skills.</p></span>
+            </div>
+          </li>
+
+            <!--<div class="row">
+                <h4 class="black-text"><b><p>Coe and Training Program</p></b></h4>
+                <p>Training programs are  conducted for students on soft skill development, latest technologies and  software by corporate teams like "Seventh Sense" FACE etc.</p>
+            </div>-->
+
+
+          <li>
+            <div class="collapsible-header"><i class="material-icons">work</i><b>PROJECT OPEN HOUSE(S)</b></div>
+            <div class="collapsible-body"><span>
+                <p>Projects Open House is  conducted every Year to  exhibits technical ability &amp; skill of the students on National Technology Day, where in  students demonstrate the academic projects and hobby projects developed by them.</p></span>
+            </div>
+          </li>
+
+
+            <!--<div class="row">
+              <h4 class="black-text"><b><p>Strength And Intake</p></b></h4>
+              <p>Total student strength is 250  with a sanctioned intake of 60 + 3 SNQ + 12 Lateral Entry Students.</p>
+            </div>
+
+            <div class="row">
+                <h4 class="black-text"><b><p>Our Students</p></b></h4>
+                <br>
+                <ul>
+                  <li>2016-17 Batch: 59 offers (on Going)</li>
+                  <li>2015-16 Batch: 35 offers</li>
+                  <li>2014-15 Batch: 64 offers</li>
+                  <li>At least 10% of our students continue their higher studies either in India or abroad in universities like "University of Texas at Dallas", "University of Texas Arlington, USA",  "Carnegie Mellon University",  "University of Southern California",  "Colorado State University",  "Western Michigan University" etc</li>
+                  <li>Nirupama S ,   Jagannath P,     Mythreyi,  Raksha Umesh,  Kiran kinhal, Suprada,  Vishnu, Vishwanath, Sherayas srakar, Krithika Murthy,  Deepak A,  are few of our students took admissions in foreign universities  for higher studies.</li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <h4 class="black-text"><b><p>Knowledge Enrichment Programs</p></b></h4>
+                <p>Every Year around 5-6 Guest Lectures by eminent people in various technical fields will be  arranged. Industrial Visits for like Substations, Power Stations, Industries, Technical Exhibitions  etc.,</p>
+            </div>-->
+
+            <li>
+              <div class="collapsible-header"><i class="material-icons">directions_run</i><b>DISTRICT / STATE / NATIONAL / INTERNATIONAL SPORTS PARTICIPATION</b></div>
+              <div class="collapsible-body"><span>
+                <ol>
+                  <li>Mr. Sargam Kumar played for the under 19 national football team as the Goalkeeper for 2 Consecutive years.</li>
+                  <li>Ms. Rekha N S represented the college in Table Tennis Tournaments conducted by VTU.</li> 
+                  <li>Mr. Aditya Jadiya participated in the under 19 boys category &amp; secured 3rd Position at 10th National Football Champion ship held at Kalyan, Maharashtra.</li>
+                </ol></span>
+              </div>
+            </li>
+
+            <!--<div class="row">
+                <h4 class="black-text"><b><p>Ranks and Medals Till Date</p></b></h4>
+                <ol>
+                  <li>Ms. Deepa Rao secured 4th Rank in the VTU Examination - 2008</li>
+                  <li>Ms. Krutika S Murthy secured 3rd Rank in the VTU Examination - 2010</li>
+                  <li>Ms. Namrutha Rao P L secured 7th Rank in the VTU Examination - 2010</li>
+                  <li>Mr. Anirudh T S secured 10th Rank in the VTU Examination - 2013</li>
+                  <li>Ms. Trapthi S Punja Secured 9th Rank under VTU Examinations -2015.</li>
+                  <li>Ms. Raksha Umesh Secured 2 nd Rank under VTU Examinations- 2016.</li>
+                </ol>
+            </div>-->
+
+
+            <li>
+              <div class="collapsible-header"><i class="material-icons">receipts</i><b>R &amp; D WORK / PAPERS PUBLISHED</b></div>
+              <div class="collapsible-body"><span>
+                <ol>
+                  <li>Two of our department faculty have  Ph.D and 6 of our faculty members are pursuing Ph.D. </li>
+                  <li>Around 31 Papers are Published in National/ International Conferences/ Journals by Faculties</li>
+                </ol></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="container">
+          <h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
+          <div class="row">
+            <ul class="listul cardul">
+              <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/eee/1.jpg" width="960" />
+                <p>Dr. Sumathi S </p>
+                <p>Associate Professor.&amp; HOD</p></a>
+              </li>
+
+              
+              <li class="cardli"><a class="waves-effect waves-light" href="#modal2"><img src="images/eee/2.jpg" width="660"  />
+                <p>Mr. B Mallikarjuna</p>
+                <p>Assistant Professor
+                </p></a>
+              </li>
+
+
+              <li class="cardli"><a class="waves-effect waves-light" href="#modal3"><img src="images/eee/3.jpg" width="5184" />
+                <p>Mr. S Sridhar</p>
+                <p> Assistant Professor
+                </p></a>
+              </li>
+
+
+              <li class="cardli"><a class="waves-effect waves-light" href="#modal4"><img src="images/eee/4.jpg" width="960" />
+                <p>Mrs. Rashmy Deepak</p>
+                <p>Assistant Professor
+                </p></a>
+              </li>
+
+
+              <li class="cardli"><a class="waves-effect waves-light" href="#modal5"><img src="images/logo.png" width="225" height="180" />
+                <p>Mrs Roopa Nayak</p>
+                <p>Assistant Professor</p></a>
+              </li>
+
+                
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal6"><img src="images/eee/5.jpg" width="960"  />
+                  <p>Mr.M Ameen Sadiq </p>
+                  <p> Assistant Professor</p></a>
+                </li>
+
+
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal7"><img src="images/eee/6.jpg" width="960" />
+                  <p> Mr. Rakesh M N</p>
+                  <p> Assistant Professor</p></a>
+                </li>
+
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal8"><img src="images/eee/7.jpg" width="960" />
+                  <p>Shwetha</p>
+                  <p>Assistant Professor</p></a>
+                </li>
+
+
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal9"><img src="images/eee/8.jpg" width="960" />
+                  <p>Dr.Sharada prasad N</p>
+                  <p>Assistant Professor</p></a>
+                </li>
+
+                
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal10"><img src="images/eee/9.jpg" width="960"  />
+                  <p>Mr. Balaji Chakravarthy </p>
+                  <p> Assistant Professor</p></a>
+                </li>
+                <div id="modal10" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img" src="images/eee/9.jpg" width="960"  />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name</td>
+                            <td>Mr. Balaji Chakravarthy </td>
+                          </tr>
+                          <tr>
+                            <td>Designation</td>
+                            <td>Assistant Professor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification</td>
+                            <td>B.E, M.Tech(FC)</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience</td>
+                            <td>7.5 years of teaching</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal11"><img src="images/eee/10.jpg" width="960" />
+                  <p> Ms. Sharmila N</p>
+                  <p> Assistant Professor</p></a>
+                </li>
+
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal12"><img src="images/eee/11.jpg" width="960"  />
+                  <p> Mrs. Supriya P</p>
+                  <p>Assistant Professor</p></a>
+                </li>
+
+
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal13"><img src="images/eee/12.jpg" width="960"  />
+                  <p>Ms. Kokila R</p>
+                  <p>Assistant Professor</p></a>
+                </li>
+
+                
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal14"><img src="images/eee/13.jpg" width="5184"  />
+                  <p> Mr. Anoop H A</p>
+                  <p> Assistant Professor</p></a>
+                </li>
+
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal15"><img src="images/eee/14.jpg" width="660" />
+                  <p>Mrs. Shruthi Shivanand</p>
+                  <p> Assistant Professor</p></a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="container">
+            <div class="row">
+              <h4 class="black-text"><b><p>Non-Teaching Staff</p></b></h4>
+              <ul class="listul cardul">
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal16"><img src="images/eee/15.jpg" width="660"  />
+                  <p>Mr.Venketesha Sharma Y S</p>
+                  <p>Foreman</p></a>
+                </li>
+                <div id="modal16" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img" src="images/eee/15.jpg" width="660" />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Mr.Venketesha Sharma Y S</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>sharma.venkatesha102@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Foreman</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>PUC, DEE</td>
+                          </tr>
+                          <tr>
+                          	<td>Areas of Interest:</td>
+                          	<td>Fine Arts</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>35 Years</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>8 years</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal17"><img src="images/eee/16.jpg" width="660" />
+                  <p>Mrs. Phanimala P N</p>
+                  <p>Assistant Instructor</p></a>
+                </li>
+                <div id="modal17" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img" src="images/eee/16.jpg" width="660"  />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Mrs. Phanimala P N</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>mala1680@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Instructor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>PUC(Science), Diploma in E&amp;CE</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>12.6 years</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>7.6 years</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal18"><img src="images/eee/17.jpg" width="660"  />
+                  <p>Mr. Nagesh K</p>
+                  <p>Assistant Instructor</p></a>
+                </li>
+                <div id="modal18" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img"  src="images/eee/17.jpg" width="660"  />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Mr. Nagesh K</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>nageshdaya1676@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Instructor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>JOC ELECTRICAL</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>16 years</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>16 years</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal19"><img src="images/eee/18.jpg" width="660" />
+                  <p>Mr. H.S. Brahmesha</p>
+                  <p>Assistant Instructor</p></a>
+                </li>
+                <div id="modal19" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img"  src="images/eee/18.jpg" width="660"/>
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Mr. H.S. Brahmesha</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>brahmesh13@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Instructor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>JOC COMPUTER SERVICING, ITI  ELECTRICIAN</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>18 years</td>
+                          </tr>
+                          <tr>
+                          	<td>Experiencein RNSIT:</td>
+                          	<td>9 years</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+                <li class="cardli"><a class="waves-effect waves-light" href="#modal20"><img src="images/eee/19.jpg" width="660" />
+                  <p>Mr. Suresh Kumar</p>
+                  <p>Mechanic</p></a>
+                </li>
+                <div id="modal20" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img"  src="images/eee/19.jpg" width="660"  />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Mr. Suresh Kumar</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>suresh747kumar@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Mechanic</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>ITI, (Diploma in EC)</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>12 years</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>6 years</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+                  <li class="cardli"><a class="waves-effect waves-light" href="#modal21"><img src="images/logo.png" width="225" height="180" />
+                    <p>Mr. Shrishaila Hunasikatti</p>
+                    <p>Electrician</p></a>
+                  </li>
+                  <div id="modal21" class="modal">
+                    <div class="modal-content">
+                      <div class="modal-back">
+                        <img class="modal-img"  src="images/logo.png" width="225" height="180" />
+                      </div>
+                      
+                      <div class="modal-details">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td>Name:</td>
+                              <td>Mr. Shrishaila Hunasikatti</td>
+                            </tr>
+                            <tr>
+                            	<td>Email:</td>
+                            	<td>shrishail225H@gmail.com</td>
+                            </tr>
+                            <tr>
+                              <td>Designation:</td>
+                              <td>Electrician</td>
+                            </tr>
+                            <tr>
+                              <td>Qualification:</td>
+                              <td>ITI</td>
+                            </tr>
+                            <tr>
+                            	<td>Areas of Interest:</td>
+                            	<td>Electrical Works</td>
+                            </tr>
+                            <tr>
+                              <td>Total Experience:</td>
+                              <td>13 years</td>
+                            </tr>
+                            <tr>
+                            	<td>Experience in RNSIT:</td>
+                            	<td>8 years</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                  </div>
+
+                  <li class="cardli"><a class="waves-effect waves-light" href="#modal22"><img src="images/eee/20.jpg" width="660" />
+                    <p>Mr. Bharath Raj.S</p>
+                    <p>Peon</p></a>
+                  </li>
+                  <div id="modal22" class="modal">
+                    <div class="modal-content">
+                      <div class="modal-back">
+                        <img class="modal-img" src="images/eee/20.jpg" width="660"  />
+                      </div>
+                      
+                      <div class="modal-details">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td>Name:</td>
+                              <td>Mr. Bharath Raj.S</td>
+                            </tr>
+                            <tr>
+                            	<td>Email:</td>
+                            	<td>bharathvolvo@gmail.com</td>
+                            </tr>
+                            <tr>
+                              <td>Designation:</td>
+                              <td>Peon</td>
+                            </tr>
+                            <tr>
+                              <td>Qualification</td>
+                              <td>SSLC, (DIP IN CSE)</td>
+                            </tr>
+                            <tr>
+                              <td>Total Experience:</td>
+                              <td>10 years</td>
+                            </tr>
+                            <tr>
+                            	<td>Experience in RNSIT:</td>
+                            	<td>8 years</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                  </div>
+
+                </ul>
+              </div>
+            </div>            
+
+      
+             <div id="fot">
+        <footer id="footer" class="page-footer">
+  <div class="container-fluid">
+    <div class="row lool">
+      <div class="roww" style="overflow: hidden;">
+        <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
+        <a onclick="insta()" href=""><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
+        <a href="mailto:rnsitplacement@gmail.com"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+        <a href="https://www.twitter.com/RNSIT_Bangalore/"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
+        <a href="https://www.linkedin.com/in/rnsit-bangalore-00765014b/"><image class="icon ic4" src="images/linkedin.svg" alt="linkedin"></image></a>
+      </div>
+        <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
+    </div>
+  </div>
+  </footer>
+      </div>
+            <!-- Modal part -->
+
+ 
+
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <div class="modal-back">
+                    <img class="modal-img" src="images/eee/1.jpg" width="960"  />
+                  </div>
+                  
+                  <div class="modal-details">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>Name:</td>
+                          <td>Dr. Sumathi S </td>
+                        </tr>
+                        <tr>
+                        	<td>Email:</td>
+                        	<td>s.sumathi@rnsit.ac.in</td>
+                        </tr>
+                        <tr>
+                          <td>Designation:</td>
+                          <td>Associate Professor& HOD</td>
+                        </tr>
+                        <tr>
+                          <td>Qualification:</td>
+                          <td>B.E, M.E, Ph.D</td>
+                        </tr>
+                        <tr>
+                        	<td>Areas of Interest:</td>
+                        	<td>Power System Analysis, Ai Applications To Power Systems, Facts Controllers</td>
+                        </tr>
+                        <tr>
+                        	<td>Papers:</td>
+                        	<td><ul>
+                        		<li>&quot;Artificial Neural Network for Coordinated Control of STATCOM, Generator Excitation and Tap Changing Transformer&quot;, International Journal on Electrical &amp;Power Energy Systems - January 2015 Edition</li>
+								<li>&quot;Performance Analysis of Different Mitigating Circuits for Power Quality Improvement&quot;, IJAREEIE, Vol - 4, Issue - 9,Sep -2015 ISSN-2320-3765.</li>
+								<li>&quot;Assessment of Two different Artificial Neural Network architectures for FACTS application in power systems&quot;, International Journal on Electronic and Electrical Engineering, November 2010, ISSN 0974-2042.</li>
+							    <li>&quot;Voltage Stability Improvement of a Power System Network Using STATCOM&quot;, International Conference on Power Systems, 2007 CPRI, BANGALORE.</li>
+								<li>&quot;Implementation of STATCOM in Voltage Control Mode and Reactive Power Control Mode by Considering STATCOM Losses&quot;, International Conference on Electrical energy systems &amp; power electronics in Emerging economies, organized by SRM university , sponsored by IEEE Madras section, April 16-17, 2009.</li>
+								<li>&quot;Artificial neural network application for control of STATCOM in power systems for both voltage control mode and reactive power mode&quot;, Third International Conference on Power Systems, Kharagpur, INDIA, December 27-29, 2009</li>
+								<li>&quot;Artificial Neural Network Application for Voltage Control and Power Flow control in Power Systems with UPFC&quot;, IEEE International conference on Emerging research in Electronics Computer science and Technology , PESCE Mandya, December 17-19, 2015</li>
+                        	</ul></td>
+                        </tr>
+                        <tr>
+                          <td>Total Experience:</td>
+                          <td>22 years</td>
+                        </tr>
+                        <tr>
+                        	<td>Experience in RNSIT:</td>
+                        	<td>11 years</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+              </div>
+
+
+              <div id="modal2" class="modal">
+                <div class="modal-content">
+                  <div class="modal-back">
+                    <img class="modal-img" src="images/eee/2.jpg" width="660"  />
+                  </div>
+                  
+                  <div class="modal-details">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>Name:</td>
+                          <td>Mr. B Mallikarjuna</td>
+                        </tr>
+                        <tr>
+                        	<td>Email:</td>
+                        	<td>mallikarjun.b@rnsit.ac.in</td>
+                        </tr>
+                        <tr>
+                          <td>Designation:</td>
+                          <td>Assistant Professor
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Qualification:</td>
+                          <td>BE, ME</td>
+                        </tr>
+                        <tr>
+                        	<td>Areas of Interest:</td>
+                        	<td>High Voltage Engg, Power System, Electrical Machines</td>
+                        </tr>
+                        <tr>
+                        	<td>Projects:</td>
+                        	<td>Guided several UG and PG projects</td>
+                        </tr>
+                        <tr>
+                        	<td>Papers:</td>
+                        	<td>National Conference : 02</td>
+                        </tr>
+                        <tr>
+                          <td>Total Experience:</td>
+                          <td>22 years</td>
+                        </tr>
+                        <tr>
+                        	<td>Experience in RNSIT:</td>
+                        	<td>6 years</td>
+                        </tr>
+                        <tr>
+                        	<td>Other Achievements:</td>
+                        	<td>Best Teacher Award</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+              </div>
+
+
+              <div id="modal3" class="modal">
+                <div class="modal-content">
+                  <div class="modal-back">
+                    <img class="modal-img" src="images/eee/3.jpg" width="5184"  />
+                  </div>
+                  
+                  <div class="modal-details">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>Name:</td>
+                          <td>Mr. S Sridhar</td>
+                        </tr>
+                        <tr>
+                        	<td>Email:</td>
+                        	<td>prof_sridhars@rnsit.ac.in</td>
+                        </tr>
+                        <tr>
+                          <td>Designation:</td>
+                          <td>Assistant Professor
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Qualification:</td>
+                          <td>B.E, M.Tech,(Ph.D)</td>
+                        </tr>
+                        <tr>
+                        	<td>Areas of Interest:</td>
+                        	<td>Power quality, Intelligent monitoring of electrical machines</td>
+                        </tr>
+                        <tr>
+                        	<td>Projects:</td>
+                        	<td>Guided 11 UG and 2 PG projects till date.</td>
+                        </tr>
+                        <tr>
+                        	<td>Papers:</td>
+                        	<td><ul>
+                        		<li>National conferences</li>
+                        		<br>
+								<li>[NC1] Sridhar.S and Nattarasu &quot;Design of 2KW, High Voltage, High Frequency, Series Resonant DC-DC Converter&quot;, in national conference on emerging trends in Physics, Electronics and Engineering sciences. Organized by JSS college of arts, commerce and science, Ooty road, Mysore during 25-26 Sep 2006.</li>
+
+								<li>[NC2] Shruthi.G and Sridhar.S &quot;A novel strategy for road traffic control&quot; published in National conference on recent advances in Electrical and Electronics Engineering organized by the department of Electrical and Electronics Engineering, National Institute of Technology, Hamirpur (Himachal pradesh) during 23- 24 December, 2009, pp no. 297-301.</li>
+
+								<li>[NC3] Sridhar. S and K. Uma Rao, &quot;Detection of simultaneous voltage unbalance and broken rotor bar fault in induction motor using wavelet transforms&quot;, National conference on modern trends in diagnostic testing and condition assessment of power plant and substation equipment, Central Power Research Institute (CPRI), Bangalore, 30th -31st Jan 2014, pp. no.58-65.</li>
+
+								<li>[NC4] Sridhar.S and Darshini. C, &quot;Induction motor drive system using push pull converter and three phase multilevel inverter fed from solar photo voltaic panel&quot;, National conference on advancements in science, Engineering and technology (ASET- 2016), 6th - 7th May, 2016</li>
+								<br>
+								<li>International conferences</li>
+								<br>
+								<li>[IC1] Akshay D R, K Uma Rao and Sridhar S, &quot;Wireless RF Smart Glove Control for Hexapod&quot;, published in 2nd International conference on RF and Signal Processing Systems organized by the Department of Electronics and Communication Engineering, K L University, Guntur, Andra pradesh during 07-09 January, 2010, pp no. 333- 336</li>
+
+								<li>[IC2] Sridhar. S and K. Uma Rao, &quot;Detection of simultaneous unbalanced under voltage and broken rotor bar fault in induction motor&quot;, IEEE 1st International conference on condition assessment techniques in electrical systems (CATCON), Jadavpur university main campus, Kolkata, 6th- 8th Dec 2013, paper ID 29.</li>
+
+								<li>[IC3] Sridhar. S, K. Uma Rao and Sukrutha Jade, &quot;Detection and Classification of PQ Disturbances in the Supply to Induction Motor Using Wavelet Transform and Feedforward Neural Network&quot;, IEEE International conference on electrical, computer and communication technologies (ICECCT 2015), SVS college of engineering, Coimbatore, Tamilnadu, 5th- 7th March 2015, pp.28-32.</li>
+
+								<li>[IC4] Sridhar. S, K. Uma Rao and Sukrutha Jade, &quot;Detection of Broken Rotor Bar Fault in Induction Motor at Various Load Conditions Using Wavelet Transforms&quot;, International conference on recent developments in control, automation and power engineering (RDCAPE), Amity University, Noida, 12th -13th March 2015, pp.77-82.</li>
+                                <br>
+								<li>International Journals</li>
+								<br>
+								<li>[J1] Sridhar. S, K. Uma Rao and akshay. D. R &quot;Intellegent monitoring of induction motor for fault detection and analysis&quot; International Journal of Electronics and Electrical Engineering (IJEE- SERC), Vol 14, No. 01, pp 47- 54, 2011</li>
+
+								<li>[J2] Harshendra. N. Shet. K and Sridhar. S &quot;Solar bicycle&quot; international journal of electrical and electronics engineering research and development(IJEEERD- PRJ), Vol. 1, No. 1, april- june 2011, pp 12- 17.</li>
+
+								<li>[J3] Sridhar. S, K. Uma Rao and Sukrutha Jade, “Identification of Rotor Bar Fault in Induction Motor in Presence of PQ Disturbances Using FFT-DWT Based Integrated Neural Network, International Electrical Engineering Journal (IEEJ), Vol. 6, No.11, pp. 2074-2082, 2015, ISSN 2078-2365.</li>
+
+								<li>[J4] Sridhar. S, K. Uma Rao and Sukrutha Jade, &quot;Detection and classification of power quality disturbances in the supply to induction motor using wavelet transform and neural networks&quot;, Balkan journal of electrical and computer engineering, Vol. 4, No. 1, pp. 37-45, March 2016, ISSN: 2147-284X.</li>
+                        	</ul></td>
+                        </tr>
+                        <tr>
+                        	<td>Books Written:</td>
+                        	<td></td>
+                        </tr>
+                        <tr>
+                          <td>Total Experience:</td>
+                          <td>11 years</td>
+                        </tr>
+                        <tr>
+                        	<td>Experience in RNSIT:</td>
+                        	<td>10 years</td>
+                        </tr>
+                        <tr>
+                        	<td>Other Achievements:</td>
+                        	<td><ul>
+                        		<li>Dr. R N Shetty Best Teacher Award in the year 2009.</li>
+								<li>Life Member of Condition Monitoring Society of India Member IEEE</li>
+                        	</ul></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+              </div>
+
+               <div id="modal4" class="modal">
+                <div class="modal-content">
+                  <div class="modal-back">
+                    <img class="modal-img" src="images/eee/4.jpg" width="960" height="180"  />
+                  </div>
+                  
+                  <div class="modal-details">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td>Name:</td>
+                          <td>Mrs. Rashmy Deepak</td>
+                        </tr>
+                        <tr>
+                        	<td>Email:</td>
+                        	<td>rashmydeepak@rnsit.ac.in</td>
+                        </tr>
+                        <tr>
+                          <td>Designation:</td>
+                          <td>Assistant Professor
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Qualification:</td>
+                          <td>BE, M.Tech, (Ph.D)</td>
+                        </tr>
+                        <tr>
+                        	<td>Areas of Interest:</td>
+                        	<td>Power Electronics, Electric Drives, Microcontrollers</td>
+                        </tr>
+                        <tr>
+                        	<td>Projects:</td>
+                        	<td><ul>
+                        		<li>Seven Level Multi-level Inverter</li> 
+ 								<li>Harmonic Analysis And Filter Design For Multilevel Inverter</li>
+                        	</ul></td>
+                        </tr>
+                        <tr>
+                        	<td>Papers:</td>
+                        	<td><ul>
+                        		<li>Novel multi level inverter with reduced number of switches and batteries IEEE trans, 2013</li>
+								<li>Harmonic analysis and filter design  for a multilevel inverter, IEE journal, 2016</li>
+                        	</ul></td>
+                        </tr>
+                        <tr>
+                          <td>Total Experience:</td>
+                          <td>16 years</td>
+                        </tr>
+                        <tr>
+                        	<td>Experience in RNSIT:</td>
+                        	<td>8 years</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                </div>
+              </div>
+
+                <div id="modal5" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img"  src="images/logo.png" width="225" height="180" />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Mrs Roopa Nayak</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>roopanayak@rnsit.ac.in</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Professor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>BE, M.Tech, (Ph.D)</td>
+                          </tr>
+                          <tr>
+                          	<td>Areas of Interest:</td>
+                          	<td>Electrical Drives</td>
+                          </tr>
+                          <tr>
+                          	<td>Papers:</td>
+                          	<td>Novel v/f strategy using command speed compensator for improved load sharing with dual induction motor, IJISET, vol 3, issue 2, 2016</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>14 years</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>14 years</td>
+                          </tr>
+                          <tr>
+                          	<td>Other Achievements:</td>
+                          	<td>Won Best Teacher Award at RNSIT</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+
+                <div id="modal6" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img"  src="images/eee/5.jpg" width="960" />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Mr.M Ameen Sadiq</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>ameensadiq@yahoo.com</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Professor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>DEE, B.E, M.Tech, (Ph.D)</td>
+                          </tr>
+                          <tr>
+                          	<td>Areas of Interest:</td>
+                          	<td>Power Electronics, Electrical Drives, Power Systems</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>16 years</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>10 years</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+                <div id="modal7" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img" src="images/eee/6.jpg" width="960"  />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Mr. Rakesh M N</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>rakesh.m.n@rnsit.ac.in</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Professor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>B.E, M.Tech, (Ph.D)</td>
+                          </tr>
+                          <tr>
+                          	<td>Areas of Interest:</td>
+                          	<td>Power System Engineering, Power Electronics, Power Quality Enhancement, Fuzzy Logic Theory</td>
+                          </tr>
+                          <tr>
+                          	<td>Projects:</td>
+                          	<td><ul>
+                          		<li>Fuzzy Logic Application For Improving Voltage Stability Of A Distribution System</li>
+								<li>Power Quality Improvement Using Custom Power Device For A Distribution System</li>
+								<li>Voltage Flicker Compensation Using Facts Device</li>
+                          	</ul></td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>11 years</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>10 years</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+                <div id="modal8" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img"  src="images/eee/7.jpg" width="960"  />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Shwetha</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>shwetha@rnsit.ac.in</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Professor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>B.E, M.Tech</td>
+                          </tr>
+                          <tr>
+                          	<td>Areas of Interest:</td>
+                          	<td>Power Electronics</td>
+                          </tr>
+                          <tr>
+                          	<td>Papers:</td>
+                          	<td>Stability improvement of boost converter interfaced with solar PV system,NCITEE-16</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>10 years of teaching</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>10 years</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+
+                <div id="modal9" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img"  src="images/eee/8.jpg" width="960"  />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Dr.Sharada prasad N</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>sharadaprasad.n@rnsit.ac.in</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Professor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>B.E, M.Tech, Ph.D</td>
+                          </tr>
+                          <tr>
+                          	<td>Areas of Interest:</td>
+                          	<td>Hybrid electric vehicles, Renewable energy resources, microprocessors and microcontrollers</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>7 years</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>6 years</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+                <div id="modal11" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img"  src="images/eee/10.jpg" width="960"  />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Ms. Sharmila N</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>sharmila.n.89@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Professor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>B.E, M.Tech</td>
+                          </tr>
+                          <tr>
+                          	<td>Areas of Interest:</td>
+                          	<td>Control systems, Renewable Energy Sources</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>3.5 years</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>2.5 years</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+                <div id="modal12" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img" src="images/eee/11.jpg" width="960" />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Mrs. Supriya P</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>supriyap.bhat@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Professor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>B.E, M.Tech</td>
+                          </tr>
+                          <tr>
+                          	<td>Areas of Interest:</td>
+                          	<td>Power Systems</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>5 years</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>1 year</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+                <div id="modal13" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img"  src="images/eee/12.jpg" width="960"  />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Ms. Kokila R</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>kokila.ram@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Professor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>B.E, M.Tech</td>
+                          </tr>
+                          <tr>
+                          	<td>Areas of Interest:</td>
+                          	<td>Power Electronics</td>
+                          </tr>
+                          <tr>
+                          	<td>Projects:</td>
+                          	<td>Selective Harmonic Minimization Of 11 Level Cascaded H Bridge Multilevel Inverter Using Ga Tuned Ann</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>2 years</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>1 year</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+                <div id="modal14" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img" src="images/eee/13.jpg" width="5184" height="180" />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Mr. Anoop H A</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>anoop.ha@rnsit.ac.in</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Professor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>B.E, M.Tech</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>1 year</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>1 year</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+
+                <div id="modal15" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-back">
+                      <img class="modal-img"  src="images/eee/14.jpg" width="660"  />
+                    </div>
+                    
+                    <div class="modal-details">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td>Name:</td>
+                            <td>Mrs. Shruthi Shivanand</td>
+                          </tr>
+                          <tr>
+                          	<td>Email:</td>
+                          	<td>shruti.sdmcet@gmail.com</td>
+                          </tr>
+                          <tr>
+                            <td>Designation:</td>
+                            <td>Assistant Professor</td>
+                          </tr>
+                          <tr>
+                            <td>Qualification:</td>
+                            <td>B.E, M.Tech</td>
+                          </tr>
+                          <tr>
+                          	<td>Areas of Interest:</td>
+                          	<td>Power Electronics,Control Systems </td>
+                          </tr>
+                          <tr>
+                          	<td>Projects:</td>
+                          	<td>Harmonic wavelet analysis</td>
+                          </tr>
+                          <tr>
+                            <td>Total Experience:</td>
+                            <td>1 year</td>
+                          </tr>
+                          <tr>
+                          	<td>Experience in RNSIT:</td>
+                          	<td>1 year</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                </div>
+
+            <!-- Modal end -->
+            <script type="text/javascript" src="js/dept.js"></script>
+            <script type="text/javascript" src="js/navbar.js"></script>
+            <script type="text/javascript" src="js/modal.js"></script>
+            
+            
+          </body>
+        </html>
