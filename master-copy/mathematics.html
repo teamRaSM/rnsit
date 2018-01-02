@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MATHEMATICS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#021B38">
+    <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
+    <link rel="apple-touch-icon" href="imgages/logo.png"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="RNSIT" content="RNSIT">
+    <link rel="icon" sizes="192x192" href="images/logo.png">
+    <!-- <splash src="images/prin.jpg"></splash> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/dept.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link href="images/logo.png" rel="icon" type="image/png">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <nav class="nav navin">
+      <div class="nav-wrapper">
+        <img class="svg-logo hidden" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+        <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown3">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="navali"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+          <!-- Dropdown Trigger -->
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+          <!-- Dropdown Structure -->
+          <ul id="dropdown1" class="dropdown-content">
+            
+            <li class="navali"><a id="cse" href="cse.html">CSE</a></li>
+            <li class="navali"><a id="ece" href="ece.html">ECE</a></li>
+            <li class="navali"><a id="eee" href="eee.html">EEE</a></li>
+            <li class="navali"><a id="ise" href="ise.html">ISE</a></li>
+            <li class="navali"><a id="eie" href="eie.html">EIE</a></li>
+            <li class="navali"><a id="mech" href="mech.html">MECH</a></li>
+            <li class="navali"><a id="civil" href="civil.html">CIVIL</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
+            <li class="navali"><a id="mca"  href="mca.html">MCA</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="physics" href="physics.html">Physics</a></li>
+            <li class="navali"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+            <li class="navali"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="eee" href="hr.html">Placements &amp; HR</a></li>
+            
+            
+          </ul>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+          <li class="navali"><a id="cse" href="alumni.html">ALUMNI</a></li>
+          <li class="navali"><a id="ece" href="admissions.html">ADMISSIONS &amp; OFFICE</a></li>
+          <li class="navali"><a id="mca" href="cultural.html">CULTURAL</a></li>
+          <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
+        </ul>
+
+        <ul id="dropdown3" class="dropdown-content">
+          <li class="navali"><a id="chair" href="chairman.html">CHAIRMAN</a></li>
+          <li class="navali"><a id="diret" href="director.html">DIRECTOR</a></li>
+          <li class="navali"><a id="princi" href="principal.html">PRINCIPAL</a></li>
+          <li class="navali"><a id="regi" href="registrar.html">REGISTRAR</a></li>
+        </ul>
+        <!--mobile!-->
+        <ul class="side-nav" id="mobile-demo">
+          <li class="navali"><a id="home" href="index.html">Home</a></li>
+          <li class="navali"><a class="dropNav2">About Us<i class="material-icons right aud">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav2">
+            <a id="chair" class="nava" href="chairman.html">Chairman</a>
+            <a id="direct" class="nava" href="director.html">Director</a>
+            <a id="princi" class="nava" href="principal.html">Principal</a>
+            <a id="regi" class="nava" href="registrar.html">Registrar</a>
+          </div>
+          </li>
+          <li class="navali"><a id="contact" href="contact.html">Contact</a></li>
+          <li class="navali"><a class="dropNav">Departments<i class="material-icons right dd">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav">
+            <ul class="navali"><li class=" nava divider"></li></ul>
+            <a id="cse" class="nava" href="cse.html">CSE</a>
+            <a id="ece" class="nava" href="ece.html">ECE</a>
+            <a id="eee" class="nava"  href="eee.html">EEE</a>
+            <a id="ise" class="nava" href="ise.html">ISE</a>
+            <a id="eie" class="nava" href="eie.html">EIE</a>
+            <a id="mech" class="nava" href="mech.html">MECH</a>
+            <a id="civil" class="nava" href="civil.html">CIVIL</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
+            <a id="mca" class="nava awes" href="mca.html">MCA</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="physics" class="nava awes" href="physics.html">Physics</a>
+            <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+            <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="hr" class="nava" href="hr.html">Placements &amp; HR</a>
+            
+          </div></li>
+          <li class="navali"><a class="dropNav1">Others<i class="material-icons right md">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav1">
+            <a id="alum" class="nava" href="alumni.html">Alumni</a>
+            <a id="admission" class="nava" href="admissions.html">ADMISSIONS &amp; OFFICE</a>
+            <a id="faci" class="nava" href="cultural.html">Cultural</a>
+            <a id="faci" class="nava" href="facilities.html">Facilities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <h3 align="center" class="head-style avoid-nav">MATHEMATICS DEPARTMENT</h3>
+    <div class="row">
+      <div class="col s12 m4 l3">
+        <div class="card">
+          <div class="card-image">
+            <img src=images/math/3.jpg>
+          </div>
+          <div class="card-content">
+                     <span class="card-name">Dr. C M Suresha</span>
+            <div><span class="card-info">Professor &amp; Head</span></div>
+
+          </div>
+        </div>
+      </div>
+      <p>The department of Mathematics is headed by Dr. C M Suresha, who has 20 years of teaching experience. The department staff are well qualified to suit the requirements. All the faculty members have registered for Ph.D. &amp; are currently engaged in research activities.
+      Regular seminars &amp; workshops are arranged for the benefit of staff &amp; students. Mathematics being the backbone of engineering, the department provides excellent support to all the engineering departments.</p>
+    </div>
+    <div class="row">
+            <div class="col s12 m6">
+                <h4 class="black-text"><b><p>Vision</p></b></h4>Providing a strong foundation in mathematical concepts and applications to Engineering 
+            </div>
+            <div class="col s12 m6">
+                <h4 class="black-text"><b><p>Mission</p></b></h4>
+                <ol>
+                    <li>To create a conducive learning environment where in the student is channelized to use mathematics for analysis and design </li>
+                    <li>To encourage logical thinking and inquisitiveness in studies </li>
+                    <li>To reinforce the need for development of mathematical models and tools in technological development </li>
+                </ol>
+            </div>
+        </div>
+        <ul class="collapsible popout" data-collapsible="accordion">
+  <li>
+                <div class="collapsible-header"><i class="material-icons">location_city</i><b>FACILITIES AND INFRASTRUCTURE</b></div>
+                <div class="collapsible-body">
+                Regular seminars &amp;workshops are arranged for the benefit of staff &amp;students. Mathematics being the backbone of engineering, the department provides excellent support to all the engineering departments.
+                </div>
+                </li>
+                <li>
+                <div class="collapsible-header"><i class="material-icons">people</i><b>WORKSHOPS / CONFERENCES CONDUCTED</b></div>
+                <div class="collapsible-body">
+                <ol><li>
+                Organized a 3-day DST Sponsored National Conference on Applied and     
+    Engineering Mathematics during July 28-30, 2011 at RNS Institute of       
+    Technology, Dept. of Mathematics, Bengaluru.</li><li>
+Conducted a national seminar on recent trends and challenges in Applied Mathematics December 22, 2012, on celebration of national year of Mathematics in commemoration of 125th Birthday of Srinivasa Ramanujan. </li></ol>
+</div>
+</li>
+</li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">receipts</i>R &amp;D WORK / PAPERS PUBLISHED</div>
+                    <div class="collapsible-body">
+                    <b>Dr. C.M. SURESHA</b>
+          <ol>
+<li>Advection-Diffusion numerical model of an air pollutant emitted from an area source of primary pollutant with wet deposition, International Journal of Engineering Science and Technology (IJEST), Vol.4, No.01, 135-143, January 2012, India. ISSN 0975-5462 (with Lakshminarayanachari K, M Siddalinga Prasad and Pandurangappa C ). </li>  
+
+<li>A two dimensional numerical model of primary pollutant emitted from an urban area source with wet deposition and mesoscale wind, International Journal of Science, Environment and Technology, Vol. 2, No 1, 2013, 60 79, February 2013, India.  ISSN 2278-3687 (with Lakshminarayanachari K, M Siddalinga Prasad and Pandurangappa C ).</li>  
+ 
+<li>Numerical model of air pollutant emitted from an area source of primary and secondary pollutants with chemical reaction and gravitational settling with point source on the boundary, International Journal of Research in Environmental Science and Technology  2013; 3(1): 9-18, January 2013, India.  ISSN 22499695 (with Lakshminarayanachari K, M Siddalinga Prasad and Pandurangappa C).</li>
+
+<li>Numerical model of air pollutant emitted from an area source of primary and secondary pollutants with chemical reaction, International Journal of Application or Innovation in Engineering &amp;Management (IJAIEM),Vol 2, Issue3, march  2013; 132-144. (with Lakshminarayanachari K,  M Siddalinga Prasad and Pandurangappa C). </li> 
+
+<li>Presented the paper entitled Numerical model of air pollutant emitted from an area source of primary and secondary pollutants with chemical reaction and gravitational settling in the National Conference on Applied and Engineering Mathematics during 28-30, 2011 at R.N.S.Institute of Technology, Department of Mathematics, Bangalore. </li>
+
+<li>Presented the paper entitled Effect of mesoscale wind on primary and secondary pollutants emitted from an area source with chemical reaction and gravitational settling in the national Conference on Recent Trends in Applied Mathematics (RTAM-2013) during June 7-8, 2013 at Siddaganga Institute of Technology, Dept. of Mathematics, Tumkur.</li> </ol>
+<b>SAMPATH KUMAR R </b>
+<ol>
+<li>Characterization of a graph valued function defined on blocks, lines and cut vertices of a graph, International Journal of Mathematics and Computer Applications Research (IJMCAR), ISSN 2249-6955, Vol.2, Issue 2 June 2012 33-43. (with Narasimhan G, R. Chandrasekhar and  S. Padmanabhan ) </li></ol>
+
+<b>NARASIMHAN G</b><ol>
+<li>Characterization of a graph valued function defined on blocks, lines and cut vertices of a graph, International Journal of Mathematics and Computer Applications Research (IJMCAR), ISSN 2249-6955, Vol.2, Issue 2 June 2012 33-43. (with Sampath Kumar R, R. Chandrasekhar and  S. Padmanabhan ) </li></ol>
+</div>
+</li>
+</ul>
+  </div>
+  <div class="container">
+    <div class="row">
+      <h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
+      <ul class="listul cardul">
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="images/math/3.jpg">
+          <p>Dr. C M Suresha</p>
+          <p>Assistant Professor / HOD</p></a>
+        </li>
+        
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal2"><img src="images/math/6.jpg">
+          <p>Mr.Sampath Kumar R</p>
+          <p>Assistant Professor</p></a>
+        </li>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal3"><img src="images/math/5.jpg">
+          <p>Mr.Narasimhan G</p>
+          <p>Assistant Professor</p></a>
+        </li>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal4"><img src="images/math/8.jpg" />
+          <p>Mr.Srihari M Subodha</p>
+          <p>Assistant Professor</p></a>
+        </li>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal5"><img src="images/math/1.jpg">
+          <p>Mrs.Dhruvathara B S</p>
+          <p>Assistant Professor</p></a>
+        </li>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal6"><img src="images/math/2.jpg">
+          <p>Mrs. Ambika Hejib</p>
+          <p>Assistant Professor</p></a>
+        </li>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal7"><img src="images/math/4.jpg">
+          <p>Mr. Chinni Krishna R</p>
+          <p>Assistant Professor</p></a>
+        </li>
+        <li class="cardli"><a class="waves-effect waves-light" href="#modal8"><img src="images/math/7.jpg">
+          <p>Mrs. Shruthi Siddhartha Joshy</p>
+          <p>Assistant Professor</p></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <div id="fot">
+      <footer id="footer" class="page-footer">
+  <div class="container-fluid">
+    <div class="row lool">
+      <div class="roww" style="overflow: hidden;">
+        <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
+        <a onclick="insta()" href=""><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
+        <a href="mailto:rnsitplacement@gmail.com"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+        <a href="https://www.twitter.com/RNSIT_Bangalore/"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
+        <a href="https://www.linkedin.com/in/rnsit-bangalore-00765014b/"><image class="icon ic4" src="images/linkedin.svg" alt="linkedin"></image></a>
+      </div>
+        <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
+    </div>
+  </div>
+  </footer>
+      </div>
+  <!-- Modal part -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="images/math/3.jpg">
+      </div>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Dr. C M Suresha</td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>suresh.c.m@rnsit.ac.in</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor &amp;HOD</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc, Ph.D</td>
+            </tr>
+             <tr>
+              <td>Areas of interest:</td>
+              <td>Mathematical Modelling - Air Pollution </td>
+            </tr>
+            <tr>
+              <td>Papers:</td>
+              <td>Presented 5 Papers.</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>22 Years</td>
+            </tr>
+            <tr>
+              <td>Experience in RNSIT:</td>
+              <td>12 Years</td>
+            </tr>
+            <tr>
+              <td>Other Achievements:</td>
+              <td>RNS Best teacher of the year 2010 Award</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="images/math/6.jpg" />
+      </div>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Mr.Sampath Kumar R</td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>r.sampathkumar@rnsit.co.in</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc., M.Phil</td>
+            </tr>
+             <tr>
+              <td>Areas of interest:</td>
+              <td>Analysis, graph theory</td>
+            </tr>
+            <tr>
+              <td>Books written:</td>
+              <td>Engineering mathematics-IV</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>25 Years.</td>
+            </tr>
+            <tr>
+              <td>Experience in RNSIT:</td>
+              <td>10 Years</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="images/math/5.jpg"/>
+      </div>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Mr.Narasimhan G</td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>narasimhan.guru@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc., M.Phil</td>
+            </tr>
+            <tr>
+              <td>Areas of interest:</td>
+              <td>Analysis and graph theory</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>18 Years</td>
+            </tr>
+            <tr>
+              <td>Experience in RNSIT:</td>
+              <td>9 Years</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="images/math/8.jpg"/>
+      </div>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Mr.Srihari M Subodha</td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>sriharimsubodha@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc</td>
+            </tr>
+             <tr>
+              <td>Areas of interest:</td>
+              <td><ul><li> Fluid Dynamics </li><li>
+ Differential Equations</li></ul></td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>6 Years</td>
+            </tr>
+            <tr>
+              <td>Experience in RNSIT:</td>
+              <td>6 Years</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="images/math/1.jpg" width="960"  />
+      </div>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>  Mrs.Dhruvathara B S</td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>bsdhruvathara@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc</td>
+            </tr>
+            <tr>
+              <td>Areas of interest:</td>
+              <td><ul><li> Fluid dynamics</li><li>
+ Numerical methods</li></ul></td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>6 Years</td>
+            </tr>
+            <tr>
+              <td>Experience in RNSIT:</td>
+              <td>5 Years</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal6" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img"  src="images/math/2.jpg"/>
+      </div>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Mrs. Ambika Hejib</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>B.Sc,M.Sc,M.Phil</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>7 Years</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal7" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="images/math/4.jpg" />
+      </div>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Mr. Chinni Krishna R</td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>chinni.krish7@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>M.Sc Mathematics</td>
+            </tr>
+            <tr>
+              <td>Areas of interest:</td>
+              <td>Fluid Mechanics</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>5 Years</td>
+            </tr>
+            <tr>
+              <td>Experience in RNSIT:</td>
+              <td>3.5 Years</td>
+            </tr>
+            <tr>
+              <td>Other Achievements:</td>
+              <td>Qualified SLET</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <div id="modal8" class="modal">
+    <div class="modal-content">
+      <div class="modal-back">
+        <img class="modal-img" src="images/math/7.jpg"  />
+      </div>
+      
+      <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name:</td>
+              <td>Mrs. Shruthi Siddhartha Joshy</td>
+            </tr>
+             <tr>
+              <td>Email:</td>
+              <td>raoshruthi181@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Designation:</td>
+              <td>Assistant Professor</td>
+            </tr>
+            <tr>
+              <td>Qualification:</td>
+              <td>B.Sc, M.Sc</td>
+            </tr>
+            <tr>
+              <td>Areas of interest:</td>
+              <td>Linear Algebra</td>
+            </tr>
+            <tr>
+              <td>Total Experience:</td>
+              <td>2.5 Years</td>
+            </tr>
+            <tr>
+              <td>Experience in RNSIT:</td>
+              <td>1 Year</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+  <!-- Modal end -->
+  <script type="text/javascript" src="js/dept.js"></script>
+  <script type="text/javascript" src="js/navbar.js"></script>
+  <script type="text/javascript" src="js/modal.js"></script>
+  
+  
+</body>
+</html>

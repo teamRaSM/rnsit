@@ -1,0 +1,2917 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ECE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#021B38">
+    <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
+    <link rel="apple-touch-icon" href="imgages/logo.png"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="RNSIT" content="RNSIT">
+    <link rel="icon" sizes="192x192" href="images/logo.png">
+    <!-- <splash src="images/prin.jpg"></splash> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/dept.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link href="images/logo.png" rel="icon" type="image/png">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+  </head>
+  <body>
+    <nav class="nav navin">
+      <div class="nav-wrapper">
+        <img class="svg-logo hidden" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+        <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown3">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="navali"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+          <!-- Dropdown Trigger -->
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+          <!-- Dropdown Structure -->
+          <ul id="dropdown1" class="dropdown-content">
+
+            <li class="navali"><a id="cse" href="cse.html">CSE</a></li>
+            <li class="navali"><a id="ece" href="ece.html">ECE</a></li>
+            <li class="navali"><a id="eee" href="eee.html">EEE</a></li>
+            <li class="navali"><a id="ise" href="ise.html">ISE</a></li>
+            <li class="navali"><a id="eie" href="eie.html">EIE</a></li>
+            <li class="navali"><a id="mech" href="mech.html">MECH</a></li>
+            <li class="navali"><a id="civil" href="civil.html">CIVIL</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
+            <li class="navali"><a id="mca"  href="mca.html">MCA</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="physics" href="physics.html">Physics</a></li>
+            <li class="navali"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+            <li class="navali"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+            <li class="divider"></li>
+            <li class="navali"><a id="eee" href="hr.html">Placements &amp; HR</a></li>
+
+
+          </ul>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+          <li class="navali"><a id="cse" href="alumni.html">ALUMNI</a></li>
+          <li class="navali"><a id="ece" href="admissions.html">ADMISSIONS &amp; OFFICE</a></li>
+          <li class="navali"><a id="mca" href="cultural.html">CULTURAL</a></li>
+          <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
+        </ul>
+
+        <ul id="dropdown3" class="dropdown-content">
+          <li class="navali"><a id="chair" href="chairman.html">CHAIRMAN</a></li>
+          <li class="navali"><a id="diret" href="director.html">DIRECTOR</a></li>
+          <li class="navali"><a id="princi" href="principal.html">PRINCIPAL</a></li>
+          <li class="navali"><a id="regi" href="registrar.html">REGISTRAR</a></li>
+        </ul>
+        <!--mobile!-->
+        <ul class="side-nav" id="mobile-demo">
+          <li class="navali"><a id="home" href="index.html">Home</a></li>
+          <li class="navali"><a class="dropNav2">About Us<i class="material-icons right aud">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav2">
+            <a id="chair" class="nava" href="chairman.html">Chairman</a>
+            <a id="direct" class="nava" href="director.html">Director</a>
+            <a id="princi" class="nava" href="principal.html">Principal</a>
+            <a id="regi" class="nava" href="registrar.html">Registrar</a>
+          </div>
+          </li>
+          <li class="navali"><a id="contact" href="contact.html">Contact</a></li>
+          <li class="navali"><a class="dropNav">Departments<i class="material-icons right dd">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav">
+            <ul class="navali"><li class=" nava divider"></li></ul>
+            <a id="cse" class="nava" href="cse.html">CSE</a>
+            <a id="ece" class="nava" href="ece.html">ECE</a>
+            <a id="eee" class="nava"  href="eee.html">EEE</a>
+            <a id="ise" class="nava" href="ise.html">ISE</a>
+            <a id="eie" class="nava" href="eie.html">EIE</a>
+            <a id="mech" class="nava" href="mech.html">MECH</a>
+            <a id="civil" class="nava" href="civil.html">CIVIL</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
+            <a id="mca" class="nava awes" href="mca.html">MCA</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="physics" class="nava awes" href="physics.html">Physics</a>
+            <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+            <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
+            <a id="hr" class="nava" href="hr.html">Placements &amp; HR</a>
+
+          </div></li>
+          <li class="navali"><a class="dropNav1">Others<i class="material-icons right md">arrow_drop_down</i></a></li>
+          <li class="innerli">      <div class="innerNav1">
+            <a id="alum" class="nava" href="alumni.html">Alumni</a>
+            <a id="admission" class="nava" href="admissions.html">ADMISSIONS &amp; OFFICE</a>
+            <a id="faci" class="nava" href="cultural.html">Cultural</a>
+            <a id="faci" class="nava" href="facilities.html">Facilities</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="container">
+    <h5 align="center" class="head-style avoid-nav">ELECTRONICS AND COMMUNICATION ENGINEERING</h5>
+    <div class="row">
+      <div class="col s12 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/ece/3.jpg"/>
+            <span class="card-title"></span>
+          </div>
+          <div class="card-content">
+            <span class="card-name">Dr. Vipula Singh</span>
+            <div><span class="card-info">Professor &amp; Head</span></div>
+          </div>
+        </div>
+      </div>
+
+    <p id="para">The department of Electronics and Communication Engineering was started in 2001 and is currently running B.E, M.Tech and Research programs. The department is headed by Dr. Vipula Singh, who has around 18 years of experience in teaching and research. She has obtained her doctorate from Guru Gobind Singh Indra Prastha University New Delhi in the area of image processing. She has published more than 21 papers in international / national Journals and Conferences. She is currently guiding 2 students for Ph.D and 1 student for MS. She is the author a book on image processing.</p>
+    <p id="para">Department has Well qualified, committed and experienced Faculty members with an average experience of 15 years. Department has total of 36 faculty members with minimum qualification as MTech and 6 with PhD degree and 20 faculty are pursuing their PhD. Excellent infrastructure with well-equipped and sufficient laboratories and library facility and Seminar halls are available for the usage of Lecture/NPTEL Videos/Demos.</p>
+    <p id="para">NBA Accredited during 2011-14Department is Recognized as Research center by VTU, Belagavi, 14 scholars from Industry and academia are currently pursuing PhD/MSc(Engg).The Department of ECE has been consistently securing university ranks from past five years and this has led to a goodwill about the college at the state level.  In the last five years, a total of ten students have secured ranks, out of which three have been First Ranks. The average performance of the student is around 85% in vtu exams.
+90% of the students get placed in reputed companies with minimum package of 3.5 L pa and maximum package of 24 L pa.
+Good Academic and Extra, Co-Curricular records by students, Consistent performance in university exams and placement of the students in Core Companies</p>
+
+<p id="para">Good number of Paper Publications by both Faculty and Students
+Good number of technical interactions like Guest Lectures, Workshops, Competitions &Conferences are conducted by the Department
+Students Club Techkruthi, Robotics Club, mini project exhibition(PROP), Professional societies IEEE, and IETE for the benefit of faculty and students to alert their skills.Training Classes are carried out to prepare the students for Placements/ GATE/ GRE Examination.</p>
+    <p id="para">In 2012-13, UG intake has increased from 120 to 180 and PG intake has increased from 18 to 24. The department has 30 faculty members, with 4 professors and the rest with a PG degree. Two professors are doctorates with specialization in Wireless communication and image processing. The Department has VTU recognized R &amp;D centre and 13  faculty members are pursuing Ph.D in diverse areas of ECE, such as, Digital Electronics, VLSI, Biomedical Engineering, Power Electronics, Image Processing and Communication. The faculty are zealously involved in improving their skills and qualifications. Some of the highlights of the achievements of the faculty are</p>
+    </div>
+    <ol id="para">
+      <li>Papers published - 17 (2008-09); 22 (2009-10); 44 (2010-11)</li>
+      <li>10 books published</li>
+      <li>Active interaction with industry initiated .</li>
+      <li>Regularly conduct curriculum related <span><b>workshops</b></span> for VTU faculty.</li>
+      <li>Staff members have been Members of BOE</li>
+      <li> Involved in curriculum development and on board of other autonomous colleges.</li>
+      <li>Experts for EDUSAT program of VTU.</li>
+      <li>Guiding 8 students for Ph.D</li>
+    </ol>
+    <div class="row">
+    <div class="col s12 m6">
+      <h4 class="black-text"><b><p>Vision</p></b></h4>
+      Conquering technical frontiers in the field of Electronics and Communication.
+      </div>
+      <div class="col s12 m6">
+      <h4 class="black-text"><b><p>Mission</p></b></h4>
+      <ol id="para">
+        <li>To achieve and foster excellence in core Electronics and Communication with focus on Hardware, Software and Design</li>
+        <li>To pursue research, development and consultancy to achieve self sustenance</li>
+        <li>To create benchmark standards in E&C by active involvement of all stake holders. </li>
+      </ol>
+    </div>
+    </div>
+
+    <h4 class="black-text"><b><p>Laboratory</p></b></h4>
+
+    <div class="slider">
+      <ul class="slides">
+        <li>
+        <img src= "images/ece/l1.jpg"/>
+          <!--div class="caption center-align">
+            <h2>This is our big Tagline!</h2>
+            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          </div!-->
+        </li>
+        <li>
+          <img src="images/ece/l2.jpg" />
+        </li>
+        <li>
+          <img src="images/ece/l3.jpg"/>
+        </li>
+        <li>
+          <img src="images/ece/l4.jpg"/>
+        </li>
+      </ul>
+    </div>
+     <ul class="collapsible popout" data-collapsible="accordion">
+
+            <li>
+                <div class="collapsible-header"><i class="material-icons">location_city</i><b>FACILITIES AND INFRASTRUCTURE</b></div>
+                <div class="collapsible-body">
+
+            <ol>
+                <li>Department of ECE has 9 Class Rooms  each of 70 Seating, 1 Seminar Hall with 50 Seating capacity with good Ambience.</li>
+                <li>1 Seminar Hall with seating capacity of 100 with all the necessary facilities. Departmental library with reading room of seating capacity 10. </li>
+                <li>9 Labs  with equipment like CRO, Power Supply, Function Generator, Microwave integrated circuit kits, microwave benches, DPSK &amp;QPSK kits, OFC kits, Power Electronics modules, FPGA kits, mcb 51 kits, 8086 kits, Interfacing kits.</li>
+                <li>133 Computers available in ECE Department with Internet facility</li>
+                <li>Exclusive computer lab for M.Tech ECE students with 12 computers</li>
+                <li>Labs are equipped with licensed softwares like Cadence Tool for 30 users, Labview 15 No, matlab 10 No &amp;keil software 15 number etc.</li>
+                <li>Department has also set up 2R&D Labs which are GPR Lab and PSoc Lab. These labs are equipped with GPR simulation module, VNA, Horn antennas, CRO, PAM-CEM Electromagnetic simulation suite from ESI group, High end PCs.</li>
+            </ol>
+                <br>
+                  </div>
+                  </li>
+                  <li>
+                  <div class="collapsible-header"><i class="material-icons">thumb_up</i><b>EXCELLENCE / ACHIEVEMENTS</b></div>
+                <div class="collapsible-body">
+                    <ol>
+            <h5>Ranks Achieved </h5>
+                <li>Phalguna P secured 1st rank with 6 gold medals in the year 2012, K R Sathyajit secured 1st rank with 5 gold medals in the year 2014 , Ullas Bharadwaj secured 1st rank with 5 gold medals in the year 2015 , Komal Agarwal secured 4th  rank in the year 2016. Department has also got ranks in PG programme.Students achievements</li>
+                <li>Students have participated in many  technical events organized by various colleges like JSS, RVCE, SJBIT, BNMIT, Dayanand Sagar college of Engg. other colleges which includes Quiz, workshops, paper presentations, circuit debugging, etc. And also, have won prizes for the same. Students have also participated in cultural activities held in other colleges and have grabbed many awards.
+</li>
+                <li>Sushant Bhat received best singer award from RVCE , Aman Pandey received Ist prize for Ideaz B from IIT Roorkee. Rahul Shetty , Swapniel Shetty won prizes in canyon Rush and Delta Surge from IIT Karagpur
+Recognition of students by reputed organisations</li>
+                <li> The students of our department are also active in carrying out projects, and this has led them get internships in various reputed organisations like Robert Bosch, BHEL, ISRO, BEL, Aryaka networks, Nokia, TI etc. Our students Rajath Kumar M P and Keerthi Shravan have been selected for prestigious Google Scholar internships for the year 2015 and 2016 and were  paid around $5500/- for the successful completion of their assignment. </li></ol>
+                <h5>REPORT ON TEAM FALCON</h5><ol>
+                <li>Team Falcon is a group of dedicated and definitely focused students, started out as an initiative to allow interaction between senior and junior students. It was started in the year 2014. Falcon, is a bird of prey that soars high, it was chosen as a name for the group to imply that the students who were a part of falcon would soar above their peers and achieve new heights.
+The students, at falcon, transfer their knowledge, experiences to the junior students, in the form of workshops and seminars which covers fields like robotics, simulation of analog and digital circuits, pcb designing etc. It's a good platform for learning, for both senior students, who get to teach, and the junior students, who get to learn. It encourages students to try out new ways to explore and discover things by themselves.</li></ol>
+                <h5>Sponsored student projects </h5><ol>
+                <li>IEEE EPICS granted 200 us dollar for the project entitled Real-Time Conversion of Sign Language into Audio and Text form to assist hearing and/or speech impaired in the year 2014-15.
+</li>
+                <li>IEEE EPICS granted 1304.00 us dollar for the project entitled Communication tool for hearing and speech impaired in the year 2013-14.
+</li>
+<li>
+KSCST sponsored project entitled -INTEGRATED AIR-BORNE CAMERA UNIT with live video transmission and surveillance , carried out by final year  students during  2015-2016. </li>
+<li>KSCST  sponsored project entitled- The Implementation of Swarm Robotics Using Swarm Intelligence carried out by final year  students during the year 2016-2017</li>
+            </ol>
+
+
+                </div>
+            </li>
+
+
+             <li>
+                <div class="collapsible-header"><i class="material-icons">people</i><b>WORKSHOPS / CONFERENCES CONDUCTED</b></div>
+                <div class="collapsible-body">
+                    <ol>
+                       <li>Every year in the Department of Electronics &amp;Communication, 15 to 20 workshops in various fields &amp;topics are conducted. Along with this Department conducts seminars, conferences and invited lectures to keep the students and staff updated with the latest Technology.</li>
+                <li>Workshops are conducted by eminent resource persons from industries and academia , inhouse faculty  &amp;by senior(Falcon team members) /alumni  students. Some of the prime workshops which will be conducted every year are:</li>
+                <ul>
+                <li> Advanced Labview</li>
+                <li>Arduino</li>
+                <li>Multisim</li>
+                <li>PSOC</li>
+                <li>ARM processor</li>
+                <li>MSP 430, etc</li></ul>
+                <li>In continuation, department is hosting 2nd  International Conference on Circuits, Controls and Communication (C3 2017), sponsored by the IEEE Bangalore section, IEEE communications, Circuits and Systems and CAS Society will be held on December 15-16, 2017.</li>
+                <li>Department also conducts national conference regularly. In 2013 department conducted AICTE sponsored National Conference on Recent Advances in Electronics and communication Engineering-NCRAECE13</li>
+
+                    </ol>
+                    </span>
+                </div>
+            </li>
+             <li>
+                <div class="collapsible-header"><i class="material-icons">event_available</i><b>EXTRA CURRICULAR EVENTS / ACTIVITIES</b></div>
+                <div class="collapsible-body">
+
+                    <ul>
+                    <h5>IETE student chapter </h5>
+                         <li>IETE student chapter started in 2009 in the department. Under IETE there are around 400 students memberships. Every semester  technical talks are conducted for various topics for the benefit of students. Mr. Kiran Bableshwar, Capability Development Lead, Accenture Technologies, Bangalore delivered a talk on Job Preparedness , Dr. Malathi Sathish, Associate Professor, MSRUAS, Bangalore gave a lecture on Integrated Optics Bio-sensor , H.L.Srinivasa Rao, ISRO Satellite centre, Bangalore  delivered talk on Satellite technology, Praveen, Broadcom India private Ltd. Spoke  on Trends in VLSI Technology and Industry. Every year technical events are conducted under the IETE.  Techkruthi a week of techno cultural events hosted by ECE department under the banner of IETE. A total 19 student events and 2 staff events were held during the 17th to 22nd April, 17. It was a successful festival with enthuastic participation count of 370+ across all branches of B.E and M.Tech. Co-ordinated by Asst. Prof Nandini K S, along with an energetic team of 36  students from 4th &amp;6th Sem. , headed by Yogesh S Bellad &amp;Rahul P M. From Mon-Thur , 15:30 to 16:45 , 2 parallel events were held.  The finale day i.e. Saturday 22nd Apr,17 consisted Paper presentation, Treasure hunt, Gaming , also finals of all events whose prelims were completed in the weekdays in duration of 11:00 to 16:30. Staff and students also took pride by the attire of Techkruthi themed T-shirts. Techkruthi stands for All handmade, Almost Zero plastic.</li>
+                         <h5>IEEE student chapter at RNSIT </h5>
+                <li> IEEE student chapter at RNSIT started in the year 2009. In this chapter , around 100 student membership has been registered and around 20 student RAS membership has been registered in the year 2015-2016.  Total of 20 events like workshops, technical talks, project open house , paper presentation etc. are conducted under the banner of IEEE student chapter in the year 2015-2016. Significant number of RAS events were also conducted. Commendable social media outreach was done to reach out the students through Facebook Page, Official Mailing List, Twitter Handle, Google+ Community, WhatsApp group etc. Also Official Blog for IEEE RNSIT is also available on google. Through IEEE NGO Partnership for Digital Literacy has been set up in the year 2016. Computer Society in RNSIT started in the year 2017.</li>
+                <h5>Falcon</h5>
+                <li>Team Falcon is a group of dedicated and definitely focused students, started out as an initiative to allow interaction between senior and junior students. It was started in the year 2014. Falcon, is a bird of prey that soars high, it was chosen as a name for the group to imply that the students who were a part of falcon would soar above their peers and achieve new heights.
+The students, at falcon, transfer their knowledge, experiences to the junior students, in the form of workshops and seminars which covers fields like robotics, simulation of analog and digital circuits, pcb designing etc. It's a good platform for learning, for both senior students, who get to teach, and the junior students, who get to learn. It encourages students to try out new ways to explore and discover things by themselves</li>
+                                 </ul>
+                </div>
+            </li>
+                        <li>
+                <div class="collapsible-header"><i class="material-icons">monetization_on</i>SPONSORED RESEARCH PROGRAM DETAILS</div>
+                <div class="collapsible-body">
+
+                        <h5> Faculty and students of the department are doing projects sponsored by KSCST, IEEE, AICTE and LRDE.</h5>
+            <ol>
+                <li> Under AICTE-RPS, received a grant of Rs. 20,17,000/- for the project titled  Detection of Anti-personnel Mines using Indigenous Ground Penetrating Radar (GPR), in the year 2013. Dr. Vipula Singh is Principal Investigator and  Prof. S.N  Sridhara was Co-Investigator . The project was completed in 2016, with outcome of 9 UG and 2-PG projects and also around 5 Paper presentation in International and national conferences.
+                </li><li>
+ From LRDE, under CARS received a grant of Rs. 9,75,000 for the project titled Analysis and implementation of Kirchhoffs migration and Omega-K algorithms for focusing Ground Penetrating Radar Image, in the year 2014. Dr. Vipula Singh is Principal Investigator and Prof. S.N  Sridhara was Co-Investigator The project duration was 18 months. The project successfully completed in 2016, with outcome of 8 UG projects. Around 5 papers presented in International conference and 2 papers in International Journals. With these research projects faculty of ECE is pursuing PhD under VTU. The GPR  team carried out an extensive literature survey and set up an elaborate GPR lab with the entire infrastructure necessary to carry out the research.
+ </li>
+                <li>IEEE EPICS granted 200 us dollar for the project entitled Real-Time Conversion of Sign Language into Audio and Text form to assist hearing and/or speech impaired in the year 2014-15.</li>
+                <li>IEEE EPICS granted 1304.00 us dollar for the project entitled Communication tool for hearing and speech impaired  in the year 2013-14. </li>
+                 <li>KSCST sponsored project entitled -INTEGRATED AIR-BORNE CAMERA UNIT with live video transmission and surveillance , carried out by final year  students during  2015-2016. </li>
+                  <li>KSCST  sponsored project entitled- The Implementation of Swarm Robotics Using Swarm Intelligence carried out by final year  students during the year 2016-2017</li>
+
+
+                    </ol>
+                </div>
+            </li>
+
+
+
+ <li>
+                <div class="collapsible-header"><i class="material-icons">poll</i>PERFORMANCE</div>
+                <div class="collapsible-body">
+                    <ol>
+                <h5 class="black-text"><b><p>Quality Input</p></b></h5>
+                <ul>
+                    <li>
+                        <B>CET ranks : < 2500</B> and
+                        <B>  COMED-K ranks : < 6000</B>
+                        <B>Faculty: Boasts of well qualified, committed and experienced teaching faculty -<br> 5 Professors, 3 Asso. Professors, 31 Asst. Professors</B> </li>
+                </ul>
+                <br>
+                <li>Excellent infrastructure with well-equipped and sufficient laboratories and library facility and Seminar halls are available for the usage of Lecture/NPTEL Videos/Demos.</li>
+                <li>NBA Accredited during 2011-14
+                </li>
+                <li>Department is Recognized as Research center by VTU, Belagavi, 14 scholars from Industry and academia are currently pursuing PhD/MSc(Engg)
+                </li>
+                <li>
+The Department of ECE has been consistently securing university ranks from past five years and this has led to a goodwill about the college at the state level.  In the last five years, a total of ten students have secured ranks, out of which three have been First Ranks. The average performance of the student is around 85% in vtu exams.</li>
+                <li>90% of the students get placed in reputed companies with minimum package of 3.5 L pa and maximum package of 24 L pa.
+Good Academic and Extra, Co-Curricular records by students, Consistent performance in university exams and placement of the students in Core Companies
+</li>
+                <li>Good number of Paper Publications by both Faculty and Students</li>
+                <li>Good number of technical interactions like Guest Lectures, Workshops, Competitions &Conferences are conducted by the Department</li>
+                <li>Students Club Techkruthi, Robotics Club, mini project exhibition(PROP), Professional societies IEEE, and IETE for the benefit of faculty and students to alert their skills.
+</li><li>Training Classes are carried out to prepare the students for Placements/ GATE/ GRE Examination.
+</li></ol>
+                </div>
+                </li>
+
+
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">message</i>NEWSLETTER(S) DESCRIPTON</div>
+                    <div class="collapsible-body">
+                        <p>Department releases news letter NOESIS- once every semester. Noesis  means it is the perception of mind and a study of intellect. Noesis started in 2010 and department has released 13 newsletters till date. News letter is a collection of both technical thoughts and artistic skills. It is also a report of all the activities conducted within the department during  the semester.
+</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">work</i>PROJECT OPEN HOUSE(S)</div>
+                    <div class="collapsible-body">
+                        <h5>Project Open house</h5>
+            <p>Every year the ECE department conducts Open house Expo for final year UG and PG students. About 250 students participate and showcase their technical and also communication skills. Projects are carried out in various fields of Electronics &amp;Communication Engineering namely Core communication, VLSI, embedded systems, Image processing, robotics, IoT, control etc. Majority of the projects are carried In-house where-as some are carried out in external organizations like ADE, LRDE, ISRO, IISc, BEL etc. Some of the projects can be rolled out as products to help in health care, military and the society in general like robots to monitor the health of senior citizens and the disabled, robots that help the injured in war, pill vending machine, detection of landmines in war zones using Ground Penetration Radar, IoT based water &amp;electricity billing system, storing and tracking of solar power, industrial pollution monitoring system, segregation of waste. Experts from various fields from industry and academia are brought to judge the projects &amp;give expert inputs. Based on the students performance, the judges have continually expressed their happiness regarding the quality of the projects and the enthusiasm of the students in explaining them. They appreciated the students for trying to analyze the need/problems of our day to day life &amp;solve them through reliable and cost effective projects. Many of the students start the work early (3rd and 4th sem) as mini-projects and continue on the same work until their final years and bring out more useful products to the society. This is a great initiative towards realizing our PMs dream of Make-In-India for creating successful young scientists &amp;entrepreneurs directly from the Institution.</p><h5>Mini Project Open house
+</h5>
+            <p>Mini Project Open House Expo is a celebration of ideas, thoughts and innovation of the 1st year, 2nd year and 3rd year students , which is being conducted every semester for past 4 years. Students showcase their projects in the various domains like embedded systems, VLSI, Microcontrollers, Robotics and image processing etc. More than 150 projects are exhibited every semester . These  projects are judged by experts from the industry and academics.
+It promotes out-of-the-box thinking in students and fosters interaction between juniors, seniors and professors. Its a platform where students apply their conceptual knowledge for practical applications. This bridges the gap between what we learn in the classroom and what is needed in the real world. </p>
+            <p>The projects are evaluated under 4 categories like Hardware, Software, Hybrid and Social Impact and best projects are awarded with certificates and cash prize in each category. Hardware projects are those which include electronic circuitry without any software control. Software projects are those which mainly use software tools like LabVIEW, MATLAB and programming in SQL, HTML etc., Hybrid projects are a mixture of hardware and software, i.e., all embedded applications. And Social Impact projects, as the name implies, includes all projects which aim towards the betterment of the society.
+This event has helped students to perform better during placements and get placed in core companies. It enriches their technical skills and soft skills. Few of the projects are further continued as a final year projects.
+Project expo has also resulted in publishing of papers in national and international conferences .
+</p>
+                    </div>
+                </li>
+
+
+
+
+
+
+         <li>
+                    <div class="collapsible-header"><i class="material-icons">directions_run</i><b>DISTRICT / STATE / NATIONAL / INTERNATIONAL SPORTS PARTICIPATION</b></div>
+                    <div class="collapsible-body"><p>Many students from RNSIT have appeared for the GATE examination and have cleared with outstanding scores and got enrolled in reputed universities for their higher studies.
+</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">receipts</i>R &amp;D WORK / PAPERS PUBLISHED</div>
+                    <div class="collapsible-body">
+                        <ol><li>
+Department of ECE has R&D centre offering Ph.D /M.Sc (Engg) since 2009. Under this research center 14  research scholars are pursuing their Ph. D in various domains like Image Processing, Signal Processing , Networking, crptography , Antenna and Radar , Optics etc under the guidance of Prof. Vipula Singh, Rajini V H , Prof S.V Uma. Research Scholars have published more than 132 publications in reputed journals and conferences.
+From this research center Prof. Archana R Kulkarni successfully completed her Ph.D in the year 2017. </li>
+<li>
+Under AICTE-RPS, received a grant of Rs. 20,17,000/- for the project titled  Detection of Anti-personnel Mines using Indigenous Ground Penetrating Radar (GPR), in the year 2013. Dr. Vipula Singh is Principal Investigator and  Prof. S.N  Sridhara was Co-Investigator . The project was completed in 2016, with outcome of 9 UG and 2-PG projects and also around 5 Paper presentation in International and national conferences. </li>
+<li>From LRDE, under CARS received a grant of Rs. 9,75,000 for the project titled Analysis and implementation of Kirchhoffs migration and Omega-K algorithms for focusing Ground Penetrating Radar Image, in the year 2014. Dr. Vipula Singh is Principal Investigator and Prof. S.N  Sridhara was Co-Investigator The project duration was 18 months. The project successfully completed in 2016, with outcome of 8 UG projects. Around 5 papers presented in International conference and 2 papers in International Journals. With these research projects faculty of ECE is pursuing PhD under VTU. The GPR  team carried out an extensive literature survey and set up an elaborate GPR lab with the entire infrastructure necessary to carry out the research.</li>
+
+<li>Publications by faculty and students.Faculties of ECE Department along with the students are involved in many research activities and have published their research contribution in many reputed journals like scopus indexed , Thomson Reuters  and International conferences like Elsevier, IEEE, Springer, etc. Since 2012, around 138 papers has been published by faculties and students with 155 citations. Faculties have also published books with reputed publishers like Elsevier , International Publishing House, etc.</li></ol>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">receipts</i>ECE RESEARCH CENTRE</div>
+                    <div class="collapsible-body">
+                        <ol><li>
+Department of ECE has R&D centre offering Ph.D /M.Sc (Engg) since 2009. Under this research center 14  research scholars are pursuing their Ph. D in various domains like Image Processing, Signal Processing , Networking, crptography , Antenna and Radar , Optics etc under the guidance of Prof. Vipula Singh, Rajini V H , Prof S.V Uma. Research Scholars have published more than 132 publications in reputed journals and conferences.  
+From this research center Prof. Archana R Kulkarni successfully completed her Ph.D in the year 2017.</li></ol>
+                    </div>
+                </li>
+
+
+</ul></div>
+
+
+<div class="container">
+  <div class="row">
+    <h4 class="black-text"><b><p>Teaching Staff</p></b></h4>
+    <ul class="listul cardul">
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal1"><img src="https://fituew.bn1304.livefilestore.com/y4mLCZeO1nS6K3E1UPllL59UNv4n22DJQJ_aLBT-HWze5Cu_B4znbt9isEgwFQ1tluG3f55wSVf_U826ui1NN_cd6m5Lag9yccrnMkw2VJihXW4pQUU-GJ9aaFkqHYeKNRjjG62cXQAqpjGOvgjAy1zO0cAHVup3Ed5SHLW0_p5J1Pp_RAkq1zhkAV7g0w9ec0NA8gdwGquyn4iFQYr5T8CrQ?width=660&height=440&cropmode=none" width="660" />
+        <p>Dr. H N Shivashankar</p>
+        <p>Professor &amp;Director</p></a>
+      </li>
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/1.jpg" />
+          </div>
+
+          <div class="modal-details">
+           <table>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>Dr. H N Shivashankar</td>
+            </tr>
+            <tr>
+              <td>Designation</td>
+              <td>Professor &amp;Director</td>
+            </tr>
+            <td>Qualification</td>
+                  <td>B.E., M.Sc(Engg.), Ph.D</td>
+            </tr>
+            <tr>
+                  <td>Total Experience</td>
+                  <td>48 years of teaching</td>
+            </tr>
+              
+          <tr>
+            <td>Experience in RNSIT</td>
+            <td>15 Years</td>
+          </tr>
+         
+          </tbody>
+        </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal2"><img src="images/ece/2.jpg" />
+        <p>Dr. M K Venkatesha</p>
+        <p>Professor &amp;Principal</p></a>
+      </li>
+      <div id="modal2" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/2.jpg">
+          </div>
+
+          <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>Dr. M K Venkatesha</td>
+            </tr>
+            <tr>
+              <td>Designation</td>
+              <td>Professor &amp;Principal</td>
+            </tr>
+            <td>Qualification</td>
+                  <td>Post Graduation from the University of Manitoba (CANADA)</td>
+            </tr>
+            <tr>
+                  <td>Total Experience</td>
+                  <td>35 years of teaching</td>
+            </tr>
+              
+          <tr>
+            <td>Experience in RNSIT</td>
+            <td>10 Years</td>
+          </tr>
+         
+          </tbody>
+        </table>
+      </div>
+    </div>
+                  
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal3"><img src="images/ece/3.jpg" />
+        <p>Dr. Vipula Singh</p>
+        <p> Professor &amp;Head</p></a>
+      </li>
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/3.jpg" >
+          </div>
+
+           <div class="modal-details">
+        <table>
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>Dr. Vipula Singh</td>
+            </tr>
+            <tr>
+              <td>Designation</td>
+              <td>Professor & Head ECE</td>
+            </tr>
+            <tr>
+              <td>Qualification</td>
+              <td>B.E. in ECE from NIT Bhopal, Gold medalist in MTech from NIT Nagpur , and PhD from Guru Gobind Singh Indra Prastha University New Delhi (2009).</td>
+            </tr>
+            <td>Total Experience</td>
+            <td>20 years of teaching, 2 year of industry</td>
+          </tr>
+          <tr>
+            <td>Experience in RNSIT</td>
+            <td>9 Years</td>
+          </tr>
+          <tr>
+            <tr>
+              <td>
+                Areas Of Interest
+              </td>
+              <td>
+                Image Processing, Image compression, Ground Penetrating Radar (GPR), Artificial neural network, Artificial intelligence
+              </td>
+            </tr>
+            <tr>
+              <td>Projects</td>
+              <td>Guided 86 UG students' projects, 36 PG students' projects, 12 MCA students' projects 4 Research Projects under Grants from AICTE, VTU</td>
+            </tr>
+            <tr>
+              <td>
+                Papers
+              </td>
+              <td>Published 96+ papers at reputed indexed International Journals, 24+ papers at reputed Intrrnational Conferences and 6 at National conferences</td>
+            </tr>
+            <tr>
+              <td>No of Books Published</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Other Achievements</td>
+              <td>Best Teacher Award Rajiv Gandhi Gold Medal</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+          
+          
+
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal4"><img src="images/ece/4.jpg"  />
+        <p> Mr. S N Sridhara</p>
+        <p>Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal5"><img src="images/ece/5.jpg"  />
+        <p>Dr. S V Uma</p>
+        <p>Associate Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal6"><img src="images/ece/6.jpg" />
+        <p>Dr. Rajini V Honnungar</p>
+        <p>Associate Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal7"><img src="images/ece/7.jpg" />
+        <p>Mrs. Manjula V K</p>
+        <p>Associate Professor</p></a>
+      </li>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal8"><img src="images/ece/8.jpg"/>
+        <p> Mrs. Usha B S</p>
+        <p> Assistant Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal9"><img src="images/ece/9.jpg"/>
+        <p> Mrs. Archana R Kulkarni</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal10"><img src="images/ece/10.jpg"/>
+        <p>Dr.Prabhavathi C N</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal11"><img src="images/ece/11.jpg"/>
+        <p>Mr. Prakash Tunga P</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal12"><img src="images/ece/12.jpg"/>
+        <p> Mrs. Smitha N</p>
+        <p> Assistant Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal13"><img src="images/ece/13.jpg"/>
+        <p>Mrs. Ohileshwari M S</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal14"><img src="images/ece/14.jpg"/>
+        <p>Mr. Narendra Kumar</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal15"><img src="images/ece/15.jpg"/>
+        <p> Mrs. Sangeetha  B G</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal16"><img src="images/ece/16.jpg"/>
+        <p>Ms. Mamatha A S</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal17"><img src="images/ece/17.jpg"/>
+        <p>Mr. Sreenivasa Babu M O</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal18"><img src="images/ece/18.jpg"/>
+        <p>Mrs. Ibrar Jahan M A</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal19"><img src="images/ece/19.jpg"/>
+        <p>Mrs.Nandini K S</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal20"><img src="images/ece/20.jpg"/>
+        <p>Ms. Ghousia Begum S</p>
+        <p>Assistant Professor</p></a>
+      </li>
+      <div id="modal20" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/20.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Ms. Ghousia Begum S</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>B.E, M.E, Ph.D-Pursing</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>3 years of teaching</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal21"><img src="images/ece/21.jpg"/>
+        <p>Ms. Chethana J</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal22"><img src="images/ece/22.jpg"/>
+        <p>Mr. Praveen G</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal23"><img src="images/ece/23.jpg"/>
+        <p>Ms. Leena Chandrashekar</p>
+        <p> Assistant Professor</p></a>
+      </li>
+      <div id="modal23" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"   src="images/ece/23.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Ms. Leena Chandrashekar</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>B.E, M.Tech , Ph.D-Pursuing</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>8 years of teaching, 1 year of industry</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal25"><img src="images/ece/24.jpg"/>
+        <p>Ms. Chaithra T S</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal26"><img src="images/ece/25.jpg"/>
+        <p>Ms. Vanitha K S</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal27"><img src="images/ece/26.jpg"/>
+        <p>Mrs. Swetha B</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal28"><img src="images/ece/27.jpg"/>
+        <p>Mrs. Niya Jackson</p>
+        <p>Assistant Professor</p></a>
+      </li>
+      <div id="modal28" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/27.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mrs. Niya Jackson</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>B.Tech, M.Tech</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>8 years of teaching</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal29"><img src="images/ece/28.jpg"/>
+        <p>Ms. Saraswati G Joshi </p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal30"><img src="images/ece/29.jpg"/>
+        <p>Mr. Sanjay M Belgaokar</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal31"><img src="images/ece/30.jpg"/>
+        <p>Mrs. Aparna Vishwanath</p>
+        <p>Assistant Professor</p></a>
+      </li>
+      <div id="modal31" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"   src="images/ece/30.jpg"/>
+          </div>
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mrs. Aparna Vishwanath</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>B.E, M.E</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>1 year of teaching</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal32"><img src="images/ece/31.jpg"/>
+        <p>Ms. Vinaya Kusuma</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal34"><img src="images/ece/32.jpg"/>
+        <p>Mr. Sankalp Bailur</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal35"><img src="images/ece/33.jpg"/>
+        <p>Mrs. Neethu R</p>
+        <p> Assistant Professor</p></a>
+      </li>
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal36"><img src="images/ece/34.jpg"/>
+        <p>Ms. Geetha G</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal37"><img src="images/ece/35.jpg"/>
+        <p>Mr. Manjunatha Naik V</p>
+        <p>Assistant Professor</p></a>
+      </li>
+
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <h4 class="black-text"><b><p>Non-Teaching Staff</p></b></h4>
+    <ul class="listul cardul">
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal38"><img src="images/ece/36.jpg"/>
+        <p>Mrs. Veena S</p>
+        <p>Instructor</p></a>
+      </li>
+      <div id="modal38" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"   src="images/ece/36.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mrs. Veena S</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Instructor</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>Diploma in ECE</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>24 Years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal39"><img src="images/ece/37.jpg"/>
+        <p>Mr. Shivakumar S</p>
+        <p>Instructor</p></a>
+      </li>
+      <div id="modal39" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/37.jpg" />
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mr. Shivakumar S</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Instructor</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>Diploma in ECE</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>17 Years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal40"><img src="images/ece/38.jpg"/>
+        <p>Mrs. Sandhya G Hegde</p>
+        <p>Assistant Instructor</p></a>
+      </li>
+      <div id="modal40" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/38.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mrs. Sandhya G Hegde</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Assistant Instructor</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>Diploma in E&C</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>7 Years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal41"><img src="images/ece/39.jpg"/>
+        <p>Mr. Anand M</p>
+        <p>Assistant Instructor</p></a>
+      </li>
+      <div id="modal41" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/39.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mr. Anand M</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>anandmnk1985@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Instructor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>Diploma in E&C</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>8.9 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>4.8 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal42"><img src="images/ece/40.jpg"/>
+        <p>Mr. Shivayogaiah</p>
+        <p>Assistant Instructor</p></a>
+      </li>
+      <div id="modal42" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/40.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mr. Shivayogaiah</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Assistant Instructor</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>ITI, Diploma</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>16 years of teaching</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal43"><img src="images/ece/41.jpg"/>
+        <p>Mr. A V Lakshmi Prasanna</p>
+        <p>Mechanic</p></a>
+      </li>
+      <div id="modal43" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"   src="images/ece/41.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mr. A V Lakshmi Prasanna</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Mehanic</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>I.T.I - Electronics Mechanic, Diploma in ECE</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>13 years of teaching</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal44"><img src="images/ece/42.jpg"/>
+        <p>Mr. Sunil Kumar H</p>
+        <p>Mechanic</p></a>
+      </li>
+      <div id="modal44" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/42.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mr. Sunil Kumar H</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Mechanic</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>I.T.I - Electrician, B.Sc(IT), MBA</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>12 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal45"><img src="images/ece/43.jpg"/>
+        <p>Mr. Ravi M G</p>
+        <p>Mechanic</p></a>
+      </li>
+      <div id="modal45" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/43.jpg" />
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mr. Ravi M G</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Mechanic</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>Diploma ECE</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>16 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal46"><img src="images/ece/44.jpg"/>
+        <p>Mr. Vasantha Kumar</p>
+        <p>Helper</p></a>
+      </li>
+      <div id="modal46" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/44.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mr. Vasantha Kumar</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Helper</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>ITI, Diploma in ECE</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>4 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <li class="cardli"><a class="waves-effect waves-light" href="#modal47"><img src="images/ece/45.jpg"/>
+        <p>Mr. Ramamurthy</p>
+        <p>Peon</p></a>
+      </li>
+      <div id="modal47" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/45.jpg" />
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>Mr. Ramamurthy</td>
+                </tr>
+                <tr>
+                  <td>Designation</td>
+                  <td>Peon</td>
+                </tr>
+                <tr>
+                  <td>Qualification</td>
+                  <td>PUC</td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>10 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+    </ul>
+  </div>
+</div>
+
+
+<!--Footer -->
+ <div id="fot">
+      <footer id="footer" class="page-footer">
+  <div class="container-fluid">
+    <div class="row lool">
+      <div class="roww" style="overflow: hidden;">
+        <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
+        <a onclick="insta()" href=""><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
+        <a href="mailto:rnsitplacement@gmail.com"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
+        <a href="https://www.twitter.com/RNSIT_Bangalore/"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
+        <a href="https://www.linkedin.com/in/rnsit-bangalore-00765014b/"><image class="icon ic4" src="images/linkedin.svg" alt="linkedin"></image></a>
+      </div>
+        <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
+    </div>
+  </div>
+  </footer>
+      </div>
+
+<!-- Modal part -->
+
+      <div id="modal4" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/4.jpg"  >
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mr. S N Sridhara</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.E, PGDOM</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>RADAR</td>
+                </tr>
+                <tr>
+                  <td>Projects:</td>
+                  <td>GROUND PENETRATING RADAR PROJECT</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul>
+                    <li>Effect of Ground Undulation and Mounted Vehicle Velocity Variation  on SFCW GPR Data  EXPLORATION GEO PHYSICS</li>
+                    <li>Pyramidal Horn Antenna for Ground Penetrating Radar Application, IEEE INDICON 2016.</li>
+                    <li>Kirchhoff and F-K migration to focus ground penetrating radar images, International Journal of Geo-Engineering, 7(1), 1-12</li>
+                    <li>DESIGN AND SIMULATION OF HORN ANTENNA FOR GPR, ICRBIT-2015.</li>
+                    <li>An Efficient Algorithm for Peak Detection on B-Scan data generated using GPR, 2016 International Conference on Computer Communication and Informatics (ICCCI -2016), Jan. 07 - 09, 2016, Coimbatore.</li>
+                    <li>Through-wall imaging system, IEEE International Conference (ICACCS-2017) Coimbatore.</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>35 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT</td>
+                  <td>8 years</td>
+                </tr>
+                <tr>
+                  <td>Other Achievements:</td>
+                  <td>CAREER GURU AWARD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal5" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/5.jpg" />
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Dr. S V Uma</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>umakeshav2000@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Associate Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech, Ph.D</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td><ul><li>Communication Systems</li>
+                          <li>Data Networks</li>
+                          <li>Signal/Image processing</li></ul></td>
+                </tr>
+                <tr>
+                  <td>Projects:</td>
+                  <td><ul><li>DESIGN AND IMPLEMENTATION OF AN EFFICIENT ALGORITHM FOR DETECTION AND ELIMINATION OF VIRUSES IN NEXT GENERATION NETWORKS</li>
+                          <li>DISTRIBUTED DENIAL OF SERVICE: ATTACK AND MITIGATION TECHNIQUES</li>
+                          <li>An Efficient VLSI Implementation of CDF 5/3 Architecture  on  FPGA for Image Processing Applications.</li>
+                          <li>BRAILLE LANGUAGE ENABLED CELL PHONE  FOR VISUALLY IMPAIRED PEOPLE</li>
+                          <li>Prototype of a User-friendly Garden Irrigation System</li>
+                          <li>IMPLEMENTATION OF OFDM TRANSCEIVER ON AN FPGA</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul><li>GA based optimal design of network architecture for desired connectivity and traffic demand, International Journal of Scientific &amp; Engineering Research Volume 2, Issue 11, November-2011</li>
+                          <li>Congestion Control by Heuristics in High-Speed Networks Using ANN, Lecture Notes in Electrical Engineering,  Springer. {Acceptance and final proof copy received, To be published in 2014}</li>
+                          <li>A Cross Layer UDP-IP protocol for Efficient Congestion Control in Wireless Networks, International Journal of Computer Science and Information Security, Vol. 11, No.12, Dec 2013</li>
+                          <li>A Novel, Unified Dynamic Data Dissemination [D3] and Differentiated Traffic Classification Technique for Congestion Avoidance in High Speed Wireless Multimedia Sensor Networks , International Journal of Simulation, Systems, Science and Technology.  {Acceptance received, To Be Published in Jan2014}</li>
+                          <li>S V Uma, K S Gurumurthy,   Novel, High Speed Congestion Control through Deep packet inspection and filtering of Network Intrusions (Communicated)</li>
+                          </ul></td>
+                </tr>
+                <tr>
+                  <td>Books Written:</td>
+                  <td><ul>
+                    <li>Constraint based network design using Genetic algorithm, Nov. 2013, Lambert Academic Publishing, Germany</li>
+                    <li>Electronic Circuits, Aug. 2005, Subhas publications, Bangalore.</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>19 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>14.7 years</td>
+                </tr>
+                <tr>
+                  <td>Other Acheivements</td>
+                  <td><ul>
+                    <li>Received Best Paper Award  for the paper titled A Cross Layer UDP-IP protocol for efficient Congestion Control in Wireless Networks, in International Journal of Computer Science and Information Security, Vol.11, No.12, December 2013, pages 58-68, ISSN 1947-5500.</li>
+                    <li>Received &quot;Best Teacher award&quot; at RNSIT in the year 2004,2005.</li>
+                    <li>Conducted classes in VTU-EDUSAT in AEC and Microelectronic Circuits in the years 2004 and 2013.</li>
+                    <li>Had been Member-BoE and Coordinator for Practical exams in ECE/TC branches of VTU in the year 2014-15.</li>
+                    <li>Conducted Corporate training programs on Data Converters and its Applications and Analog ICs and their applications in 2009 &amp; 2010.</li>
+                    <li>Average student appraisal in the range 90% throughout my teaching career.</li>
+                    <li>Have guided more than 50 UG projects and more than 12 PG students for their final year projects.</li>
+                    <li>Have delivered invited talks on Advanced Communication Technologies , Basics of Engineering etc. in other reputed colleges.</li>
+                  </ul></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal6" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/6.jpg">
+          </div>
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Dr. Rajini V Honnungar</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>Rajini.V.Honnungar@rnsit.ac.in</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Associate Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech, PhD(IISc)</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Integrated Optics, Microwave Photonics, Microwaves and Antennas</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul><li>Rajini V Honnungar, Soumya .N,T. Srinivas  &quot;Optimization of S-bend Waveguide Parameters For Delay Line Based Phase Shifter In Integrated Optics&quot;  ASIAN Journal of  Physics, an International Quarterly Research Journal</li>
+                    <li>Rajini V Honnungar,T Srinivas  &quot;Design and Simulation of an Optical Integrated Passive S-bend waveguide delay line Phase Shifter&quot;  IEEE CICSyn2012,Phuket,Thailand, July 24-26,2012, IEEE 2012 pp.125-128, ISBN 978-1-4673-2640-7</li>
+                   <li>Rajini V Honnungar, T Srinivas  &quot;An  integrated optics delay line using curved waveguide for beamforming applications&quot;  XXXV OSI Symposium, International Conference on Contemporary Trends in Optics and Optoelectronics,pp.394 Jan 17-19, 2011, Thiruvanthapuram, India.</li>
+                  <li>Rajini V Honnungar,  Yadunath.T.R, Sujitha.P, T.Srinivas   &quot;Design and  Analysis of Integrated Optic waveguide Delay line for Beam forming Applications&quot;  pp.43,16-18 Dec.2011,IEEE India Annual Conferennce on Engg., sustainable solutions, INDICON-2011, BITS, Hyderabad</li></ul></td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>19 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>13 years</td>
+                </tr>
+                <tr>
+                  <td>Other Achievements:</td>
+                  <td><ul>
+                    <li>Best teacher award during 2006 at RNSIT</li>
+                    <li>IEEE Student Branch Counselor</li>
+                  </ul></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="modal7" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/7.jpg"  />
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mrs. Manjula V K</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>manjulavk@rediffmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Associate Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech, (Ph.D)</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Wireless communication, Software Defined Radio, Communication Networking, IOT</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul>
+                    <li>&quot;SDR solution approach for Baseband- Personal Area Network&quot;,
+                              IJETAE,Volume 2, Issue 4, April 2012, pp645-648.</li>
+
+                    <li>&quot;SDR Solution to IEEE802.15.4 sub-1GHz band BPSK Modem&quot;, IEEE 3rd
+                        International Conference on ELECTRONICS AND COMMUNICATION
+                        SYSTEMS (ICECS-16) on  25th-26th February 2016,Volume 5, pp. 2551-55</li>
+
+                    <li>&quot;Reconfigurable Software Defined Radio MODEM for Personal Area
+                            Network&quot;, IEEE WiSPNET 2017 conference, on  22rd-24th March 2017,
+                            pp. 1460-1465, 978-1-5090-4442-9/17/$31.00c</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>18 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>14 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="modal8" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/8.jpg" />
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mrs. Usha B S</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>usha.b.s@rnsit.ac.in</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Image Processing, Digital Electronics</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul><li>Papsmear image based detection of cervical cancer, International Journal of Computer Applications 45 (20), 35-40, 2012</li>
+                      <li>A novel approach for speckle reduction and enhancement of ultrasound images, International Journal of Computer Applications (0975 - 8887)
+                      Volume 45- No.20, May 2012</li>
+                      <li>Medical image transcoder for telemedicine based on wireless communication devices, , 2011 3rd IEEE International Conference on Electronics Computer Technology (ICECT)</li>
+                      <li>Measurement of ovarian size and shape parameters, Annual IEEE India Conference (INDICON), pp.1-6, 2013</li>
+                      <li>Size and Shape-Based Ovarian Abnormality Detection of Ultrasound Images, Emerging Research in Electronics, Computer Science and Technology, Springer LNEE, 295-309, 2013</li>
+                      <li>Ultrasound Ovary Image Classification Using Kσ-Classifier, 5th International Conference on Biomedical Engineering in Vietnam, 198-202, Springer IFMBE Proceedings</li>
+                      <li>Abnormality Detection in Ovarian Ultrasound Images using Active Contours,
+                      Journal of Biomedical Engineering and Medical Imaging 1 (4), 14-23</li></ul></td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>15 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>13.5 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal9" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/9.jpg"/>
+          </div>
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mrs. Archana R Kulkarni</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>archana.anv@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech, Ph.D</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Wireless Sensor Networks, Embedded  Systems, Computer Networks</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul>
+                    <li>&quot;Analysis of Performance of MAC based Iterative MUD Using EXIT and BER Charts&quot;, CiiT International Journal of Wireless Communication, September 2010, Vol. 2, No. 9, pp. 297-303. Available at www.ciitresearch.org/dl/index.php/wc/article/view/WC092010007</li>
+
+                    <li>&quot;Data Aggregation Using Doped Turbo Codes&quot;, Paper presented at International Conference on Contemporary and Informatics 2014, Sponsored by IEEE Advancing Technology Humanity, IEEE Bangalore Section, pp. 440-445.Also uploaded in the IEEE Xplore Digital library with Part Number CFP14AWQ,978-1-4799-6629-5/14/$31.00@2014 IEEE, DOI:10.1109/IC3I.2014.7019709.</li>
+
+                    <li>&quot;Assigning Nodes to Clusters in WSN based on Fuzzy Inputs of RSS, BE and BA&quot;, Paper presented at International Conference on Electrical, Electronics, Signals, Communication and Organization 2015, IEEE Conference Record Number: #35593, 24-25, January 2015. This paper is also uploaded in the IEEE Xplore Digital library with Part Number CFP14AWQ, INSPEC Accession Number 15452223, 978-1-47997678-2/15/$31.00@2015 IEEE, DOI:10.1109/EESCO.2015.7253671.</li>
+
+                    <li>&quot;Adaptable Packet Length for Power Hungry WSN&quot;, International Journal of Engineering Research and General Science, Mar-Apr 2015, Vol. 3, No. 2, ISSN 2091-2730, pp. 242-248. Available at www.ijergs.org</li>
+                  </ul></td>
+                </tr>
+                <!--tr>
+                  <td>Books Written:</td>
+                  <td>IEEE XPLORE DIGITAL LIBRARY</td>
+                </tr-->
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>18.5 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>11.5 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal10" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/10.jpg">
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Dr.Prabhavathi C N</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>prabhacngowda@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech Ph.D</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Signal Processing, Communication</td>
+                </tr>
+                <tr>
+                  <td>Projects:</td>
+                  <td>UG and PG projects are given to students and  has been guided.</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul>
+                    <li>Presented in International Conference</li>
+                    <li>Published  in international( Scopus) indexed journals</li>
+                    <li>One of the paper is published in Springer Book</li>
+                    <li>Presented  in National Conference</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Total Experience</td>
+                  <td>16 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>12 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal11" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/11.jpg">
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mr. Prakash Tunga P</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>prakashtunga.p@rnsit.ac.in</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Digital Image Processing</td>
+                </tr>
+                <tr>
+                  <td>Projects:</td>
+                  <td>
+                      <ul><li>Brain Tumor extraction using segmentation techniques</li> <li>Implementation of FIR filter using parallel architecture applicable for audio and image applications</li> <li>Design and development of 32-bit floating point multiplier unit on FPGA</li> </ul></td>
+                </tr>
+              <tr>
+                <td>Papers:</td>
+                <td>Extraction and Description of Tumor region from brain MRI using segmentation techniques only</td>
+              </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>12.25 Years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>11 Years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="modal12" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"   src="images/ece/12.jpg"/>
+          </div>
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mrs. Smitha N</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>smithanesara81@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.E</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Radar signal processing, Antennas</td>
+                </tr>
+                <tr>
+                  <td>Projects:</td>
+                  <td><ul>
+                    <li>Implementation and development of Kirchhoff and F-K migration algorithms for improving GPR resolution</li>
+                    <li>Clutter reduction using signal processing techniques for ground penetrating radars</li>
+                    <li>Design and simulation of antennas for GPR Applications</li>
+                    <li>Electromagnetic wave propagation modeling of soil for GPR</li>
+                    <li>FDTD Based Numerical Framework for Ground Penetrating radar simulation</li>
+                    <li>Design and fabrication of Vivaldi Antenna</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul>
+                    <li>Smitha N, Vipula Singh, &quot;Clutter Reduction using Background subtraction of Ground penetrating radar for landmine detection&quot;,  2015 IEEE Asia Pacific Conference on Postgraduate Research in Microelectronics and Electronics (Prime Asia)</li>
+                    <li>Smitha N, Vipula Singh, &quot;Clutter reduction techniques of ground penetrating radar for detecting subsurface explosive objects&quot;, 5th IEEE International Conference on Information, Communication &amp; Embedded Systems, ICICES 2016</li>
+                    <li>N. Smitha, D. R. Ullas Bharadwaj, S. Abilash, S. N. Sridhara, Vipula Singh, &quot;Kirchhoff migration to focus Ground Penetrating Radar Images for Landmine detection&quot;, International journal of Geo-Engineering, (2016) , vol 7:4, pp 1-12</li>
+                    <li>N. Smitha, D. R. Ullas Bharadwaj, S. Abilash, S. N. Sridhara, Vipula Singh, &quot;Effect of Ground Undulation and Variation in velocity of vehicle on Migration of SFCW GPR data for landmine detection&quot;,  Exploration Geophysics Journal (CSIRO)</li>
+                    <li> Smitha N, Vipula Singh, Sridhara S N, &quot;Pyramidal Horn antenna for Ground Penetrating Radar application&quot;, INDICON, 2016, IEEE conference</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>12 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>10 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal13" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/13.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mrs. Ohileshwari M S</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>ohileshwarims@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech, (Ph.D)</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>VLSI testing, Sub-threshold Memories</td>
+                </tr>
+                <tr>
+                  <td>Projects:</td>
+                  <td><ul>
+                    <li>Design and development of test controller card for fan tray unit under manufacturing test</li>
+                    <li>Design and implementation of efficient BICS for 6T SRAM cells</li>
+                    <li>Power optimization technique for TYPE-A sub-threshold SRAM cells</li>
+                    <li>Design and implementation of SCS-based montogomy modular multiplier</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul>
+                    <li>Testing Analog blocks based on terminal characteristics of highly sensitive nodes ICSEM-2013</li>
+                    <li>Efficient dynamic current testing solution for fault masking in memory cells</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>16 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>5 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="modal14" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/14.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mr. Narendra Kumar</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>nkrnsit@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>BE ,MTech, MBA (PhD)</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Biomedical signal processing, Embedded systems, Advanced Communication Engineering</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul> <li>Tejaswini, Narendra Kumar  &quot;Autonomous Staircase Climbing Robot&quot;  International Journal of Advanced Computational Engineering and Networking, ISSN: 2320-2106, volume-4,ISSUE-6, june-2016.</li>
+
+                             <li>Akshatha N, NarendraKumar,Dr K B Ramesh  &quot;Design and Development of a Primeval Medical Therapy using Applied Electronic Instrumentation by Analyzing Wrist Procurement for Monitoring Human Health Status&quot;  International Journal of Computer Science and Engineering,E-ISSN:2347-2693, volume-4,special issue-3, May 2016.</li>
+
+                            <li>JATIN CHOUDRY ,NarendraKumar  &quot;Labview Based Text To Speech Processor For Blind And Dumb People&quot;  International Academic Conference on  Electrical and Electronics Engineering (IACEEE), 17th May 2015.</li>
+
+                            <li>SUHAS M, Narendra Kumar  &quot;A Novel Method For Multiply Accumulate Operation Optimized For Hardware Implementation Using Vedic MAC&quot;  2nd International Conference on recent trends in Signal Processing, Image Processing &amp;VLSI,Department Of Electronics and Communication Engineering ,Don Bosco Institute Of Technology on 15th&amp;16th May,2015.</li>
+
+                            <li>Narendra Kumar  &quot;Speech Recognised Calculator&quot;  ISRACE Second International Conference on Recent Advances In Science And Engineering (ICRACE-2015)Bangalore,9th&amp;10thMay 2015.</li>
+
+                            <li>Narendra Kumar  &quot;A Novel Accumalate Method To Multiply Accumulate Operation&quot;  National Conference On  AdvancedCommunication,VLSI Design &amp; Signal Processing, NCCVS-15, Bangalore, 29th April,2015.</li>
+
+                            <li>Akshatha N, Narendra Kumar  &quot;A Novel Based approach On Designing And Development Freezer Using Solar Radiation-A Hot Idea For Cooling&quot;  National Conference On  Advances In Mechanical Engineering, Department Of Mechanical Engineering Held at KSSEM, Bangalore ,28th April,2015.</li>
+                             <li>Narendra Kumar  &quot;Implementation of Cuckoo Hashing algorithm for NIDS&quot;  National conference on recent advances in communications networks,NCRACN'14.</li>
+
+                            <li>VIVEK KARAN, Narendra kumar  &quot;Implemenating PSOC To Harness Energy For Sattellite By Employing Multilayered Piezo Electric  Crystals&quot; International Conference October 2013,Padiyala ,Punjab ,India.</li>
+
+                            <li>Narendra kumar  &quot;Obstacle Detection And Distance Measurement For Vehicle Parking Using Labview&quot; NCRAECE -13</li>
+
+                            <li>Narendra kumar  &quot;Automated Headlight Intensity Controller&quot;  NCRAECE-13.</li>
+
+
+                            <li>Narendra kumar &quot;GSM Based Wireless Bulletin Board&quot;  NHCE -2013</li>
+                            </ul></td>
+                  </tr>
+                  <tr>
+                    <td>Books Written:</td>
+                    <td><ul><li>Shailendrakumar, Narendra kumar Microprocessors 8086 I edition, Excellent Engineer Publications Bangalore 2013</li>
+
+                          <li>Shailendrakumar,Narendra kumar Microprocessors 8086 2nd edition, PRISM publication 2014</li>
+
+                          <li>Narendra kumar , Hemanth Kumar Microcontrollers 8051 and msp430  first edition,Excellent Engineer Publications Bangalore 2013</li>
+
+                          <li>Narendra kumar , Hemanth Kumar Microcontrollers 8051 and msp430 2nd edition, PRISM publication 2014</li>
+
+                          <li>Narendrakumar, optical fiber communication I edition, Excellent Engineer Publications Bangalore 2012</li>
+
+                          <li>Narendrakumar, optical fiber communication second edition, Excellent Engineer Publications Bangalore 2015</li>
+
+                          <li>Narendra kumar Analog communication I edition, Excellent Engineer Publications Bangalore 2013</li>
+
+                          <li>Narendra Kumar, Somashekar.K, Praveen.G, Basic Electronics I edition, August 2014, Excellent Engineer Publications Bangalore</li>
+
+                          <li>Narendra Kumar ,Optical Fiber Communication, 2nd Edition, August 2015, Excellent Engineer Publication</li>
+
+                          <li>Narendra Kumar, Narayana  T Deshapande  , Digital Communication, March 2016, Excellent Engineer Publication</li></ul></td>
+                  </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>16 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>6.5 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal15" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/15.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mrs. Sangeetha  B G</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>sangeethabg@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>VLSI</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>10 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>10 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="modal16" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/16.jpg" />
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Ms. Mamatha A S</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>mamatha.a.s@rnsit.ac.in</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.E</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Image Processing</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul>
+                    <li>Near Lossless Image Compression System, Prime Asia 2012 , Asia Pacific Conference</li>
+                    <li>Low complexity Distributed approach to hyperspectral image compression, Tencon 2015</li>
+                    <li>Lossless Hyperspectral  image compression based on prediction. IEEE RAICS 2013</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>18 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>8 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal17" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/17.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mr. Sreenivasa Babu M O</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>sreenivasa.babu@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E., M.Tech</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Integrated Optics, Photonics</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>8 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>8 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal18" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/18.jpg" />
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mrs. Ibrar Jahan M A</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>ibrarjahan20@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech, (Ph.D)</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Integrated Optics</td>
+                </tr>
+                <tr>
+                  <td>Projects:</td>
+                  <td>Design &amp; Sensitivity Improvement of FBG pressure sensor</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul>
+                        <li> Ibrar Jahan M.A, Dr Rajini V Honnungar, Versha R, &quot;Analysis of FBG Sensor for Accurate Pressure Sensing with Improved Sensitivity&quot;, ICMPC 2017 7th International Conference on Materials Processing and Characterization, held at GRIET, Hyderabad.</li>
+                        <li>Ibrar Jahan M.A, Dr Rajini V Honnungar, Versha R, &quot;Analysis and Sensitivity Improvement of FBG Sensor&quot;,  2017 International Conference on Recent Advances in Electronics and Communication Technology held at SJBIT, Bangalore.</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Books Written:</td>
+                  <td>Basic Electronics, I.K International Publishing House Pvt. Ltd.</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>14 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>7 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="modal19" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/19.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mrs.Nandini K S</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>nandiniks@rnsit.ac.in</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech, (Ph.D)</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Cognitive radio, Mesh networks, Communication</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul>
+                    <li>Performance Evaluation of Non co-operative Spectrum Sensing Methods in Cognitive Radios (Presented in NCRACN'14, RNSIT)</li>
+                    <li>Implementation of Communication Protocol for Digital Beacon Receiver using FPGA( project carried in ISRO and got Best paper in National Conference On Recent Trends In Electronics And Communication 2016)</li>
+                  </ul></td>
+                </tr>
+
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>8.8 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>5.8 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal21" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/21.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Ms. Chethana J</td>
+                </tr>
+                  <tr>
+                  <td>Email:</td>
+                  <td>jchethana@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>VLSI</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>5.3 Years</td>
+              </tr>
+              <tr>
+                <td>Experience in RNSIT:</td>
+                <td>4.3 Years</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="modal22" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/22.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mr. Praveen G</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>praveeng@rnsit.ac.in</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech, (Ph.D)</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Image Processing, Signal Processing, Analog Circuits</td>
+                </tr>
+                <tr>
+                  <td>Books Written:</td>
+                  <td><ul>
+                          <li>Basic Electronics</li>
+                          <li>Principles of Communication Systems</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>4 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>3 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal25" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/24.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Ms. Chaithra T S</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B E, M.Tech Ph.D Pursuing</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Integrated Optics</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>4.9 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>3.3 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal26" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" src="images/ece/25.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Ms. Vanitha K S</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>vanitham@rnsit.ac.in</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>M.Tech Ph.D Pursuing</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Wireless Communication</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>4.3 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>3.3 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="modal27" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+           <img class="modal-img" src="images/ece/26.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mrs. Swetha B</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>swetab26@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor Ph.D Pursuing</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Named data networks, Digital design</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td>Shared MEMS design in distributed environment</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>9 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>2.9 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal29" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  <img src="images/ece/28.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Ms. Saraswati G Joshi </td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>saraswatijsh@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech</td>
+                </tr>
+                <tr>
+                  <td>Areas of interest:</td>
+                  <td>VLSI</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>2.8 Years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>2.8 Years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="modal30" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/29.jpg"/>
+          </div>
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mr.  Sanjay M Belgaokarr</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>sanjaymb@rnsit.ac.in</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Signal Processing, Communication Systems, Antenna Theory and Design</td>
+                </tr>
+                <tr>
+                  <td>Projects:</td>
+                  <td><ul>
+                    <li>Antenna Designs with Defected Ground Structures for GPR Application.</li>
+                    <li>Density Based Traffic Control System.</li>
+                    <li>Down link Network Resource Allocation for Next Generation Wireless Networks with Inter - cell Interference.</li>
+                    <li>Study and Implementation of Moving Target Detector (MTD) using Digital FIR Filter Bank.</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul><li>&quot;Smart Lighting and Control using MSP430 &amp; Power Line Communication&quot;, International Journal of Computational Engineering Research (IJCER) / ISSN: 2250 - 3005 / May - June 2012 / Vol. 2 / Issue No. 3 / Pg. 662 - 666.</li>
+                  <li>&quot;Design and Development of Smart Lighting Module using MSP430 Microcontroller&quot;, International Conference on Evolutionary Trends in Information Technology held at VTU, Belagavi on 5th - 6th October, 2012.</li>
+                  <li>&quot;FPGA Based Mitigation of Noise from Images using a Combination of Adaptive Fuzzy Filter and Median Filter&quot;, National Conference on VLSI, Communication &amp; Computer Networks held at AMC Engineering College, Bengaluru on 3rd May, 2013.</li></ul></td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>7 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>2 years</td>
+                </tr>
+                <tr>
+                  <td>Other Achievements:</td>
+                  <td><ul>
+                    <li>Excellence in Mathematics - for scoring 100 out of 100 in Mathematics in SSLC Examinations - B. K. Model High School, Belagavi in 2003.</li>
+                    <li>A special recognition award -  For Outstanding Contribution towards Overall Development of Department for the year 2011 - 12 - Dept. of ECE, AMCEC, Bengaluru in 2012.</li>
+                  </ul></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="modal32" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/31.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Ms. Vinaya Kusuma</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>vinaya.kusuma@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.Tech, M.Tech</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Medical Image Fusion, Data fusion</td>
+                </tr>
+                <tr>
+                  <td>Projects:</td>
+                  <td><ul>
+                    <li>The Implementation of Swarm Robotics using Swarm Intelligence ( KSCST sponsered)</li>
+                    <li>Intelligent Traffic Light Control using Image Processing</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td><ul>
+                    <li>Low Density Distributed Approach to Hyperspectral Image Compression (TENCON 2015)</li>
+                    <li>Hyperspectral Image Compression based on Distributed Source Coding</li>
+                  </ul></td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>12 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>2 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+
+      <div id="modal34" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/32.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mr. Sankalp Bailur</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>sankalpbailur@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>M.S</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Embedded Systems</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>7 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>1 year</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+
+      <div id="modal35" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"  src="images/ece/33.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mrs. Neethu R</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>neets123.neethu@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech Communication Systems</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>Antennas, Microcontrollers</td>
+                </tr>
+                <tr>
+                  <td>Projects:</td>
+                  <td>MP3 player using MMC and Zigbee, Android phone based real time video streamer Using Live 555 streamer</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td>Implementation of Android phone based video streamer Using Live 555 streamer and FFMPEG</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>4.8 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>1 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="modal36" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img"   src="images/ece/34.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Ms. Geetha G</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>geetha.rnsit@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech VLSI and Embedded Systems</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>VLSI, Embedded Systems, Image Processing</td>
+                </tr>
+                <tr>
+                  <td>Projects:</td>
+                  <td>Implementation of matrix based mapping method using Elliptic Curve Cryptography</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td>An Implementation of matrix based mapping method using Elliptic Curve Cryptography, An improved image compression technique using Binary Space Partition and Geometric Wavelet</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>1.7 years</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>0.8 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+      <div id="modal37" class="modal">
+        <div class="modal-content">
+          <div class="modal-back">
+            <img class="modal-img" <img src="images/ece/35.jpg"/>
+          </div>
+
+          <div class="modal-details">
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name:</td>
+                  <td>Mr. Manjunatha Naik V</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>manjunathanaikv@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Designation:</td>
+                  <td>Assistant Professor</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>B.E, M.Tech</td>
+                </tr>
+                <tr>
+                  <td>Areas of Interest:</td>
+                  <td>VLSI Design</td>
+                </tr>
+                <tr>
+                  <td>Projects:</td>
+                  <td>DESIGN AND IMPLEMENTATION OF PARALLEL PREFIX ADDER</td>
+                </tr>
+                <tr>
+                  <td>Papers:</td>
+                  <td>Performance analysis of a parallel prefix adder</td>
+                </tr>
+                <tr>
+                  <td>Total Experience:</td>
+                  <td>1 year</td>
+                </tr>
+                <tr>
+                  <td>Experience in RNSIT:</td>
+                  <td>1 year</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+<!-- Modal end -->
+<script type="text/javascript" src="js/dept.js"></script>
+<script type="text/javascript" src="js/navbar.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
+</body>
+</html>
