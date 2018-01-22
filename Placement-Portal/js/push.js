@@ -17,7 +17,7 @@ $(document).ready(function() {
     function send_msg()
     {
         var title = document.getElementById('title').value.toUpperCase();
-        var msg = document.getElementById('msg').value.toUpperCase();
+        var msg = document.getElementById('msg').value;
         var date=new Date();
         date.getTime();
         var data = {

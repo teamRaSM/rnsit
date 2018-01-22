@@ -13,12 +13,12 @@
   firebase.auth().signOut();
   window.location="index.html"
 }
-document.getElementById('registercard').onclick=function() {
+/*document.getElementById('registercard').onclick=function() {
 	window.location="studcreate.html"
 }
 document.getElementById('uinfocard').onclick=function() {
     window.location="studupdate.html"
-}
+}*/
 document.getElementById('updatescard').onclick=function() {
     window.location="view.html"
 }
