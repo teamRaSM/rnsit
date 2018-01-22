@@ -5,6 +5,7 @@
   - deploy : This is same as that of master branch but with minified css and js. So commit here after minification.
   - triald3 : This branch is for dimple js.
   - version : This branch is a dummy branch and have to be deleted.
+  - studentportal : This branch contains the Firebase code for student and placement portal.
   
   ### Commit all your changes to master branch only.
   ### Commit all the changes with minified files to deploy branch.
