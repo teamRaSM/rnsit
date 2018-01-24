@@ -1,13 +1,13 @@
 // Initialize Firebase
-    var config = {
-    apiKey: "AIzaSyAqIvSVJoknpvLJHG6Qn0om0JDfGVgJqdE",
-    authDomain: "webapp-faf2d.firebaseapp.com",
-    databaseURL: "https://webapp-faf2d.firebaseio.com",
-    projectId: "webapp-faf2d",
-    storageBucket: "webapp-faf2d.appspot.com",
-    messagingSenderId: "294281955476"
-    };
-    firebase.initializeApp(config);
+  var config = {
+    apiKey: "AIzaSyB3pyNyxubRdZQC2o2PrCeDjezUR7e0tHs",
+    authDomain: "student-portal-80bf3.firebaseapp.com",
+    databaseURL: "https://student-portal-80bf3.firebaseio.com",
+    projectId: "student-portal-80bf3",
+    storageBucket: "student-portal-80bf3.appspot.com",
+    messagingSenderId: "725991009345"
+  };
+  firebase.initializeApp(config);
 
     var title = document.getElementById('cardtitle');
     var msg = document.getElementById('carddesc');
