@@ -3,7 +3,7 @@ var CACHE_VERSION = 1;
 
 // Shorthand identifier mapped to specific versioned cache.
 var CURRENT_CACHE = "rnsitcache" + CACHE_VERSION;
-var initial_cache =['.','index.html','css/index.css','js/index.js'];
+var initial_cache =['.','index.html','css/index.css','js/index.js','offline.html'];
 	self.addEventListener('install',event=>{
 		console.log('Installing service worker');
 		skipWaiting();
@@ -34,6 +34,9 @@ var initial_cache =['.','index.html','css/index.css','js/index.js'];
           return networkResponse;
         })
         return response || fetchPromise;
+      })
+      .catch(function(){
+      	return cache.match('offline.html');
       })
     })
   );

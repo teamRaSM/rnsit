@@ -317,27 +317,7 @@
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/navbar.js"></script>
     <script type="text/javascript">
-        $(document).ready(function() {
-                    var i = 0;
-                    // setInterval(function(){
-                    //     //alert("Boom!");
-                    //     i=i%2;
-                    //     if(i==0){
-                    //       // alert('hi');
-                    //     $('.nightback').css({"background-image": "url(images/night2.jpg)"});
-                    //     $('.nightback').css({'background-image':'url(images/blur1.jpg)'},{"background-position":"20vh 15vh"});
-                    //     // $('.nightback').css('background-image','/images/night1.jpg');
-                    //   }
-                    //     else{
-                    //      // alert('no hi');
-
-                    //     $('.nightback').css({'background-image':'url(images/blur1.jpg)'},{"background-position":"10vh 10vh"});
-                    //   }
-                    //     i++;
-                    // }, 30000);
-                    // });
-
-                    (function() {
+      (function() {
                         if (!'serviceWorker' in navigator) {
                             alert('Service Worker not supported. Use a different browser');
                             return;
@@ -350,6 +330,7 @@
                                 console.log('Registration Failed. Error - ' + error);
                             });
                     })();
+
     </script>
     <script type="text/javascript">
         $(window).scroll(function() {
