@@ -8,6 +8,10 @@ body,html{
   font-weight: 400;
 }
 
+.collapsible-header{
+  font-size: 14px !important;
+}
+
 .container{
   padding: 5px;
 }
