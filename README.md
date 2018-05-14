@@ -1,13 +1,9 @@
-# RNSIT COLLEGE PWA
-## Branches
-  - master : All the different website versions are pushedh here. This is the development branch.
-  - mastercopy : Master copy pf rnsit website is in this branch. Note: This branch is not to be alterted.
-  - deploy : This is same as that of master branch but with minified css and js. So commit here after minification.
-  - triald3 : This branch is for dimple js.
-  - version : This branch is a dummy branch and have to be deleted.
-  - studentportal : This branch contains the Firebase code for student and placement portal.
-  
-  ### Commit all your changes to master branch only.
-  ### Commit all the changes with minified files to deploy branch.
-# Do not alter any other branches :).
+# rnsit
+RNSIT COLLEGE PWA
+
+for departments include dept.css and dept.js
+if any new css or js has to b added, inlude a css and js for that particular page....
+
+include nav.css and navbar.js and also footer.css for all files
+
 

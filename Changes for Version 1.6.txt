@@ -1,0 +1,4 @@
+1) Added Student portal folder - contains student login and viewing updates
+2) Added Placement Portal Folder -  placement to push,remove,update notifications.
+3)Change done in index.html and index.css
+4)added counter.
