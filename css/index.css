@@ -1,25 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Cabin|Cabin:300,400,500,600');
 ::-webkit-scrollbar {
     width: 12px;
 }
 
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     border-radius: 10px;
 }
- 
+
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
 body, html,.container-custom, div, span{
-	font-family: 'Raleway' , sans-serif;
+	font-family: 'Cabin' , sans-serif;
 	font-weight: 500;
 }
 
 h1, h2, h3, h4, h5,h6{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Cabin', sans-serif;
 	font-weight: 700;
 }
 #logo{
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5,h6{
 .datep{
 	font-family: 'Roboto', sans-serif !important;
 	font-weight: 300;
-	font-style: 
+	font-style:
 }
 .mainimage{
 	position: relative;
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5,h6{
 	box-shadow: none !important;
 }
 .rns-head{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Cabin', sans-serif;
 
 }
 .iframes{
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5,h6{
 	height: 	100%;
 }
 .events-scroll{
-	position: 	relative;	
+	position: 	relative;
 	height: calc(100% - 54px);
 	overflow-y: scroll;
 }
@@ -138,9 +138,9 @@ h1, h2, h3, h4, h5,h6{
 }
 .up-events{
 	position: relative;
-	
+
 	height: 	80vh;
-	
+
 	box-shadow: 0 0 20px 2px rgba(0,0,0,0.22);
 	margin-bottom: 	40px;
 }
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5,h6{
 }
 .container-custom{
 	width: 	90%;
-	margin-left: 	auto;	
+	margin-left: 	auto;
 	margin-right: 	auto;
 }
 #about{
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5,h6{
 	background-size: contain !important;
 }
 	.up-events{
-		height: 70vh; 
+		height: 70vh;
 	}
 	.con-flex{
 		width: 92% !important;
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5,h6{
 
 .changers a{
 	cursor: 	pointer;
-	margin: 10px;	
+	margin: 10px;
 }
 
 .event-a{
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5,h6{
 	}
 	.events{
 		width: 100%;
-		height: 60vh; 
+		height: 60vh;
 		margin-bottom: 20px;
 	}
 	.up-events{
@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5,h6{
 		width: 92% !important;
 	}
 		.nightback{
-		
+
 background-image: url('../images/night.jpg');
 	}
 
