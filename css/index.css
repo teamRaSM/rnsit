@@ -16,6 +16,7 @@
 body, html,.container-custom, div, span{
 	font-family: 'Cabin' , sans-serif;
 	font-weight: 500;
+  font-family:16px !important;
 }
 
 h1, h2, h3, h4, h5,h6{
