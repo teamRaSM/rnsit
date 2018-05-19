@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 	var paused = 0;
 
-	var count=0;  
+	var count=0;
 	setInterval(function(){
 		if(paused==0){
 		count++;
@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 		$('.event-a').css({'transform':trans});
 	}
-	},3000);
+},5000);
 
 	goTo = function(slideno){
 		$('#'+count).removeClass('active-eve-a');
