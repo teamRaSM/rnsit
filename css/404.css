@@ -34,7 +34,7 @@ img{
 	margin:15px auto 5px;
 }
 
-a{	
+a{
 	font-size: 21px;
 	font-weight: bold;
 	letter-spacing: 0.5px;
@@ -58,6 +58,12 @@ a:hover{
 
 a:focus,a:active{
 	padding: 6px 12px;
+}
+
+@media (min-width: 320px) and (max-width:360px){
+	.container{
+		margin: 10vh auto;
+	}
 }
 
 @media (max-width: 480px){
