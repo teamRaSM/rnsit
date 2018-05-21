@@ -232,7 +232,14 @@
             <iframe class="iframes" src="https://www.youtube.com/embed/Wln9cR8UkZw?ecver=2?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
-    <div class="up-events container-custom">
+    <div class="carousel">
+      <a class="carousel-item" href="#one!"><img src="images/home/ground.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="images/home/block1.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="images/home/block2.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="images/home/ground.jpg"></a>
+      <a class="carousel-item" href="#five!"><img src="images/home/block3.jpg"></a>
+    </div>
+    <!-- <div class="up-events container-custom">
         <div class="up-events-slide">
             <a href="https://onedrive.live.com/embed?cid=EB83F0AA092D8326&resid=EB83F0AA092D8326%217009&authkey=AJqVMEBIdF-psA0&em=2" class="event-a">
                 <div class="upcoming-event">
@@ -276,7 +283,7 @@
             <a id="1" onclick="goTo(1);"></a>
             <a id="2" onclick="goTo(2);"></a>
             <a id="3" onclick="goTo(3);"></a>
-        </div>
+        </div> -->
     </div>
     <p id="lastmodipara"></p>
     <!-- Start of SimpleHitCounter Code -->
@@ -328,6 +335,11 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/navbar.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    </script>
     <script type="text/javascript">
         $(document).ready(function() {
                     var i = 0;

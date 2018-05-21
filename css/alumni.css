@@ -1,9 +1,21 @@
+html{
+	overflow-x: hidden !important;
+	margin: 0;
+	width: 100%;
+}
+
+body{
+	font-family: Cabin;
+	font-weight: 300;
+}
+
 h1
 {
 	color:#009688;
 	font-family: 'bree serif',serif;
 
 }
+
 #para
 {
 	color:#3e2723;
@@ -36,7 +48,7 @@ ul.points li{
 }
 #also
 {
-	background-color:#021B38;	
+	background-color:#021B38;
 }
 #footer
 {
@@ -59,5 +71,3 @@ ul.points li{
 }
 
 }
-
-
