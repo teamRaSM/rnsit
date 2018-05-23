@@ -1,0 +1,9 @@
+1.Changed font of all pages from Raleway to Cabin;
+2.Added rich link view to all pages for SEO;
+3.Changed the Slideshow;
+4.Added an error page;
+5.Changed hero backround;
+6.Added .htaccess file;
+7.Added padding to few pages to fix minor issues;
+8.Youtube thumbnail height has been reduced for mobile devices;
+9.Minor bug fixes;

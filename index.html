@@ -344,7 +344,7 @@
     </script>
     <script type="text/javascript">
         $(document).ready(function() {
-                    var i = 0;
+                    // var i = 0;
                     // setInterval(function(){
                     //     //alert("Boom!");
                     //     i=i%2;
@@ -363,7 +363,7 @@
                     // }, 30000);
                     // });
 
-                    (function() {
+
                         if (!'serviceWorker' in navigator) {
                             alert('Service Worker not supported. Use a different browser');
                             return;
@@ -375,7 +375,8 @@
                             .catch(function(error) {
                                 console.log('Registration Failed. Error - ' + error);
                             });
-                    })();
+                    
+                  });
     </script>
     <script type="text/javascript">
         $(window).scroll(function() {
