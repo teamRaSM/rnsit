@@ -21,6 +21,10 @@ body, html,.container-custom, div, span{
   font-size:16px !important;
 }
 
+.side-nav{
+  z-index:999;
+}
+
 h1, h2, h3, h4, h5,h6{
 	font-family: 'Cabin', sans-serif;
 	font-weight: 700;
