@@ -16,7 +16,10 @@ body,html{
 
 .collapsible-header{
   font-size: 14px !important;
+  text-align: left;
 }
+
+
 
 .container{
   padding: 5px;
