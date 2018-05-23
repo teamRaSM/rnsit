@@ -11,7 +11,7 @@
   font-size:  .5em !important;
 }
 
-.logo{ 
+.logo{
   width: 300px;
 }
 
@@ -56,7 +56,7 @@ nav{
 }
 
 
-::-webkit-scrollbar {   
+::-webkit-scrollbar {
     display: none;
 }
 

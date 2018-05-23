@@ -1,11 +1,17 @@
 /*@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans|Oswald');*/
-@import url('https://fonts.googleapis.com/css?family=Cabin:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Cabin|Raleway:300,400,500,600');
 
 body,html{
   min-height: 80vh;
   text-align: justify;
   font-size: 18px !important;
   font-weight: 400;
+}
+
+.brand-logo{
+  font-family: "Raleway";
+  font-weight: 700;
+  margin-left:5px !important;
 }
 
 .collapsible-header{
@@ -98,6 +104,9 @@ ol li{
 	list-style-type: disc !important;
 }
 @media only screen and (max-width: 480px){
+  .brand-logo{
+  margin-left: 0px !important;
+}
 	.head-style{
 		font-size: 6vw !important;
 	}
@@ -112,6 +121,7 @@ ol li{
 }
 }
 @media only screen and (max-width: 800px){
+
 	.head-style{
 		font-size: 4vw;
 	}
