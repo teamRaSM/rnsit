@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>CHAIRMAN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="images/logo.png" rel="icon" type="image/png" alt="logo">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#021B38">
     <meta name="RNSIT" content="app-id=myAppStoreID, app-argument=myURL">
-    <link rel="apple-touch-icon" href="imgages/logo.png"/>
+    <link rel="apple-touch-icon" href="imgages/logo.png" />
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="RNSIT" content="RNSIT">
     <link rel="icon" sizes="192x192" href="images/logo.png">
@@ -25,159 +26,182 @@
     <link href="images/logo.png" rel="icon" type="image/png">
     <script src="js/index.js"></script>
     <style type="text/css">
-    .nava{
-    display: block;
-    padding-left: 30px;
-    }
-    .hidden{
-    height: 0;
-    overflow: hidden;
-    transition: all 2s;
-    }
+        .nava {
+            display: block;
+            padding-left: 30px;
+        }
+        
+        .hidden {
+            height: 0;
+            overflow: hidden;
+            transition: all 2s;
+        }
     </style>
-  </head>
-  <body>
-    <nav class="nav navin">
-      <div class="nav-wrapper">
-        <img class="svg-logo hidden" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
-        <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
-          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown3">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li class="navali"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
-          <!-- Dropdown Trigger -->
-          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
-          <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
-          <!-- Dropdown Structure -->
-          <ul id="dropdown1" class="dropdown-content">
-            
-            <li class="navali"><a id="cse" href="cse.html">CSE</a></li>
-            <li class="navali"><a id="ece" href="ece.html">ECE</a></li>
-            <li class="navali"><a id="eee" href="eee.html">EEE</a></li>
-            <li class="navali"><a id="ise" href="ise.html">ISE</a></li>
-            <li class="navali"><a id="eie" href="eie.html">EIE</a></li>
-            <li class="navali"><a id="mech" href="mech.html">MECH</a></li>
-            <li class="navali"><a id="civil" href="civil.html">CIVIL</a></li>
-            <li class="divider"></li>
-            <li class="navali"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
-            <li class="navali"><a id="mca"  href="mca.html">MCA</a></li>
-            <li class="divider"></li>
-            <li class="navali"><a id="physics" href="physics.html">Physics</a></li>
-            <li class="navali"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
-            <li class="navali"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
-            <li class="divider"></li>
-            <li class="navali"><a id="eee" href="hr.html">PLACEMENTS &amp; HR</a></li>
-            
-            
-          </ul>
-        </ul>
-        <ul id="dropdown2" class="dropdown-content">
-          <li class="navali"><a id="cse" href="alumni.html">ALUMNI</a></li>
-          <li class="navali"><a id="ece" href="admissions.html">ADMISSIONS &amp; OFFICE</a></li>
-          <li class="navali"><a id="mca" href="cultural.html">CULTURAL</a></li>
-          <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
-        </ul>
+</head>
 
-        <ul id="dropdown3" class="dropdown-content">
-          <li class="navali"><a id="chair" href="chairman.html">CHAIRMAN</a></li>
-          <li class="navali"><a id="diret" href="director.html">DIRECTOR</a></li>
-          <li class="navali"><a id="princi" href="principal.html">PRINCIPAL</a></li>
-          <li class="navali"><a id="regi" href="registrar.html">REGISTRAR</a></li>
-        </ul>
-        <!--mobile!-->
-        <ul class="side-nav" id="mobile-demo">
-          <li class="navali"><a id="home" href="index.html">Home</a></li>
-          <li class="navali"><a class="dropNav2">About Us<i class="material-icons right aud">arrow_drop_down</i></a></li>
-          <li class="innerli">      <div class="innerNav2">
-            <a id="chair" class="nava" href="chairman.html">Chairman</a>
-            <a id="direct" class="nava" href="director.html">Director</a>
-            <a id="princi" class="nava" href="principal.html">Principal</a>
-            <a id="regi" class="nava" href="registrar.html">Registrar</a>
-          </div>
-          </li>
-          <li class="navali"><a id="contact" href="contact.html">Contact</a></li>
-          <li class="navali"><a class="dropNav">Departments<i class="material-icons right dd">arrow_drop_down</i></a></li>
-          <li class="innerli">      <div class="innerNav">
-            <ul class="navali"><li class=" nava divider"></li></ul>
-            <a id="cse" class="nava" href="cse.html">CSE</a>
-            <a id="ece" class="nava" href="ece.html">ECE</a>
-            <a id="eee" class="nava"  href="eee.html">EEE</a>
-            <a id="ise" class="nava" href="ise.html">ISE</a>
-            <a id="eie" class="nava" href="eie.html">EIE</a>
-            <a id="mech" class="nava" href="mech.html">MECH</a>
-            <a id="civil" class="nava" href="civil.html">CIVIL</a>
-            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
-            <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
-            <a id="mca" class="nava awes" href="mca.html">MCA</a>
-            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
-            <a id="physics" class="nava awes" href="physics.html">Physics</a>
-            <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
-            <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
-            <ul class="navali"><li  id=""class=" nava divider"></li></ul>
-            <a id="hr" class="nava" href="hr.html">Placements &amp; HR</a>
-            
-          </div></li>
-          <li class="navali"><a class="dropNav1">Others<i class="material-icons right md">arrow_drop_down</i></a></li>
-          <li class="innerli">      <div class="innerNav1">
-            <a id="alum" class="nava" href="alumni.html">Alumni</a>
-            <a id="admission" class="nava" href="admissions.html">Admissions &amp; Office</a>
-            <a id="faci" class="nava" href="cultural.html">Cultural</a>
-            <a id="faci" class="nava" href="facilities.html">Facilities</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  
+<body>
+    <nav class="nav navin">
+        <div class="nav-wrapper">
+            <img class="svg-logo hidden" src="images/RNSIT.svg" alt="rnsit logo" style="height: 65px; width: 65px;">
+            <a href="index.html" class="brand-logo" style="color: white; margin-left:0px; ">RNSIT</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <!-- <li class ="navali"><a id="home" href="index.html">Home</a></li> -->
+                <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown3">About Us<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li class="navali"><a id="contact" onclick="navig('contact');" href="contact.html">Contact</a></li>
+                <!-- Dropdown Trigger -->
+                <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown1">Departments<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li class="navali"><a class="dropdown-button" href="#!" data-activates="dropdown2">More<i class="material-icons right">arrow_drop_down</i></a></li>
+                <!-- Dropdown Structure -->
+                <ul id="dropdown1" class="dropdown-content">
+
+                    <li class="navali"><a id="cse" href="cse.html">CSE</a></li>
+                    <li class="navali"><a id="ece" href="ece.html">ECE</a></li>
+                    <li class="navali"><a id="eee" href="eee.html">EEE</a></li>
+                    <li class="navali"><a id="ise" href="ise.html">ISE</a></li>
+                    <li class="navali"><a id="eie" href="eie.html">EIE</a></li>
+                    <li class="navali"><a id="mech" href="mech.html">MECH</a></li>
+                    <li class="navali"><a id="civil" href="civil.html">CIVIL</a></li>
+                    <li class="divider"></li>
+                    <li class="navali"><a id="mba" href="http://www.rnsitmba.ac.in/">MBA</a></li>
+                    <li class="navali"><a id="mca" href="mca.html">MCA</a></li>
+                    <li class="divider"></li>
+                    <li class="navali"><a id="physics" href="physics.html">Physics</a></li>
+                    <li class="navali"><a id="chemistry" href="chemistry.html">Chemistry</a></li>
+                    <li class="navali"><a id="mathematics" href="mathematics.html">Mathematics</a></li>
+                    <li class="divider"></li>
+                    <li class="navali"><a id="eee" href="hr.html">PLACEMENTS &amp; HR</a></li>
+
+                </ul>
+            </ul>
+            <ul id="dropdown2" class="dropdown-content">
+                <li class="navali"><a id="cse" href="alumni.html">ALUMNI</a></li>
+                <li class="navali"><a id="ece" href="admissions.html">ADMISSIONS &amp; OFFICE</a></li>
+                <li class="navali"><a id="mca" href="cultural.html">CULTURAL</a></li>
+                <li class="navali"><a id="mca" href="facilities.html">FACILITIES</a></li>
+            </ul>
+
+            <ul id="dropdown3" class="dropdown-content">
+                <li class="navali"><a id="chair" href="chairman.html">CHAIRMAN</a></li>
+                <li class="navali"><a id="diret" href="director.html">DIRECTOR</a></li>
+                <li class="navali"><a id="princi" href="principal.html">PRINCIPAL</a></li>
+                <li class="navali"><a id="regi" href="registrar.html">REGISTRAR</a></li>
+            </ul>
+            <!--mobile!-->
+            <ul class="side-nav" id="mobile-demo">
+                <li class="navali"><a id="home" href="index.html">Home</a></li>
+                <li class="navali"><a class="dropNav2">About Us<i class="material-icons right aud">arrow_drop_down</i></a></li>
+                <li class="innerli">
+                    <div class="innerNav2">
+                        <a id="chair" class="nava" href="chairman.html">Chairman</a>
+                        <a id="direct" class="nava" href="director.html">Director</a>
+                        <a id="princi" class="nava" href="principal.html">Principal</a>
+                        <a id="regi" class="nava" href="registrar.html">Registrar</a>
+                    </div>
+                </li>
+                <li class="navali"><a id="contact" href="contact.html">Contact</a></li>
+                <li class="navali"><a class="dropNav">Departments<i class="material-icons right dd">arrow_drop_down</i></a></li>
+                <li class="innerli">
+                    <div class="innerNav">
+                        <ul class="navali">
+                            <li class=" nava divider"></li>
+                        </ul>
+                        <a id="cse" class="nava" href="cse.html">CSE</a>
+                        <a id="ece" class="nava" href="ece.html">ECE</a>
+                        <a id="eee" class="nava" href="eee.html">EEE</a>
+                        <a id="ise" class="nava" href="ise.html">ISE</a>
+                        <a id="eie" class="nava" href="eie.html">EIE</a>
+                        <a id="mech" class="nava" href="mech.html">MECH</a>
+                        <a id="civil" class="nava" href="civil.html">CIVIL</a>
+                        <ul class="navali">
+                            <li id="" class=" nava divider"></li>
+                        </ul>
+                        <a id="mba" class="nava awes" href="http://www.rnsitmba.ac.in/">MBA</a>
+                        <a id="mca" class="nava awes" href="mca.html">MCA</a>
+                        <ul class="navali">
+                            <li id="" class=" nava divider"></li>
+                        </ul>
+                        <a id="physics" class="nava awes" href="physics.html">Physics</a>
+                        <a id="chemistry" class="nava awes" href="chemistry.html">Chemistry</a>
+                        <a id="mathematics" class="nava awes" href="mathematics.html">Mathematics</a>
+                        <ul class="navali">
+                            <li id="" class=" nava divider"></li>
+                        </ul>
+                        <a id="hr" class="nava" href="hr.html">Placements &amp; HR</a>
+
+                    </div>
+                </li>
+                <li class="navali"><a class="dropNav1">Others<i class="material-icons right md">arrow_drop_down</i></a></li>
+                <li class="innerli">
+                    <div class="innerNav1">
+                        <a id="alum" class="nava" href="alumni.html">Alumni</a>
+                        <a id="admission" class="nava" href="admissions.html">Admissions &amp; Office</a>
+                        <a id="faci" class="nava" href="cultural.html">Cultural</a>
+                        <a id="faci" class="nava" href="facilities.html">Facilities</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container">
-       <h4 align="center" class="head-style avoid-nav">CHAIRMAN</h4>
+        <h4 align="center" class="head-style avoid-nav">CHAIRMAN</h4>
 
         <div class="row">
-          <div align="center">
-            <img src="images\chair.jpg" alt="principal" class="responsive-img z-depth-4">
-          </div>
+            <div align="center">
+                <img src="images\chair.jpg" alt="principal" class="responsive-img z-depth-4">
+            </div>
         </div>
         <h5 align="center" class="head-style">Dr. R.N. SHETTY</h5>
         <div class="row">
-          <div class="col s8 m8 l8">
-            <h5>About</h5>
-          </div>
+            <div class="col s8 m8 l8">
+                <h5>About</h5>
+            </div>
         </div>
 
         <div class="row">
-          <div class="col s12 m12 l12">
-            <p> Dr. Rama Nagappa Shetty is an Indian entrepreneur, philanthropist and an educationist.
-             Rama Nagappa Shetty formed the R N Shetty &amp; Company, a partnership firm. During the next four years, the company took up construction of three major projects - building bridges on Honnavar-Bangalore road. In 1966, he moved out of his native district and began operations from Hubli, a major city in northern Karnataka.
-            At present he is the owner of R N Shetty Group of companies which includes RNS Infrastructure Limited, RNS Maruti Suzuki (RNS Motors), Murdeshwar Ceramics and Naveen Hotel Limited and he is also Chairman of a chain of educational institutions under the R N Shetty trust.
-            </p>
-            <a class="center-align" href="https://en.wikipedia.org/wiki/R._N._Shetty">Click Here For More Information.</a>
-          </div>
+            <div class="col s12 m12 l12">
+                <p> Dr. Rama Nagappa Shetty is an Indian entrepreneur, philanthropist and an educationist. Rama Nagappa Shetty formed the R N Shetty &amp; Company, a partnership firm. During the next four years, the company took up construction of three major projects - building bridges on Honnavar-Bangalore road. In 1966, he moved out of his native district and began operations from Hubli, a major city in northern Karnataka. At present he is the owner of R N Shetty Group of companies which includes RNS Infrastructure Limited, RNS Maruti Suzuki (RNS Motors), Murdeshwar Ceramics and Naveen Hotel Limited and he is also Chairman of a chain of educational institutions under the R N Shetty trust.
+                </p>
+                <a class="center-align" href="https://en.wikipedia.org/wiki/R._N._Shetty">Click Here For More Information.</a>
+            </div>
         </div>
 
     </div>
-<br><br><br>
+    <br>
+    <br>
+    <br>
 
-
-     <div id="fot">
- <footer id="footer" class="page-footer">
-  <div class="container-fluid">
-    <div class="row lool">
-      <div class="roww" style="overflow: hidden;">
-        <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957"><image class="icon ic1" src="images/facebook.svg" alt="fb"></image></a>
-        <a onclick="insta()" href=""><image class="icon in12" src="images/instagram.svg" alt="insta"></image></a>
-        <a href="mailto:rnsitplacement@gmail.com"><image class="icon" src="images/gmail.svg" alt="gmail"></image></a>
-        <a href="https://www.twitter.com/RNSIT_Bangalore/"><image class="icon ic3" src="images/twitter.svg" alt="twitter"></image></a>
-        <a href="https://www.linkedin.com/in/rnsit-bangalore-00765014b/"><image class="icon ic4" src="images/linkedin.svg" alt="linkedin"></image></a>
-      </div>
-        <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
+    <div id="fot">
+        <footer id="footer" class="page-footer">
+            <div class="container-fluid">
+                <div class="row lool">
+                    <div class="roww" style="overflow: hidden;">
+                        <a href="https://www.facebook.com/pages/RNS-Institute-of-Technology/143512852331957">
+                            <image class="icon ic1" src="images/facebook.svg" alt="fb"></image>
+                        </a>
+                        <a onclick="insta()" href="">
+                            <image class="icon in12" src="images/instagram.svg" alt="insta"></image>
+                        </a>
+                        <a href="mailto:rnsitplacement@gmail.com">
+                            <image class="icon" src="images/gmail.svg" alt="gmail"></image>
+                        </a>
+                        <a href="https://www.twitter.com/RNSIT_Bangalore/">
+                            <image class="icon ic3" src="images/twitter.svg" alt="twitter"></image>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rnsit-bangalore-00765014b/">
+                            <image class="icon ic4" src="images/linkedin.svg" alt="linkedin"></image>
+                        </a>
+                    </div>
+                    <p style="text-align:center" class="cotxt"><b>Developed by Dept of CSE</b></p>
+                </div>
+            </div>
+        </footer>
     </div>
-  </div>
-  </footer>
-</div>
-      
-    </body>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/navbar.js"></script>
-  </html>
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/navbar.js"></script>
+
+</html>
